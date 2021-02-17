@@ -1,20 +1,19 @@
 ---
-title: Behavioral Web Personalization Scenario
-description: Personalize based on online behavior and audience data.
-solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
-kt: 
-thumbnail: thumb-web-personalization-scenario1.jpg
+title: Online/Offline Audience Activation
+description: Online/Offline Audience Activation.
+solution: Experience Platform, RTCDP, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
+kt: 7086
+thumbnail: 
 ---
 
-# Behavioral Web Personalization scenario
+# Online/Offline Audience Activation
 
-Personalize based on online behavior and audience data.
+Online/Offline Audience Activation.
 
 ## Use Cases
 
-* Landing page optimization
-* Behavioral Targeting
-* Personalization based on prior product/content views, product/content affinity, environmental attributes, 3rd party audience data and demographics
+* Use Case 1
+* Use Case 2
 
 ## Reference Architecture
 
