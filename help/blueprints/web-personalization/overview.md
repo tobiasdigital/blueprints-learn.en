@@ -7,12 +7,12 @@ thumbnail:
 ---
 # Web Personalization blueprint
 
-The web personalization blueprint...
+Web/Mobile personalization addresses the ability to utilize audience segmentation such as Audience Manager and Adobe Experience Platform's Real-time CDP along with experience decisioning tools such as Adobe Target and Experience Platform Offer Decisioning to personalize and tailor the consumers' web/mobile experience. This can include personalizing what offers and banners are displayed as well as what layout, call to action, or content to surface to the consumer based on their behaviors, demographics, loyalty profile, and prior transactions.
 
 | Scenario | Description |  Experience Cloud Applications | 
 |---|---|---|
-| **[Behavioral Web Personalization](behavioral.md**)** <br>*(Starting State)* | <ul><li>Personalize based on online behavior and audience data</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul>| 
-| **[Online/Offline Web Personalization](online-offline.md)** <br>*(Intermediate State)*| <ul><li>Online personalization + offline attributes and events (transactions, reservations, CRM and loyalty data).</li><li>Synchronize web personalization with email and other known and anonymous channel personalization.</li></ul> | <ul><li>Adobe Experience Platform RTCDP or Activation</li><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
-| **[Orchestrated Web Personalization](orchestrated.md)** <br>*(Future State)* | <ul><li>Platform & Target leveraging the same edge profile store in addition to syncing audiences.</li><li>This will facilitate real-time cross channel orchestration at the profile level. | <ul><li>Adobe Experience Platform</li><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
-| **[Web Personalization using a 3rd party decision tool](third-party-decision-tool.md)** | <ul><li>Platform integrated with a 3rd party decision tool</li><li>Requires Profile Edge or a latent profile lookup from Hub.</li></ul> | <ul><li>Adobe Experience Platform RTCDP or Activation</li></ul> |
+| **[Behavioral Personalization](behavioral.md**)**  | <ul><li>Personalize based on online behavior and audience data</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul>| 
+| **[Online/Offline Web Personalization](online-offline.md)** | <ul><li>Online personalization utilizing offline attributes and events (transactions, reservations, CRM and loyalty data).</li><li>Synchronize web personalization with email and other known channels.</li></ul> | <ul><li>Adobe Experience Platform RTCDP or Activation</li><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
+| **[Orchestrated Web Personalization](orchestrated.md)** <br>| <ul><li>Orchestrate inbound web personalization with outbound channels through messages.</li><li>Synchronized audience definitions and profile access across inbound and outbound channels.  | <ul><li>Adobe Experience Platform</li><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
+| **[Web Personalization using a 3rd party decision tool](third-party-decision-tool.md)** | <ul><li>Adobe Experience Platform integration with a 3rd party decision tool</li></ul> | <ul><li>Adobe Experience Platform RTCDP or Activation</li></ul> |
 
