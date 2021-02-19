@@ -18,30 +18,32 @@ Synchronize web personalization with email and other known and anonymous channel
 
 ## Reference Architecture
 
-    Diagram with notes from slide
+![Scenario 2](assets/online-offline.png)
 
 ## Prerequisites
 
-1. Provisioning
-    1. Adobe Experience Platform, Platform + Profile Activation or Real-time CDP application provisioned
-    1. Platform=> Experience Cloud Audience Sharing
-    1. Platform=> Audience Manager Audience Sharing - use the provided template for requesting Platform>Audience Manager segment sharing: Link
-    1. Adobe Target
-    1. Adobe Audience Manager (Optional)
-    1. Adobe Analytics (Optional)
-    1. Experience Cloud Shared Audiences
-    1. Launch Edge Configuration if using Platform Web SDK
-1. Visitor ID service must be implemented to have synced Experience Cloud IDs across applications. It is strongly recommended to leverage Experience Platform Launch to deploy the ID service to ensure the ID is set prior to any application calls.
-1. For Analytics integration, all Analytics tracking must have been converted to Regional Data Collection (RDC)
-1. Minimum code versions are as follows.
-    1. Experience Cloud ID service – VisitorAPI.js 2.0 or higher
-    1. Analytics – AppMeasurement.js 1.6.4 or higher
-    1. Audience Manager – dil.js 5.0 or higher
-    1. Target – mbox.js 61, at.js .9.1. at.js is preferred as mbox.js is no longer being developed.
-    1. Mobile SDK – 4.11 for iOS and Android
-    1. Platform Web SDK – 1.0, current Platform SDK version has a number of use cases not yet supported for the Adobe Experience Cloud applications [as noted in the Platform Web SDK documentation](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 
+1 – Provisioning
+
+* Adobe Experience Platform, Activation or RTCDP
+* Adobe Target
+* Adobe Audience Manager (Optional)
+* Adobe Analytics (Optional)
+
+2 – Visitor ID service or WebSDK must be implemented to have synced Experience Cloud IDs across applications. It is strongly recommended to leverage Experience Platform Launch to deploy the ID service to ensure the ID is set prior to any application calls.
+
+3 – For Analytics integration, all Analytics tracking must have been converted to Regional Data Collection. RDC.
+
+4 – Minimum code versions are as follows.
+
+* Experience Cloud ID service – VisitorAPI.js 2.0 or higher
+* Analytics – AppMeasurement.js 1.6.4 or higher
+* Audience Manager – dil.js 5.0 or higher
+* Target – mbox.js 61, at.js .9.1. at.js is preferred as mbox.js is no longer being developed.
+* Mobile SDK – 4.11 for iOS and Android
+* AEP Web SDK – 1.0, current AEP SDK version has a number of use cases not yet supported for the AEC applications as noted in the AEP Web SDK documentation here - [Link](https://docs.adobe.com/content/help/en/experience-platform/edge/home.html)
 
 ## Guardrails
+
 
 ### Availability
 
@@ -68,23 +70,29 @@ See profile and data ingestion guardrails
 * Audience Manager is optional and adds the following: 3rd party audience data, co-op based device graph, ability to surface Platform segments in Adobe Analytics and Adobe Analytics segments in Platform.
 * Analytics is optional and adds the ability to build segments based on historical behavioral data and fine grained segmentation from Adobe Analytics data.
 
-## Data Flow & Latencies
+## Data Flow & Implementation Diagram
 
-See Implementation Architecture diagram. 
+The Web/Mobile personalization blueprint can be implemented using either traditional app specific SDKs, or by using the WebSDK and Experience Edge Network.
 
-Two versions: 
+* WebSDK/MobileSDK and Experience Edge Approach
 
-1.  With legacy client code libraries
-1.  With WebSDK and Launch
+![Scenario 1](assets/websdkflow.png)
+
+
+
+
+* Application Specific SDK Approach
+
+![Scenario 1](assets/appsdkflow.png)
 
 ## Implementation Steps
 
 * Implement Adobe Target
-* Implement AAM or Analytics (optional)
+* Implement AAM and/or Analytics (optional)
 * Implement Platform and Real-time Customer Profile
-* Implement Visitor ID service
+* Implement Visitor ID service or WebSDK
 * Provision People and Audience core service
-* Provision Audience sharing between AEP and Target provisioned - Link
+* Provision Audience Sharing between AEP and Target
 
 ## FAQ & Reference
 

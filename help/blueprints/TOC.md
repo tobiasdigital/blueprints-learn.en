@@ -10,6 +10,7 @@ role: Architect, Developer, Business Practitioner
 + [Overview](/help/blueprints/overview.md)
 + Audience Activation{#audience-activation}
   + [Overview](/help/blueprints/audience-activation/overview.md)
+  + [Online/Offline Audience Activation](/help/blueprints/audience-activation/online-offline.md)
 + Multi-channel Orchestration{#multi-channel-orchestration}
   + [Overview](/help/blueprints/multi-channel-orchestration/overview.md)
 + Web Personalization {#web-personalization}
