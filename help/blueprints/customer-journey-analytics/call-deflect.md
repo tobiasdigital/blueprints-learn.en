@@ -17,7 +17,7 @@ Analyze and extract insights from customer interactions across the customer jour
 
 ## Reference Architecture
 
-![Scenario 1](assets/cja.png)
+![Scenario 1](assets/CJA.png)
 
 ## Integration Patterns
 
