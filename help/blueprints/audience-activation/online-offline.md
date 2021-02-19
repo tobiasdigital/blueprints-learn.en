@@ -17,7 +17,7 @@ Online/Offline Audience Activation.
 
 ## Reference Architecture
 
-![Scenario 1](assets/web-personalization-scenario1.png)
+
 
 ## Prerequisites
 
