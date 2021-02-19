@@ -9,16 +9,18 @@ thumbnail:
 # Call deflection Journey Analysis scenario
 
 Analyze and extract insights from customer interactions across the customer journey.
+
 ## Use Cases
 
 * Unify customer interactions across desktop and mobile to analyze customer behavior and extract insights to optimize digital customer experiences.
-* Unify customer interactions across channels, including digital and offline channels such as support interactions or in store purchases to better understand and optimize the customer journey. 
+* Unify customer interactions across channels, including digital and offline channels such as support interactions or in store purchases to better understand and optimize the customer journey.
 
 ## Reference Architecture
 
 ![Scenario 1](assets/cja.png)
 
 ## Integration Patterns
+
 * Adobe Experience Platform → Customer Journey Analytics
 * Adobe Analytics → Adobe Experience Platform → Customer Journey Analytics
 

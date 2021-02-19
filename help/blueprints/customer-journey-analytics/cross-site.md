@@ -17,6 +17,8 @@ Analyze and extract insights from customer interactions across the customer jour
 ## Reference Architecture
 
 ![Scenario 1](assets/cja.png)
+![Scenario 1](assets/CJA1.png)
+![Scenario 1](assets/CJA2.svg)
 
 ## Integration Patterns
 * Adobe Experience Platform → Customer Journey Analytics
