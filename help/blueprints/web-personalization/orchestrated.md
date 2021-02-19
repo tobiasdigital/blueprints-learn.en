@@ -18,34 +18,36 @@ thumbnail: thumb-web-personalization-scenario3a.jpg
 
 ![Scenario 3](assets/orchestrated.png)
 
-
-
 ## Integration Patterns
+
 Inbound Interactions
+
 * Adobe Audience Manager → Target
 * Adobe Analytics → Target
 * Adobe Experience Platform RTCDP/Activation → Target, Offer Decisioning
 
 Outbound Interactions
+
 * Adobe Experience Platform RTCDP/Activation → Campaign, Journey Orchestration, AAM and Ad Cloud
 
-
-
 ## Prerequisites
+
 Adobe Experience Platform, Activation or RTCDP
 
 Inbound Channels
+
 * Adobe Target or Offer Decisioning
 * Adobe Audience Manager (optional)
 * Adobe Analytics (optional)
 
 Outbound Channels
+
 * Adobe Campaign, Journey Orchestration
 * Adobe Advertising Cloud
 * RTCDP and AAM for other channel activation
 
-
 ## Guardrails
+
 Refer to the Web Personalization - online/offline personalization scenario and the Message Orchestration blueprint for detailed guardrails.
 
 * **[Web Personalization Blueprint](/help/blueprints/web-personalization/online-offline.md)**

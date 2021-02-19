@@ -21,7 +21,9 @@ Synchronize web personalization with email and other known and anonymous channel
 ![Scenario 2](assets/online-offline.png)
 
 ## Prerequisites
+
 1 – Provisioning
+
 * Adobe Experience Platform, Activation or RTCDP
 * Adobe Target
 * Adobe Audience Manager (Optional)
@@ -32,12 +34,13 @@ Synchronize web personalization with email and other known and anonymous channel
 3 – For Analytics integration, all Analytics tracking must have been converted to Regional Data Collection. RDC.
 
 4 – Minimum code versions are as follows.
+
 * Experience Cloud ID service – VisitorAPI.js 2.0 or higher
 * Analytics – AppMeasurement.js 1.6.4 or higher
 * Audience Manager – dil.js 5.0 or higher
 * Target – mbox.js 61, at.js .9.1. at.js is preferred as mbox.js is no longer being developed.
 * Mobile SDK – 4.11 for iOS and Android
-* AEP Web SDK – 1.0, current AEP SDK version has a number of use cases not yet supported for the AEC applications as noted in the AEP Web SDK documentation here - https://docs.adobe.com/content/help/en/experience-platform/edge/home.html
+* AEP Web SDK – 1.0, current AEP SDK version has a number of use cases not yet supported for the AEC applications as noted in the AEP Web SDK documentation here - [Link](https://docs.adobe.com/content/help/en/experience-platform/edge/home.html)
 
 ## Guardrails
 

@@ -9,6 +9,7 @@ thumbnail:
 # Cross-site and Cross-channel Customer Journey Analysis scenario
 
 Analyze and extract insights from customer interactions across the customer journey.
+
 ## Use Cases
 
 * Unify customer interactions across desktop and mobile to analyze customer behavior and extract insights to optimize digital customer experiences.
@@ -21,11 +22,13 @@ Analyze and extract insights from customer interactions across the customer jour
 ![Scenario 1](assets/CJA2.svg)
 
 ## Integration Patterns
+
 * Adobe Experience Platform → Customer Journey Analytics
 * Adobe Analytics → Adobe Experience Platform → Customer Journey Analytics
 
 
 ## Prerequisites
+
 * Adobe Experience Platform
 * Customer Journey Analytics
 
@@ -66,10 +69,11 @@ Identity Stitching Considerations
 ## FAQ & Reference Documentation
 
 What are the downstream impacts of data models in CJA?
+
 * Objects and attributes of the same XDM field will merge into one dimension in CJA. To  merge multiple attributes from various datasets into the same CJA dimension, the datasets should reference the same XDM field or schema.
 
 
-1. [Customer Journey Analtyics Product Description](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html)
+1. [Customer Journey Analytics Product Description](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html)
 
-2. [Customer Journey Analtyics Product Documentation](https://experienceleague.adobe.com/docs/customer-journey-analytics.html?lang=en)
+2. [Customer Journey Analytics Product Documentation](https://experienceleague.adobe.com/docs/customer-journey-analytics.html?lang=en)
 
