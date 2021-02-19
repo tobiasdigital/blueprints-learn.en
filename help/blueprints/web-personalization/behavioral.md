@@ -33,8 +33,7 @@ Personalize based on online behavior and audience data.
 | Experience Cloud Audiences (Optional) | n/a |  |
 | Launch Edge Configuration <br> (if using Experience Platform Web SDK) | n/a |  |
 | Mobile SDK (Optional) | 4.11 or higher for iOS and Android |  |
-| Experience Platform Web SDK | 1.0, current Experience Platform SDK version has a number of use cases not yet supported for the Experience Cloud applications as noted in the [Experience Platform Web SDK documentation](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
-  
+| Experience Platform Web SDK | 1.0, current Experience Platform SDK version has a number of use cases not yet supported for the Experience Cloud applications as noted in the [Experience Platform Web SDK documentation](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)| |
 
 ## Guardrails
 
