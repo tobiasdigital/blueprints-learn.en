@@ -1,11 +1,11 @@
 ---
-title: Profile Lookup Blueprint
+title: Data Preparation and Ingestion
 description: placeholder description
 solution: Experience Platform
 kt: 
 thumbnail: 
 ---
 
-# Profile Lookup blueprint
+# Data Preparation and Ingestion
 
 Lorem ipsum
