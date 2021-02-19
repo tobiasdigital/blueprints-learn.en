@@ -1,7 +1,7 @@
 ---
 title: Online/Offline Audience Activation
 description: Online/Offline Audience Activation.
-solution: Experience Platform, RTCDP, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
+solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 thumbnail: 
 ---

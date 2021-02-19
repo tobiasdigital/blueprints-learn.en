@@ -1,7 +1,7 @@
 ---
 title: Audience Activation Blueprint
 description: Deliver audience activated cross channel advertising with Real-time Customer Data Platform​.
-solution: Experience Platform
+solution: Experience Platform, Real-time Customer Data Platform
 kt: 
 thumbnail: 
 ---
