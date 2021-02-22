@@ -5,7 +5,7 @@ solution: Experience Platform, Customer Journey Analytics
 kt: 
 thumbnail: 
 ---
-
+<!--NOT COMPLET-->
 # Call deflection Journey Analysis scenario
 
 Analyze and extract insights from customer interactions across the customer journey.
