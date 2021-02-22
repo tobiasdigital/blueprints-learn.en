@@ -62,16 +62,12 @@ Identity Stitching Considerations
 * The field based identity stitching process allows for re-keying identities in rows based on subsequent  transient id records, such as an authentication id. This allows for resolving disparate records to a single id for analysis at the person level vs. at the device or cookie level.
 * Stitching happens once a week. With replay after the stitch.
 
-
-
 ## FAQ & Reference Documentation
 
 What are the downstream impacts of data models in CJA?
 
 * Objects and attributes of the same XDM field will merge into one dimension in CJA. To  merge multiple attributes from various datasets into the same CJA dimension, the datasets should reference the same XDM field or schema.
 
-
 1. [Customer Journey Analytics Product Description](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html)
 
 2. [Customer Journey Analytics Product Documentation](https://experienceleague.adobe.com/docs/customer-journey-analytics.html?lang=en)
-
