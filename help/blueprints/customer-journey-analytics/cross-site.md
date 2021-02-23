@@ -1,6 +1,6 @@
 ---
 title: Customer Journey Analytics - Cross-site and Cross-channel Analysis Scenario
-description: Cross channel customer journey analysis
+description: Cross site and cross channel customer journey analysis
 solution: Experience Platform, Customer Journey Analytics
 kt: 
 thumbnail: 
@@ -17,7 +17,7 @@ Analyze and extract insights from customer interactions across the customer jour
 
 ## Reference Architecture
 
-![Scenario 1](assets/CJA2.svg)
+![Scenario 1](assets/CJA.svg)
 
 ## Integration Patterns
 

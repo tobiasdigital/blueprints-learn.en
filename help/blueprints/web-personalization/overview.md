@@ -1,7 +1,7 @@
 ---
 title: Web Personalization Blueprint
 description: Deliver personalized web content with Real-time Customer Profile.
-solution: Experience Platform
+solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 
 thumbnail: 
 ---
