@@ -4,7 +4,7 @@ solution: Experience Platform
 product: experience platform
 type: Tutorial
 mini-toc-levels: 2
-git-repo: https://git.corp.adobe.com/AdobeDocs/blueprints-learn.en
+git-repo: https://github.com/AdobeDocs/blueprints-learn.en
 index: yes
 ---
 
