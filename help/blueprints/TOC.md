@@ -7,6 +7,7 @@ role: Architect, Developer, Business Practitioner
 ---
 # Digital Experience Blueprints {#tutorials}
 
+
 + [Overview](/help/blueprints/overview.md)
 + Audience Activation{#audience-activation}
   + [Overview](/help/blueprints/audience-activation/overview.md)
@@ -29,7 +30,4 @@ role: Architect, Developer, Business Practitioner
   + [Overview](/help/blueprints/web-personalization/overview.md)
   + [Behavioral Web Personalization](/help/blueprints/web-personalization/behavioral.md)
   + [Online/Offline Web Personalization](/help/blueprints/web-personalization/online-offline.md)
-  + [Orchestrated Web Personalization](/help/blueprints/web-personalization/orchestrated.md)
-  + [Using a 3rd party decision tool](/help/blueprints/web-personalization/third-party-decision-tool.md)
 
-  

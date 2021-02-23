@@ -18,7 +18,7 @@ Synchronize web personalization with email and other known and anonymous channel
 
 ## Reference Architecture
 
-![Scenario 2](assets/online-offline.png)
+![Scenario 2](assets/onoff.svg)
 
 ## Prerequisites
 

@@ -1,7 +1,7 @@
 ---
 title: Web Personalization Blueprint
 description: Deliver personalized web content with Real-time Customer Profile.
-solution: Experience Platform
+solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 
 thumbnail: 
 ---
@@ -13,6 +13,3 @@ Web/Mobile personalization addresses the ability to utilize audience segmentatio
 |---|---|---|
 | **[Behavioral Personalization](behavioral.md**)**  | <ul><li>Personalize based on online behavior and audience data</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul>| 
 | **[Online/Offline Web Personalization](online-offline.md)** | <ul><li>Online personalization utilizing offline attributes and events (transactions, reservations, CRM and loyalty data).</li><li>Synchronize web personalization with email and other known channels.</li></ul> | <ul><li>Adobe Experience Platform RTCDP or Activation</li><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
-| **[Orchestrated Web Personalization](orchestrated.md)** <br>| <ul><li>Orchestrate inbound web personalization with outbound channels through messages.</li><li>Synchronized audience definitions and profile access across inbound and outbound channels.  | <ul><li>Adobe Experience Platform</li><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
-| **[Web Personalization using a 3rd party decision tool](third-party-decision-tool.md)** | <ul><li>Adobe Experience Platform integration with a 3rd party decision tool</li></ul> | <ul><li>Adobe Experience Platform RTCDP or Activation</li></ul> |
-
