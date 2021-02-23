@@ -25,9 +25,7 @@ Each Blueprint offers Adobe Experience Cloud customers a series of artifacts tha
 <table>
 <tr>
   <td>
-    <a href="/help/blueprints/web-personalization/overview.md">
-      <img alt="thumbnail image for the 'Web Personalization' blueprint" src="/help/blueprints/web-personalization/assets/thumb-web-personalization-scenario1.jpg" />
-    </a>
+    
     <div>
       <a href="/help/blueprints/web-personalization/overview.md">
     <strong>Web Personalization Blueprint</strong>
