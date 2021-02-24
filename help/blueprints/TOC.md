@@ -7,7 +7,6 @@ role: Architect, Developer, Business Practitioner
 ---
 # Digital Experience Blueprints {#tutorials}
 
-
 + [Overview](/help/blueprints/overview.md)
 + Audience Activation{#audience-activation}
   + [Overview](/help/blueprints/audience-activation/overview.md)
@@ -16,6 +15,9 @@ role: Architect, Developer, Business Practitioner
   + [Overview](/help/blueprints/customer-journey-analytics/overview.md)
   + [Cross-site and Cross-channel Journey Analytics](/help/blueprints/customer-journey-analytics/cross-site.md)
   + [Call Deflection](/help/blueprints/customer-journey-analytics/call-deflect.md)
++ Customer Journey Management{#customer-journey-management}
+  + Multi-channel Message Orchestration{#multi-channel-orchestration}
+    + [Overview](/help/blueprints/multi-channel-orchestration/overview.md)
 + Data Preparation and Ingestion{#data-ingestion}
   + [Overview](/help/blueprints/data-ingestion/overview.md)
 + Data Exploration and Enterprise Reporting{#data-exploration}
@@ -27,8 +29,6 @@ role: Architect, Developer, Business Practitioner
   + [Overview](/help/blueprints/enterprise-collection/overview.md)
 + Profile Lookup{#profile-lookup}
   + [Overview](/help/blueprints/profile-lookup/overview.md)
-+ Multi-channel Orchestration{#multi-channel-orchestration}
-  + [Overview](/help/blueprints/multi-channel-orchestration/overview.md)
 + Web & Mobile Personalization{#web-personalization}
   + [Overview](/help/blueprints/web-personalization/overview.md)
   + [Behavioral Web Personalization](/help/blueprints/web-personalization/behavioral.md)
