@@ -12,83 +12,34 @@ Online/Offline Audience Activation.
 
 ## Use Cases
 
-* Use Case 1
-* Use Case 2
+* Audience targeting for known audiences on social destinations.
+* Augment web/mobile personalization efforts with granular and enriched audiences.
+* Build audiences that can be exported for granular targeting and personalization in Email and Mobile messaging systems.
 
 ## Reference Architecture
 
+![Online/Offline](assets/onoff.svg)
 
 
 ## Prerequisites
 
-| Application/Service | Required Library |  Notes | 
-|---|---|---|
-| Adobe Target | Platform Web SDK*, at.js 0.9.1+ or mbox.js 61+ | at.js is preferred as mbox.js is no longer being developed. |
-| Adobe Audience Manager (Optional) | Platform Web SDK* or dil.js 5.0+ |  |
-| Adobe Analytics (Optional) | Platform Web SDK* or AppMeasurement.js 1.6.4+ |  |
-| Experience Cloud ID service | Platform Web SDK* or VisitorAPI.js 2.0+ |  |
-| Experience Cloud Audiences (Optional) | n/a |  |
-| Launch Edge Configuration <br> (if using Experience Platform Web SDK) | n/a |  |
-| Mobile SDK (Optional) | 4.11 or higher for iOS and Android |  |
-
-* Experience Platform Web SDK – 1.0, current Experience Platform SDK version has a number of use cases not yet supported for the Experience Cloud applications as noted in the [Experience Platform Web SDK documentation](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
-  
-<!--
-1. Provisioning
-   1. Adobe Target
-   1. Adobe Audience Manager (Optional)
-   1. Adobe Analytics (Optional)
-   1. Experience Cloud Shared Audiences (Optional)
-   1. Launch Edge Configuration if using Experience Platform Web SDK
-
-1. Visitor ID service must be implemented to have synced Experience Cloud IDs across applications. It is strongly recommended to leverage Experience Platform Launch to deploy the ID service to ensure the ID is set prior to any application calls.
-1. For Analytics integration, all Analytics tracking must have been converted to Regional Data Collection. RDC.
-1. Minimum code versions are as follows
-   1. Experience Cloud ID service – VisitorAPI.js 2.0 or higher
-   1. Analytics – AppMeasurement.js 1.6.4 or higher
-   1. Audience Manager – dil.js 5.0 or higher
-   1. Target – mbox.js 61, at.js .9.1. at.js is preferred as mbox.js is no longer being developed.
-   1. Mobile SDK – 4.11 for iOS and Android
-   1. Experience Platform Web SDK – 1.0, current Experience Platform SDK version has a number of use cases not yet supported for the Experience Cloud applications as noted in the [Experience Platform Web SDK documentation](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
--->
+* Real-time Customer Data Platform
+* Profile Activation
 
 ## Guardrails
 
-By default the audience sharing service allows a maximum of 75 audiences to be shared for each Analytics report suite. If the customer has an AAM license, there is no limit on the number of audiences that can be shared between AA and Target or AAM and Target.
-
-## Data Flow & Latencies
-
-See Implementation Architecture diagram
-
-Two versions: 
-
-1. With legacy client code libraries.
-1. With Web SDK and Launch
+* [Profile and Segmentation Guidelines](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 
 ## Implementation Steps
 
-* Implement Adobe Target
-* Implement AAM or Analytics
-* Implement Visitor ID service
-* Provision People and Audience services
+* Datasets configured, enabled for Profile and data ingested into Platform
+* Real-time Customer Data Platform segments sharing between Experience Platform and Audience Manager must be provisioned for Audience Manager based destinations and Experience Cloud Audience Sharing.
+* Define Segments. Segments are systematically set as batch or streaming
+* Configure Destinations
 
-## FAQ & Reference Documentation
+## FAQs & Reference Documentation
 
-1. [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
-1. [Integrate Audience Manager with Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
-1. [Analytics Segment Sharing through AAM](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* [Product Description](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
+* [Profile and Segmentation Guidelines](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
+* [Segmentation documentation](https://docs.adobe.com/content/help/en/experience-platform/segmentation/api/streaming-segmentation.html)
+* [Documentation for destinations](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html)
