@@ -19,15 +19,14 @@ Each Blueprint offers Adobe customers a series of artifacts that explain the hig
 * **[Multi-channel Message Orchestration Blueprint](/help/blueprints/customer-journey-management/overview.md)**
     *Deliver individual, just-in-time customer experiences across screens.​*
 
-## Blog posts
+## Blog Posts
 
-* [Introducing Adobe Experience Platform’s New Digital Experience Blueprints](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c?source=your_stories_page-------------------------------------)
-* [Blueprint for Audience Activation in Adobe Experience Platform](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd?source=your_stories_page-------------------------------------)
-* [Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f?source=your_stories_page-------------------------------------)
-* [Blueprint for Multi-Channel Orchestration in Adobe Experience Platform](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184?source=your_stories_page-------------------------------------)
+* [Introducing Adobe Experience Platform’s New Digital Experience Blueprints](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
+* [Blueprint for Audience Activation in Adobe Experience Platform](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)
+* [Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
+* [Blueprint for Multi-Channel Orchestration in Adobe Experience Platform](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
 
 ## Featured Blueprints
-
 
 <table>
 <tr>
