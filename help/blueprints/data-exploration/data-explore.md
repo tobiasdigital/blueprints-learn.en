@@ -17,7 +17,7 @@ Personalize based on online behavior and audience data.
 
 ## Reference Architecture
 
-![Scenario 1](assets/dataexplore.svg)
+![Data Exploration](assets/dataexplore.svg)
 
 ## Prerequisites
 
@@ -33,6 +33,7 @@ Personalize based on online behavior and audience data.
 * Datasets and schemas configured for data ingestion into the data lake
 * Data ingested
 * Data is then available by Query Service and Data Science Workspace for raw access and query
+* Business Intelligence tools and SQL clients can be connected to the Query Service for visualization and data query and exploration.
 
 ## FAQ & Reference Documentation
 

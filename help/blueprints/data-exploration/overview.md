@@ -22,5 +22,6 @@ Certain guardrails apply for the query time out and for the amount of data that 
 
 | Scenario | Description |  Experience Cloud Applications/Services | 
 |---|---|---|
-| **[Data Exploration - raw query of data](data-explore.md)**  | <ul><li>Write and perform SQL queries in the Experience Platform Data Lake and in Data Science Workspace to gain insight from raw data.</li></ul> | <ul><li>Adobe Experience Platform</li></ul>| 
+| **[Data Exploration - raw query of data](data-explore.md)**  | <ul><li>Write and perform SQL queries in the Experience Platform Data Lake using the interactive query user interface or connecting with a SQL client. Data Science Workspace can also be used to query and gain insight from the raw data in Experience Platform.</li></ul> | <ul><li>Adobe Experience Platform</li></ul>|
+| **[Enterprise Dashboarding](data-explore.md)**  | <ul><li>Business Intelligence tools can be connected to Experience Platform to visualize data for dashboarding and reporting use cases.</li></ul> | <ul><li>Adobe Experience Platform</li></ul>|  
 
