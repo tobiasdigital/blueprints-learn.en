@@ -10,6 +10,7 @@ role: Architect, Developer, Business Practitioner
 + [Overview](/help/blueprints/overview.md)
 + Audience Activation{#audience-activation}
   + [Overview](/help/blueprints/audience-activation/overview.md)
+  + [Anonymous Audience Activation](/help/blueprints/audience-activation/anonymous.md)
   + [Online/Offline Audience Activation](/help/blueprints/audience-activation/online-offline.md)
 + Customer Journey Analytics{#customer-journey-analytics}
   + [Overview](/help/blueprints/customer-journey-analytics/overview.md)
