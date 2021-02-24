@@ -20,7 +20,9 @@ role: Architect, Developer, Business Practitioner
   + [Call Deflection](/help/blueprints/customer-journey-analytics/call-deflect.md)
 + Customer Journey Management{#customer-journey-management}
   + Multi-channel Message Orchestration{#multi-channel-orchestration}
-    + [Overview](/help/blueprints/multi-channel-orchestration/overview.md)
+    + [Overview](/help/blueprints/customer-journey-management/overview.md)
+    + [Batch Messaging & Experience Platform](/help/blueprints/customer-journey-management/aepmessaging.md)
+    + [Triggered Messaging & Experience Platform](/help/blueprints/customer-journey-management/triggered.md)
 + Data Preparation and Ingestion{#data-ingestion}
   + [Overview](/help/blueprints/data-ingestion/overview.md)
 + Data Exploration and Enterprise Reporting{#data-exploration}
