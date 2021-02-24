@@ -46,11 +46,11 @@ Data Ingestion into CJA:
 ## Implementation Steps and Considerations
 
 * Data must be ingested into Platform prior to ingestion into CJA. Datasets and schemas configured and data ingested into Platform.
-* Cross channel event datasets to be analyzed in union must have a common namespace id or be re-keyed through the field based stitching capability.  *Note that CJA does not utilize the AEP Profile or identity services for stitching today.
+* Cross channel event datasets to be analyzed in union must have a common namespace id or be re-keyed through the field based stitching capability.  *Note that CJA does not utilize the Experience Platform Profile or identity services for stitching today.
 * Any custom data preparation or use of the field based identity stitching is performed on the data to insure a common key across time series datasets to be ingested into CJA.
 * Lookup data must have a primary ID that can join to a field in the event data. Counts as rows in licensing.
 Profile data must have the same primary ID as the primary ID of the event data.
-* A data connection is configured to ingest data from AEP to CJA. Once data lands in the data lake it will process into CJA within 90 minutes.
+* A data connection is configured to ingest data from Experience Platform to CJA. Once data lands in the data lake it will process into CJA within 90 minutes.
 * A data view is configured on the connection to select the specific dimensions and metrics to be included in the view. Attribution and allocation settings are also configured in the data view. These settings will then be computed at report time.
 * A project is then created to configure dashboards and reports within Analysis Workspace.
 

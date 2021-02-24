@@ -9,7 +9,7 @@ thumbnail:
 
 ## Description
 
-Web/Mobile personalization addresses the ability to utilize audience segmentation such as Audience Manager and Adobe Experience Platform's Real-time CDP along with experience decisioning tools such as Adobe Target and Experience Platform Offer Decisioning to personalize and tailor the consumers' web/mobile experience. This can include personalizing what offers and banners are displayed as well as what layout, call to action, or content to surface to the consumer based on their behaviors, demographics, loyalty profile, and prior transactions.
+Web and Mobile Personalization blueprint addresses the ability to utilize audience segmentation in multiple tools. Tool examples are Audience Manager, Experience Platform Real-time CDP, Experience Platform Experience Platform Offer Decisioning, and Adobe Target to personalize and optimize customer experiences. This can include personalizing what offers and banners are displayed as well as what layout, call to action, or content. This decisioning then can edify the customer to surface to the consumer based on their behaviors, demographics, loyalty profile, and prior transactions.
 
 ## Scenarios
 

@@ -19,3 +19,8 @@ Audience-first activation is the key to success in a data-driven marketing world
 | **[Anonymized Web and Advertising Activation](anonymous.md)** | Target audiences across web and advertising channels for anonymized/behavioral customer data.<br>Integrate with 3rd party audience data for increased personalization.                                                                                         | Adobe Audience Manager                                               |
 | **[Online/Offline + Pii Activation](online-offline.md)**        | + Activate to Pii and profile based destinations such as email providers, social networks, and advertising destinations that accept customer audience lists. <br>+ Activation against online and offline attributes and events (orders, transactions, CRM or loyalty data). | Adobe Experience Platform Real-time Customer Data Platform<br>Adobe Audience Manager (optional) |
 
+## Related Blog posts
+
+* [Blueprint for Audience Activation in Adobe Experience Platform](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd?source=your_stories_page-------------------------------------)
+* [How Adobe Experience Platform Predictive Audiences improves Personalized Experiences](https://medium.com/adobetech/how-adobe-experience-platform-predictive-audiences-improves-personalized-experiences-1f75a60cb7a3?source=your_stories_page-------------------------------------)
+* [Adobe Experience Platform Web SDK for Audience Management](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc?source=your_stories_page-------------------------------------)

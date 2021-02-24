@@ -8,7 +8,7 @@ thumbnail:
 
 # Anonymous Audience Activation
 
-Anonymized Web and Advertising Activation
+Anonymized web and advertising activation.
 
 ## Use Cases
 

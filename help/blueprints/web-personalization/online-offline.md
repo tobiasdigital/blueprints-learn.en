@@ -40,7 +40,7 @@ Synchronize web personalization with email and other known and anonymous channel
 * Audience Manager – dil.js 5.0 or higher
 * Target – mbox.js 61, at.js .9.1. at.js is preferred as mbox.js is no longer being developed.
 * Mobile SDK – 4.11 for iOS and Android
-* AEP Web SDK – 1.0, current AEP SDK version has a number of use cases not yet supported for the AEC applications as noted in the AEP Web SDK documentation here - [Link](https://docs.adobe.com/content/help/en/experience-platform/edge/home.html)
+* Experience Platform Web SDK – 1.0, current Experience Platform SDK version has a number of use cases not yet supported for the AEC applications as noted in the Experience Platform Web SDK documentation here - [Link](https://docs.adobe.com/content/help/en/experience-platform/edge/home.html)
 
 ## Guardrails
 
@@ -92,7 +92,7 @@ The Web/Mobile personalization blueprint can be implemented using either traditi
 * Implement Platform and Real-time Customer Profile
 * Implement Visitor ID service or WebSDK
 * Provision People and Audience core service
-* Provision Audience Sharing between AEP and Target
+* Provision Audience Sharing between Experience Platform and Target
 
 ## FAQ & Reference
 
