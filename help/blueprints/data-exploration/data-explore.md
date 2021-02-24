@@ -14,6 +14,8 @@ Personalize based on online behavior and audience data.
 
 * Interactive query and aggregation of data
 * Row and column access to ingested data for exploration and validation
+* Dashboarding and visualization of data via Business Intelligence tooling
+
 
 ## Reference Architecture
 
@@ -38,4 +40,4 @@ Personalize based on online behavior and audience data.
 ## FAQ & Reference Documentation
 
 1. [Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-2. [Product Documentation](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+2. [Product Documentation](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)
