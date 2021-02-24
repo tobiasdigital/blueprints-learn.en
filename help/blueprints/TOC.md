@@ -22,7 +22,6 @@ role: Architect, Developer, Business Practitioner
   + [Overview](/help/blueprints/data-ingestion/overview.md)
 + Data Exploration and Enterprise Reporting{#data-exploration}
   + [Overview](/help/blueprints/data-exploration/overview.md)
-  + [Data Exploration](/help/blueprints/data-exploration/data-explore.md)
 + Data Science and AI/ML Profile Enrichment{#data-science}
   + [Overview](/help/blueprints/data-science/overview.md)
 + Enterprise Data Collection{#enterprise-collection}
