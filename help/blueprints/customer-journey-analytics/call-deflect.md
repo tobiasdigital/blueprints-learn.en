@@ -60,7 +60,7 @@ Identity Stitching Considerations
 * The field based identity stitching process allows for re-keying identities in rows based on subsequent  transient id records, such as an authentication id. This allows for resolving disparate records to a single id for analysis at the person level vs. at the device or cookie level.
 * Stitching happens once a week. With replay after the stitch.
 
-## FAQ & Reference Documentation
+## FAQs & Reference Documentation
 
 What are the downstream impacts of data models in CJA?
 

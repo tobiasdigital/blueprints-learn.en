@@ -64,7 +64,7 @@ Identity Stitching Considerations
 
 
 
-## FAQ & Reference Documentation
+## FAQs & Reference Documentation
 
 What are the downstream impacts of data models in CJA?
 
