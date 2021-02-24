@@ -1,11 +1,11 @@
 ---
-title: Web Personalization Blueprint
-description: Deliver personalized web content with Real-time Customer Profile.
+title: Web & Mobile Personalization Blueprint
+description: Deliver personalized web and mobile content with Real-time Customer Profile.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 
 thumbnail: 
 ---
-# Web Personalization blueprint
+# Web and Mobile Personalization blueprint
 
 Web/Mobile personalization addresses the ability to utilize audience segmentation such as Audience Manager and Adobe Experience Platform's Real-time CDP along with experience decisioning tools such as Adobe Target and Experience Platform Offer Decisioning to personalize and tailor the consumers' web/mobile experience. This can include personalizing what offers and banners are displayed as well as what layout, call to action, or content to surface to the consumer based on their behaviors, demographics, loyalty profile, and prior transactions.
 
