@@ -16,7 +16,7 @@ Each Blueprint offers Adobe Experience Cloud customers a series of artifacts tha
     *Deliver personalized web content with Real-time Customer Profile.*
 * **[Audience Activation Blueprint](/help/blueprints/audience-activation/overview.md)**
     *Deliver audience activated cross channel advertising with Real-time Customer Data Platform​.*
-* **[Multi-channel Orchestration Blueprint](/help/blueprints/multi-channel-orchestration/overview.md)**
+* **[Multi-channel Message Orchestration Blueprint](/help/blueprints/customer-journey-management/overview.md)**
     *Deliver individual, just-in-time customer experiences across screens.​*
 
 ## Featured Blueprints
@@ -42,7 +42,7 @@ Each Blueprint offers Adobe Experience Cloud customers a series of artifacts tha
       <img alt="thumbnail image for the 'Multi-channel Orchestration blueprint'" src="/help/blueprints/customer-journey-management/assets/thumb-multi-channel-orchestration-blueprint.jpg" />
     </a>
     <div>
-      <a href="/help/blueprints/customer-journey-orchestration/overview.md">
+      <a href="/help/blueprints/customer-journey-management/overview.md">
     <strong>Multi-channel Orchestration Blueprint</strong>
     </a>
     </div>
