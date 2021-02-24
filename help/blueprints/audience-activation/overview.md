@@ -8,4 +8,14 @@ thumbnail:
 
 # Audience Activation blueprint
 
+## Description
+
 Audience-first activation is the key to success in a data-driven marketing world. However, many brands are still focusing their efforts on channel-first activation, which often delivers inconsistent reach and personalization. With a channel-first approach, each channel acts as a silo in which personalization efforts target only the customers interacting with the brand on that channel. The problem with this approach is that it doesn’t reflect the reality that customers interact with brands across many different touchpoints. Channel-first activation cannot connect customers’ behavior through their interactions across multiple channels resulting in lost opportunities for stronger engagement and the revenues it generates.
+
+## Scenarios
+
+| Scenario | Description| Experience Cloud Apps|
+|---|---|---|
+| **[Anonymized Web and Advertising Activation](anonymous.md)** | Target audiences across web and advertising channels for anonymized/behavioral customer data.<br>Integrate with 3rd party audience data for increased personalization.                                                                                         | Adobe Audience Manager                                               |
+| **[Online/Offline + Pii Activation](online-offline.md)**        | + Activate to Pii and profile based destinations such as email providers, social networks, and advertising destinations that accept customer audience lists. <br>+ Activation against online and offline attributes and events (orders, transactions, CRM or loyalty data). | Adobe Experience Platform Real-time Customer Data Platform<br>Adobe Audience Manager (optional) |
+
