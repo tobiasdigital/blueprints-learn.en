@@ -23,6 +23,8 @@ role: Architect, Developer, Business Practitioner
   + [Data Exploration](/help/blueprints/data-exploration/data-explore.md)
 + Data Science and AI/ML Profile Enrichment{#data-science}
   + [Overview](/help/blueprints/data-science/overview.md)
++ Enterprise Data Collection{#enterprise-collection}
+  + [Overview](/help/blueprints/enterprise-collection/overview.md)
 + Profile Lookup{#profile-lookup}
   + [Overview](/help/blueprints/profile-lookup/overview.md)
 + Multi-channel Orchestration{#multi-channel-orchestration}

@@ -14,6 +14,8 @@ Personalize based on online behavior and audience data.
 
 * Interactive query and aggregation of data
 * Row and column access to ingested data for exploration and validation
+* Dashboarding and visualization of data via Business Intelligence tooling
+
 
 ## Reference Architecture
 
@@ -35,7 +37,7 @@ Personalize based on online behavior and audience data.
 * Data is then available by Query Service and Data Science Workspace for raw access and query
 * Business Intelligence tools and SQL clients can be connected to the Query Service for visualization and data query and exploration.
 
-## FAQ & Reference Documentation
+## FAQs & Reference Documentation
 
 1. [Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-2. [Product Documentation](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+2. [Product Documentation](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)
