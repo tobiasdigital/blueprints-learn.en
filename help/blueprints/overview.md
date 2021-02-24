@@ -19,7 +19,7 @@ Each Blueprint offers Adobe customers a series of artifacts that explain the hig
 * **[Multi-channel Orchestration Blueprint](/help/blueprints/multi-channel-orchestration/overview.md)**
     *Deliver individual, just-in-time customer experiences across screens.​*
 
-## Blog posts
+## Blog Posts
 
 * [Introducing Adobe Experience Platform’s New Digital Experience Blueprints](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
 * [Blueprint for Audience Activation in Adobe Experience Platform](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)
@@ -27,7 +27,6 @@ Each Blueprint offers Adobe customers a series of artifacts that explain the hig
 * [Blueprint for Multi-Channel Orchestration in Adobe Experience Platform](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
 
 ## Featured Blueprints
-
 
 <table>
 <tr>
