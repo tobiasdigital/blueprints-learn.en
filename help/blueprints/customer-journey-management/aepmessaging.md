@@ -1,7 +1,7 @@
 ---
 title: Batch Messaging and Adobe Experience Platform
 description: Batch Messaging and Adobe Experience Platform
-solution: Experience Platform, Adobe Campaign
+solution: Experience Platform, Campaign
 kt: 
 thumbnail: 
 ---

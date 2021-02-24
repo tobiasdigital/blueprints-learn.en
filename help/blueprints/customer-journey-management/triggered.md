@@ -1,7 +1,7 @@
 ---
 title: Triggered Messaging and Adobe Experience Platform
 description: Triggered Messaging and Adobe Experience Platform
-solution: Experience Platform, Adobe Campaign, Journey Orchestration
+solution: Experience Platform, Campaign, Journey Orchestration
 kt: 
 thumbnail: 
 ---
