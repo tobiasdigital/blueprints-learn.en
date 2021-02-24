@@ -8,9 +8,4 @@ thumbnail:
 
 # Adobe Experience Cloud
 
-<img src="assets/AEC.svg" alt="Experience Cloud" style="width:600px; border:1px solid black"/>
-
-
-
-
-
+<img src="assets/AEC.svg" alt="Experience Cloud" style="border:1px solid black"/>
