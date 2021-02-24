@@ -38,11 +38,11 @@ Each Blueprint offers Adobe Experience Cloud customers a series of artifacts tha
     <p>
   </td>
   <td>
-    <a href="/help/blueprints/multi-channel-orchestration/overview.md">
-      <img alt="thumbnail image for the 'Multi-channel Orchestration blueprint'" src="/help/blueprints/multi-channel-orchestration/assets/thumb-multi-channel-orchestration-blueprint.jpg" />
+    <a href="/help/blueprints/customer-journey-management/overview.md">
+      <img alt="thumbnail image for the 'Multi-channel Orchestration blueprint'" src="/help/blueprints/customer-journey-management/assets/thumb-multi-channel-orchestration-blueprint.jpg" />
     </a>
     <div>
-      <a href="/help/blueprints/multi-channel-orchestration/overview.md">
+      <a href="/help/blueprints/customer-journey-orchestration/overview.md">
     <strong>Multi-channel Orchestration Blueprint</strong>
     </a>
     </div>
