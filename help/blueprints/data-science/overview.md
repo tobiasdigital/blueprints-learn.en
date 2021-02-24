@@ -18,8 +18,8 @@ Examples can include determining customer lifetime value, product and category a
 
 | Scenario                                  | Description                                                                                                                                                                                                           | Experience Cloud Apps                      |
 |---|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
-|Exploratory Data Science                  | Exploratory data science – discover signal, completeness, correctness of data<br>Discover new insights using data science tooling                                                                                     | AEP Intelligence                           |
-|Profile enrichment with AI/ML<br> - batch | Discover, author, train, deploy, score model - output – in batch<br>Push model prediction to profile or to data lake for batch based activation<br>Score – runs a job via orchestration service. Writes to a dataset. | AEP Intelligence |
+|Exploratory Data Science                  | Exploratory data science – discover signal, completeness, correctness of data<br>Discover new insights using data science tooling                                                                                     | Experience Platform Intelligence                           |
+|Profile enrichment with AI/ML<br> - batch | Discover, author, train, deploy, score model - output – in batch<br>Push model prediction to profile or to data lake for batch based activation<br>Score – runs a job via orchestration service. Writes to a dataset. | Experience Platform Intelligence |
 
 ## Architecture
 
@@ -27,7 +27,7 @@ Examples can include determining customer lifetime value, product and category a
 
 ## Implementation Steps
 
-* Data loaded/ingested to AEP – schema, datasets created and data loaded.
+* Data loaded/ingested to Experience Platform – schema, datasets created and data loaded.
 * Create a DSW notebook.
 * Choose a language - support for Python and PySpark.
 * Author model in notebook.
