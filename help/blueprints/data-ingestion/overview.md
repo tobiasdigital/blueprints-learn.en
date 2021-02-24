@@ -10,9 +10,9 @@ thumbnail:
 
 ## Description
 
-The data ingestion and preparation blueprint encompasses all the methods by which data can be ingested and prepared in Adobe Experience Platform. 
+Data ingestion and preparation blueprint encompasses all the methods by which data can be ingested and prepared in Adobe Experience Platform.
 
-Data preparation includes the concepts of mapping source data to XDM (Experience Data Model) schema, as well as performing transformations on data including date formatting, field splitting and concatenation, conversions, as well as joining, merging and re-keying of records to facilitate unifying customer data, providing aggregated or filtered reporting and analysis, or preparing data for customer profile assembly, data science, and activation.
+Data preparation includes the concepts of mapping source data to XDM (Experience Data Model) schema. It also includes performing transformations on data including date formatting, field splitting/concatenation/conversions, joining/merging/re-keying of records. This facilitates unifying customer data for providing aggregated/ filtered analysis including reporting or preparing data for customer profile assembly/data science/activation.
 
 ![Data Ingestion](assets/dataingest.svg)
 
@@ -42,3 +42,17 @@ Data preparation includes the concepts of mapping source data to XDM (Experience
 | External ETL Tool (Snaplogic, Mulesoft, Informatic, etc.) | Perform complex transformations in ETL tooling and leverage standard AEP Source APIs or Connectors to ingest the resultant data.                                                                                                                                                               |
 | Query Service - Data Prep                                  | Joins, Splits, Merge, Transform, Query and Filter data into a new dataset. Using CTAS (Create Table as Select)<br>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en#sql)                                                                       |
 | XDM Mapper & Data Prep functions (Streaming and Batch)     | Map source attributes in CSV or JSON format into XDM attributes during AEP ingestion.<br>Compute functions on data as it is ingested - i.e. data formatting, splitting, concat, etc.<br>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) |
+
+## Related Blog Posts
+
+* [Leveraging External Data Platforms in Adobe Experience Platform Journey Orchestration
+](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17?source=your_stories_page-------------------------------------)
+* [High Throughput Ingestion with Iceberg
+](https://medium.com/adobetech/high-throughput-ingestion-with-iceberg-ccf7877a413f?source=your_stories_page-------------------------------------)
+* [Query Service Tricks in Adobe Experience Platform (Writing Queries and Storing Derived Datasets)
+](https://medium.com/adobetech/query-service-tricks-in-adobe-experience-platform-writing-queries-and-storing-derived-datasets-eaee0d6d683e?source=your_stories_page-------------------------------------)
+* [Digging into Adobe Experience Platform’s Experience Data Model to More Fully Understand the Power of Real-time Customer Profile](https://medium.com/adobetech/digging-into-adobe-experience-platforms-experience-data-model-to-more-fully-understand-the-power-3e109271e04f?source=your_stories_page-------------------------------------)
+* [An Introductory Look at Exploratory Data Analysis on Adobe Experience Platform
+](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a?source=your_stories_page-------------------------------------)
+* [Modeling XDM Data for Data Science at Scale on Adobe Experience Platform](https://medium.com/adobetech/modeling-xdm-data-for-data-science-at-scale-on-adobe-experience-platform-222bb2a6dbf7?source=your_stories_page-------------------------------------)
+
