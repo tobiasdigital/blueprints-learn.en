@@ -1,12 +1,12 @@
 ---
-title: Multi-channel Orchestration Blueprint
+title: Multi-channel Message Orchestration Blueprint
 description: Deliver individual, just-in-time customer experiences across screens.
 solution: Experience Platform
 kt: 
 thumbnail: 
 ---
 
-# Multi-channel Orchestration blueprint
+# Multi-channel Message Orchestration blueprint
 
 ## Description
 
