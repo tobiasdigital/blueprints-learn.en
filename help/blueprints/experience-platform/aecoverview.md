@@ -1,6 +1,6 @@
 ---
-title: Experience Platform Architecture Overview
-description: Adobe Experience Platform Architecture Overview
+title: Adobe Experience Cloud Overview
+description: Adobe Experience Cloud Overview
 solution: Experience Platform
 kt: 
 thumbnail: 
