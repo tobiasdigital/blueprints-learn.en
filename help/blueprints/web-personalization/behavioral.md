@@ -18,7 +18,9 @@ Personalize based on online behavior and audience data.
 
 ## Reference Architecture
 
-![Reference architecture for the scenario](assets/personalization.svg)
+![Reference architecture for the scenario]()
+
+<img src="assets/personalization.svg" alt="Reference architecture for the Behavioral Web Personalization scenario" style="border:1px solid #4a4a4a"
 
 ## Prerequisites
 
@@ -52,15 +54,12 @@ The Web/Mobile Personalization Blueprint can be implemented using either traditi
 
 ### Platform Web SDK/Mobile SDK and Experience Edge Approach
 
-![Reference architecture for the scenario](assets/websdkflow.png)
-
-
+<img src="assets/websdkflow.png" alt="Reference architecture for the Platform Web SDK/Mobile SDK and Experience Edge Approach" style="border:1px solid #4a4a4a"
 
 
 ### Application-specific SDK Approach
 
-![Reference architecture for the scenario](assets/appsdkflow.png)
-
+<img src="assets/appsdkflow.png" alt="Reference architecture for the Application-specific SDK Approach" style="border:1px solid #4a4a4a"
 
 
 ## FAQs & Reference Documentation
