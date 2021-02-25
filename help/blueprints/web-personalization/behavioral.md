@@ -14,7 +14,7 @@ Personalize based on online behavior and audience data.
 
 * Landing page optimization
 * Behavioral Targeting
-* Personalization based on prior product/content views, product/content affinity, environmental attributes, 3rd party audience data and demographics
+* Personalization based on prior product/content views, product/content affinity, environmental attributes, third-party audience data and demographics
 
 ## Reference Architecture
 

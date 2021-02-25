@@ -14,7 +14,7 @@ Synchronize web personalization with email and other known and anonymous channel
 
 * Landing page optimization
 * Behavioral and offline profile targeting
-* Personalization based on prior product/content views, product/content affinity, environmental attributes, 3rd party audience data and demographics in addition to offline insights such as transactions, loyalty and CRM data, and modeled insights
+* Personalization based on prior product/content views, product/content affinity, environmental attributes, third-party audience data and demographics in addition to offline insights such as transactions, loyalty and CRM data, and modeled insights
 
 ## Reference Architecture
 
@@ -67,7 +67,7 @@ See profile and data ingestion guardrails
 
 ## Application Support
 
-* Audience Manager is optional and adds the following: 3rd party audience data, co-op based device graph, ability to surface Platform segments in Adobe Analytics and Adobe Analytics segments in Platform.
+* Audience Manager is optional and adds the following: third-party audience data, co-op based device graph, ability to surface Platform segments in Adobe Analytics and Adobe Analytics segments in Platform.
 * Analytics is optional and adds the ability to build segments based on historical behavioral data and fine grained segmentation from Adobe Analytics data.
 
 ## Data Flow & Implementation Diagram
