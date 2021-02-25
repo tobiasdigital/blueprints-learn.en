@@ -18,8 +18,6 @@ Personalize based on online behavior and audience data.
 
 ## Reference Architecture
 
-![Reference architecture for the scenario]()
-
 <img src="assets/personalization.svg" alt="Reference architecture for the Behavioral Web Personalization scenario" style="border:1px solid #4a4a4a"/>
 
 ## Prerequisites
@@ -37,9 +35,7 @@ Personalize based on online behavior and audience data.
 
 ## Guardrails
 
-Availability: Global
-
-Audience Sharing: By default the segment sharing service allows a maximum of 75 audiences to be shared for each Analytics report suite. If Audience Manager is being used for audience sharing there is no limit on the number of audiences that can be shared. 
+By default the segment sharing service allows a maximum of 75 audiences to be shared for each Analytics report suite. If Audience Manager is being used for audience sharing there is no limit on the number of audiences that can be shared. 
 
 ## Implementation Steps
 
