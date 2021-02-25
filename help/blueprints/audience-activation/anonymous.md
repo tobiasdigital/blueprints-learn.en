@@ -17,7 +17,7 @@ Anonymized web and advertising activation.
 
 ## Reference Architecture
 
-![Reference architecture for the scenario](assets/aam.svg)
+<img src="assets/aam.svg" alt="Reference architecture for the Anonymous Audience Activation scenario" style="border:1px solid #4a4a4a"/>
 
 ## Prerequisites
 
@@ -28,7 +28,7 @@ Anonymized web and advertising activation.
 * [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager.html?lang=en)
 * [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 * [Integrate Audience Manager with Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
-* [Analytics Segment Sharing through AAM](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [Analytics Segment Sharing through Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 
 
 

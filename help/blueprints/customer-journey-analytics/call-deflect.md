@@ -16,7 +16,8 @@ Analyze what behavior a user exhibits prior to calling the call center. Understa
 
 ## Reference Architecture
 
-![Reference architecture for the scenario](assets/CJA.svg)
+<img src="assets/CJA.svg" alt="Reference architecture for the Customer Journey Analytics Blueprint" style="border:1px solid #4a4a4a"/>
+
 
 ## Integration Patterns
 

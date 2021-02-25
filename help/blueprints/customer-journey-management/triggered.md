@@ -19,7 +19,7 @@ Execute triggered messages and experiences using Adobe Experience Platform as a 
 
 ## Reference Architecture
 
-![Triggered Messaging](assets/triggered.svg)
+<img src="assets/triggered.svg" alt="Reference architecture for the Triggered Messaging and Adobe Experience Platform scenario" style="border:1px solid #4a4a4a"/>
 
 ## Integration Patterns
 

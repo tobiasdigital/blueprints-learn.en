@@ -17,7 +17,8 @@ Analyze and extract insights from customer interactions across the customer jour
 
 ## Reference Architecture
 
-![Reference architecture for the Cross-site and Cross-channel Customer Journey Analysis scenario](assets/CJA.svg)
+<img src="assets/CJA.svg" alt="Reference architecture for the Customer Journey Analytics Blueprint" style="border:1px solid #4a4a4a"/>
+
 
 ## Integration Patterns
 
