@@ -86,8 +86,8 @@ Execute scheduled and batch messaging campaigns using Adobe Experience Platform 
 
 ## FAQs & Reference Documentation
 
-* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
-* [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
-* [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=en)
-* [Launch](https://experienceleague.adobe.com/docs/launch.html?lang=en)
-* [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=en)
+* [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
+* [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
+* [Campaign Standard documentation](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=en)
+* [Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch.html?lang=en)
+* [Experience Platform Mobile SDK documentation](https://experienceleague.adobe.com/docs/mobile.html?lang=en)
