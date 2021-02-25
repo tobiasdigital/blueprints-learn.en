@@ -6,7 +6,7 @@ kt:
 thumbnail: 
 ---
 
-# Data Exploration & Enterprise Reporting
+# Data Exploration & Enterprise Reporting Blueprint
 
 Personalize based on online behavior and audience data.
 

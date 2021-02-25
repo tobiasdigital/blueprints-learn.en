@@ -6,9 +6,7 @@ kt:
 thumbnail: 
 ---
 
-# Data Preparation and Ingestion
-
-## Description
+# Data Preparation and Ingestion Blueprint
 
 Data ingestion and preparation blueprint encompasses all the methods by which data can be ingested and prepared in Adobe Experience Platform.
 

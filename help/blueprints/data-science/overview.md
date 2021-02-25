@@ -8,14 +8,11 @@ thumbnail:
 
 # Data Science and AI/ML Profile Enrichment Blueprint
 
-## Description
-
 Data Science & AI/ML Profile Enrichment details the ability to utilize Adobe Experience Platform's Data Science Workspace to train, deploy, and score models on data within Experience Platform's data lake to provide machine learning insights from the data. These insights and models can directly output to a dataset enabled for profile, enabling machine learning insights to further enrich the real-time customer profile.
 
 Examples can include determining customer lifetime value, product and category affinity, propensity to convert or propensity to churn as a few examples. 
 
 ## Scenarios
-
 
 | Scenario | Scenario Description | Experience Cloud Applications |
 |---|---|---|

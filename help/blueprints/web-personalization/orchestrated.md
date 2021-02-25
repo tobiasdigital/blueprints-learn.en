@@ -13,7 +13,6 @@ thumbnail: thumb-web-personalization-scenario3a.jpg
 
 * Consistent experiences across inbound and outbound interactions.
 
-
 ## Reference Architecture
 
 ![Scenario 3](assets/orchestrated.png)

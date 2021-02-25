@@ -8,8 +8,6 @@ thumbnail:
 
 # Enterprise Data Collection
 
-## Description
-
 Enterprise data collection refers to the ability to collect data with Adobe Experience Platform Web and Mobile SDKs and then forward that collected data from Adobe's server to a desired destination. This can include all raw data collected from the SDKs or specific data based on events and rules as configured in Experience Platform Launch.
 
 ## Architecture

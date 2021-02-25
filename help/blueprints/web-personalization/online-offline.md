@@ -42,19 +42,6 @@ Synchronize web personalization with email and other known and anonymous channel
     * Mobile SDK – 4.11 for iOS and Android
     * Experience Platform Web SDK – 1.0, current Experience Platform SDK version has a number of use cases not yet supported for the AEC applications as noted in the [Experience Platform Web SDK documentation](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 
-## Guardrails
-
-
-### Availability
-
-Global
-
-### Sandbox support
-
-Audience sharing of Platform audiences to Audience Manager and Target is only available on Production sandbox
-
-See profile and data ingestion guardrails
-
 ### Audience Sharing
 
 * By default the segment sharing service allows a maximum of 75 audiences to be shared for each Analytics report suite. If the customer has an Audience Manager license, there is no limit on the number of audiences that can be shared between Adobe Analytics and Target or Audience Manager and Target.

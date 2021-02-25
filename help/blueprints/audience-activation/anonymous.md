@@ -6,7 +6,7 @@ kt: 7086
 thumbnail: 
 ---
 
-# Anonymous Audience Activation
+# Anonymous Audience Activation scenario
 
 Anonymized web and advertising activation.
 
