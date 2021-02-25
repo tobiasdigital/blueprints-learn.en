@@ -22,25 +22,25 @@ Synchronize web personalization with email and other known and anonymous channel
 
 ## Prerequisites
 
-1 – Provisioning
+1. Provisioning
 
-* Adobe Experience Platform, Activation or RTCDP
-* Adobe Target
-* Adobe Audience Manager (Optional)
-* Adobe Analytics (Optional)
+    * Adobe Experience Platform, Activation or RTCDP
+    * Adobe Target
+    * Adobe Audience Manager (Optional)
+    * Adobe Analytics (Optional)
 
-2 – Visitor ID service or WebSDK must be implemented to have synced Experience Cloud IDs across applications. It is strongly recommended to leverage Experience Platform Launch to deploy the ID service to ensure the ID is set prior to any application calls.
+1. Visitor ID service or WebSDK must be implemented to have synced Experience Cloud IDs across applications. It is strongly recommended to leverage Experience Platform Launch to deploy the ID service to ensure the ID is set prior to any application calls.
 
-3 – For Analytics integration, all Analytics tracking must have been converted to Regional Data Collection. RDC.
+1. For Analytics integration, all Analytics tracking must have been converted to Regional Data Collection. RDC.
 
-4 – Minimum code versions are as follows.
+1. Minimum code versions are as follows.
 
-* Experience Cloud ID service – VisitorAPI.js 2.0 or higher
-* Analytics – AppMeasurement.js 1.6.4 or higher
-* Audience Manager – dil.js 5.0 or higher
-* Target – mbox.js 61, at.js .9.1. at.js is preferred as mbox.js is no longer being developed.
-* Mobile SDK – 4.11 for iOS and Android
-* Experience Platform Web SDK – 1.0, current Experience Platform SDK version has a number of use cases not yet supported for the AEC applications as noted in the Experience Platform Web SDK documentation here - [Link](https://docs.adobe.com/content/help/en/experience-platform/edge/home.html)
+    * Experience Cloud ID service – VisitorAPI.js 2.0 or higher
+    * Analytics – AppMeasurement.js 1.6.4 or higher
+    * Audience Manager – dil.js 5.0 or higher
+    * Target – mbox.js 61, at.js .9.1. at.js is preferred as mbox.js is no longer being developed.
+    * Mobile SDK – 4.11 for iOS and Android
+    * Experience Platform Web SDK – 1.0, current Experience Platform SDK version has a number of use cases not yet supported for the AEC applications as noted in the [Experience Platform Web SDK documentation](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 
 ## Guardrails
 
@@ -72,18 +72,16 @@ See profile and data ingestion guardrails
 
 ## Data Flow & Implementation Diagram
 
-The Web/Mobile personalization blueprint can be implemented using either traditional app specific SDKs, or by using the WebSDK and Experience Edge Network.
+The Web/Mobile personalization blueprint can be implemented using either traditional application-specific SDKs (e.g. AppMeasurement.js), or by using the Platform Web SDK/Mobile SDK and Experience Edge Network.
 
-* WebSDK/MobileSDK and Experience Edge Approach
+### Platform Web SDK/Mobile SDK and Experience Edge Approach
 
-![Reference architecture for the scenario](assets/websdkflow.png)
-
-
+<img src="assets/websdkflow.png" alt="Reference architecture for the Platform Web SDK/Mobile SDK and Experience Edge Approach" style="border:1px solid #4a4a4a"/>
 
 
-* Application Specific SDK Approach
+### Application Specific SDK Approach
 
-![Reference architecture for the scenario](assets/appsdkflow.png)
+<img src="assets/appsdkflow.png" alt="Reference architecture for the Application-specific SDK Approach" style="border:1px solid #4a4a4a"/>
 
 ## Implementation Steps
 
@@ -103,9 +101,9 @@ The Web/Mobile personalization blueprint can be implemented using either traditi
 * Audience Manager Solution Connector Overview
 * [Analytics Segment Sharing through AAM](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 * Streaming Segmentation Guidelines
-* [Experience Platform Web SDK Documentation](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
-* [Experience Cloud ID Service Documentation](https://experienceleague.adobe.com/docs/id-service/using/home.html)
-* [Experience Platform Launch Documentation](https://experienceleague.adobe.com/docs/launch/using/overview.html)
+* [Experience Platform Web SDK documentation](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
+* [Experience Cloud ID Service documentation](https://experienceleague.adobe.com/docs/id-service/using/home.html)
+* [Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch/using/overview.html)
 
 ## Related Blog Posts
 
