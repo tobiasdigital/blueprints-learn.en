@@ -1,18 +1,18 @@
 ---
 title: Customer Journey Analytics - Call Deflection Analysis Scenario
-description: Cross channel customer journey analysis
+description: Analyze what behavior a user exhibits prior to calling the call center.
 solution: Experience Platform, Customer Journey Analytics
 kt: 
 thumbnail: 
 ---
 
-# Call deflection Journey Analysis scenario
+# Call Deflection Journey Analysis scenario
 
-Analyze what behavior a user exhibits prior to calling the call center. Understanding what actions a user was attempting to make, or what content and searching the user was performing prior to a support call can help provide context to which aspects of the journey can be optimized. What content, self-service tooling can be improved to prevent users from calling the call center for tasks which can be resolved in a self-service manner.
+Analyze what behavior a user exhibits prior to calling the call center. Understanding what actions a user was attempting to make,  what content they were viewing and what terms they were searching for prior to a support call can help identify opportunities to improve the customer journey. What content and self-service tools can be improved to help customers resolve issues without needing to call in?
 
 ## Use Cases
 
-* Unify customer interactions across desktop and mobile to analyze customer behavior prior to agent assisted calls or support chats to determine what actions most often result in the user pursuing agent assisted interactions.
+* Unify customer interactions across desktop and mobile to analyze customer behavior prior to agent-assisted calls or support chats to determine what actions most often result in the user pursuing agent-assisted interactions.
 
 ## Reference Architecture
 
@@ -48,7 +48,7 @@ Data Ingestion into CJA:
  
     >[!NOTE]
     >
-    > Customer Journey Analytucs does not utilize the Experience Platform Profile or Identity services for stitching today.
+    > Customer Journey Analytics does not utilize the Experience Platform Profile or Identity services for stitching today.
 
 * Any custom data preparation or use of the field based identity stitching is performed on the data to insure a common key across time series datasets to be ingested into CJA.
 * Lookup data must have a primary ID that can join to a field in the event data. Counts as rows in licensing.
@@ -57,7 +57,7 @@ Profile data must have the same primary ID as the primary ID of the event data.
 * A data view is configured on the connection to select the specific dimensions and metrics to be included in the view. Attribution and allocation settings are also configured in the data view. These settings will then be computed at report time.
 * A project is then created to configure dashboards and reports within Analysis Workspace.
 
-Identity Stitching Considerations
+### Identity Stitching Considerations
 
 * Time-series data to be unioned must have the same id namespace on every record. To tie call center data to anonymized device data the digital ID must be tied to the calling ID. This can occur through several possible mechanisms. 1-the dial number being a unique dial number for that visitor for that time, along with a lookup table to tracks the relationship. 2-require the user to authenticate prior to requesting support and tying this to a identifier determined by the call agent - phone number or email as example. 3- leverage an onboarding partner to assist in typing online device identifiers with known identifiers tied to the support request.
 * The union process of unifying disparate datasets requires a common primary person/entity key across the datasets. 
@@ -67,10 +67,10 @@ Identity Stitching Considerations
 
 ## FAQs & Reference Documentation
 
-What are the downstream impacts of data models in CJA?
+* [Customer Journey Analytics Product Description](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html)
+* [Customer Journey Analytics documentation](https://experienceleague.adobe.com/docs/customer-journey-analytics.html)
+* [Customer Journey Analytics tutorials](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/overview.html)
+
+### What are the downstream impacts of data models in CJA?
 
 * Objects and attributes of the same XDM field will merge into one dimension in CJA. To  merge multiple attributes from various datasets into the same CJA dimension, the datasets should reference the same XDM field or schema.
-
-1. [Customer Journey Analytics Product Description](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html)
-
-2. [Customer Journey Analytics Product Documentation](https://experienceleague.adobe.com/docs/customer-journey-analytics.html?lang=en)
