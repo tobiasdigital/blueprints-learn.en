@@ -24,7 +24,7 @@ Examples can include determining customer lifetime value, product and category a
 
 ## Architecture
 
-![Data Science](assets/datascience.svg)
+<img src="assets/datascience.svg" alt="Reference Architecture for the Data Science and AI/ML Profile Enrichment Blueprint" style="border:1px solid black"/>
 
 ## Implementation Steps
 
@@ -38,8 +38,9 @@ Examples can include determining customer lifetime value, product and category a
 
 ## FAQs & Reference Documentation
 
-* [Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Product Documentation](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en)
+* [Adobe Experience Platform Intelligence product description](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* [Data Science Workspace documentation](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en)
+* [Data Science Workspace tutorials](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/understanding-data-science-workspace.html)
 
 ## Related Blog Posts
 
