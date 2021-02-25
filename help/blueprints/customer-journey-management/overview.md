@@ -6,7 +6,7 @@ kt:
 thumbnail: 
 ---
 
-# Multi-channel Message Orchestration blueprint
+# Multi-channel Message Orchestration Blueprint
 
 ## Description
 

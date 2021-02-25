@@ -6,7 +6,7 @@ kt:
 thumbnail: 
 ---
 
-# Data Prep and Enterprise Reporting blueprint
+# Data Prep and Enterprise Reporting Blueprint
 
 ## Description
 

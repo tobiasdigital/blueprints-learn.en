@@ -6,7 +6,7 @@ kt:
 thumbnail: 
 ---
 
-# Profile Lookup blueprint
+# Profile Lookup Blueprint
 
 ## Description
 

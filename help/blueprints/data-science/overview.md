@@ -6,7 +6,7 @@ kt:
 thumbnail: 
 ---
 
-# Data Science and Profile Enrichment blueprint
+# Data Science and Profile Enrichment Blueprint
 
 ## Description
 

@@ -6,7 +6,7 @@ kt:
 thumbnail: 
 ---
 
-# Audience Activation blueprint
+# Audience Activation Blueprint
 
 ## Description
 
