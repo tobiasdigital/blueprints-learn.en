@@ -63,7 +63,7 @@ Campaign Standard
 Adobe Experience Platform
 
 * Schema / Datasets
-  * Individual profile, experience event and multi-entity schemas are configured in AEP based on customer supplied data
+  * Individual profile, experience event and multi-entity schemas are configured in Experience Platform based on customer supplied data
   * Campaign schemas are created for all of the following: broadLog / trackingLog / non-deliverable addresses / profile preferences (optional)
   * Dataset labels are added for governance
   * Policies are created for enforcing governance on destination
@@ -76,11 +76,11 @@ Adobe Experience Platform
   * Segments are created for campaign usage
 
 * Sources / Destinations
-  * Data is ingested into AEP leveraging streaming API’s & source connectors
+  * Data is ingested into Experience Platform leveraging streaming API’s & source connectors
   * Azure blob storage destination is configured for use with Campaign
 
 * Mobile app deployment
-  * Implement Campaign SDK for ACC or AEP SDK for ACS.  If Launch is present recommendation is to use ACC/ACS extension with AEP SDK.
+  * Implement Campaign SDK for ACC or Experience Platform SDK for ACS.  If Launch is present recommendation is to use ACC/ACS extension with Experience Platform SDK.
 
 * Journey Orchestration
   * Streaming data used to initiate a customer journey needs to be configured within JO 1st to get an orchestration ID.  This orchestration ID Is then supplied to the developer to use with ingestion

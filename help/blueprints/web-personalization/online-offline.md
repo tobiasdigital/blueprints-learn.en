@@ -103,7 +103,7 @@ The Web/Mobile personalization blueprint can be implemented using either traditi
 * Audience Manager Solution Connector Overview
 * [Analytics Segment Sharing through AAM](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 * Streaming Segmentation Guidelines
-* [AEP Web SDK Documentation](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
+* [Experience Platform Web SDK Documentation](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * [Experience Cloud ID Service Documentation](https://experienceleague.adobe.com/docs/id-service/using/home.html)
 * [Experience Platform Launch Documentation](https://experienceleague.adobe.com/docs/launch/using/overview.html)
 

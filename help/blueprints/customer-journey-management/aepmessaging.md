@@ -52,7 +52,7 @@ Execute scheduled and batch messaging campaigns using Adobe Experience Platform 
 ### Adobe Experience Platform
 
 * Schema / Datasets
-  * Individual profile, experience event and multi-entity schemas are configured in AEP based on customer supplied data
+  * Individual profile, experience event and multi-entity schemas are configured in Experience Platform based on customer supplied data
   * Campaign schemas are created for all of the following: broadLog / trackingLog / non-deliverable addresses / profile preferences (optional)
   * Dataset labels are added for governance
   * Policies are created for enforcing governance on destination
@@ -65,15 +65,15 @@ Execute scheduled and batch messaging campaigns using Adobe Experience Platform 
   * Segments are created for campaign usage
 
 * Sources / Destinations
-  * Data is ingested into AEP leveraging streaming API’s & source connectors
+  * Data is ingested into Experience Platform leveraging streaming API’s & source connectors
   * Azure blob storage destination is configured for use with Campaign
 
 * Mobile app deployment
-  * Implement Campaign SDK for ACC or AEP SDK for ACS.  If Launch is present recommendation is to use ACC/ACS extension with AEP SDK.
+  * Implement Campaign SDK for ACC or Experience Platform SDK for ACS.  If Launch is present recommendation is to use ACC/ACS extension with Experience Platform SDK.
 
 * Campaign
   * Schemas configured for profile, lookup data and relevant delivery personalization data
-  * Critical to understand at this point what the data model is within AEP for profile and event data so you know what data will be required in Campaign
+  * Critical to understand at this point what the data model is within Experience Platform for profile and event data so you know what data will be required in Campaign
   * Import workflows
     * Simplified profile data is loaded onto Campaign sFTP and ingested
     * Orchestration and messaging personalization data is loaded onto Campaign sFTP ingested
