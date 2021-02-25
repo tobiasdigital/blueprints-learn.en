@@ -13,7 +13,7 @@ Execute scheduled and batch messaging campaigns using Adobe Experience Platform 
 ## Use Cases
 
 * Scheduled email campaigns
-* Onboarding and remarketing campaigns
+* Onboarding and re-marketing campaigns
 
 ## Reference Architecture
 
@@ -35,7 +35,7 @@ Execute scheduled and batch messaging campaigns using Adobe Experience Platform 
 * Campaign is source of truth for all active profiles meaning profiles must exist already in Campaign and new profiles should not be created based on Experience Platform segments.
 * Note that segment membership realization from Experience Platform is latent for both batch (1 per day) and streaming (~5 min)
 
-Real-time Customer Data Platform segment sharing to campaign:
+### Real-time Customer Data Platform segment sharing to campaign:
 
 * Recommendation of 20 segment limit
 * Activation is limited to every 24hrs
@@ -45,11 +45,11 @@ Real-time Customer Data Platform segment sharing to campaign:
 * Incremental or full segment exports are supported
 * File encryption is not supported
 * Campaign export workflows to run at most every 4hrs
-* See profile and data ingestion guardrails for Experience Platform - [Link](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
+* See [profile and data ingestion guardrails for Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 
 ## Implementation Steps and Considerations
 
-Adobe Experience Platform
+### Adobe Experience Platform
 
 * Schema / Datasets
   * Individual profile, experience event and multi-entity schemas are configured in AEP based on customer supplied data
