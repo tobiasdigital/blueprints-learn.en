@@ -44,7 +44,12 @@ Data Ingestion into CJA:
 ## Implementation Steps and Considerations
 
 * Data must be ingested into Platform prior to ingestion into CJA. Datasets and schemas configured and data ingested into Platform.
-* Cross channel event datasets to be analyzed in union must have a common namespace id or be re-keyed through the field based stitching capability.  *Note that CJA does not utilize the Experience Platform Profile or identity services for stitching today.
+* Cross channel event datasets to be analyzed in union must have a common namespace id or be re-keyed through the field based stitching capability.    
+ 
+    >[!NOTE]
+    >
+    > Customer Journey Analytucs does not utilize the Experience Platform Profile or Identity services for stitching today.
+
 * Any custom data preparation or use of the field based identity stitching is performed on the data to insure a common key across time series datasets to be ingested into CJA.
 * Lookup data must have a primary ID that can join to a field in the event data. Counts as rows in licensing.
 Profile data must have the same primary ID as the primary ID of the event data.
@@ -54,7 +59,7 @@ Profile data must have the same primary ID as the primary ID of the event data.
 
 Identity Stitching Considerations
 
-* Timeseries data to be unioned must have the same id namespace on every record. To tie call center data to anonymized device data the digital ID must be tied to the calling ID. This can occur through several possible mechanisms. 1-the dial number being a unique dial number for that visitor for that time, along with a lookup table to tracks the relationship. 2-require the user to authenticate prior to requesting support and tying this to a identifier determined by the call agent - phone number or email as example. 3- leverage an onboarding partner to assist in typing online device identifiers with known identifiers tied to the support request.
+* Time-series data to be unioned must have the same id namespace on every record. To tie call center data to anonymized device data the digital ID must be tied to the calling ID. This can occur through several possible mechanisms. 1-the dial number being a unique dial number for that visitor for that time, along with a lookup table to tracks the relationship. 2-require the user to authenticate prior to requesting support and tying this to a identifier determined by the call agent - phone number or email as example. 3- leverage an onboarding partner to assist in typing online device identifiers with known identifiers tied to the support request.
 * The union process of unifying disparate datasets requires a common primary person/entity key across the datasets. 
 * Secondary keys based unions are not supported at this time.
 * The field based identity stitching process allows for re-keying identities in rows based on subsequent  transient id records, such as an authentication id. This allows for resolving disparate records to a single id for analysis at the person level vs. at the device or cookie level.
