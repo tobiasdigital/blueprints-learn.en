@@ -19,7 +19,7 @@ Personalize based on online behavior and audience data.
 
 ## Reference Architecture
 
-![Data Exploration](assets/dataexplore.svg)
+<img src="assets/dataexplore.svg" alt="Reference architecture for the Data Exploration and Enterprise Reporting Blueprint" style="border:1px solid #4a4a4a"/>
 
 ## Prerequisites
 
