@@ -18,7 +18,7 @@ Personalize based on online behavior and audience data.
 
 ## Reference Architecture
 
-![Scenario 1](assets/personalization.svg)
+![Reference architecture for the scenario](assets/personalization.svg)
 
 ## Prerequisites
 
@@ -52,14 +52,14 @@ The Web/Mobile personalization blueprint can be implemented using either traditi
 
 * WebSDK/MobileSDK and Experience Edge Approach
 
-![Scenario 1](assets/websdkflow.png)
+![Reference architecture for the scenario](assets/websdkflow.png)
 
 
 
 
 * Application Specific SDK Approach
 
-![Scenario 1](assets/appsdkflow.png)
+![Reference architecture for the scenario](assets/appsdkflow.png)
 
 
 

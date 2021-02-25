@@ -16,7 +16,7 @@ Analyze what behavior a user exhibits prior to calling the call center. Understa
 
 ## Reference Architecture
 
-![Scenario 1](assets/CJA.svg)
+![Reference architecture for the scenario](assets/CJA.svg)
 
 ## Integration Patterns
 

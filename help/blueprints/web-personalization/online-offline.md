@@ -76,14 +76,14 @@ The Web/Mobile personalization blueprint can be implemented using either traditi
 
 * WebSDK/MobileSDK and Experience Edge Approach
 
-![Scenario 1](assets/websdkflow.png)
+![Reference architecture for the scenario](assets/websdkflow.png)
 
 
 
 
 * Application Specific SDK Approach
 
-![Scenario 1](assets/appsdkflow.png)
+![Reference architecture for the scenario](assets/appsdkflow.png)
 
 ## Implementation Steps
 
