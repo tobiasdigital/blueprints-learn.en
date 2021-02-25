@@ -28,7 +28,7 @@ Execute triggered messages and experiences using Adobe Experience Platform as a 
 ## Prerequisites
 
 * Adobe Experience Platform
-* Adobe Journey Orchestration
+* Journey Orchestration
 
 ## Guardrails
 
