@@ -16,7 +16,7 @@ Examples can include determining customer lifetime value, product and category a
 
 ## Scenarios
 
-| Scenario                                  | Description                                                                                                                                                                                                           | Experience Cloud Apps                      |
+| Scenario                                  | Description                                                                                                                                                                                                           | Experience Cloud Applications                      |
 |---|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
 |Exploratory Data Science                  | Exploratory data science – discover signal, completeness, correctness of data<br>Discover new insights using data science tooling                                                                                     | Experience Platform Intelligence                           |
 |Profile enrichment with AI/ML<br> - batch | Discover, author, train, deploy, score model - output – in batch<br>Push model prediction to profile or to data lake for batch based activation<br>Score – runs a job via orchestration service. Writes to a dataset. | Experience Platform Intelligence |

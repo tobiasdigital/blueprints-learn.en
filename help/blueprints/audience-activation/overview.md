@@ -14,7 +14,7 @@ Audience-first activation is the key to success in a data-driven marketing world
 
 ## Scenarios
 
-| Scenario | Description| Experience Cloud Apps|
+| Scenario | Description| Experience Cloud Applications|
 |---|---|---|
 | **[Anonymized Web and Advertising Activation](anonymous.md)** | Target audiences across web and advertising channels for anonymized/behavioral customer data.<br>Integrate with 3rd party audience data for increased personalization.                                                                                         | Adobe Audience Manager                                               |
 | **[Online/Offline + Pii Activation](online-offline.md)**        | + Activate to Pii and profile based destinations such as email providers, social networks, and advertising destinations that accept customer audience lists. <br>+ Activation against online and offline attributes and events (orders, transactions, CRM or loyalty data). | Adobe Experience Platform Real-time Customer Data Platform<br>Adobe Audience Manager (optional) |
