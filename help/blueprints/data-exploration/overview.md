@@ -6,7 +6,7 @@ kt:
 thumbnail: 
 ---
 
-# Data Prep and Enterprise Reporting blueprint
+# Data Prep and Enterprise Reporting Blueprint
 
 ## Description
 
@@ -14,7 +14,7 @@ Data Exploration & Enterprise Reporting comprises the ability within Adobe Exper
 
 Experience Platform's Query Service allows SQL queries to be performed on the data, while the Data Science Workspace enables data exploration, data science, and machine learning workloads to be performed on the data. 
 
-In addition Experience Platform's SQL Connector allows connections with 3rd party SQL clients and interfaces and Business Intelligence tools to directly connect to, access and query the data within Experience Platform utilizing the PostgreSQL protocol.
+In addition Experience Platform's SQL Connector allows connections with third-party SQL clients and interfaces and Business Intelligence tools to directly connect to, access and query the data within Experience Platform utilizing the PostgreSQL protocol.
 
 Certain guardrails apply for the query time out and for the amount of data that is included in the query result as noted within the scenario details.
 
