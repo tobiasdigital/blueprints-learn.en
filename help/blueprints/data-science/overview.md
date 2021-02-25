@@ -24,7 +24,7 @@ Examples can include determining customer lifetime value, product and category a
 
 ## Architecture
 
-<img src="assets/datascience.svg" alt="Reference Architecture for the Data Science and AI/ML Profile Enrichment Blueprint" style="border:1px solid black"/>
+<img src="assets/datascience.svg" alt="Reference Architecture for the Data Science and AI/ML Profile Enrichment Blueprint" style="border:1px solid #4a4a4a"/>
 
 ## Implementation Steps
 

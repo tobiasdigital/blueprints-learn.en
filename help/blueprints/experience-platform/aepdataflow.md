@@ -8,4 +8,4 @@ thumbnail:
 
 # Adobe Experience Platform Data Flow Diagram
 
-<img src="assets/aepdataflow.svg" alt="Experience Platform Data Flow" style="border:1px solid black"/>
+<img src="assets/aepdataflow.svg" alt="Experience Platform Data Flow" style="border:1px solid #4a4a4a"/>
