@@ -16,7 +16,6 @@ Examples can include determining customer lifetime value, product and category a
 
 ## Scenarios
 
-<<<<<<< HEAD
 
 | Scenario | Scenario Description | Experience Cloud Applications |
 |---|---|---|
