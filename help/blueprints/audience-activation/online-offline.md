@@ -32,10 +32,10 @@ Online/Offline Audience Activation.
 
 ## Implementation Steps
 
-* Datasets configured, enabled for Profile and data ingested into Platform
-* Real-time Customer Data Platform segments sharing between Experience Platform and Audience Manager must be provisioned for Audience Manager based destinations and Experience Cloud Audience Sharing.
-* Define Segments. Segments are systematically set as batch or streaming
-* Configure Destinations
+1.  Datasets configured, enabled for Profile and data ingested into Platform
+1.  Real-time Customer Data Platform segments sharing between Experience Platform and Audience Manager must be provisioned for Audience Manager based destinations and Experience Cloud Audience Sharing.
+1.  Define Segments. Segments are systematically set as batch or streaming
+1.  Configure Destinations
 
 ## FAQs & Reference Documentation
 

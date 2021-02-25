@@ -87,12 +87,12 @@ The Web/Mobile personalization blueprint can be implemented using either traditi
 
 ## Implementation Steps
 
-* Implement Adobe Target
-* Implement AAM and/or Analytics (optional)
-* Implement Platform and Real-time Customer Profile
-* Implement Visitor ID service or WebSDK
-* Provision People and Audience core service
-* Provision Audience Sharing between Experience Platform and Target
+1.  Implement Adobe Target
+1.  Implement AAM and/or Analytics (optional)
+1.  Implement Platform and Real-time Customer Profile
+1.  Implement Visitor ID service or WebSDK
+1.  Provision People and Audience core service
+1.  Provision Audience Sharing between Experience Platform and Target
 
 ## FAQ & Reference
 

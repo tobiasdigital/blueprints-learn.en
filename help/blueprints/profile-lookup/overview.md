@@ -31,9 +31,9 @@ Note that the current latency supported by the profile lookup API is ~ 500ms, ma
 ## Implementation Steps
 
 1. Datasets and schemas configured
-2. Profile configured – schema and dataset configured for profile, merge policy and identities configured
-3. Data collected into platform and processed to profile
-4. Entity API leveraged to lookup profile attribute – either from the record entity or the experience event entity
+1. Profile configured – schema and dataset configured for profile, merge policy and identities configured
+1. Data collected into platform and processed to profile
+1. Entity API leveraged to lookup profile attribute – either from the record entity or the experience event entity
 
 ## FAQs & Documentation
 

@@ -41,10 +41,10 @@ Audience Sharing: By default the segment sharing service allows a maximum of 75 
 
 ## Implementation Steps
 
-* Implement Adobe Target
-* Implement AAM or Analytics
-* Implement Visitor ID service
-* Provision People and Audience Sharing services
+1.  Implement Adobe Target
+1.  Implement AAM or Analytics
+1.  Implement Visitor ID service
+1.  Provision People and Audience Sharing services
 
 ## Data Flow Implementation Diagram
 

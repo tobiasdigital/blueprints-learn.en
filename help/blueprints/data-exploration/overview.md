@@ -46,10 +46,10 @@ Certain guardrails apply for the query time out and for the amount of data that 
 
 ## Implementation Steps
 
-* Datasets and schemas configured for data ingestion into the data lake
-* Data ingested
-* Data is then available by Query Service and Data Science Workspace for raw access and query
-* Business Intelligence tools and SQL clients can be connected to the Query Service for visualization and data query and exploration
+1.  Datasets and schemas configured for data ingestion into the data lake
+1.  Data ingested
+1.  Data is then available by Query Service and Data Science Workspace for raw access and query
+1.  Business Intelligence tools and SQL clients can be connected to the Query Service for visualization and data query and exploration
 
 ## FAQs & Reference Documentation
 
