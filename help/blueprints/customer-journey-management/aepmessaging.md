@@ -58,7 +58,7 @@ Execute scheduled and batch messaging campaigns using Adobe Experience Platform 
   * Policies are created for enforcing governance on destination
 
 * Profile / Identity
-  * Any customer specific namespaces are created for datasets
+  * Any customer-specific namespaces are created for datasets
   * Identities are added to schemas
   * Schema and datasets are enabled for profile
   * Merge rules are setup if differing views of real-time customer profile (optional)

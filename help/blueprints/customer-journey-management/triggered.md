@@ -32,9 +32,9 @@ Execute triggered messages and experiences using Adobe Experience Platform as a 
 
 ## Guardrails
 
-Journey Orchestration
+### Journey Orchestration
 
-* See link for more details on limitations [Link](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en#starting-with-journeys)
+* See link for [more details on limitations](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en#starting-with-journeys)
 * Capping is available via API setup today to ensure that the destination system is not saturated to the point of failure.  This means that messages that exceed the cap will be dropped completely and never sent.  Throttling is still not supported.
   * max connections - maximum number of http/s connections a destination can handle
   * max call count - maximum number of calls to be made in the periodInMs parameter
@@ -46,16 +46,14 @@ Journey Orchestration
 * Streaming segments – need to ensure the initial burst of profile qualifications can be handled along with the daily streaming qualifying volume per journey and across all journeys
 * Final destination must support REST API & JSON payload
 * Does not support Offer Decisioning Service at this time
-* See profile and data ingestion guardrails for Experience Platform - [Link](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
+* See [profile and data ingestion guardrails for Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 
-Campaign Standard
+### Campaign Standard
 
 * Can only support 14 tps (50k per hour) in throughput
 * Segment membership initiated journey’s are not supported
 * Re-action events to transactional message open/clicks are supported within JO
 * Transactional messaging logs are not natively sync’d to Experience Platform at this time, this will require a manual configuration - Recommendation to export logs at most every 4hrs
-
-
 
 
 ## Implementation Steps and Considerations
@@ -69,7 +67,7 @@ Adobe Experience Platform
   * Policies are created for enforcing governance on destination
 
 * Profile / Identity
-  * Any customer specific namespaces are created for datasets
+  * Any customer-specific namespaces are created for datasets
   * Identities are added to schemas
   * Schema and datasets are enabled for profile
   * Merge rules are setup if differing views of real-time customer profile (optional)
@@ -94,9 +92,9 @@ Adobe Experience Platform
 
 ## FAQs & Reference Documentation
 
-* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
-* [Journey Orchestration](https://experienceleague.adobe.com/docs/journey-orchestration.html?lang=en)
-* [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
-* [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=en)
-* [Launch](https://experienceleague.adobe.com/docs/launch.html?lang=en)
-* [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=en)
+* [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
+* [Journey Orchestration documentation](https://experienceleague.adobe.com/docs/journey-orchestration.html?lang=en)
+* [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
+* [Campaign Standard documentation](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=en)
+* [Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch.html?lang=en)
+* [Experience Platform Mobile SDK documentation](https://experienceleague.adobe.com/docs/mobile.html?lang=en)
