@@ -17,7 +17,7 @@ Analyze and extract insights from customer interactions across the customer jour
 
 ## Reference Architecture
 
-![Scenario 1](assets/CJA.svg)
+![Reference architecture for the Cross-site and Cross-channel Customer Journey Analysis scenario](assets/CJA.svg)
 
 ## Integration Patterns
 
@@ -46,7 +46,12 @@ Data Ingestion into CJA:
 ## Implementation Steps and Considerations
 
 * Data must be ingested into Platform prior to ingestion into CJA. Datasets and schemas configured and data ingested into Platform.
-* Cross channel event datasets to be analyzed in union must have a common namespace id or be re-keyed through the field based stitching capability.  *Note that CJA does not utilize the Experience Platform Profile or identity services for stitching today.
+* Cross channel event datasets to be analyzed in union must have a common namespace id or be re-keyed through the field based stitching capability. 
+ 
+    >[!NOTE]
+    >
+    > Customer Journey Analytics does not utilize the Experience Platform Profile or Identity services for stitching today.
+    
 * Any custom data preparation or use of the field based identity stitching is performed on the data to insure a common key across time series datasets to be ingested into CJA.
 * Lookup data must have a primary ID that can join to a field in the event data. Counts as rows in licensing.
 Profile data must have the same primary ID as the primary ID of the event data.
@@ -54,24 +59,25 @@ Profile data must have the same primary ID as the primary ID of the event data.
 * A data view is configured on the connection to select the specific dimensions and metrics to be included in the view. Attribution and allocation settings are also configured in the data view. These settings will then be computed at report time.
 * A project is then created to configure dashboards and reports within Analysis Workspace.
 
-Identity Stitching Considerations
+### Identity Stitching Considerations
 
-* Timeseries data to be unioned must have the same id namespace on every record.
+* Time-series data to be unioned must have the same id namespace on every record.
 * The union process of unifying disparate datasets requires a common primary person/entity key across the datasets. 
 * Secondary keys based unions are not supported at this time.
-* The field based identity stitching process allows for re-keying identities in rows based on subsequent  transient id records, such as an authentication id. This allows for resolving disparate records to a single id for analysis at the person level vs. at the device or cookie level.
+* The field based identity stitching process allows for re-keying identities in rows based on subsequent transient id records, such as an authentication id. This allows for resolving disparate records to a single id for analysis at the person level vs. at the device or cookie level.
 * Stitching happens once a week. With replay after the stitch.
 
 
 
 ## FAQs & Reference Documentation
 
-What are the downstream impacts of data models in CJA?
+* [Customer Journey Analytics Product Description](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html)
+* [Customer Journey Analytics documentation](https://experienceleague.adobe.com/docs/customer-journey-analytics.html)
+* [Customer Journey Analytics tutorials](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/overview.html)
+
+### What are the downstream impacts of data models in CJA?
 
 * Objects and attributes of the same XDM field will merge into one dimension in CJA. To  merge multiple attributes from various datasets into the same CJA dimension, the datasets should reference the same XDM field or schema.
 
 
-1. [Customer Journey Analytics Product Description](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html)
-
-2. [Customer Journey Analytics Product Documentation](https://experienceleague.adobe.com/docs/customer-journey-analytics.html?lang=en)
 

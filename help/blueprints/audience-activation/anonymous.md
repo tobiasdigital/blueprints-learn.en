@@ -17,7 +17,7 @@ Anonymized web and advertising activation.
 
 ## Reference Architecture
 
-![Scenario 1](assets/aam.svg)
+![Reference architecture for the scenario](assets/aam.svg)
 
 ## Prerequisites
 

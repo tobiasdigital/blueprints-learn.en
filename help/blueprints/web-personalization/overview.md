@@ -5,7 +5,7 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 
 thumbnail: 
 ---
-# Web and Mobile Personalization blueprint
+# Web and Mobile Personalization Blueprint
 
 ## Description
 

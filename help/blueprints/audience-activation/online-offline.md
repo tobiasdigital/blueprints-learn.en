@@ -39,7 +39,13 @@ Online/Offline Audience Activation.
 
 ## FAQs & Reference Documentation
 
-* [Product Description](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
+* [Real-time Customer Data Platform Product Description](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Profile and Segmentation Guidelines](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 * [Segmentation documentation](https://docs.adobe.com/content/help/en/experience-platform/segmentation/api/streaming-segmentation.html)
-* [Documentation for destinations](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html)
+* [Destinations documentation](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html)
+
+## Related Videos & Tutorials
+
+* [Real-time CDP overview](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html)
+* [Demo of Real-time CDP](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html)
+* [Create segments](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
