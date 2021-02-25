@@ -6,7 +6,7 @@ kt: 7086
 thumbnail: 
 ---
 
-# Online/Offline Audience Activation
+# Online/Offline Audience Activation scenario
 
 Online/Offline Audience Activation.
 
@@ -18,8 +18,7 @@ Online/Offline Audience Activation.
 
 ## Reference Architecture
 
-![Online/Offline](assets/onoff.svg)
-
+<img src="assets/onoff.svg" alt="Reference architecture for the Online/Offline Audience Activation scenario" style="border:1px solid #4a4a4a"/>
 
 ## Prerequisites
 
