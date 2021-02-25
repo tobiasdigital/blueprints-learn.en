@@ -6,11 +6,11 @@ kt:
 thumbnail: 
 ---
 
-# Customer Journey Analytics blueprint
+# Customer Journey Analytics Blueprint
 
 ## Description
 
-Customer Journey Analytics enables brands to unify customer data and behavior from various interaction channels and sources to create a journey based view of all customer interactions. Reporting and analysis can then be performed in the Customer Journey Analytics tool to evaluate and gain insight into customer interaction and behavior patterns, including top/bottom converting paths, top viewed content, categories and products, what campaigns resulted in conversion and increased engagement, as well as tool usage analysis to optimize self-service experiences as some examples.
+Customer Journey Analytics enables brands to unify customer data and behavior from various interaction channels and sources to create a journey based view of all customer interactions. Reporting and analysis can then be performed in the Customer Journey Analytics application service to evaluate and gain insight into customer interaction and behavior patterns, including top/bottom converting paths, top viewed content, categories and products, what campaigns resulted in conversion and increased engagement, as well as tool usage analysis to optimize self-service experiences as some examples.
 
 ## Scenarios
 
