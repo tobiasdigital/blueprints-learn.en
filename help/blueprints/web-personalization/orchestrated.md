@@ -28,7 +28,7 @@ Inbound Interactions
 
 Outbound Interactions
 
-* Adobe Experience Platform RTCDP/Activation → Campaign, Journey Orchestration, AAM and Ad Cloud
+* Adobe Experience Platform RTCDP/Activation → Campaign, Journey Orchestration, Audience Manager and Ad Cloud
 
 ## Prerequisites
 
@@ -44,7 +44,7 @@ Outbound Channels
 
 * Adobe Campaign, Journey Orchestration
 * Adobe Advertising Cloud
-* RTCDP and AAM for other channel activation
+* RTCDP and Audience Manager for other channel activation
 
 ## Guardrails
 

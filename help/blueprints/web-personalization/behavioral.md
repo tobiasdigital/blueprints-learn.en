@@ -18,7 +18,9 @@ Personalize based on online behavior and audience data.
 
 ## Reference Architecture
 
-![Reference architecture for the scenario](assets/personalization.svg)
+![Reference architecture for the scenario]()
+
+<img src="assets/personalization.svg" alt="Reference architecture for the Behavioral Web Personalization scenario" style="border:1px solid #4a4a4a"/>
 
 ## Prerequisites
 
@@ -30,44 +32,41 @@ Personalize based on online behavior and audience data.
 | Experience Cloud ID service | Platform Web SDK* or VisitorAPI.js 2.0+ |  |
 | Experience Cloud Audiences (Optional) | n/a |  |
 | Launch Edge Configuration <br> (if using Experience Platform Web SDK) | n/a |  |
-| Mobile SDK (Optional) | 4.11 or higher for iOS and Android |  |
+| Experience Platform Mobile SDK (Optional) | 4.11 or higher for iOS and Android |  |
 | Experience Platform Web SDK | 1.0, current Experience Platform SDK version has a number of use cases not yet supported for the Experience Cloud applications as noted in the [Experience Platform Web SDK documentation](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)| |
 
 ## Guardrails
 
 Availability: Global
 
-Audience Sharing: By default the segment sharing service allows a maximum of 75 audiences to be shared for each Analytics report suite. If AAM is being used for audience sharing there is no limit on the number of audiences that can be shared. 
+Audience Sharing: By default the segment sharing service allows a maximum of 75 audiences to be shared for each Analytics report suite. If Audience Manager is being used for audience sharing there is no limit on the number of audiences that can be shared. 
 
 ## Implementation Steps
 
-* Implement Adobe Target
-* Implement AAM or Analytics
-* Implement Visitor ID service
-* Provision People and Audience Sharing services
+1.  Implement Adobe Target
+1.  Implement Audience Manager or Analytics
+1.  Implement Visitor ID service
+1.  Provision People and Audience Sharing services
 
 ## Data Flow Implementation Diagram
 
-The Web/Mobile personalization blueprint can be implemented using either traditional app specific SDKs, or by using the WebSDK and Experience Edge Network.
+The Web/Mobile Personalization Blueprint can be implemented using either traditional application specific SDKs (e.g. AppMeasurement.js), or by using the Platform Web SDK/Mobile SDK and Experience Edge Network.
 
-* WebSDK/MobileSDK and Experience Edge Approach
+### Platform Web SDK/Mobile SDK and Experience Edge Approach
 
-![Reference architecture for the scenario](assets/websdkflow.png)
-
-
+<img src="assets/websdkflow.png" alt="Reference architecture for the Platform Web SDK/Mobile SDK and Experience Edge Approach" style="border:1px solid #4a4a4a"/>
 
 
-* Application Specific SDK Approach
+### Application-specific SDK Approach
 
-![Reference architecture for the scenario](assets/appsdkflow.png)
-
+<img src="assets/appsdkflow.png" alt="Reference architecture for the Application-specific SDK Approach" style="border:1px solid #4a4a4a"/>
 
 
 ## FAQs & Reference Documentation
 
-1. [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
-2. [Integrate Audience Manager with Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
-3. [Analytics Segment Sharing through AAM](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
+* [Integrate Audience Manager with Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
+* [Analytics Segment Sharing through AAM](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 
 
 ## Related Blog Posts

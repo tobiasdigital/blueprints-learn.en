@@ -6,11 +6,11 @@ kt:
 thumbnail: 
 ---
 
-# Data Science and Profile Enrichment Blueprint
+# Data Science and AI/ML Profile Enrichment Blueprint
 
 ## Description
 
-Data Science & AI/ML Profile Enrichment details the ability to utilize Adobe Experience Platform's Data Science Workspace to train, deploy, and score models on data within Experience Platform's Data Lake to provide machine learning insights from the data. These insights and models can directly output to a dataset enabled for profile, enabling machine learning insights to further enrich the real-time customer profile.
+Data Science & AI/ML Profile Enrichment details the ability to utilize Adobe Experience Platform's Data Science Workspace to train, deploy, and score models on data within Experience Platform's data lake to provide machine learning insights from the data. These insights and models can directly output to a dataset enabled for profile, enabling machine learning insights to further enrich the real-time customer profile.
 
 Examples can include determining customer lifetime value, product and category affinity, propensity to convert or propensity to churn as a few examples. 
 
@@ -24,22 +24,23 @@ Examples can include determining customer lifetime value, product and category a
 
 ## Architecture
 
-![Data Science](assets/datascience.svg)
+<img src="assets/datascience.svg" alt="Reference Architecture for the Data Science and AI/ML Profile Enrichment Blueprint" style="border:1px solid #4a4a4a"/>
 
 ## Implementation Steps
 
-* Data loaded/ingested to Experience Platform – schema, datasets created and data loaded.
-* Create a DSW notebook.
-* Choose a language - support for Python and PySpark.
-* Author model in notebook.
-* Train the model.
-* Score the model to generate predictions with the target data.
-* If pushing model results to the Real-time Customer Profile the model results dataset is enabled for Profile and the machine learned attributes are ingested to Profile.
+1. Data loaded/ingested to Experience Platform – schema, datasets created and data loaded.
+1.  Create a DSW notebook.
+1.  Choose a language - support for Python and PySpark.
+1.  Author model in notebook.
+1.  Train the model.
+1.  Score the model to generate predictions with the target data.
+1.  If pushing model results to the Real-time Customer Profile the model results dataset is enabled for Profile and the machine learned attributes are ingested to Profile.
 
 ## FAQs & Reference Documentation
 
-* [Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Product Documentation](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en)
+* [Adobe Experience Platform Intelligence product description](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* [Data Science Workspace documentation](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en)
+* [Data Science Workspace tutorials](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/understanding-data-science-workspace.html)
 
 ## Related Blog Posts
 
