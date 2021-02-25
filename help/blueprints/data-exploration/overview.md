@@ -1,20 +1,20 @@
 ---
-title: Data Prep and Enterprise Reporting Blueprint
+title: Data Exploration and Enterprise Reporting Blueprint
 description: placeholder description
 solution: Experience Platform
 kt: 
 thumbnail: 
 ---
 
-# Data Prep and Enterprise Reporting Blueprint
+# Data Exploration & Enterprise Reporting Blueprint
 
 ## Description
 
-Data Exploration & Enterprise Reporting comprises the ability within Adobe Experience Platform to perform exploratory query and analysis of the data that exists in the Experience Platform Data Lake.
+Data Exploration & Enterprise Reporting comprises the ability within Adobe Experience Platform to perform exploratory query and analysis of the data that exists in the data lake.
 
 Experience Platform's Query Service allows SQL queries to be performed on the data, while the Data Science Workspace enables data exploration, data science, and machine learning workloads to be performed on the data. 
 
-In addition Experience Platform's SQL Connector allows connections with third-party SQL clients and interfaces and Business Intelligence tools to directly connect to, access and query the data within Experience Platform utilizing the PostgreSQL protocol.
+In addition, Experience Platform allows connections with third-party SQL clients, interfaces and business intelligence (BI) tools to directly connect to, access and query the data within Experience Platform utilizing the PostgreSQL protocol.
 
 Certain guardrails apply for the query time out and for the amount of data that is included in the query result as noted within the scenario details.
 
@@ -33,7 +33,7 @@ Certain guardrails apply for the query time out and for the amount of data that 
 
 ## Reference Architecture
 
-![Data Exploration](assets/dataexplore.svg)
+<img src="assets/dataexplore.svg" alt="Reference architecture for the Data Exploration & Enterprise Reporting blueprint" style="border:1px solid black"/>
 
 ## Prerequisites
 
@@ -49,9 +49,9 @@ Certain guardrails apply for the query time out and for the amount of data that 
 * Datasets and schemas configured for data ingestion into the data lake
 * Data ingested
 * Data is then available by Query Service and Data Science Workspace for raw access and query
-* Business Intelligence tools and SQL clients can be connected to the Query Service for visualization and data query and exploration.
+* Business Intelligence tools and SQL clients can be connected to the Query Service for visualization and data query and exploration
 
 ## FAQs & Reference Documentation
 
-1. [Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-2. [Product Documentation](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)
+* [Adobe Experience Platform Intelligence product description](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* [Query Service documentation](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)
