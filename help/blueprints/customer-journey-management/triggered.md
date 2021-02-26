@@ -1,8 +1,8 @@
 ---
 title: Triggered Messaging and Adobe Experience Platform
-description: Triggered Messaging and Adobe Experience Platform
+description: Execute triggered messages and experiences using Adobe Experience Platform as a central hub streaming data, customer profiles and segmentation.
 solution: Experience Platform, Campaign, Journey Orchestration
-kt: 
+kt: 7197
 thumbnail: 
 ---
 

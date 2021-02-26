@@ -1,8 +1,8 @@
 ---
-title: Data Preparation and Ingestion
-description: Prepare and ingest data for modeling, analysis and activation in Experience Platform
-solution: Experience Platform
-kt: 
+title: Data Preparation and Ingestion Blueprint
+description: This blueprint shows all the methods by which data can be ingested and prepared in Adobe Experience Platform.
+solution: Experience Platform, Data Collection
+kt: 7204
 thumbnail: 
 ---
 
@@ -11,8 +11,6 @@ thumbnail:
 Data ingestion and preparation blueprint encompasses all the methods by which data can be ingested and prepared in Adobe Experience Platform.
 
 Data preparation includes the concepts of mapping source data to XDM (Experience Data Model) schema. It also includes performing transformations on data including date formatting, field splitting/concatenation/conversions, joining/merging/re-keying of records. This facilitates unifying customer data for providing aggregated/ filtered analysis including reporting or preparing data for customer profile assembly/data science/activation.
-
-![Data Ingestion](assets/dataingest.svg)
 
 <img src="assets/dataingest.svg" alt="Reference architecture for the Data Preparation and Ingestion Blueprint" style="border:1px solid #4a4a4a"/>
 
@@ -38,7 +36,7 @@ Data preparation includes the concepts of mapping source data to XDM (Experience
 | Methods of Data Preparation                                | Description                                                                                                                                                                                                                                                                                    |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Data Science Workspace - Data Prep                         | Model driven transformation, Scripted transformation.<br>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en)                                                                                                                   |
-| External ETL Tool (Snaplogic, Mulesoft, Informatic, etc.) | Perform complex transformations in ETL tooling and leverage standard Experience Platform Source APIs or Connectors to ingest the resultant data.                                                                                                                                                               |
+| External ETL Tool (Snaplogic, Mulesoft, Informatica, etc.) | Perform complex transformations in ETL tooling and leverage standard Experience Platform Source APIs or Connectors to ingest the resultant data.                                                                                                                                                               |
 | Query Service - Data Prep                                  | Joins, Splits, Merge, Transform, Query and Filter data into a new dataset. Using CTAS (Create Table as Select)<br>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en#sql)                                                                       |
 | XDM Mapper & Data Prep functions (Streaming and Batch)     | Map source attributes in CSV or JSON format into XDM attributes during Experience Platform ingestion.<br>Compute functions on data as it is ingested - i.e. data formatting, splitting, concat, etc.<br>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) |
 

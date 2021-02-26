@@ -1,8 +1,8 @@
 ---
 title: Profile Lookup Blueprint
-description: Real-time Customer Profile lookups to provide context for agent assisted support and sales.
-solution: Experience Platform
-kt: 
+description: Real-time Customer Profile lookups to provide context for agent-assisted support and sales.
+solution: Experience Platform, Data Collection
+kt: 7195
 thumbnail: 
 ---
 

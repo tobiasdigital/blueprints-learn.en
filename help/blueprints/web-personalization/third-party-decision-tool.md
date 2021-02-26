@@ -2,7 +2,7 @@
 title: Web Personalization using a third-party decision tool
 description: Adobe Experience Platform integrated with a third-party decision tool
 solution: Experience Platform
-kt: 
+kt: 7194
 thumbnail: 
 ---
 

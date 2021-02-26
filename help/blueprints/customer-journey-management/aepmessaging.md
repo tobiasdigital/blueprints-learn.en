@@ -1,8 +1,8 @@
 ---
 title: Batch Messaging and Adobe Experience Platform
-description: Batch Messaging and Adobe Experience Platform
+description: Execute scheduled and batch messaging campaigns using Adobe Experience Platform as a central hub for customer profiles and segmentation.
 solution: Experience Platform, Campaign
-kt: 
+kt: 7196
 thumbnail: 
 ---
 

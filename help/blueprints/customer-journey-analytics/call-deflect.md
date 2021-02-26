@@ -2,7 +2,7 @@
 title: Customer Journey Analytics - Call Deflection Analysis Scenario
 description: Analyze what behavior a user exhibits prior to calling the call center.
 solution: Experience Platform, Customer Journey Analytics
-kt: 
+kt: 7209
 thumbnail: 
 ---
 

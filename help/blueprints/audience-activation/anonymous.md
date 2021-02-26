@@ -1,8 +1,8 @@
 ---
 title: Anonymous Audience Activation
 description: Anonymous Audience Activation.
-solution: Experience Platform, Target, Audience Manager
-kt: 7086
+solution: Experience Platform, Audience Manager
+kt: 7211
 thumbnail: 
 ---
 

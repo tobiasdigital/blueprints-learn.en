@@ -1,8 +1,8 @@
 ---
 title: Data Exploration and Enterprise Reporting Blueprint
-description: placeholder description
+description: This blueprint shows the ability within Adobe Experience Platform to perform exploratory query and analysis of the data that exists in the data lake.
 solution: Experience Platform
-kt: 
+kt: 7207
 thumbnail: 
 ---
 
