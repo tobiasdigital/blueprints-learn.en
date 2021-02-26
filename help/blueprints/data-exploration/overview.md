@@ -8,8 +8,6 @@ thumbnail:
 
 # Data Exploration & Enterprise Reporting Blueprint
 
-## Description
-
 Data Exploration & Enterprise Reporting comprises the ability within Adobe Experience Platform to perform exploratory query and analysis of the data that exists in the data lake.
 
 Experience Platform's Query Service allows SQL queries to be performed on the data, while the Data Science Workspace enables data exploration, data science, and machine learning workloads to be performed on the data. 

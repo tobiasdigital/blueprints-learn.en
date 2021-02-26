@@ -7,7 +7,6 @@ thumbnail:
 ---
 # Web and Mobile Personalization Blueprint
 
-## Description
 
 Web and Mobile Personalization blueprint addresses the ability to utilize audience segmentation in multiple tools. Tool examples are Audience Manager, Real-time CDP, Offer Decisioning, and Adobe Target to personalize and optimize customer experiences. This can include personalizing which offers and banners are displayed as well as their layout, call-to-action, or content. This decisioning then can edify the customer to surface to the consumer based on their behaviors, demographics, loyalty profile, and prior transactions.
 

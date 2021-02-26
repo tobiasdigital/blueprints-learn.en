@@ -6,7 +6,7 @@ kt:
 thumbnail: 
 ---
 
-# Triggered Messaging and Adobe Experience Platform
+# Triggered Messaging and Adobe Experience Platform scenario
 
 Execute triggered messages and experiences using Adobe Experience Platform as a central hub streaming data, customer profiles and segmentation.
 
