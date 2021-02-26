@@ -2,7 +2,7 @@
 title: Behavioral Web Personalization Scenario
 description: Personalize based on online behavior and audience data.
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
-kt: 
+kt: 7085
 thumbnail: thumb-web-personalization-scenario1.jpg
 ---
 
