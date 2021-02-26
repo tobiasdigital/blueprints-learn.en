@@ -1,8 +1,8 @@
 ---
-title: Data Science and Profile Enrichment Blueprint
-description: AI/ML driven insights
-solution: Experience Platform
-kt: 
+title: Data Science and AI/ML Profile Enrichment Blueprint
+description: This blueprint shows how Adobe Experience Platform's Data Science Workspace can use data within Experience Platform to train, deploy, and score models to provide machine learning insights from the data.
+solution: Experience Platform, Data Collection
+kt: 7203
 thumbnail: 
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: Enterprise Data Collection
-description: Stream collected data to Experience Platform to destinations
-solution: Experience Platform
-kt: 
+description: Stream collected data by Experience Platform SDKs to destinations
+solution: Experience Platform, Data Collection
+kt: 7202
 thumbnail: 
 ---
 
