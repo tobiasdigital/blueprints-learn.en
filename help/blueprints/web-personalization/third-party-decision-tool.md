@@ -16,7 +16,7 @@ Adobe Experience Platform integrated with a third-party decision tool.
 * Requires Profile Edge or a latent profile lookup from Hub.
 
 
-## Reference Architecture
+## Architecture
 
     Diagram with notes from slide
 

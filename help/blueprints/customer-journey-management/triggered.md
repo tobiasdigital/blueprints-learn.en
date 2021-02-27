@@ -17,7 +17,7 @@ Execute triggered messages and experiences using Adobe Experience Platform as a 
 * Shopping cart and application form abandons
 * Location triggered messages
 
-## Reference Architecture
+## Architecture
 
 <img src="assets/triggered.svg" alt="Reference architecture for the Triggered Messaging and Adobe Experience Platform scenario" style="border:1px solid #4a4a4a" />
 
