@@ -12,7 +12,7 @@ Data ingestion and preparation blueprint encompasses all the methods by which da
 
 Data preparation includes the concepts of mapping source data to XDM (Experience Data Model) schema. It also includes performing transformations on data including date formatting, field splitting/concatenation/conversions, joining/merging/re-keying of records. This facilitates unifying customer data for providing aggregated/ filtered analysis including reporting or preparing data for customer profile assembly/data science/activation.
 
-<img src="assets/dataingest.svg" alt="Reference architecture for the Data Preparation and Ingestion Blueprint" style="border:1px solid #4a4a4a"/>
+<img src="assets/dataingest.svg" alt="Reference architecture for the Data Preparation and Ingestion Blueprint" style="border:1px solid #4a4a4a" />
 
 ## Data Ingestion Methods
 
