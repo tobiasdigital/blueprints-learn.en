@@ -12,20 +12,33 @@ Each Blueprint offers Adobe customers a series of artifacts that explain the hig
 
 ## What's New
 
-* **[Web Personalization Blueprint](/help/blueprints/web-personalization/overview.md)**
-    *Deliver personalized web content with Real-time Customer Profile.*
-* **[Audience Activation Blueprint](/help/blueprints/audience-activation/overview.md)**
-    *Deliver audience activated cross channel advertising with Real-time Customer Data Platform​.*
-* **[Multi-channel Message Orchestration Blueprint](/help/blueprints/customer-journey-management/overview.md)**
-    *Deliver individual, just-in-time customer experiences across screens.​*
+* **[Profile Lookup Blueprint](/help/blueprints/profile-lookup/overview.md)**
+    *Provide context for agent-assisted support and sales.*
+* **[Data Exploration & Enterprise Reporting Blueprint](help/blueprints/data-exploration/overview.md)**
+    *Perform exploratory query and analysis of the data in the data lake.*
+* **[Customer Journey Analytics Blueprint](help/blueprints/customer-journey-analytics/overview.md)**
+    *Unify and analyze data and customer behaviors from across the customer journey.​*
 
 ## Featured Blueprints
 
 <table>
 <tr>
   <td>
+    <a href="/help/blueprints/web-personalization/overview.md">
+      <img alt="thumbnail image for the 'Web Personalization' blueprint" src="web-personalization/assets/personalization.svg" />
+    </a>
+    <div>
+      <a href="/help/blueprints/web-personalization/overview.md">
+    <strong>Web Personalization Blueprint</strong>
+    </a>
+    </div>
+    <p>
+    <em>Deliver personalized web and mobile content.</em>
+    <p>
+  </td>
+  <td>
     <a href="/help/blueprints/audience-activation/overview.md">
-      <img alt="thumbnail image for the 'Audience Activation' blueprint" src="/help/blueprints/audience-activation/assets/thumb-audience-activation-blueprint.jpg" />
+      <img alt="thumbnail image for the 'Audience Activation' blueprint" src="audience-activation/assets/aam.svg" />
     </a>
     <div>
       <a href="/help/blueprints/audience-activation/overview.md">
@@ -33,12 +46,12 @@ Each Blueprint offers Adobe customers a series of artifacts that explain the hig
     </a>
     </div>
     <p>
-    <em>Deliver audience activated cross channel advertising with Real-time Customer Data Platform.</em>
+    <em>Deliver audience-activated cross-channel advertising.</em>
     <p>
   </td>
   <td>
     <a href="/help/blueprints/customer-journey-management/overview.md">
-      <img alt="thumbnail image for the 'Multi-channel Orchestration blueprint'" src="/help/blueprints/customer-journey-management/assets/thumb-multi-channel-orchestration-blueprint.jpg" />
+      <img alt="thumbnail image for the 'Multi-channel Orchestration blueprint'" src="customer-journey-management/assets/aepbatch.svg" />
     </a>
     <div>
       <a href="/help/blueprints/customer-journey-management/overview.md">
