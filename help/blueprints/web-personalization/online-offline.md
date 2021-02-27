@@ -22,18 +22,18 @@ Synchronize web personalization with email and other known and anonymous channel
 
 ## Prerequisites
 
-1. Provisioning
+1. Applications:
 
-    * Adobe Experience Platform, Activation or RTCDP
+    * Adobe Experience Platform, Activation or Real-time Customer Data Platform
     * Adobe Target
     * Adobe Audience Manager (Optional)
     * Adobe Analytics (Optional)
 
-1. Visitor ID service or WebSDK must be implemented to have synced Experience Cloud IDs across applications. It is strongly recommended to leverage Experience Platform Launch to deploy the ID service to ensure the ID is set prior to any application calls.
+1. Visitor ID service or Web SDK must be implemented to have synced Experience Cloud IDs across applications. It is strongly recommended to leverage Experience Platform Launch to deploy the ID service to ensure the ID is set prior to any application calls.
 
 1. For Analytics integration, all Analytics tracking must have been converted to Regional Data Collection. RDC.
 
-1. Minimum code versions are as follows.
+1. Minimum code versions:
 
     * Experience Cloud ID service – VisitorAPI.js 2.0 or higher
     * Analytics – AppMeasurement.js 1.6.4 or higher
