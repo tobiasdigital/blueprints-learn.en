@@ -31,7 +31,7 @@ Certain guardrails apply for the query time out and for the amount of data that 
 
 ## Reference Architecture
 
-<img src="assets/dataexplore.svg" alt="Reference architecture for the Data Exploration & Enterprise Reporting Blueprint" style="border:1px solid #4a4a4a"/>
+<img src="assets/dataexplore.svg" alt="Reference architecture for the Data Exploration & Enterprise Reporting Blueprint" style="border:1px solid #4a4a4a" />
 
 ## Prerequisites
 

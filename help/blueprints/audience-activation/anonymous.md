@@ -17,7 +17,7 @@ Anonymized web and advertising activation.
 
 ## Reference Architecture
 
-<img src="assets/aam.svg" alt="Reference architecture for the Anonymous Audience Activation scenario" style="border:1px solid #4a4a4a"/>
+<img src="assets/aam.svg" alt="Reference architecture for the Anonymous Audience Activation scenario" style="border:1px solid #4a4a4a" />
 
 ## Prerequisites
 

@@ -18,7 +18,7 @@ Synchronize web personalization with email and other known and anonymous channel
 
 ## Reference Architecture
 
-<img src="assets/onoff.svg" alt="Reference architecture for the Online/Offline Web Personalization scenario" style="border:1px solid #4a4a4a"/>
+<img src="assets/onoff.svg" alt="Reference architecture for the Online/Offline Web Personalization scenario" style="border:1px solid #4a4a4a" />
 
 ## Prerequisites
 
@@ -63,12 +63,12 @@ The Web/Mobile personalization blueprint can be implemented using either traditi
 
 ### Platform Web SDK/Mobile SDK and Experience Edge Approach
 
-<img src="assets/websdkflow.png" alt="Reference architecture for the Platform Web SDK/Mobile SDK and Experience Edge Approach" style="border:1px solid #4a4a4a"/>
+<img src="assets/websdkflow.png" alt="Reference architecture for the Platform Web SDK/Mobile SDK and Experience Edge Approach" style="border:1px solid #4a4a4a" />
 
 
 ### Application Specific SDK Approach
 
-<img src="assets/appsdkflow.png" alt="Reference architecture for the Application-specific SDK Approach" style="border:1px solid #4a4a4a"/>
+<img src="assets/appsdkflow.png" alt="Reference architecture for the Application-specific SDK Approach" style="border:1px solid #4a4a4a" />
 
 ## Implementation Steps
 

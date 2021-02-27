@@ -17,7 +17,7 @@ Analyze and extract insights from customer interactions across the customer jour
 
 ## Reference Architecture
 
-<img src="assets/CJA.svg" alt="Reference architecture for the Customer Journey Analytics Blueprint" style="border:1px solid #4a4a4a"/>
+<img src="assets/CJA.svg" alt="Reference architecture for the Customer Journey Analytics Blueprint" style="border:1px solid #4a4a4a" />
 
 
 ## Integration Patterns

@@ -12,7 +12,7 @@ Enterprise data collection refers to the ability to collect data with Adobe Expe
 
 ## Architecture
 
-<img src="assets/entcollect.svg" alt="Reference Architecture for Enterprise Data Collection" style="border:1px solid #4a4a4a"/>
+<img src="assets/entcollect.svg" alt="Reference Architecture for Enterprise Data Collection" style="border:1px solid #4a4a4a" />
 
 ## FAQs & Reference Documentation
 

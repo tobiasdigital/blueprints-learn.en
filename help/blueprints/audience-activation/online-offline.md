@@ -18,7 +18,7 @@ Online/Offline Audience Activation.
 
 ## Reference Architecture
 
-<img src="assets/onoff.svg" alt="Reference architecture for the Online/Offline Audience Activation scenario" style="border:1px solid #4a4a4a"/>
+<img src="assets/onoff.svg" alt="Reference architecture for the Online/Offline Audience Activation scenario" style="border:1px solid #4a4a4a" />
 
 ## Prerequisites
 

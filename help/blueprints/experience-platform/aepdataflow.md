@@ -10,4 +10,4 @@ thumbnail:
 
 This architecture diagram shows how data flows into and out of Adobe Experience Platform.
 
-<img src="assets/aepdataflow.svg" alt="Experience Platform Data Flow" style="border:1px solid #4a4a4a"/>
+<img src="assets/aepdataflow.svg" alt="Experience Platform Data Flow" style="border:1px solid #4a4a4a" />

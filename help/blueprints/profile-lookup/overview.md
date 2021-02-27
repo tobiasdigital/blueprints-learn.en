@@ -20,7 +20,7 @@ Note that the current latency supported by the profile lookup API is ~ 500ms, ma
 
 ## Architecture
 
-<img src="assets/cah.svg" alt="Reference Architecture for the Profile Lookup Blueprint" style="border:1px solid #4a4a4a"/>
+<img src="assets/cah.svg" alt="Reference Architecture for the Profile Lookup Blueprint" style="border:1px solid #4a4a4a" />
 
 ## Guardrails
 
