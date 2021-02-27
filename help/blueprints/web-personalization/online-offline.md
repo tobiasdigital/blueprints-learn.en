@@ -74,18 +74,18 @@ The Web/Mobile personalization blueprint can be implemented using either traditi
 
 1.  Implement Adobe Target
 1.  Implement Audience Manager and/or Analytics (optional)
-1.  Implement Platform and Real-time Customer Profile
-1.  Implement Visitor ID service or WebSDK
-1.  Provision People and Audience core service
+1.  Implement Experience Platform and Real-time Customer Profile
+1.  Implement Visitor ID Service or Experience Platform Web SDK
+1.  Provision People and Audience services
 1.  Provision Audience Sharing between Experience Platform and Target
 
-## FAQ & Reference
+## Related Documentation
 
-* [Bidirectional Segment Sharing Overview](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html)
+* [Experience Platform segment sharing with Audience Manager and other Experience Cloud solutions](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html)
 * [Experience Platform Segmentation Overview](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)
 * [Streaming Segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
 * [Experience Platform Segment Builder Overview](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)
-* Audience Manager Solution Connector Overview
+* [Audience Manager Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
 * [Analytics Segment Sharing through AAM](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 * Streaming Segmentation Guidelines
 * [Experience Platform Web SDK documentation](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)

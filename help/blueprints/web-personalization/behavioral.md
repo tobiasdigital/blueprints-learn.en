@@ -29,7 +29,7 @@ Personalize based on online behavior and audience data.
 | Adobe Analytics (Optional) | Platform Web SDK* or AppMeasurement.js 1.6.4+ |  |
 | Experience Cloud ID service | Platform Web SDK* or VisitorAPI.js 2.0+ |  |
 | Experience Cloud Audiences (Optional) | n/a |  |
-| Platform Launch Edge Configuration <br> (if using Experience Platform Web SDK) | n/a |  |
+| Experience Platform Launch Edge Configuration <br> (if using Experience Platform Web SDK) | n/a |  |
 | Experience Platform Mobile SDK (Optional) | 4.11 or higher for iOS and Android |  |
 | Experience Platform Web SDK | 1.0, current Experience Platform SDK version has [various use cases not yet supported for the Experience Cloud applications](https://github.com/adobe/alloy/projects/5)| |
 
@@ -48,7 +48,7 @@ By default the segment sharing service allows a maximum of 75 audiences to be sh
 
 The Web/Mobile Personalization Blueprint can be implemented by using either the Platform Web SDK/Mobile SDK and Edge Network or using either traditional application-specific SDKs (for example, AppMeasurement.js).
 
-### Platform Web SDK/Mobile SDK and Edge Network Approach
+### Platform Web/Mobile SDK and Edge Network Approach
 
 <img src="assets/websdkflow.png" alt="Reference architecture for the Platform Web SDK/Mobile SDK and Edge Network Approach" style="border:1px solid #4a4a4a" />
 

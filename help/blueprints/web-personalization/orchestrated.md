@@ -23,15 +23,15 @@ Inbound Interactions
 
 * Adobe Audience Manager → Target
 * Adobe Analytics → Target
-* Adobe Experience Platform RTCDP/Activation → Target, Offer Decisioning
+* Real-time Customer Data Platform or Activation → Target, Offer Decisioning
 
 Outbound Interactions
 
-* Adobe Experience Platform RTCDP/Activation → Campaign, Journey Orchestration, Audience Manager and Ad Cloud
+* Real-time Customer Data Platform or Activation → Campaign, Journey Orchestration, Audience Manager and Ad Cloud
 
 ## Prerequisites
 
-Adobe Experience Platform, Activation or RTCDP
+Adobe Experience Platform, Activation or Real-time Customer Data Platform
 
 Inbound Channels
 
@@ -43,7 +43,7 @@ Outbound Channels
 
 * Adobe Campaign, Journey Orchestration
 * Adobe Advertising Cloud
-* RTCDP and Audience Manager for other channel activation
+* Real-time Customer Data Platform and Audience Manager for other channel activation
 
 ## Guardrails
 

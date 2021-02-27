@@ -32,8 +32,6 @@ Analyze what behavior a user exhibits prior to calling the call center. Understa
 
 ## Guardrails
 
-Availability: Global
-
 Sandbox support: Sandbox compliant (Org must be enabled for sandboxing) datasets from sandboxes can be selected in the CJA Connector configuration. One sandbox per connector.
 
 Data Ingestion into CJA:
