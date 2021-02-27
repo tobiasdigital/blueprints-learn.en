@@ -34,8 +34,6 @@ Analyze and extract insights from customer interactions across the customer jour
 
 ## Guardrails
 
-Availability: Global
-
 Sandbox support: Sandbox compliant (Org must be enabled for sandboxing) datasets from sandboxes can be selected in the CJA Connector configuration. One sandbox per connector.
 
 Data Ingestion into CJA:
