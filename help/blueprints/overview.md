@@ -1,6 +1,6 @@
 ---
 title: Digital Experience Blueprints
-description: Learn about Digital Experience Blueprints
+description: Digital Experience Blueprints are repeatable implementations to address strategy and solve established business problems. They accelerate time-to-value and provide a fast path to success.
 solution: Experience Platform
 ---
 
