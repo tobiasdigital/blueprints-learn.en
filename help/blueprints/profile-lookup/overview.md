@@ -8,13 +8,11 @@ thumbnail:
 
 # Profile Lookup Blueprint
 
-Profile Lookup Blueprint how external applications can access Adobe Experience Platform’s Real-time Customer Profile. 
+Profile Lookup Blueprint shows how external applications can access Adobe Experience Platform’s Real-time Customer Profile. 
 
 External application can access Real-time Customer Profiles with an API GET request. Attributes, events, segment memberships, and model-driven features stored in the profile can then be used in these external, non-Adobe applications.
 
-With this capability, you could surface rich context when a customer calls your call center. Support agents could have visibility into the customer's lifetime value, propensity to churn or exposure to marketing campaigns, for example. 
-
-Sales agents could also benefit from more context or insight into the customer they are selling.
+With this capability, you could surface rich context when a customer calls your call center. Support agents could have visibility into the customer's lifetime value, propensity to churn or exposure to marketing campaigns, for example. Sales agents could also benefit from more context or insight into the customer they are selling.
 
 >[!NOTE]
 >
