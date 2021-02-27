@@ -33,7 +33,7 @@ Examples can include determining customer lifetime value, product and category a
 1.  Score the model to generate predictions with the target data.
 1.  If pushing model results to the Real-time Customer Profile the model results dataset is enabled for Profile and the machine learned attributes are ingested to Profile.
 
-## FAQs & Reference Documentation
+## Related Documentation
 
 * [Adobe Experience Platform Intelligence product description](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
 * [Data Science Workspace documentation](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en)

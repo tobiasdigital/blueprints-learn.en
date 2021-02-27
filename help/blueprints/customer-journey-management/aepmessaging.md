@@ -84,7 +84,7 @@ Execute scheduled and batch messaging campaigns using Adobe Experience Platform 
     1.  Profile preferences are sent back to Experience Platform via consulting-built workflows every 4hrs (optional)
 
 
-## FAQs & Reference Documentation
+## Related Documentation
 
 * [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
 * [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)

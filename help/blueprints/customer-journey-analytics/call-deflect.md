@@ -66,7 +66,7 @@ Profile data must have the same primary ID as the primary ID of the event data.
 * The field based identity stitching process allows for re-keying identities in rows based on subsequent  transient id records, such as an authentication id. This allows for resolving disparate records to a single id for analysis at the person level vs. at the device or cookie level.
 * Stitching happens once a week. With replay after the stitch.
 
-## FAQs & Reference Documentation
+## Related Documentation
 
 * [Customer Journey Analytics Product Description](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html)
 * [Customer Journey Analytics documentation](https://experienceleague.adobe.com/docs/customer-journey-analytics.html)

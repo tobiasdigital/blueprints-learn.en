@@ -70,7 +70,7 @@ Profile data must have the same primary ID as the primary ID of the event data.
 
 
 
-## FAQs & Reference Documentation
+## Related Documentation
 
 * [Customer Journey Analytics Product Description](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html)
 * [Customer Journey Analytics documentation](https://experienceleague.adobe.com/docs/customer-journey-analytics.html)

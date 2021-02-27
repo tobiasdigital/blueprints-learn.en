@@ -28,4 +28,4 @@ Adobe Experience Platform integrated with a third-party decision tool.
 
 ## Implementation Steps
 
-## FAQs & Reference Documentation
+## Related Documentation

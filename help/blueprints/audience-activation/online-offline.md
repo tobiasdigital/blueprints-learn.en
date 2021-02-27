@@ -36,7 +36,7 @@ Online/Offline Audience Activation.
 1.  Define Segments. Segments are systematically set as batch or streaming
 1.  Configure Destinations
 
-## FAQs & Reference Documentation
+## Related Documentation
 
 * [Real-time Customer Data Platform Product Description](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Profile and Segmentation Guidelines](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
