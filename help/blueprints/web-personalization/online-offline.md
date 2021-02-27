@@ -59,11 +59,11 @@ Synchronize web personalization with email and other known and anonymous channel
 
 ## Data Flow & Implementation Diagram
 
-The Web/Mobile personalization blueprint can be implemented using either traditional application-specific SDKs (e.g. AppMeasurement.js), or by using the Platform Web SDK/Mobile SDK and Experience Edge Network.
+The Web/Mobile personalization blueprint can be implemented using either traditional application-specific SDKs (e.g. AppMeasurement.js), or by using the Platform Web SDK/Mobile SDK and Edge Network Network.
 
-### Platform Web SDK/Mobile SDK and Experience Edge Approach
+### Platform Web/Mobile SDK and Edge Approach
 
-<img src="assets/websdkflow.png" alt="Reference architecture for the Platform Web SDK/Mobile SDK and Experience Edge Approach" style="border:1px solid #4a4a4a" />
+<img src="assets/websdkflow.png" alt="Reference architecture for the Platform Web SDK/Mobile SDK and Edge Network Approach" style="border:1px solid #4a4a4a" />
 
 
 ### Application Specific SDK Approach

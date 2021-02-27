@@ -46,11 +46,11 @@ By default the segment sharing service allows a maximum of 75 audiences to be sh
 
 ## Data Flow Implementation Diagram
 
-The Web/Mobile Personalization Blueprint can be implemented by using either the Platform Web SDK/Mobile SDK and Experience Edge Network or using either traditional application-specific SDKs (e.g. AppMeasurement.js).
+The Web/Mobile Personalization Blueprint can be implemented by using either the Platform Web SDK/Mobile SDK and Edge Network Network or using either traditional application-specific SDKs (e.g. AppMeasurement.js).
 
-### Platform Web SDK/Mobile SDK and Experience Edge Approach
+### Platform Web SDK/Mobile SDK and Edge Network Approach
 
-<img src="assets/websdkflow.png" alt="Reference architecture for the Platform Web SDK/Mobile SDK and Experience Edge Approach" style="border:1px solid #4a4a4a" />
+<img src="assets/websdkflow.png" alt="Reference architecture for the Platform Web SDK/Mobile SDK and Edge Network Approach" style="border:1px solid #4a4a4a" />
 
 
 ### Application-specific SDK Approach
