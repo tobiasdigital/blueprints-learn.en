@@ -66,7 +66,11 @@ Profile data must have the same primary ID as the primary ID of the event data.
 * The field based identity stitching process allows for re-keying identities in rows based on subsequent transient id records, such as an authentication id. This allows for resolving disparate records to a single id for analysis at the person level vs. at the device or cookie level.
 * Stitching happens once a week. With replay after the stitch.
 
+## FAQ
 
+* What are the downstream impacts of data models in CJA?
+
+    Objects and attributes of the same XDM field will merge into one dimension in CJA. To  merge multiple attributes from various datasets into the same CJA dimension, the datasets should reference the same XDM field or schema.
 
 ## Related Documentation
 
@@ -74,9 +78,6 @@ Profile data must have the same primary ID as the primary ID of the event data.
 * [Customer Journey Analytics documentation](https://experienceleague.adobe.com/docs/customer-journey-analytics.html)
 * [Customer Journey Analytics tutorials](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/overview.html)
 
-### What are the downstream impacts of data models in CJA?
-
-* Objects and attributes of the same XDM field will merge into one dimension in CJA. To  merge multiple attributes from various datasets into the same CJA dimension, the datasets should reference the same XDM field or schema.
 
 
 
