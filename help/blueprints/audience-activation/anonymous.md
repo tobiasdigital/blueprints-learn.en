@@ -23,7 +23,7 @@ Anonymized web and advertising activation.
 
 * Adobe Audience Manager
 
-## FAQs & Reference Documentation
+## Related Documentation
 
 * [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager.html?lang=en)
 * [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)

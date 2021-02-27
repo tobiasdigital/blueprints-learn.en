@@ -49,7 +49,7 @@ Certain guardrails apply for the query time out and for the amount of data that 
 1.  Data is then available by Query Service and Data Science Workspace for raw access and query
 1.  Business Intelligence tools and SQL clients can be connected to the Query Service for visualization and data query and exploration
 
-## FAQs & Reference Documentation
+## Related Documentation
 
 * [Adobe Experience Platform Intelligence product description](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
 * [Query Service documentation](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)

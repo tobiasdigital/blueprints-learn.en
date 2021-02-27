@@ -92,7 +92,7 @@ Execute triggered messages and experiences using Adobe Experience Platform as a 
   1.  Export workflows need to be configured to export transactional messaging logs. Recommendation is to run at most every 4hrs
 
 
-## FAQs & Reference Documentation
+## Related Documentation
 
 * [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
 * [Journey Orchestration documentation](https://experienceleague.adobe.com/docs/journey-orchestration.html?lang=en)

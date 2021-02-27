@@ -14,7 +14,7 @@ Enterprise data collection refers to the ability to collect data with Adobe Expe
 
 <img src="assets/entcollect.svg" alt="Reference Architecture for Enterprise Data Collection" style="border:1px solid #4a4a4a" />
 
-## FAQs & Reference Documentation
+## Related Documentation
 
 [Experience Platform Launch Server Side documentation](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=en#server-side-info)
 
