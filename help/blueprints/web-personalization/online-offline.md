@@ -16,7 +16,7 @@ Synchronize web personalization with email and other known and anonymous channel
 * Behavioral and offline profile targeting
 * Personalization based on prior product/content views, product/content affinity, environmental attributes, third-party audience data and demographics in addition to offline insights such as transactions, loyalty and CRM data, and modeled insights
 
-## Reference Architecture
+## Architecture
 
 <img src="assets/onoff.svg" alt="Reference architecture for the Online/Offline Web Personalization scenario" style="border:1px solid #4a4a4a" />
 

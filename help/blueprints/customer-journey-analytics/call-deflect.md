@@ -14,7 +14,7 @@ Analyze what behavior a user exhibits prior to calling the call center. Understa
 
 * Unify customer interactions across desktop and mobile to analyze customer behavior prior to agent-assisted calls or support chats to determine what actions most often result in the user pursuing agent-assisted interactions.
 
-## Reference Architecture
+## Architecture
 
 <img src="assets/CJA.svg" alt="Reference architecture for the Customer Journey Analytics Blueprint" style="border:1px solid #4a4a4a" />
 

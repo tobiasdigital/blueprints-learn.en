@@ -29,7 +29,7 @@ Certain guardrails apply for the query time out and for the amount of data that 
 | **Data Exploration - raw query of data**  | <ul><li>Write and perform SQL queries in the Experience Platform Data Lake using the interactive query user interface or connecting with a SQL client. Data Science Workspace can also be used to query and gain insight from the raw data in Experience Platform.</li></ul> | <ul><li>Adobe Experience Platform</li></ul>|
 | **Enterprise Dashboarding**  | <ul><li>Business Intelligence tools can be connected to Experience Platform to visualize data for dashboarding and reporting use cases.</li></ul> | <ul><li>Adobe Experience Platform</li></ul>|  
 
-## Reference Architecture
+## Architecture
 
 <img src="assets/dataexplore.svg" alt="Reference architecture for the Data Exploration & Enterprise Reporting Blueprint" style="border:1px solid #4a4a4a" />
 

@@ -15,7 +15,7 @@ Analyze and extract insights from customer interactions across the customer jour
 * Unify customer interactions across desktop and mobile to analyze customer behavior and extract insights to optimize digital customer experiences.
 * Unify customer interactions across channels, including digital and offline channels such as support interactions or in store purchases to better understand and optimize the customer journey. 
 
-## Reference Architecture
+## Architecture
 
 <img src="assets/CJA.svg" alt="Reference architecture for the Customer Journey Analytics Blueprint" style="border:1px solid #4a4a4a" />
 

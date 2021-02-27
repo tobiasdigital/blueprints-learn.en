@@ -16,7 +16,7 @@ Personalize based on online behavior and audience data.
 * Behavioral Targeting
 * Personalization based on prior product/content views, product/content affinity, environmental attributes, third-party audience data and demographics
 
-## Reference Architecture
+## Architecture
 
 <img src="assets/personalization.svg" alt="Reference architecture for the Behavioral Web Personalization scenario" style="border:1px solid #4a4a4a" />
 

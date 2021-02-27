@@ -16,7 +16,7 @@ Online/Offline Audience Activation.
 * Augment web/mobile personalization efforts with granular and enriched audiences.
 * Build audiences that can be exported for granular targeting and personalization in Email and Mobile messaging systems.
 
-## Reference Architecture
+## Architecture
 
 <img src="assets/onoff.svg" alt="Reference architecture for the Online/Offline Audience Activation scenario" style="border:1px solid #4a4a4a" />
 

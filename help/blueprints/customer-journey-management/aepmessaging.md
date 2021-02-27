@@ -15,7 +15,7 @@ Execute scheduled and batch messaging campaigns using Adobe Experience Platform 
 * Scheduled email campaigns
 * Onboarding and re-marketing campaigns
 
-## Reference Architecture
+## Architecture
 
 <img src="assets/aepbatch.svg" alt="Reference architecture for the Batch Messaging and Adobe Experience Platform scenario" style="border:1px solid #4a4a4a" />
 
