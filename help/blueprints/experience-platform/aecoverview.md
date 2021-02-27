@@ -10,4 +10,4 @@ thumbnail:
 
 This architecture diagram shows how all of the Adobe Experience Cloud applications, application services and Adobe Experience Platform fit into an enterprise marketing architecture.
 
-<img src="assets/AEC.svg" alt="Experience Cloud" style="border:1px solid #4a4a4a"/>
+<img src="assets/AEC.svg" alt="Experience Cloud" style="border:1px solid #4a4a4a" />
