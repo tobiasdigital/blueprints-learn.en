@@ -14,9 +14,9 @@ Each Blueprint offers Adobe customers a series of artifacts that explain the hig
 
 * **[Profile Lookup Blueprint](/help/blueprints/profile-lookup/overview.md)**
     *Provide context for agent-assisted support and sales.*
-* **[Data Exploration & Enterprise Reporting Blueprint](help/blueprints/data-exploration/overview.md)**
+* **[Data Exploration & Enterprise Reporting Blueprint](/help/blueprints/data-exploration/overview.md)**
     *Perform exploratory query and analysis of the data in the data lake.*
-* **[Customer Journey Analytics Blueprint](help/blueprints/customer-journey-analytics/overview.md)**
+* **[Customer Journey Analytics Blueprint](/help/blueprints/customer-journey-analytics/overview.md)**
     *Unify and analyze data and customer behaviors from across the customer journey.​*
 
 ## Featured Blueprints
