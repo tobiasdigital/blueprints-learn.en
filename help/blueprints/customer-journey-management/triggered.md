@@ -60,36 +60,37 @@ Execute triggered messages and experiences using Adobe Experience Platform as a 
 
 ### Adobe Experience Platform
 
-* Schema / Datasets
-  1.  Individual profile, experience event, and multi-entity schemas are configured in Experience Platform based on customer supplied data
-  1.  Campaign schemas are created for the following: broadLog / trackingLog / non-deliverable addresses / profile preferences (optional)
-  1.  Dataset labels are added for governance
-  1.  Policies are created for enforcing governance on destination
+*  Schema / Datasets
+    1. Configure individual profile, experience event, and multi-entity schemas in Experience Platform based on customer-supplied data
+    1. Create Campaign schemas for the following: broadLog / trackingLog / non-deliverable addresses / profile preferences (optional)
+    1. Add data usage labels to the dataset for governance
+    1. Create policies to enforce governance on destinations
 
-* Profile / Identity
-  1.  Any customer-specific namespaces are created for datasets
-  1.  Identities are added to schemas
-  1.  Schema and datasets are enabled for profile
-  1.  Merge rules are set up if differing views of real-time customer profile (optional)
-  1.  Segments are created for campaign usage
+*  Profile / Identity
+    1. Create any customer-specific namespaces
+    1. Add identities to schemas
+    1. Enable schemas and datasets for profile
+    1. Set up merge rules for differing views of Real-time Customer Profile (optional)
+    1. Create segments for campaign usage
 
-* Sources / Destinations
-  1.  Data is ingested into Experience Platform using streaming API’s & source connectors
-  1.  Azure blob storage destination is configured for use with Campaign
+*  Sources / Destinations
+    1. Ingest data into Experience Platform using streaming APIs & source connectors
+    1. Configure Azure blob storage destination for use with Campaign
 
-* Mobile app deployment
-  1.  Implement Campaign SDK for ACC or Experience Platform SDK for ACS. If Experience Platform Launch is present, the recommendation is to use ACC/ACS extension with Experience Platform SDK.
+*  Mobile app deployment
+    1. Implement Campaign SDK for Campaign Classic or Experience Platform SDK for Campaign Standard.  If Experience Platform Launch is present recommendation is to use Campaign Classic/Standard extension with Experience Platform SDK.
+
 
 ### Journey Orchestration
 
-  1.  Streaming data used to initiate a customer journey must be configured within Journey Orchestration first to get an orchestration ID. This orchestration ID is then supplied to the developer to use with ingestion
-  1.  External data sources must be configured
-  1.  Custom actions must be configured
+  1. Streaming data used to initiate a customer journey must be configured within Journey Orchestration first to get an orchestration ID. This orchestration ID is then supplied to the developer to use with ingestion
+  1. Configure external data sources
+  1. Configure custom actions
 
 ### Campaign Standard
 
-  1.  Messaging templates must be configured with appropriate personalization settings
-  1.  Export workflows must be configured to export transactional messaging logs. Recommendation is to run at most every 4 hrs
+  1. Configure messaging templates with appropriate personalization settings
+  1. Configure export workflows export transactional messaging logs. Recommendation is to run at most every 4 hrs
 
 
 ## Related Documentation

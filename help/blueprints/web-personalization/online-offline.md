@@ -46,7 +46,7 @@ Synchronize web personalization with email and other known and anonymous channel
 
 * By default the segment sharing service allows a maximum of 75 audiences to be shared for each Analytics report suite. If the customer has an Audience Manager license, there is no limit on the number of audiences that can be shared between Adobe Analytics and Target or Audience Manager and Target.
 * Segment realization from Platform is latent for both batch (1 per day) and streaming (~2 min). Therefore, segment rules based on same-session data for same-session personalization should be powered by Audience Manager. For personalization use cases, Platform is best used for long historical segmentation or segment activation of offline data to web.
-* Batch Segment sharing – once per day latency, or manually initiated via API ad hoc Streaming Segmentation available within minutes
+* Batch segment sharing – once per day latency, or manually initiated via API ad hoc Streaming Segmentation available within minutes
 * Shared segments available in Target for next page personalization, first page/hit is to establish profile sync between segment share service and Target
 * Concerning the ~6-hour delay of new segments being initiated. It takes ~5 hours for the Audience Manager metadata (segment rules) to get from the MySQL data-base to the Audience Manager Edge data collection system. While metadata is not available on the Audience Manager Edge, Audience Manager is not able to record the segment data.
 * The segment-sharing service listens for segment change events via projection on the pipeline. From this standpoint, the segment sharing service is not concerned with whether the segment is batch or streaming, it simply consumes the segment change events.

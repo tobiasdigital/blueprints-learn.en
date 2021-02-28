@@ -52,36 +52,40 @@ Execute scheduled and batch messaging campaigns using Adobe Experience Platform 
 ### Adobe Experience Platform
 
 *  Schema / Datasets
-    1.  Individual profile, experience event and multi-entity schemas are configured in Experience Platform based on customer supplied data
-    1.  Campaign schemas are created for all of the following: broadLog / trackingLog / non-deliverable addresses / profile preferences (optional)
-    1.  Dataset labels are added for governance
-    1.  Policies are created for enforcing governance on destination
+    1.  Configure individual profile, experience event, and multi-entity schemas in Experience Platform based on customer-supplied data
+    1.  Create Campaign schemas for the following: broadLog / trackingLog / non-deliverable addresses / profile preferences (optional)
+    1.  Add data usage labels to the dataset for governance
+    1.  Create policies to enforce governance on destinations
 
 *  Profile / Identity
-    1.  Any customer-specific namespaces are created for datasets
-    1.  Identities are added to schemas
-    1.  Schema and datasets are enabled for profile
-    1.  Merge rules are setup if differing views of real-time customer profile (optional)
-    1.  Segments are created for campaign usage
+    1.  Create any customer-specific namespaces
+    1.  Add identities to schemas
+    1.  Enable schemas and datasets for profile
+    1.  Set up merge rules for differing views of Real-time Customer Profile (optional)
+    1.  Create segments for campaign usage
 
 *  Sources / Destinations
-    1.  Data is ingested into Experience Platform leveraging streaming API’s & source connectors
-    1.  Azure blob storage destination is configured for use with Campaign
+    1.  Ingest data into Experience Platform using streaming APIs & source connectors
+    1.  Configure Azure blob storage destination for use with Campaign
 
 *  Mobile app deployment
-    1.  Implement Campaign SDK for ACC or Experience Platform SDK for ACS.  If Launch is present recommendation is to use ACC/ACS extension with Experience Platform SDK.
+    1.  Implement Campaign SDK for Campaign Classic or Experience Platform SDK for Campaign Standard.  If Experience Platform Launch is present recommendation is to use Campaign Classic/Standard extension with Experience Platform SDK.
 
 *  Campaign
-    1.  Schemas configured for profile, lookup data and relevant delivery personalization data
-    1.  Critical to understand at this point what the data model is within Experience Platform for profile and event data so you know what data will be required in Campaign
+    1.  Configure schemas for profile, lookup data, and relevant delivery personalization data
+    
+        >[!IMPORTANT]
+        >
+        > It's critical to understand at this point what the data model is within Experience Platform for profile and event data so you know what data will be required in Campaign.
+    
     1.  Import workflows
-        1.  Simplified profile data is loaded onto Campaign sFTP and ingested
-        1.  Orchestration and messaging personalization data is loaded onto Campaign sFTP ingested
-        1.  Experience Platform segments are ingested from Azure blob via workflows
+        1.  Load and ingest simplified profile data onto Campaign sFTP
+        1.  Load and ingest orchestration and messaging personalization data onto Campaign sFTP
+        1.  Ingest Experience Platform segments from Azure blob via workflows
 
 *  Export workflows
-    1.  Campaign logs are sent back to Experience Platform via workflows every 4 hrs (broadLog, trackingLog, non-deliverable addresses)
-    1.  Profile preferences are sent back to Experience Platform via consulting-built workflows every 4 hrs (optional)
+    1.  Send Campaign logs back to Experience Platform via workflows every 4 hrs (broadLog, trackingLog, non-deliverable addresses)
+    1.  Send profile preferences back to Experience Platform via consulting-built workflows every 4 hrs (optional)
 
 
 ## Related Documentation

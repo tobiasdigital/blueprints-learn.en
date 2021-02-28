@@ -26,8 +26,8 @@ Certain guardrails apply for the query timeout and for the amount of data that i
 
 | Scenario | Description |  Experience Cloud Applications/Services | 
 |---|---|---|
-| **Data Exploration - raw query of data**  | <ul><li>Write and perform SQL queries in the Experience Platform Data Lake using the interactive query user interface or connecting with a SQL client. Data Science Workspace can also be used to query and gain insight from the raw data in Experience Platform.</li></ul> | <ul><li>Adobe Experience Platform</li></ul>|
-| **Enterprise Dashboarding**  | <ul><li>Business Intelligence tools can be connected to Experience Platform to visualize data for dashboarding and reporting use cases.</li></ul> | <ul><li>Adobe Experience Platform</li></ul>|  
+| **Data Exploration - raw query of data**  | <ul><li>Write and perform SQL queries in the data lake using the interactive query user interface or a connected SQL client. Data Science Workspace can also be used to query and gain insight from the raw data in Experience Platform.</li></ul> | <ul><li>Adobe Experience Platform</li></ul>|
+| **Enterprise Dashboarding**  | <ul><li>Connect Business Intelligence tools to Experience Platform to visualize data for dashboarding and reporting use cases.</li></ul> | <ul><li>Adobe Experience Platform</li></ul>|  
 
 ## Architecture
 
@@ -44,10 +44,10 @@ Certain guardrails apply for the query timeout and for the amount of data that i
 
 ## Implementation Steps
 
-1.  Datasets and schemas configured for data ingestion into the data lake
-1.  Data ingested
-1.  Data is then available by Query Service and Data Science Workspace for raw access and query
-1.  Business Intelligence tools and SQL clients can be connected to the Query Service for visualization and data query and exploration
+1.  Configure datasets and schemas for data ingestion into the data lake
+1.  Ingest data
+1.  Confirm data is available to Query Service and Data Science Workspace for raw access and query
+1.  Connect Business Intelligence tools and SQL clients to Query Service for visualization, data query, and exploration
 
 ## Related Documentation
 
