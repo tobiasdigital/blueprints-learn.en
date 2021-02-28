@@ -38,39 +38,39 @@ Sandbox support: Sandbox compliant (Org must be enabled for sandboxing) datasets
 
 Data Ingestion into CJA:
 
-* Data Ingestion to Lake: API – 7GB/hr, Connector – 200GB/hr, streaming to lake ~15min, Analytics connector to lake ~45min
+* Data Ingestion to Lake: API – 7 GB/hr, Connector – 200 GB/hr, streaming to lake ~15 min, Analytics connector to lake ~45 min
 * Once data has been published to Data Lake, it can take up to 90 mins to ingest into CJA.
 * Backfill data for loading historical data is also supported via the connection configuration.
 
 ## Implementation Steps and Considerations
 
-1.  Data must be ingested into Platform prior to ingestion into CJA. Datasets and schemas configured and data ingested into Platform.
-1.  Cross channel event datasets to be analyzed in union must have a common namespace id or be re-keyed through the field based stitching capability. 
+1.  Data must be ingested into Platform before ingestion into CJA. Datasets and schemas configured and data ingested into Platform.
+1.  Cross channel event datasets to be analyzed in union must have a common namespace id or be rekeyed through the field based stitching capability. 
  
     >[!NOTE]
     >
     > Customer Journey Analytics does not utilize the Experience Platform Profile or Identity services for stitching today.
 
-1.  Any custom data preparation or use of the field based identity stitching is performed on the data to insure a common key across time series datasets to be ingested into CJA.
+1.  Any custom data preparation or use of the field-based identity stitching is performed on the data to insure a common key across time series datasets to be ingested into CJA.
 1.  Lookup data must have a primary ID that can join to a field in the event data. Counts as rows in licensing.
 Profile data must have the same primary ID as the primary ID of the event data.
-1.  A data connection is configured to ingest data from Experience Platform to CJA. Once data lands in the data lake it will process into CJA within 90 minutes.
-1.  A data view is configured on the connection to select the specific dimensions and metrics to be included in the view. Attribution and allocation settings are also configured in the data view. These settings will then be computed at report time.
+1.  A data connection is configured to ingest data from Experience Platform to CJA. Once data lands in the data lake it processes into CJA within 90 minutes.
+1.  A data view is configured on the connection to select the specific dimensions and metrics to be included in the view. Attribution and allocation settings are also configured in the data view. These settings are computed at report time.
 1.  A project is then created to configure dashboards and reports within Analysis Workspace.
 
 ### Identity Stitching Considerations
 
 * Time-series data to be unioned must have the same id namespace on every record.
 * The union process of unifying disparate datasets requires a common primary person/entity key across the datasets. 
-* Secondary keys based unions are not supported at this time.
-* The field based identity stitching process allows for re-keying identities in rows based on subsequent transient id records, such as an authentication id. This allows for resolving disparate records to a single id for analysis at the person level vs. at the device or cookie level.
+* Secondary key-based unions are not supported currently.
+* The field-based identity stitching process allows for rekeying identities in rows based on subsequent transient id records, such as an authentication id. This allows for resolving disparate records to a single id for analysis at the person level vs. at the device or cookie level.
 * Stitching happens once a week. With replay after the stitch.
 
 ## FAQ
 
 * What are the downstream impacts of data models in CJA?
 
-    Objects and attributes of the same XDM field will merge into one dimension in CJA. To  merge multiple attributes from various datasets into the same CJA dimension, the datasets should reference the same XDM field or schema.
+    Objects and attributes of the same XDM field merge into one dimension in CJA. To  merge multiple attributes from various datasets into the same CJA dimension, the datasets should reference the same XDM field or schema.
 
 ## Related Documentation
 

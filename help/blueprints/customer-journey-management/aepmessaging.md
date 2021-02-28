@@ -32,19 +32,19 @@ Execute scheduled and batch messaging campaigns using Adobe Experience Platform 
 ## Guardrails
 
 * Supports Campaign single organizational unit deployments only
-* Campaign is source of truth for all active profiles meaning profiles must exist already in Campaign and new profiles should not be created based on Experience Platform segments.
-* Note that segment membership realization from Experience Platform is latent for both batch (1 per day) and streaming (~5 min)
+* Campaign is source of truth for all active profiles meaning profiles must exist in Campaign and new profiles should not be created based on Experience Platform segments.
+* Segment membership realization from Experience Platform is latent for both batch (1 per day) and streaming (~5 min)
 
 ### Real-time Customer Data Platform segment sharing to campaign:
 
 * Recommendation of 20 segment limit
-* Activation is limited to every 24hrs
+* Activation is limited to every 24 hrs
 * Only union schema attributes available for activation (no support for array/maps/experience events). 
 * Recommendation on no more than 20 attributes per segment
-* 1 file per segment of all profiles with “realized” segment membership OR if segment membership is added as an attribute in the file both “realized” and “exited” profiles
+* One file per segment of all profiles with “realized” segment membership OR if segment membership is added as an attribute in the file both “realized” and “exited” profiles
 * Incremental or full segment exports are supported
 * File encryption is not supported
-* Campaign export workflows to run at most every 4hrs
+* Campaign export workflows to run at most every 4 hrs
 * See [profile and data ingestion guardrails for Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 
 ## Implementation Steps and Considerations
@@ -80,8 +80,8 @@ Execute scheduled and batch messaging campaigns using Adobe Experience Platform 
         1.  Experience Platform segments are ingested from Azure blob via workflows
 
 *  Export workflows
-    1.  Campaign logs are sent back to Experience Platform via workflows every 4hrs (broadLog, trackingLog, non-deliverable addresses)
-    1.  Profile preferences are sent back to Experience Platform via consulting-built workflows every 4hrs (optional)
+    1.  Campaign logs are sent back to Experience Platform via workflows every 4 hrs (broadLog, trackingLog, non-deliverable addresses)
+    1.  Profile preferences are sent back to Experience Platform via consulting-built workflows every 4 hrs (optional)
 
 
 ## Related Documentation

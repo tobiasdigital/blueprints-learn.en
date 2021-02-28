@@ -15,7 +15,7 @@ Web and Mobile Personalization Blueprint addresses the ability to utilize audien
 | Scenario | Description |  Experience Cloud Applications | 
 |---|---|---|
 | **[Behavioral Personalization](behavioral.md)**  | <ul><li>Personalize based on online behavior and audience data</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul>| 
-| **[Online/Offline Web Personalization](online-offline.md)** | <ul><li>Personalize with offline attributes and events (transactions, reservations, CRM and loyalty data).</li><li>Synchronize personalization across web, email and other known channels.</li></ul> | <ul><li>Adobe Experience Platform, Real-time Customer Data Platform or Activation</li><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
+| **[Online/Offline Web Personalization](online-offline.md)** | <ul><li>Personalize with offline attributes and events (transactions, reservations, CRM, and loyalty data).</li><li>Synchronize personalization across web, email, and other known channels.</li></ul> | <ul><li>Adobe Experience Platform, Real-time Customer Data Platform, or Activation</li><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
 
 ## Related Blog Posts
 

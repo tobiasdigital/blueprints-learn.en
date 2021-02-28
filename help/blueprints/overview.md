@@ -24,43 +24,19 @@ Each Blueprint offers Adobe customers a series of artifacts that explain the hig
 <table>
 <tr>
   <td>
-    <a href="/help/blueprints/web-personalization/overview.md">
-      <img alt="thumbnail image for the 'Web Personalization' blueprint" src="web-personalization/assets/personalization.svg" />
-    </a>
-    <div>
-      <a href="/help/blueprints/web-personalization/overview.md">
-    <strong>Web Personalization Blueprint</strong>
-    </a>
-    </div>
-    <p>
-    <em>Deliver personalized web and mobile content.</em>
-    <p>
+    <a href="/help/blueprints/web-personalization/overview.md"><img alt="thumbnail image for the 'Web Personalization' blueprint" src="web-personalization/assets/personalization.svg" /></a>
+    <div><a href="/help/blueprints/web-personalization/overview.md"><strong>Web Personalization Blueprint</strong></a></div>
+    <p><em>Deliver personalized web and mobile content.</em></p>
   </td>
   <td>
-    <a href="/help/blueprints/audience-activation/overview.md">
-      <img alt="thumbnail image for the 'Audience Activation' blueprint" src="audience-activation/assets/aam.svg" />
-    </a>
-    <div>
-      <a href="/help/blueprints/audience-activation/overview.md">
-    <strong>Audience Activation Blueprint</strong>
-    </a>
-    </div>
-    <p>
-    <em>Deliver audience-activated cross-channel advertising.</em>
-    <p>
+    <a href="/help/blueprints/audience-activation/overview.md"><img alt="thumbnail image for the 'Audience Activation' blueprint" src="audience-activation/assets/aam.svg" /></a>
+    <div><a href="/help/blueprints/audience-activation/overview.md"><strong>Audience Activation Blueprint</strong></a></div>
+    <p><em>Deliver audience-activated cross-channel advertising.</em></p>
   </td>
   <td>
-    <a href="/help/blueprints/customer-journey-management/overview.md">
-      <img alt="thumbnail image for the 'Multi-channel Orchestration blueprint'" src="customer-journey-management/assets/aepbatch.svg" />
-    </a>
-    <div>
-      <a href="/help/blueprints/customer-journey-management/overview.md">
-    <strong>Multi-channel Orchestration Blueprint</strong>
-    </a>
-    </div>
-    <p>
-    <em>Deliver individual, just-in-time customer experiences across screens.</em>
-    <p>
+    <a href="/help/blueprints/customer-journey-management/overview.md"><img alt="thumbnail image for the 'Multi-channel Orchestration blueprint'" src="customer-journey-management/assets/aepbatch.svg" /></a>
+    <div><a href="/help/blueprints/customer-journey-management/overview.md"><strong>Multi-channel Orchestration Blueprint</strong></a></div>
+    <p><em>Deliver individual, just-in-time customer experiences across screens.</em></p>
   </td>
 </tr>
 </table>

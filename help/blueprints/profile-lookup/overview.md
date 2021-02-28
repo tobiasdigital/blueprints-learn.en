@@ -16,7 +16,7 @@ With this capability, you could surface rich context when a customer calls your 
 
 >[!NOTE]
 >
->The current latency supported by the profile lookup API is ~ 500ms, making this approach not suitable for integration of the profile with real-time decision engines. For this capability the Edge Profile which has a latency <100ms must be utilized. Note that the Edge Profile capability is still in development.
+>The current latency supported by the profile lookup API is ~ 500 ms, making this approach not suitable for integration of the profile with real-time decision engines. For this capability, the Edge Profile which has a latency <100 ms must be utilized. Note that the Edge Profile capability is still in development.
 
 
 ## Architecture
@@ -29,10 +29,10 @@ With this capability, you could surface rich context when a customer calls your 
 
 ## Implementation Steps
 
-1. Datasets and schemas configured
-1. Real-time Customer Profile configured – schema and dataset configured for Real-time Customer Profile, merge policy and identities configured
-1. Data collected into Platform and processed to Real-time Customer Profile
-1. Entity API leveraged to lookup profile attribute – either from the record entity or the experience event entity
+1. Configure datasets and schemas
+1. Configure Real-time Customer Profiles – schema and dataset configured for Real-time Customer Profile, merge policy and identities configured
+1. Ingest data into Platform and process to Real-time Customer Profile
+1. Use Entity API to look up profile attribute – either from the record entity or the experience event entity
 
 ## Related Documentation
 
