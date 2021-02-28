@@ -14,8 +14,8 @@ Data Science & AI/ML Profile Enrichment Blueprint shows how the data in Adobe Ex
 
 | Scenario | Scenario Description | Experience Cloud Applications |
 |---|---|---|
-|Exploratory Data Science | Exploratory data science – discover signal, completeness, correctness of data<br>Discover new insights using data science tooling | Experience Platform Intelligence |
-|Profile enrichment with AI/ML<br> - batch | Discover, author, train, deploy, score model - output – in batch<br>Push model prediction to profile or to data lake for batch-based activation. | Experience Platform Intelligence |
+|Exploratory Data Science | <ul><li>Discover signals, completeness, correctness of data</li><li>Discover new insights using data science tooling</li></ul> | <ul><li>Experience Platform Intelligence</li></ul> |
+|Profile enrichment with AI/ML<br> - batch | <ul><li>Discover, author, train, deploy, score, and operationalize models.</li><li>Push model prediction to profile or to data lake for batch-based activation.</li></ul> | <ul><li>Experience Platform Intelligence</li></ul> |
 
 ## Architecture
 
@@ -23,13 +23,14 @@ Data Science & AI/ML Profile Enrichment Blueprint shows how the data in Adobe Ex
 
 ## Implementation Steps
 
-1. Data loaded/ingested to Experience Platform – schema, datasets created and data loaded.
-1.  Create a DSW notebook
-1.  Choose a language - support for Python and PySpark
-1.  Author model in notebook
-1.  Train the model
-1.  Score the model to generate predictions with the target data
-1.  If pushing model results to the Real-time Customer Profile, the model results dataset must be enabled for Profile and the machine learned attributes are ingested to Profile
+1. Create schemas and datasets
+1. Ingest data into Experience Platform
+1. Create a DSW notebook
+1. Choose a language - support for Python and PySpark
+1. Author model in notebook
+1. Train the model
+1. Score the model to generate predictions with the target data
+1. Enable the model results dataset for profile, if pushing model results to the Real-time Customer Profile
 
 ## Related Documentation
 

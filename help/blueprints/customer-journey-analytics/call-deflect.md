@@ -8,11 +8,12 @@ thumbnail:
 
 # Call Deflection Journey Analysis scenario
 
-Analyze customer behavior before they contact the call center. Identify opportunities to improve the customer journey by understanding what actions your customers were trying to complete,  what content they viewed and what terms they searched before they contact customer support. What content and self-service tools can be improved to help your customers resolve issues without needing to call in?
+Analyze a customer's behavior across desktop and mobile before they contact the call center. Identify opportunities to improve the customer journey by understanding what actions your customers were trying to complete,  what content they viewed, and what terms they searched before they contact customer support. What content and self-service tools can be improved to help your customers resolve issues without needing to call in?
 
 ## Use Cases
 
-* Improve analysis of customer behavior before customers contact support and discover opportunities to improve self-service capabilities by unifying customer interactions across desktop and mobile.
+* Analyze customer behavior before customers contact support 
+* Discover opportunities to improve self-service capabilities
 
 ## Architecture
 
@@ -32,29 +33,31 @@ Analyze customer behavior before they contact the call center. Identify opportun
 
 ## Guardrails
 
-Sandbox support: Sandbox compliant (Org must be enabled for sandboxing) datasets from sandboxes can be selected in the CJA Connector configuration. One sandbox per connector.
+Sandbox support: Sandbox compliant (Org must be enabled for sandboxing) datasets from sandboxes can be selected in the Customer Journey Analytics Connector configuration. One sandbox per connector.
 
-Data Ingestion into CJA:
+Data Ingestion into Customer Journey Analytics:
 
-* Data Ingestion to Lake: API – 7 GB/hr, Connector – 200 GB/hr, streaming to lake ~15 min, Analytics connector to lake ~45 min
-* Once data has been published to data lake, it can take up to 90 mins to ingest into CJA.
+* Data Ingestion to Lake: API – 7 GB/hr, source connector – 200 GB/hr, streaming to lake ~15 min, Analytics source connector to lake ~45 min
+* Once data has been published to data lake, it can take up to 90 mins to ingest into Customer Journey Analytics.
 * Backfill data for loading historical data is also supported via the connection configuration.
 
 ## Implementation Steps and Considerations
 
-1.  Data must be ingested into Platform before ingestion into CJA. Datasets and schemas configured and data ingested into Platform.
+1. Configure datasets and schemas
+1. Ingest data into Platform.
+1. Data must be ingested into Platform before ingestion into Customer Journey Analytics. 
 1.  Cross channel event datasets to be analyzed in union must have a common namespace id or be rekeyed through the field based stitching capability.    
  
     >[!NOTE]
     >
     > Customer Journey Analytics does not utilize the Experience Platform Profile or Identity services for stitching today.
 
-1.  Any custom data preparation or use of the field-based identity stitching is performed on the data to insure a common key across time series datasets to be ingested into CJA.
-1.  Lookup data must have a primary ID that can join to a field in the event data. Counts as rows in licensing.
-Profile data must have the same primary ID as the primary ID of the event data.
-1.  A data connection is configured to ingest data from Experience Platform to CJA. Once data lands in the data lake, it processes into CJA within 90 minutes.
-1.  A data view is configured on the connection to select the specific dimensions and metrics to be included in the view. Attribution and allocation settings are also configured in the data view. These settings are computed at report time.
-1.  A project is then created to configure dashboards and reports within Analysis Workspace.
+1. Any custom data preparation or use of the field-based identity stitching is performed on the data to insure a common key across time series datasets to be ingested into Customer Journey Analytics.
+1. Lookup data must have a primary ID that can join to a field in the event data. Counts as rows in licensing. 
+1. Profile data must have the same primary ID as the primary ID of the event data.
+1. A data connection is configured to ingest data from Experience Platform to Customer Journey Analytics. Once data lands in the data lake, it processes into Customer Journey Analytics within 90 minutes.
+1. A data view is configured on the connection to select the specific dimensions and metrics to be included in the view. Attribution and allocation settings are also configured in the data view. These settings are computed at report time.
+1. A project is then created to configure dashboards and reports within Analysis Workspace.
 
 ### Identity Stitching Considerations
 
@@ -69,9 +72,9 @@ Profile data must have the same primary ID as the primary ID of the event data.
 
 ## FAQ
 
-* What are the downstream impacts of data models in CJA?
+* What are the downstream impacts of data models in Customer Journey Analytics?
 
-    Objects and attributes of the same XDM field merge into one dimension in CJA. To merge multiple attributes from various datasets into the same CJA dimension, the datasets should reference the same XDM field or schema.
+    Objects and attributes of the same XDM field merge into one dimension in Customer Journey Analytics. To merge multiple attributes from various datasets into the same CJA dimension, the datasets should reference the same XDM field or schema.
 
 ## Related Documentation
 
