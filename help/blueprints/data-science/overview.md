@@ -8,16 +8,14 @@ thumbnail:
 
 # Data Science and AI/ML Profile Enrichment Blueprint
 
-Data Science & AI/ML Profile Enrichment details the ability to utilize Adobe Experience Platform's Data Science Workspace to train, deploy, and score models on data within Experience Platform's data lake to provide machine learning insights from the data. These insights and models can directly output to a dataset enabled for profile, enabling machine learning insights to further enrich the real-time customer profile.
-
-Examples can include determining customer lifetime value, product and category affinity, propensity to convert or propensity to churn as a few examples. 
+Data Science & AI/ML Profile Enrichment Blueprint shows how the data in Adobe Experience Platform is used by Data Science Workspace to train, deploy, and score models to provide machine learning insights. These models can directly output to a dataset enabled for Real-time Customer Profile. Examples of machine learning insights include lifetime value, product and category affinity, propensity to convert, or propensity to churn. 
 
 ## Scenarios
 
 | Scenario | Scenario Description | Experience Cloud Applications |
 |---|---|---|
 |Exploratory Data Science | Exploratory data science – discover signal, completeness, correctness of data<br>Discover new insights using data science tooling | Experience Platform Intelligence |
-|Profile enrichment with AI/ML<br> - batch | Discover, author, train, deploy, score model - output – in batch<br>Push model prediction to profile or to data lake for batch based activation. | Experience Platform Intelligence |
+|Profile enrichment with AI/ML<br> - batch | Discover, author, train, deploy, score model - output – in batch<br>Push model prediction to profile or to data lake for batch-based activation. | Experience Platform Intelligence |
 
 ## Architecture
 
@@ -26,12 +24,12 @@ Examples can include determining customer lifetime value, product and category a
 ## Implementation Steps
 
 1. Data loaded/ingested to Experience Platform – schema, datasets created and data loaded.
-1.  Create a DSW notebook.
-1.  Choose a language - support for Python and PySpark.
-1.  Author model in notebook.
-1.  Train the model.
-1.  Score the model to generate predictions with the target data.
-1.  If pushing model results to the Real-time Customer Profile the model results dataset is enabled for Profile and the machine learned attributes are ingested to Profile.
+1.  Create a DSW notebook
+1.  Choose a language - support for Python and PySpark
+1.  Author model in notebook
+1.  Train the model
+1.  Score the model to generate predictions with the target data
+1.  If pushing model results to the Real-time Customer Profile, the model results dataset must be enabled for Profile and the machine learned attributes are ingested to Profile
 
 ## Related Documentation
 

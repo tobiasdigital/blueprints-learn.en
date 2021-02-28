@@ -14,7 +14,7 @@ Synchronize web personalization with email and other known and anonymous channel
 
 * Landing page optimization
 * Behavioral and offline profile targeting
-* Personalization based on prior product/content views, product/content affinity, environmental attributes, third-party audience data and demographics in addition to offline insights such as transactions, loyalty and CRM data, and modeled insights
+* Personalization based on prior product/content views, product/content affinity, environmental attributes, third-party audience data, and demographics in addition to offline insights such as transactions, loyalty and CRM data, and modeled insights
 
 ## Architecture
 
@@ -24,12 +24,12 @@ Synchronize web personalization with email and other known and anonymous channel
 
 1. Applications:
 
-    * Adobe Experience Platform, Activation or Real-time Customer Data Platform
+    * Adobe Experience Platform, Activation, or Real-time Customer Data Platform
     * Adobe Target
     * Adobe Audience Manager (Optional)
     * Adobe Analytics (Optional)
 
-1. Visitor ID service or Web SDK must be implemented to have synced Experience Cloud IDs across applications. It is strongly recommended to use Experience Platform Launch to deploy the ID service to ensure that the ID is set prior to any application calls.
+1. Visitor ID service or Web SDK must be implemented to have synced Experience Cloud IDs across applications. It is recommended to use Experience Platform Launch to deploy the ID service to ensure that the ID is set before any application calls.
 
 1. For Analytics integration, all Analytics tracking must have been converted to Regional Data Collection. RDC.
 
@@ -48,9 +48,9 @@ Synchronize web personalization with email and other known and anonymous channel
 * Segment realization from Platform is latent for both batch (1 per day) and streaming (~2 min). Therefore, segment rules based on same-session data for same-session personalization should be powered by Audience Manager. For personalization use cases, Platform is best used for long historical segmentation or segment activation of offline data to web.
 * Batch Segment sharing – once per day latency, or manually initiated via API ad hoc Streaming Segmentation available within minutes
 * Shared segments available in Target for next page personalization, first page/hit is to establish profile sync between segment share service and Target
-* Concerning the ~6-hour delay of new segments being initiated. It takes ~5 hours for the Audience Manager metadata (segment rules) to get from the MySQL data-base to the Audience Manager EDGE data collection system. While metadata is not available on the Audience Manager EDGE, Audience Manager will not be able to record the segment data.
+* Concerning the ~6-hour delay of new segments being initiated. It takes ~5 hours for the Audience Manager metadata (segment rules) to get from the MySQL data-base to the Audience Manager Edge data collection system. While metadata is not available on the Audience Manager Edge, Audience Manager is not able to record the segment data.
 * The segment-sharing service listens for segment change events via projection on the pipeline. From this standpoint, the segment sharing service is not concerned with whether the segment is batch or streaming, it simply consumes the segment change events.
-* Experience events and profile records that have not been updated as of the last 14 days will not have a current record in the region hint routing information. As such, these profiles will route through a slower batch-based path to Audience Manager which can take up to ~48 hrs to activate.
+* Experience events and profile records that have not been updated as of the last 14 days do not have a current record in the region hint routing information. As such, these profiles route through a slower batch-based path to Audience Manager which can take up to ~48 hrs to activate.
 
 ## Application Support
 

@@ -31,17 +31,18 @@ Online/Offline Audience Activation.
 
 ## Implementation Steps
 
-1.  Datasets configured, enabled for Profile and data ingested into Platform
-1.  Real-time Customer Data Platform segments sharing between Experience Platform and Audience Manager must be provisioned for Audience Manager based destinations and Experience Cloud Audience Sharing.
-1.  Define Segments. Segments are systematically set as batch or streaming
-1.  Configure Destinations
+1. Datasets configured and enabled for Profile
+1. Data ingested into Platform
+1. Real-time Customer Data Platform segments sharing between Experience Platform and Audience Manager must be provisioned for Audience Manager based destinations and Experience Cloud Audience Sharing
+1. Define Segments (systematically set as batch or streaming)
+1. Configure Destinations
 
 ## Related Documentation
 
 * [Real-time Customer Data Platform Product Description](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Profile and Segmentation Guidelines](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
-* [Segmentation documentation](https://docs.adobe.com/content/help/en/experience-platform/segmentation/api/streaming-segmentation.html)
-* [Destinations documentation](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html)
+* [Segmentation documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
+* [Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 
 ## Related Videos & Tutorials
 

@@ -14,7 +14,7 @@ Personalize based on online behavior and audience data.
 
 * Landing page optimization
 * Behavioral Targeting
-* Personalization based on prior product/content views, product/content affinity, environmental attributes, third-party audience data and demographics
+* Personalization based on prior product/content views, product/content affinity, environmental attributes, third-party audience data, and demographics
 
 ## Architecture
 
@@ -24,7 +24,7 @@ Personalize based on online behavior and audience data.
 
 | Application/Service | Required Library |  Notes | 
 |---|---|---|
-| Adobe Target | Platform Web SDK*, at.js 0.9.1+ or mbox.js 61+ | at.js is preferred as mbox.js is no longer being developed. |
+| Adobe Target | Platform Web SDK*, at.js 0.9.1+, or mbox.js 61+ | at.js is preferred as mbox.js is no longer being developed. |
 | Adobe Audience Manager (Optional) | Platform Web SDK* or dil.js 5.0+ |  |
 | Adobe Analytics (Optional) | Platform Web SDK* or AppMeasurement.js 1.6.4+ |  |
 | Experience Cloud ID service | Platform Web SDK* or VisitorAPI.js 2.0+ |  |

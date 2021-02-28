@@ -12,9 +12,9 @@ Data Exploration & Enterprise Reporting comprises the ability within Adobe Exper
 
 Experience Platform's Query Service allows SQL queries to be performed on the data, while the Data Science Workspace enables data exploration, data science, and machine learning workloads to be performed on the data. 
 
-In addition, Experience Platform allows connections with third-party SQL clients, interfaces and business intelligence (BI) tools to directly connect to, access and query the data within Experience Platform utilizing the PostgreSQL protocol.
+In addition, Experience Platform allows connections with third-party SQL clients, interfaces, and Business Intelligence (BI) tools to directly connect to, access and query the data within Experience Platform utilizing the PostgreSQL protocol.
 
-Certain guardrails apply for the query time out and for the amount of data that is included in the query result as noted within the scenario details.
+Certain guardrails apply for the query timeout and for the amount of data that is included in the query result as noted within the scenario details.
 
 ## Use Cases
 
@@ -39,7 +39,7 @@ Certain guardrails apply for the query time out and for the amount of data that 
 
 ## Guardrails
 
-* 10 minute time out for queries
+* 10-minute timeout for queries
 * 100 records returned in the UI, 50,000 records via SQL connector
 
 ## Implementation Steps
