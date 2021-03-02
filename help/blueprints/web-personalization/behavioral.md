@@ -13,7 +13,7 @@ Personalize based on online behavior and audience data.
 ## Use Cases
 
 * Landing page optimization
-* Behavioral Targeting
+* Behavioral targeting
 * Personalization based on prior product/content views, product/content affinity, environmental attributes, third-party audience data, and demographics
 
 ## Architecture
