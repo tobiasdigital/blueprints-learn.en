@@ -2,7 +2,7 @@
 title: Web Personalization using a third-party decision tool
 description: Adobe Experience Platform integrated with a third-party decision tool
 solution: Experience Platform
-kt: 
+kt: 7194
 thumbnail: 
 ---
 
@@ -16,7 +16,7 @@ Adobe Experience Platform integrated with a third-party decision tool.
 * Requires Profile Edge or a latent profile lookup from Hub.
 
 
-## Reference Architecture
+## Architecture
 
     Diagram with notes from slide
 
@@ -28,4 +28,4 @@ Adobe Experience Platform integrated with a third-party decision tool.
 
 ## Implementation Steps
 
-## FAQs & Reference Documentation
+## Related Documentation

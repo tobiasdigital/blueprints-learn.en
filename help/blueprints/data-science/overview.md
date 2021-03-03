@@ -1,45 +1,42 @@
 ---
-title: Data Science and Profile Enrichment Blueprint
-description: AI/ML driven insights
-solution: Experience Platform
-kt: 
+title: Data Science and AI/ML Profile Enrichment Blueprint
+description: This blueprint shows how Adobe Experience Platform's Data Science Workspace can use data within Experience Platform to train, deploy, and score models to provide machine learning insights from the data.
+solution: Experience Platform, Data Collection
+kt: 7203
 thumbnail: 
 ---
 
-# Data Science and Profile Enrichment Blueprint
+# Data Science and AI/ML Profile Enrichment Blueprint
 
-## Description
-
-Data Science & AI/ML Profile Enrichment details the ability to utilize Adobe Experience Platform's Data Science Workspace to train, deploy, and score models on data within Experience Platform's Data Lake to provide machine learning insights from the data. These insights and models can directly output to a dataset enabled for profile, enabling machine learning insights to further enrich the real-time customer profile.
-
-Examples can include determining customer lifetime value, product and category affinity, propensity to convert or propensity to churn as a few examples. 
+Data Science & AI/ML Profile Enrichment Blueprint shows how the data in Adobe Experience Platform is used by Data Science Workspace to train, deploy, and score models to provide machine learning insights. These models can directly output to a dataset enabled for Real-time Customer Profile. Examples of machine learning insights include lifetime value, product and category affinity, propensity to convert, or propensity to churn. 
 
 ## Scenarios
 
-
 | Scenario | Scenario Description | Experience Cloud Applications |
 |---|---|---|
-|Exploratory Data Science | Exploratory data science – discover signal, completeness, correctness of data<br>Discover new insights using data science tooling | Experience Platform Intelligence |
-|Profile enrichment with AI/ML<br> - batch | Discover, author, train, deploy, score model - output – in batch<br>Push model prediction to profile or to data lake for batch based activation. | Experience Platform Intelligence |
+|Exploratory Data Science | <ul><li>Discover signals, completeness, correctness of data</li><li>Discover new insights using data science tooling</li></ul> | <ul><li>Experience Platform Intelligence</li></ul> |
+|Profile enrichment with AI/ML<br> - batch | <ul><li>Discover, author, train, deploy, score, and operationalize models.</li><li>Push model prediction to profile or to data lake for batch-based activation.</li></ul> | <ul><li>Experience Platform Intelligence</li></ul> |
 
 ## Architecture
 
-![Data Science](assets/datascience.svg)
+<img src="assets/datascience.svg" alt="Reference Architecture for the Data Science and AI/ML Profile Enrichment Blueprint" style="border:1px solid #4a4a4a" />
 
 ## Implementation Steps
 
-* Data loaded/ingested to Experience Platform – schema, datasets created and data loaded.
-* Create a DSW notebook.
-* Choose a language - support for Python and PySpark.
-* Author model in notebook.
-* Train the model.
-* Score the model to generate predictions with the target data.
-* If pushing model results to the Real-time Customer Profile the model results dataset is enabled for Profile and the machine learned attributes are ingested to Profile.
+1. Create schemas and datasets
+1. Ingest data into Experience Platform
+1. Create a DSW notebook
+1. Choose a language - support for Python and PySpark
+1. Author model in notebook
+1. Train the model
+1. Score the model to generate predictions with the target data
+1. Enable the model results dataset for profile, if pushing model results to the Real-time Customer Profile
 
-## FAQs & Reference Documentation
+## Related Documentation
 
-* [Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Product Documentation](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en)
+* [Adobe Experience Platform Intelligence product description](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* [Data Science Workspace documentation](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en)
+* [Data Science Workspace tutorials](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/understanding-data-science-workspace.html)
 
 ## Related Blog Posts
 

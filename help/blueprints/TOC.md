@@ -9,9 +9,9 @@ role: Architect, Developer, Business Practitioner
 
 + [Overview](/help/blueprints/overview.md)
 + Architecture Overview Diagrams{#architecture-overview}
-  + [Adobe Experience Cloud Overview Diagram](/help/blueprints/experience-platform/aecoverview.md)
-  + [Adobe Experience Platform & Applications Diagram](/help/blueprints/experience-platform/aepapps.md)
-  + [Adobe Experience Platform Data Flow Diagram](/help/blueprints/experience-platform/aepdataflow.md)
+  + [Experience Cloud Overview](/help/blueprints/experience-platform/aecoverview.md)
+  + [Experience Platform & Applications](/help/blueprints/experience-platform/aepapps.md)
+  + [Experience Platform Data Flow](/help/blueprints/experience-platform/aepdataflow.md)
 + Audience Activation{#audience-activation}
   + [Overview](/help/blueprints/audience-activation/overview.md)
   + [Anonymous Audience Activation](/help/blueprints/audience-activation/anonymous.md)

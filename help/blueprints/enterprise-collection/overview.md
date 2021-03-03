@@ -1,24 +1,22 @@
 ---
-title: Enterprise Data Collection
-description: Stream collected data to Experience Platform to destinations
-solution: Experience Platform
-kt: 
+title: Enterprise Data Collection Blueprint
+description: Stream collected data by Experience Platform SDKs to destinations
+solution: Experience Platform, Data Collection
+kt: 7202
 thumbnail: 
 ---
 
-# Enterprise Data Collection
+# Enterprise Data Collection Blueprint
 
-## Description
-
-Enterprise data collection addresses the ability to collect data from Adobe's SDK on web and mobile and to forwarded collected data from Adobe's server to a desired destination. This can include all raw data collected from the SDK or data based on specific events and rules as configured in the Adobe Launch tool.
+Enterprise Data Collection Blueprint shows how data collected with Adobe Experience Platform Web and Mobile SDKs can be forwarded from Experience Platform Edge Network to a desired destination. You can forward all raw data collected from the SDKs or specific data based on events and rules as configured in Experience Platform Launch.
 
 ## Architecture
 
-![Enterprise Data Collection](assets/entcollect.svg)
+<img src="assets/entcollect.svg" alt="Reference Architecture for Enterprise Data Collection" style="border:1px solid #4a4a4a" />
 
-## FAQs & Reference Documentation
+## Related Documentation
 
-[Documentation](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=en#server-side-info)
+[Experience Platform Launch Server Side documentation](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=en#server-side-info)
 
 ## Related Blog Posts
 

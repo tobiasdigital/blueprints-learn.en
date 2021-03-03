@@ -1,43 +1,42 @@
 ---
 title: Profile Lookup Blueprint
-description: Real-time Customer Profile lookups to provide context for agent assisted support and sales.
-solution: Experience Platform
-kt: 
+description: Real-time Customer Profile lookups to provide context for agent-assisted support and sales.
+solution: Experience Platform, Data Collection
+kt: 7195
 thumbnail: 
 ---
 
 # Profile Lookup Blueprint
 
-## Description
+Profile Lookup Blueprint shows how external applications can access Adobe Experience Platform’s Real-time Customer Profile. 
 
-Profile Lookup blueprint details the ability for external applications to access Adobe Experience Platform’s Real-time Customer Profile. This is performed by the external application performing an API get call of a single or multiple profiles within Experience Platform’s profile store.
+External application can access Real-time Customer Profiles with an API GET request. Attributes, events, segment memberships, and model-driven features stored in the profile can then be used in these external, non-Adobe applications.
 
-The result of the get call is the full unified profile as represented in Experience Platform's real-time profile system. This means that attributes, events, segment memberships, and model driven features that are stored in the profile can then be accessed and utilized by applications external to Adobe.
+With this capability, you could surface rich context when a customer calls your call center. Support agents could have visibility into the customer's lifetime value, propensity to churn or exposure to marketing campaigns, for example. Sales agents could also benefit from more context or insight into the customer they are selling.
 
-A good example is using the Profile Lookup capability to surface richer context about a customer when they call into the call center for support. Support agents can have visibility into the recent campaigns, the customer lifetime value, or the propensity to churn as a few examples. 
+>[!NOTE]
+>
+>The current latency supported by the profile lookup API is ~ 500 ms, making this approach not suitable for integration of the profile with real-time decision engines. For this capability, the Edge Profile which has a latency <100 ms must be utilized. Note that the Edge Profile capability is still in development.
 
-Another example would be using the profile lookup during an agent supported sales process so that the sales agent can have additional context or insight into the customer they are selling to.
-
-Note that the current latency supported by the profile lookup API is ~ 500ms, making this approach not suitable for integration of the profile with real-time decision engines. For this capability the Edge Profile which has a latency <100ms must be utilized. Note that the Edge Profile capability is still in development.
 
 ## Architecture
 
-![Customer Activity Hub](assets/cah.svg)
+<img src="assets/cah.svg" alt="Reference Architecture for the Profile Lookup Blueprint" style="border:1px solid #4a4a4a" />
 
 ## Guardrails
 
-* [Standard Profile Guardrails](https://docs.adobe.com/content/help/en/experience-platform/profile/guardrails.html)
+* [Guardrails for Real-time Customer Profile data](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 
 ## Implementation Steps
 
-1. Datasets and schemas configured
-2. Profile configured – schema and dataset configured for profile, merge policy and identities configured
-3. Data collected into platform and processed to profile
-4. Entity API leveraged to lookup profile attribute – either from the record entity or the experience event entity
+1. Configure datasets and schemas
+1. Configure Real-time Customer Profiles – schema and dataset configured for Real-time Customer Profile, merge policy and identities configured
+1. Ingest data into Platform and process to Real-time Customer Profile
+1. Use Entity API to look up profile attribute – either from the record entity or the experience event entity
 
-## FAQs & Documentation
+## Related Documentation
 
-* [Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform0.html)
-* [Product Documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en)
-* [Profile Guardrails](https://docs.adobe.com/content/help/en/experience-platform/profile/guardrails.html)
+* [Adobe Experience Platform Activation product description](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform0.html)
+* [Real-time Customer Profile documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en)
+* [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 * [Profile Lookup API](https://www.adobe.io/apis/experienceplatform/home/api-reference.html)
