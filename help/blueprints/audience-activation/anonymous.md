@@ -23,6 +23,14 @@ Anonymized web and advertising activation.
 
 * Adobe Audience Manager
 
+## Implementation Steps
+
+1. Implement Audience Manager 
+2. Collect data to Audience Manager
+3. Configure signals and traits for use in audience definition
+4. Build segments in Audience Manager
+5. Implement and configure destinations for Audience Manager to share audience membership
+
 ## Related Documentation
 
 * [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager.html?lang=en)

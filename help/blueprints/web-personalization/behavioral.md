@@ -39,10 +39,14 @@ By default the segment sharing service allows a maximum of 75 audiences to be sh
 
 ## Implementation Steps
 
-1.  Implement Adobe Target
-1.  Implement Audience Manager or Analytics
-1.  Implement Visitor ID service
-1.  Provision People and Audience Sharing services
+1. Adobe Target implemented for your sites or mobile applications.
+1. Adobe Audience Manager implemented with required data flowing to Audience Manager (optional).
+1. Adobe Analytics implemented with required data flowing to Audience Manager (optional).
+1. Implement Visitor ID Service - Each application must be leveraging the Experience Cloud ID to allow audience sharing between applications. This requires as well that each application is part of the same Adobe tenant to have consistent IDs across the applications.
+1. Ensure the People and Audience Sharing services are provisioned.
+1. Build segments in Adobe Analytics or Adobe Audience Manager and configure those audiences for sharing to the Experience Cloud.
+1. Once the audiences are available in Adobe Target, they can be used for targeting experiences with Adobe Target.
+
 
 ## Data Flow Implementation Diagram
 
