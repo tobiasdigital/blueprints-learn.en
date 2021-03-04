@@ -35,7 +35,7 @@ Online/Offline Audience Activation.
 1. Configure the correct identities and identity namespaces on the schema to be sure ingested data can stitch into a unified profile.
 1. Enable the schema and datasets for Profile. 
 1. Ingest data into Platform.
-1. Real-time Customer Data Platform segments sharing between Experience Platform and Audience Manager must be provisioned
+1. Real-time Customer Data Platform segment sharing between Experience Platform and Audience Manager must be provisioned for audiences defined in Experience Platform to be shared to Audience Manager.
 1. Author Segments in Experience Platform which will be evaluated in batch or streaming. Note that the system will automatically determine if the segment will be evaluated as batch or streaming.
 1. Configure Destinations for sharing of profile attributes and audience memberships out to desired destinations.
 

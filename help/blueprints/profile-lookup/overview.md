@@ -16,8 +16,11 @@ With this capability, you could surface rich context when a customer calls your 
 
 >[!NOTE]
 >
->The current latency supported by the profile lookup API is ~ 500 ms, making this approach not suitable for integration of the profile with real-time decision engines. For this capability, the Edge Profile which has a latency <100 ms must be utilized. Note that the Edge Profile capability is still in development.
+>The current latency supported by the profile lookup API is ~ 500 ms, making this approach not suitable for integration of the profile with real-time decision engines such as for same page web or mobile personalization. 
 
+# Use Cases
+
+* Provide deeper consumer context to agent supported interactions such as support and sales experiences. Via the profile lookup into Experience Platform agents can be provided with additional context on the consumer such as recent purchases, campaign interactions, propensities, audience memberships, and other attributes and insights that are stored in the real-time customer profile.
 
 ## Architecture
 

@@ -8,11 +8,11 @@ thumbnail:
 
 # Anonymous Audience Activation scenario
 
-Anonymized web and advertising activation.
+Anonymous web and advertising activation.
 
 ## Use Cases
 
-* Anonymized digital audience targeting and personalization.
+* Anonymous digital audience targeting and personalization.
 * Build audiences for targeting on supported advertising networks.
 
 ## Architecture
