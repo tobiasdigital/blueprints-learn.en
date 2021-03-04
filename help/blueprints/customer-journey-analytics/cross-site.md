@@ -12,8 +12,8 @@ Analyze and extract insights from customer interactions across the customer jour
 
 ## Use Cases
 
-* Unify customer interactions across desktop and mobile to analyze customer behavior and extract insights to optimize digital customer experiences.
-* Unify customer interactions across channels, including digital and offline channels such as support interactions or in store purchases to better understand and optimize the customer journey. 
+* Analyze customer interactions across desktop and mobile to understand customer behavior and extract insights to optimize digital customer experiences.
+* Analyze customer interactions across channels, including digital and offline channels such as support interactions and in store purchases to better understand and optimize the customer journey. 
 
 ## Architecture
 
@@ -34,8 +34,6 @@ Analyze and extract insights from customer interactions across the customer jour
 
 ## Guardrails
 
-Sandbox support: Sandbox compliant (Org must be enabled for sandboxing) datasets from sandboxes can be selected in the Customer Journey Analytics Connector configuration. One sandbox per connector.
-
 Data Ingestion into Customer Journey Analytics:
 
 * Data ingestion to lake: API – 7 GB/hr, source connector – 200 GB/hr, streaming to lake ~15 min, Analytics source connector to lake ~45 min
@@ -47,7 +45,7 @@ Data Ingestion into Customer Journey Analytics:
 1. Configure datasets and schemas 
 1. Ingest data into Platform
 1. Data must be ingested into Platform before ingestion into Customer Journey Analytics. 
-1. Cross channel event datasets to be analyzed in union must have a common namespace id or be rekeyed through the field based stitching capability. 
+1. Cross channel event datasets to be analyzed in union must have a common namespace id or be rekeyed through the field based stitching capability of Customer Journey Analytics. 
  
     >[!NOTE]
     >

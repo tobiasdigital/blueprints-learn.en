@@ -10,6 +10,12 @@ thumbnail:
 
 Data Science & AI/ML Profile Enrichment Blueprint shows how the data in Adobe Experience Platform is used by Data Science Workspace to train, deploy, and score models to provide machine learning insights. These models can directly output to a dataset enabled for Real-time Customer Profile. Examples of machine learning insights include lifetime value, product and category affinity, propensity to convert, or propensity to churn. 
 
+## Use Cases
+
+* Extract insight and discover patterns from customer data in Experience Platform. Train and score models from this data.
+* Enrich the Real-time Customer Profile with model driven insights and attributes for more granular personalization and optimized journey optimization.
+Train and Score models to determine customer insights such as customer lifetime value, propensity to convert or churn, product and content affinities, and engagement scores. 
+
 ## Scenarios
 
 | Scenario | Scenario Description | Experience Cloud Applications |
@@ -20,6 +26,10 @@ Data Science & AI/ML Profile Enrichment Blueprint shows how the data in Adobe Ex
 ## Architecture
 
 <img src="assets/datascience.svg" alt="Reference Architecture for the Data Science and AI/ML Profile Enrichment Blueprint" style="border:1px solid #4a4a4a" />
+
+## Prerequisites
+
+* Adobe Experience Platform Intelligence
 
 ## Implementation Steps
 

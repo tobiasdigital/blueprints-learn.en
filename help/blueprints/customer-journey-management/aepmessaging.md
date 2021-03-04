@@ -47,7 +47,7 @@ Execute scheduled and batch messaging campaigns using Adobe Experience Platform 
 * Campaign export workflows to run at most every 4 hrs
 * See [profile and data ingestion guardrails for Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 
-## Implementation Steps and Considerations
+## Implementation Steps
 
 ### Adobe Experience Platform
 
