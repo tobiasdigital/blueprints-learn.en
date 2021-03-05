@@ -47,7 +47,7 @@ By default the segment sharing service allows a maximum of 75 audiences to be sh
 
 1. [Implement Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) for your web or mobile applications.
 
-If using Audience Manger or Analytics:
+    If using Audience Manger or Analytics:
 
 1. [Implement Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html) with required data flowing to Audience Manager
 1. [Implement Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html) with required data flowing to Audience Manager
@@ -62,7 +62,7 @@ If using Audience Manger or Analytics:
 1. Once the audiences are available in Adobe Target, they can be used for [targeting experiences with Adobe Target](https://experienceleague.adobe.com/docs/target/using/audiences/target.html)
 
 
-## Implementation Data Flow Diagram
+## Implementation Data Flow Diagrams
 
 The Web/Mobile Personalization Blueprint can be implemented by using either the Platform Web SDK/Mobile SDK and Edge Network or using either traditional application-specific SDKs (for example, AppMeasurement.js).
 
