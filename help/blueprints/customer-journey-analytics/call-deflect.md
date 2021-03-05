@@ -15,21 +15,19 @@ Analyze a customer's behavior across desktop and mobile before they contact the 
 * Analyze customer behavior before customers contact support 
 * Discover opportunities to improve self-service capabilities
 
-## Architecture
+## Applications
 
-<img src="assets/CJA.svg" alt="Reference architecture for the Customer Journey Analytics Blueprint" style="border:1px solid #4a4a4a" />
-
+* Adobe Experience Platform
+* Customer Journey Analytics
 
 ## Integration Patterns
 
 * Adobe Experience Platform → Customer Journey Analytics
 * Adobe Analytics → Adobe Experience Platform → Customer Journey Analytics
 
+## Architecture
 
-## Prerequisites
-
-* Adobe Experience Platform
-* Customer Journey Analytics
+<img src="assets/CJA.svg" alt="Reference architecture for the Customer Journey Analytics Blueprint" style="border:1px solid #4a4a4a" />
 
 ## Guardrails
 
@@ -39,7 +37,7 @@ Data Ingestion into Customer Journey Analytics:
 * Once data has been published to data lake, it can take up to 90 mins to ingest into Customer Journey Analytics.
 * Backfill data for loading historical data is also supported via the connection configuration.
 
-## Implementation Steps and Considerations
+## Implementation Steps
 
 1. Configure datasets and schemas
 1. Ingest data into Platform.
@@ -56,6 +54,8 @@ Data Ingestion into Customer Journey Analytics:
 1. A data connection is configured to ingest data from Experience Platform to Customer Journey Analytics. Once data lands in the data lake, it processes into Customer Journey Analytics within 90 minutes.
 1. A data view is configured on the connection to select the specific dimensions and metrics to be included in the view. Attribution and allocation settings are also configured in the data view. These settings are computed at report time.
 1. A project is then created to configure dashboards and reports within Analysis Workspace.
+
+## Implementation Considerations
 
 ### Identity Stitching Considerations
 
