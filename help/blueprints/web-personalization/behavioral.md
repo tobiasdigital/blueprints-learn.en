@@ -49,7 +49,7 @@ By default the segment sharing service allows a maximum of 75 audiences to be sh
 
 If using Audience Manger or Analytics:
 
-2. [Implement Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html) with required data flowing to Audience Manager
+1. [Implement Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html) with required data flowing to Audience Manager
 1. [Implement Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html) with required data flowing to Audience Manager
 1. [Implement Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html) 
 
