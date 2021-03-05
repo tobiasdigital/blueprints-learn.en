@@ -39,7 +39,6 @@ By default the segment sharing service allows a maximum of 75 audiences to be sh
 | Adobe Audience Manager (Optional) | Platform Web SDK* or dil.js 5.0+ |  |
 | Adobe Analytics (Optional) | Platform Web SDK* or AppMeasurement.js 1.6.4+ |  |
 | Experience Cloud Identity Service | Platform Web SDK* or VisitorAPI.js 2.0+ |  |
-| Experience Platform Launch Edge Configuration <br> (if using Experience Platform Web SDK) | n/a |  |
 | Experience Platform Mobile SDK (Optional) | 4.11 or higher for iOS and Android™ |  |
 | Experience Platform Web SDK | 1.0, current Experience Platform SDK version has [various use cases not yet supported for the Experience Cloud applications](https://github.com/adobe/alloy/projects/5)| |
 
@@ -49,8 +48,8 @@ By default the segment sharing service allows a maximum of 75 audiences to be sh
 
     If using Audience Manger or Analytics:
 
-1. [Implement Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html) with required data flowing to Audience Manager
-1. [Implement Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html) with required data flowing to Audience Manager
+1. [Implement Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html)
+1. [Implement Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)
 1. [Implement Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html) 
 
     >[!NOTE]
