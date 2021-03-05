@@ -16,60 +16,60 @@ Synchronize web personalization with email and other known and anonymous channel
 * Behavioral and offline profile targeting
 * Personalization based on prior product/content views, product/content affinity, environmental attributes, third-party audience data, and demographics in addition to offline insights such as transactions, loyalty and CRM data, and modeled insights
 
+## Applications
+
+* Adobe Real-time Customer Data Platform
+* Adobe Target
+* Adobe Audience Manager (Optional) - Audience Manager adds the following: third-party audience data, co-op based device graph, ability to surface Platform segments in Adobe Analytics and Adobe Analytics segments in Platform.
+* Adobe Analytics (Optional) - Analytics adds the ability to build segments based on historical behavioral data and fine grained segmentation from Adobe Analytics data.
+
+
 ## Architecture
 
 <img src="assets/onoff.svg" alt="Reference architecture for the Online/Offline Web Personalization scenario" style="border:1px solid #4a4a4a" />
 
-## Prerequisites
-
-| Application/Service | Required Library |  Notes | 
-|---|---|---|
-| Adobe Experience Platform, Activation, or Real-time Customer Data Platform |  |  |
-| Adobe Target | Platform Web SDK*, at.js 0.9.1+, or mbox.js 61+ | at.js is preferred as mbox.js is no longer being developed. |
-| Adobe Audience Manager (Optional) | Platform Web SDK* or dil.js 5.0+ |  |
-| Adobe Analytics (Optional) | Platform Web SDK* or AppMeasurement.js 1.6.4+ | Analytics tracking must use Regional Data Collection (RDC) |
-| Experience Cloud ID service | Platform Web SDK* or VisitorAPI.js 2.0+ | It is recommended to use Experience Platform Launch to deploy the ID service to ensure that the ID is set before any application calls |
-| Experience Cloud Audiences (Optional) | n/a |  |
-| Experience Platform Launch Edge Configuration <br> (if using Experience Platform Web SDK) | n/a |  |
-| Experience Platform Mobile SDK (Optional) | 4.11 or higher for iOS and Android |  |
-| Experience Platform Web SDK | 1.0, current Experience Platform SDK version has [various use cases not yet supported for the Experience Cloud applications](https://github.com/adobe/alloy/projects/5)| |
-
-### Audience Sharing
+## Guardrails
 
 * By default the segment sharing service allows a maximum of 75 audiences to be shared for each Analytics report suite. If the customer has an Audience Manager license, there is no limit on the number of audiences that can be shared between Adobe Analytics and Target or Audience Manager and Target.
-* Segment realization from Platform is latent for both batch (1 per day) and streaming (~2 min). Therefore, segment rules based on same-session data for same-session personalization should be powered by Audience Manager. For personalization use cases, Platform is best used for long historical segmentation or segment activation of offline data to web.
-* Batch segment sharing – once per day latency, or manually initiated via API ad hoc Streaming Segmentation available within minutes
-* Shared segments available in Target for next page personalization, first page/hit is to establish profile sync between segment share service and Target
-* Concerning the ~6-hour delay of new segments being initiated. It takes ~5 hours for the Audience Manager metadata (segment rules) to get from the MySQL data-base to the Audience Manager Edge data collection system. While metadata is not available on the Audience Manager Edge, Audience Manager is not able to record the segment data.
-* The segment-sharing service listens for segment change events via projection on the pipeline. From this standpoint, the segment sharing service is not concerned with whether the segment is batch or streaming, it simply consumes the segment change events.
-* Experience events and profile records that have not been updated as of the last 14 days do not have a current record in the region hint routing information. As such, these profiles route through a slower batch-based path to Audience Manager which can take up to ~48 hours to activate.
+* Batch segment sharing – once per day or manually initiated via API.
+* Shared segments available in Target for next hit/page personalization.
 
-## Application Support
+## Implementation Prerequisites
 
-* Audience Manager is optional and adds the following: third-party audience data, co-op based device graph, ability to surface Platform segments in Adobe Analytics and Adobe Analytics segments in Platform.
-* Analytics is optional and adds the ability to build segments based on historical behavioral data and fine grained segmentation from Adobe Analytics data.
+1. Visitor ID service or Web SDK must be implemented to have synced Experience Cloud IDs across applications. It is recommended to use Experience Platform Launch to deploy the ID service to ensure that the ID is set before any application calls.
 
-## Data Flow & Implementation Diagram
+1. For Analytics integration, all Analytics tracking must have been converted to Regional Data Collection.
+
+1. Minimum code versions:
+
+    * Experience Cloud ID service – VisitorAPI.js 2.0 or higher
+    * Analytics – AppMeasurement.js 1.6.4 or higher
+    * Audience Manager – dil.js 5.0 or higher
+    * Target – mbox.js 61, at.js .9.1. at.js is preferred as mbox.js is no longer being developed.
+    * Mobile SDK – 4.11 for iOS and Android
+    * Experience Platform Web SDK – 1.0, current Experience Platform SDK version has [various use cases not yet supported for the Experience Cloud applications](https://github.com/adobe/alloy/projects/5)
+
+## Implementation Steps
+
+1.  Implement Adobe Target
+1.  Implement Audience Manager and/or Analytics (optional)
+1.  Implement Experience Platform and Real-time Customer Profile
+1.  Implement Visitor ID Service or Experience Platform Web SDK
+1.  Provision People and Audience services
+1.  Provision Audience Sharing between Experience Platform and Target
+
+## Implementation Data Flow Diagram
 
 The Web/Mobile personalization blueprint can be implemented using either traditional application-specific SDKs (for example, AppMeasurement.js), or by using the Platform Web SDK/Mobile SDK and Edge Network.
 
 ### Platform Web/Mobile SDK and Edge Approach
 
-<img src="assets/websdkflow.png" alt="Reference architecture for the Platform Web SDK/Mobile SDK and Edge Network Approach" style="border:1px solid #4a4a4a" />
+<img src="assets/websdkflow.svg" alt="Reference architecture for the Platform Web SDK/Mobile SDK and Edge Network Approach" style="border:1px solid #4a4a4a" />
 
 
 ### Application-specific SDK Approach
 
 <img src="assets/appsdkflow.png" alt="Reference architecture for the Application-specific SDK Approach" style="border:1px solid #4a4a4a" />
-
-## Implementation Steps
-
-1. [Implement Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) for your web or mobile applications.
-1. [Implement Adobe Audience Manager (optional)](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html) (optional).
-1. [Implement Adobe Analytics (optional)](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)  (optional).
-1. [Implement Experience Platform and Real-time Customer Profile](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html)
-1. Implement [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html) or [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
-1. [Request provisioning for Audience Sharing between Experience Platform and Target (Shared Audiences)](https://www.adobe.com/go/audiences)
 
 ## Related Documentation
 

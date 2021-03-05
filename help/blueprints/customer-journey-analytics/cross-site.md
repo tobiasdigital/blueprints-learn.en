@@ -34,15 +34,14 @@ Have a single consolidated view of customer behavior across various channels by 
 
 Data Ingestion into Customer Journey Analytics:
 
-* Data ingestion to lake: API – 7 GB/hr, source connector – 200 GB/hr, streaming to lake ~15 min, Analytics source connector to lake ~45 min
-* Once data has been published to the data lake, it can take up to 90 mins to ingest into Customer Journey Analytics.
-* Backfill data for loading historical data is also supported via the connection configuration.
+* Data ingestion to lake: API ~ 7 GB/hr, source connector ~ 200 GB/hr, streaming to lake ~ 15 min, Analytics source connector to lake ~ 45 min.
+* Once data has been published to the data lake, it can take up to 90 mins to process into Customer Journey Analytics.
 
 ## Implementation Steps
 
 1. Configure datasets and schemas 
 1. Ingest data into Platform
-1. Data must be ingested into Platform before ingestion into Customer Journey Analytics. 
+1. Data must be ingested into Platform before processing into Customer Journey Analytics. 
 1. Cross channel event datasets to be analyzed in union must have a common namespace id or be rekeyed through the field based stitching capability of Customer Journey Analytics. 
  
     >[!NOTE]

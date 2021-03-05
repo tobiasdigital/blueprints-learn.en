@@ -22,6 +22,10 @@ Certain guardrails apply for the query timeout and for the amount of data that i
 * Row and column access to ingested data for exploration and validation
 * Dashboarding and visualization of data via Business Intelligence tooling
 
+## Applications
+
+* Adobe Experience Platform
+
 ## Scenarios
 
 | Scenario | Description |  Experience Cloud Applications/Services | 
@@ -33,14 +37,11 @@ Certain guardrails apply for the query timeout and for the amount of data that i
 
 <img src="assets/dataexplore.svg" alt="Reference architecture for the Data Exploration & Enterprise Reporting Blueprint" style="border:1px solid #4a4a4a" />
 
-## Prerequisites
-
-* Adobe Experience Platform
-
 ## Guardrails
 
-* 10-minute timeout for queries
-* 100 records returned in the UI, 50,000 records via SQL connector
+* 10 minute time limit for interactive queries
+* 100 record limit returned in the UI
+* 50,000 record limit returned via the SQL connector
 
 ## Implementation Steps
 
