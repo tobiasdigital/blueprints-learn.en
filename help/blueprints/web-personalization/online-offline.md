@@ -6,7 +6,9 @@ kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 ---
 
+
 # Online/Offline Web Personalization scenario
+
 
 Synchronize web personalization with email and other known and anonymous channel personalization.
 
@@ -18,11 +20,10 @@ Synchronize web personalization with email and other known and anonymous channel
 
 ## Applications
 
-* Adobe Real-time Customer Data Platform
+* Real-time Customer Data Platform
 * Adobe Target
-* Adobe Audience Manager (Optional) - Audience Manager adds the following: third-party audience data, co-op based device graph, ability to surface Platform segments in Adobe Analytics and Adobe Analytics segments in Platform.
-* Adobe Analytics (Optional) - Analytics adds the ability to build segments based on historical behavioral data and fine grained segmentation from Adobe Analytics data.
-
+* Adobe Analytics (optional) - adds third-party audience data, co-op based device graph, the ability to surface Platform segments in Adobe Analytics, and the ability to surface Adobe Analytics segments in Platform
+* Adobe Audience Manager (optional) - adds the ability to build segments based on historical behavioral data and fine grained segmentation from Adobe Analytics data
 
 ## Architecture
 
@@ -30,42 +31,41 @@ Synchronize web personalization with email and other known and anonymous channel
 
 ## Guardrails
 
-* By default the segment sharing service allows a maximum of 75 audiences to be shared for each Analytics report suite. If the customer has an Audience Manager license, there is no limit on the number of audiences that can be shared between Adobe Analytics and Target or Audience Manager and Target.
+* By default the segment sharing service allows a maximum of 75 audiences to be shared for each Analytics report suite. If the customer has an Audience Manager license, there is no limit on the number of audiences that can be shared between Adobe Analytics and Adobe Target or Audience Manager and Adobe Target.
 * Batch segment sharing – once per day or manually initiated via API.
-* Shared segments available in Target for next hit/page personalization.
+* Shared segments available in Adobe Target for next hit/page personalization.
 
 ## Implementation Prerequisites
 
-1. Visitor ID service or Web SDK must be implemented to have synced Experience Cloud IDs across applications. It is recommended to use Experience Platform Launch to deploy the ID service to ensure that the ID is set before any application calls.
+| Application/Service | Required Library |  Notes | 
+|---|---|---|
+| Adobe Target | Platform Web SDK*, at.js 0.9.1+, or mbox.js 61+ | at.js is preferred as mbox.js is no longer being developed. |
+| Adobe Audience Manager (Optional) | Platform Web SDK* or dil.js 5.0+ |  |
+| Adobe Analytics (Optional) | Platform Web SDK* or AppMeasurement.js 1.6.4+ | Analytics tracking must use Regional Data Collection (RDC). |
+| Experience Cloud ID service | Platform Web SDK* or VisitorAPI.js 2.0+ | It is recommended to use Experience Platform Launch to deploy the ID service to ensure that the ID is set before any application calls |
+| Experience Platform Mobile SDK (Optional) | 4.11 or higher for iOS and Android™ |  |
+| Experience Platform Web SDK | 1.0, current Experience Platform SDK version has [various use cases not yet supported for the Experience Cloud applications](https://github.com/adobe/alloy/projects/5)| |
 
-1. For Analytics integration, all Analytics tracking must have been converted to Regional Data Collection.
-
-1. Minimum code versions:
-
-    * Experience Cloud ID service – VisitorAPI.js 2.0 or higher
-    * Analytics – AppMeasurement.js 1.6.4 or higher
-    * Audience Manager – dil.js 5.0 or higher
-    * Target – mbox.js 61, at.js .9.1. at.js is preferred as mbox.js is no longer being developed.
-    * Mobile SDK – 4.11 for iOS and Android
-    * Experience Platform Web SDK – 1.0, current Experience Platform SDK version has [various use cases not yet supported for the Experience Cloud applications](https://github.com/adobe/alloy/projects/5)
 
 ## Implementation Steps
 
-1.  Implement Adobe Target
-1.  Implement Audience Manager and/or Analytics (optional)
-1.  Implement Experience Platform and Real-time Customer Profile
-1.  Implement Visitor ID Service or Experience Platform Web SDK
-1.  Provision People and Audience services
-1.  Provision Audience Sharing between Experience Platform and Target
+1. [Implement Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) for your web or mobile applications.
+1. [Implement Adobe Audience Manager (optional)](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html) (optional).
+1. [Implement Adobe Analytics (optional)](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)  (optional).
+1. [Implement Experience Platform and Real-time Customer Profile](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html)
+1. Implement [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html) or [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
+    >[!NOTE]
+    >
+    >Each application must use the Experience Cloud ID and be part of the same Experience Cloud Org to allow audience sharing between applications.
+1. [Request provisioning for Audience Sharing between Experience Platform and Adobe Target (Shared Audiences)](https://www.adobe.com/go/audiences)
 
-## Implementation Data Flow Diagram
+## Implementation Data Flow Diagrams
 
 The Web/Mobile personalization blueprint can be implemented using either traditional application-specific SDKs (for example, AppMeasurement.js), or by using the Platform Web SDK/Mobile SDK and Edge Network.
 
 ### Platform Web/Mobile SDK and Edge Approach
 
 <img src="assets/websdkflow.svg" alt="Reference architecture for the Platform Web SDK/Mobile SDK and Edge Network Approach" style="border:1px solid #4a4a4a" />
-
 
 ### Application-specific SDK Approach
 

@@ -38,16 +38,16 @@ By default the segment sharing service allows a maximum of 75 audiences to be sh
 | Adobe Target | Platform Web SDK*, at.js 0.9.1+, or mbox.js 61+ | at.js is preferred as mbox.js is no longer being developed. |
 | Adobe Audience Manager (Optional) | Platform Web SDK* or dil.js 5.0+ |  |
 | Adobe Analytics (Optional) | Platform Web SDK* or AppMeasurement.js 1.6.4+ |  |
-| Experience Cloud Identity service | Platform Web SDK* or VisitorAPI.js 2.0+ |  |
+| Experience Cloud Identity Service | Platform Web SDK* or VisitorAPI.js 2.0+ |  |
 | Experience Platform Launch Edge Configuration <br> (if using Experience Platform Web SDK) | n/a |  |
-| Experience Platform Mobile SDK (Optional) | 4.11 or higher for iOS and Android |  |
+| Experience Platform Mobile SDK (Optional) | 4.11 or higher for iOS and Android™ |  |
 | Experience Platform Web SDK | 1.0, current Experience Platform SDK version has [various use cases not yet supported for the Experience Cloud applications](https://github.com/adobe/alloy/projects/5)| |
 
 ## Implementation Steps
 
 1. [Implement Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) for your web or mobile applications.
 
-If using Audience Manger or Analytics:
+    If using Audience Manger or Analytics:
 
 1. [Implement Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html) with required data flowing to Audience Manager
 1. [Implement Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html) with required data flowing to Audience Manager
@@ -55,14 +55,14 @@ If using Audience Manger or Analytics:
 
     >[!NOTE]
     >
-    >Each application must be leveraging the Experience Cloud ID to allow audience sharing between applications. This requires as well that each application is part of the same Adobe tenant to have consistent IDs across the applications.
+    >Each application must use the Experience Cloud ID and be part of the same Experience Cloud Org to allow audience sharing between applications.
 
 1. [Request provisioning for the People and Audience Sharing services (Shared Audiences)](https://www.adobe.com/go/audiences)
 1. Build segments in [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) or [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) and [configure those audiences for sharing to the Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)  (if using Audience Manager or Analytics)
 1. Once the audiences are available in Adobe Target, they can be used for [targeting experiences with Adobe Target](https://experienceleague.adobe.com/docs/target/using/audiences/target.html)
 
 
-## Implementation Data Flow Diagram
+## Implementation Data Flow Diagrams
 
 The Web/Mobile Personalization Blueprint can be implemented by using either the Platform Web SDK/Mobile SDK and Edge Network or using either traditional application-specific SDKs (for example, AppMeasurement.js).
 
@@ -79,7 +79,7 @@ The Web/Mobile Personalization Blueprint can be implemented by using either the 
 ## Related Documentation
 
 * [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
-* [Integrate Audience Manager with Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
+* [Integrate Audience Manager with Adobe Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
 * [Analytics Segment Sharing through AAM](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 
 

@@ -60,24 +60,24 @@ Execute triggered messages and experiences using Adobe Experience Platform as a 
 
 ### Adobe Experience Platform
 
-*  Schema / Datasets
+1.  Schema / Datasets
     1. Configure individual profile, experience event, and multi-entity schemas in Experience Platform based on customer-supplied data
     1. Create Campaign schemas for the following: broadLog / trackingLog / non-deliverable addresses / profile preferences (optional)
     1. Add data usage labels to the dataset for governance
     1. Create policies to enforce governance on destinations
 
-*  Profile / Identity
+1.  Profile / Identity
     1. Create any customer-specific namespaces
     1. Add identities to schemas
     1. Enable schemas and datasets for profile
     1. Set up merge rules for differing views of Real-time Customer Profile (optional)
     1. Create segments for campaign usage
 
-*  Sources / Destinations
+1.  Sources / Destinations
     1. Ingest data into Experience Platform using streaming APIs & source connectors
     1. Configure Azure blob storage destination for use with Campaign
 
-*  Mobile app deployment
+1.  Mobile app deployment
     1. Implement Campaign SDK for Campaign Classic or Experience Platform SDK for Campaign Standard.  If Experience Platform Launch is present recommendation is to use Campaign Classic/Standard extension with Experience Platform SDK.
 
 
