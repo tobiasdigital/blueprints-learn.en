@@ -18,11 +18,10 @@ Synchronize web personalization with email and other known and anonymous channel
 
 ## Applications
 
-* Real-time Customer Data Platform or Adobe Experience Platform Activation
+* Real-time Customer Data Platform
 * Adobe Target
-* Adobe Analytics (optional)
-* Adobe Audience Manager (optional)
-
+* Adobe Audience Manager (optional) - adds third-party audience data, co-op based device graph, ability to surface Platform segments in Adobe Analytics and Adobe Analytics segments in Platform
+* Adobe Analytics (optional) - adds the ability to build segments based on historical behavioral data and fine grained segmentation from Adobe Analytics data
 
 ## Architecture
 
@@ -43,8 +42,8 @@ Synchronize web personalization with email and other known and anonymous channel
 | Application/Service | Required Library |  Notes | 
 |---|---|---|
 | Adobe Target | Platform Web SDK*, at.js 0.9.1+, or mbox.js 61+ | at.js is preferred as mbox.js is no longer being developed. |
-| Adobe Audience Manager (Optional) | Platform Web SDK* or dil.js 5.0+ | Adds third-party audience data, co-op based device graph, ability to surface Platform segments in Adobe Analytics and Adobe Analytics segments in Platform |
-| Adobe Analytics (Optional) | Platform Web SDK* or AppMeasurement.js 1.6.4+ | Analytics tracking must use Regional Data Collection (RDC). Adds the ability to build segments based on historical behavioral data and fine grained segmentation from Adobe Analytics data. |
+| Adobe Audience Manager (Optional) | Platform Web SDK* or dil.js 5.0+ |  |
+| Adobe Analytics (Optional) | Platform Web SDK* or AppMeasurement.js 1.6.4+ | Analytics tracking must use Regional Data Collection (RDC). |
 | Experience Cloud ID service | Platform Web SDK* or VisitorAPI.js 2.0+ | It is recommended to use Experience Platform Launch to deploy the ID service to ensure that the ID is set before any application calls |
 | Experience Cloud Audiences (Optional) | n/a |  |
 | Experience Platform Launch Edge Configuration <br> (if using Experience Platform Web SDK) | n/a |  |
@@ -67,7 +66,7 @@ The Web/Mobile personalization blueprint can be implemented using either traditi
 
 ### Platform Web/Mobile SDK and Edge Approach
 
-<img src="assets/websdkflow.png" alt="Reference architecture for the Platform Web SDK/Mobile SDK and Edge Network Approach" style="border:1px solid #4a4a4a" />
+<img src="assets/websdkflow.svg" alt="Reference architecture for the Platform Web SDK/Mobile SDK and Edge Network Approach" style="border:1px solid #4a4a4a" />
 
 ### Application-specific SDK Approach
 

@@ -14,8 +14,8 @@ Audience-first activation is the key to success in a data-driven marketing world
 
 | Scenario | Description| Experience Cloud Applications|
 |---|---|---|
-| **[Anonymized Web and Advertising Activation](anonymous.md)** | <ul><li>Target audiences across web and advertising channels for anonymized/behavioral customer data.</li><li>Integrate with third-party audience data for increased personalization.</li></ul>                                                                                         | <ul><li>Adobe Audience Manager</li></ul>                                               |
-| **[Online/Offline + PII Activation](online-offline.md)**        | <ul><li>Activate to PII- and profile-based destinations such as email providers, social networks, and advertising destinations that accept customer audience lists. </li><li>Activation against online and offline attributes and events (orders, transactions, CRM, or loyalty data).</li></ul> | <ul><li>Adobe Experience Platform</li><li> Real-time Customer Data Platform</li><li>Adobe Audience Manager (optional)</li></ul> |
+| **[Anonymous Web and Advertising Activation](anonymous.md)** | <ul><li>Target audiences across web and advertising channels for anonymous/behavioral customer data.</li><li>Integrate with third-party audience data for increased personalization.</li></ul>                                                                                         | <ul><li>Adobe Audience Manager</li></ul>                                               |
+| **[Online/Offline + PII Activation](online-offline.md)**        | <ul><li>Activate to known profile-based destinations such as email providers, social networks, and advertising destinations. </li><li>Use offline attributes and events such as offline orders, transactions, CRM, or loyalty data along with online behavior for online targeting and personalization.</li></ul> | <ul><li>Adobe Experience Platform</li><li> Real-time Customer Data Platform</li><li>Adobe Audience Manager (optional)</li></ul> |
 
 ## Related Blog posts
 
