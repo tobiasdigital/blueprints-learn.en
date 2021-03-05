@@ -8,29 +8,27 @@ thumbnail:
 
 # Cross-site and Cross-channel Customer Journey Analysis scenario
 
-Analyze and extract insights from customer interactions across the customer journey.
+Have a single consolidated view of customer behavior across various channels by unifying data from various web, mobile, and offline properties.
 
 ## Use Cases
 
 * Analyze customer interactions across desktop and mobile to understand customer behavior and extract insights to optimize digital customer experiences.
 * Analyze customer interactions across channels, including digital and offline channels such as support interactions and in store purchases to better understand and optimize the customer journey. 
 
-## Architecture
+## Applications
 
-<img src="assets/CJA.svg" alt="Reference architecture for the Customer Journey Analytics Blueprint" style="border:1px solid #4a4a4a" />
-
+* Adobe Experience Platform
+* Customer Journey Analytics
+* Adobe Analytics (optional)
 
 ## Integration Patterns
 
 * Adobe Experience Platform → Customer Journey Analytics
 * Adobe Analytics → Adobe Experience Platform → Customer Journey Analytics
 
+## Architecture
 
-## Prerequisites
-
-* Adobe Experience Platform
-* Customer Journey Analytics
-
+<img src="assets/CJA.svg" alt="Reference architecture for the Customer Journey Analytics Blueprint" style="border:1px solid #4a4a4a" />
 
 ## Guardrails
 
@@ -40,7 +38,7 @@ Data Ingestion into Customer Journey Analytics:
 * Once data has been published to the data lake, it can take up to 90 mins to ingest into Customer Journey Analytics.
 * Backfill data for loading historical data is also supported via the connection configuration.
 
-## Implementation Steps and Considerations
+## Implementation Steps
 
 1. Configure datasets and schemas 
 1. Ingest data into Platform
@@ -58,6 +56,8 @@ Data Ingestion into Customer Journey Analytics:
 1. A data view is configured on the connection to select the specific dimensions and metrics to be included in the view. Attribution and allocation settings are also configured in the data view. These settings are computed at report time.
 1. A project is then created to configure dashboards and reports within Analysis Workspace.
 
+## Implementation Considerations
+
 ### Identity Stitching Considerations
 
 * Time-series data to be unioned must have the same id namespace on every record.
@@ -66,7 +66,7 @@ Data Ingestion into Customer Journey Analytics:
 * The field-based identity stitching process allows for rekeying identities in rows based on subsequent transient id records, such as an authentication id. This allows for resolving disparate records to a single id for analysis at the person level vs. at the device or cookie level.
 * Stitching happens once a week. With replay after the stitch.
 
-## FAQ
+## FAQs
 
 * What are the downstream impacts of data models in Customer Journey Analytics?
 

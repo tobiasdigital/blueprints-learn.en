@@ -15,13 +15,13 @@ Anonymous web and advertising activation.
 * Anonymous digital audience targeting and personalization.
 * Build audiences for targeting on supported advertising networks.
 
+## Applications
+
+* Adobe Audience Manager
+
 ## Architecture
 
 <img src="assets/aam.svg" alt="Reference architecture for the Anonymous Audience Activation scenario" style="border:1px solid #4a4a4a" />
-
-## Prerequisites
-
-* Adobe Audience Manager
 
 ## Implementation Steps
 
