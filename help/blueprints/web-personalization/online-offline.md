@@ -64,7 +64,7 @@ The Web/Mobile personalization blueprint can be implemented using either traditi
 
 ### Platform Web/Mobile SDK and Edge Approach
 
-<img src="assets/websdkflow.png" alt="Reference architecture for the Platform Web SDK/Mobile SDK and Edge Network Approach" style="border:1px solid #4a4a4a" />
+<img src="assets/websdkflow.svg" alt="Reference architecture for the Platform Web SDK/Mobile SDK and Edge Network Approach" style="border:1px solid #4a4a4a" />
 
 
 ### Application-specific SDK Approach
