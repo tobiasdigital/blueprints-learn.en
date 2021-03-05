@@ -31,9 +31,9 @@ Synchronize web personalization with email and other known and anonymous channel
 
 ## Guardrails
 
-* By default the segment sharing service allows a maximum of 75 audiences to be shared for each Analytics report suite. If the customer has an Audience Manager license, there is no limit on the number of audiences that can be shared between Adobe Analytics and Target or Audience Manager and Target.
+* By default the segment sharing service allows a maximum of 75 audiences to be shared for each Analytics report suite. If the customer has an Audience Manager license, there is no limit on the number of audiences that can be shared between Adobe Analytics and Adobe Target or Audience Manager and Adobe Target.
 * Batch segment sharing – once per day or manually initiated via API.
-* Shared segments available in Target for next hit/page personalization.
+* Shared segments available in Adobe Target for next hit/page personalization.
 
 ## Implementation Prerequisites
 
@@ -43,7 +43,7 @@ Synchronize web personalization with email and other known and anonymous channel
 | Adobe Audience Manager (Optional) | Platform Web SDK* or dil.js 5.0+ |  |
 | Adobe Analytics (Optional) | Platform Web SDK* or AppMeasurement.js 1.6.4+ | Analytics tracking must use Regional Data Collection (RDC). |
 | Experience Cloud ID service | Platform Web SDK* or VisitorAPI.js 2.0+ | It is recommended to use Experience Platform Launch to deploy the ID service to ensure that the ID is set before any application calls |
-| Experience Platform Mobile SDK (Optional) | 4.11 or higher for iOS and Android |  |
+| Experience Platform Mobile SDK (Optional) | 4.11 or higher for iOS and Android™ |  |
 | Experience Platform Web SDK | 1.0, current Experience Platform SDK version has [various use cases not yet supported for the Experience Cloud applications](https://github.com/adobe/alloy/projects/5)| |
 
 
@@ -54,7 +54,10 @@ Synchronize web personalization with email and other known and anonymous channel
 1. [Implement Adobe Analytics (optional)](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)  (optional).
 1. [Implement Experience Platform and Real-time Customer Profile](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html)
 1. Implement [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html) or [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
-1. [Request provisioning for Audience Sharing between Experience Platform and Target (Shared Audiences)](https://www.adobe.com/go/audiences)
+    >[!NOTE]
+    >
+    >Each application must use the Experience Cloud ID and be part of the same Experience Cloud Org to allow audience sharing between applications.
+1. [Request provisioning for Audience Sharing between Experience Platform and Adobe Target (Shared Audiences)](https://www.adobe.com/go/audiences)
 
 ## Implementation Data Flow Diagrams
 
