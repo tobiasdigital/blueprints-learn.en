@@ -1,12 +1,12 @@
 ---
-title: Profile Lookup Blueprint
+title: Customer Activity Hub
 description: Real-time Customer Profile lookups to provide context for agent-assisted support and sales.
 solution: Experience Platform, Data Collection
 kt: 7195
 thumbnail: 
 ---
 
-# Profile Lookup Blueprint
+# Customer Activity Blueprint
 
 Profile Lookup Blueprint shows how external applications can access Adobe Experience Platform’s Real-time Customer Profile. 
 

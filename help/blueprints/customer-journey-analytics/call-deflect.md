@@ -15,31 +15,27 @@ Analyze a customer's behavior across desktop and mobile before they contact the 
 * Analyze customer behavior before customers contact support 
 * Discover opportunities to improve self-service capabilities
 
-## Architecture
+## Applications
 
-<img src="assets/CJA.svg" alt="Reference architecture for the Customer Journey Analytics Blueprint" style="border:1px solid #4a4a4a" />
-
+* Adobe Experience Platform
+* Customer Journey Analytics
 
 ## Integration Patterns
 
 * Adobe Experience Platform → Customer Journey Analytics
-* Adobe Analytics → Adobe Experience Platform → Customer Journey Analytics
 
+## Architecture
 
-## Prerequisites
-
-* Adobe Experience Platform
-* Customer Journey Analytics
+<img src="assets/CJA.svg" alt="Reference architecture for the Customer Journey Analytics Blueprint" style="border:1px solid #4a4a4a" />
 
 ## Guardrails
 
 Data Ingestion into Customer Journey Analytics:
 
-* Data Ingestion to Lake: API – 7 GB/hr, source connector – 200 GB/hr, streaming to lake ~15 min, Analytics source connector to lake ~45 min
-* Once data has been published to data lake, it can take up to 90 mins to ingest into Customer Journey Analytics.
-* Backfill data for loading historical data is also supported via the connection configuration.
+* Data ingestion to lake: API ~ 7 GB/hr, source connector ~ 200 GB/hr, streaming to lake ~ 15 min, Analytics source connector to lake ~ 45 min.
+* Once data has been published to the data lake, it can take up to 90 mins to process into Customer Journey Analytics.
 
-## Implementation Steps and Considerations
+## Implementation Steps
 
 1. Configure datasets and schemas
 1. Ingest data into Platform.
@@ -57,9 +53,11 @@ Data Ingestion into Customer Journey Analytics:
 1. A data view is configured on the connection to select the specific dimensions and metrics to be included in the view. Attribution and allocation settings are also configured in the data view. These settings are computed at report time.
 1. A project is then created to configure dashboards and reports within Analysis Workspace.
 
+## Implementation Considerations
+
 ### Identity Stitching Considerations
 
-* Time-series data to be unioned must have the same id namespace on every record. To connect call center data to anonymized device data, the digital ID must be tied to the calling ID. This tying can occur through several possible mechanisms:
+* Time-series data to be unioned must have the same id namespace on every record. To connect call center data to anonymous device data, the digital ID must be tied to the calling ID. This tying can occur through several possible mechanisms:
     1. The dial number being a unique dial number for that visitor for that time, along with a lookup table to track the relationship. 
     1. Require the user to authenticate before requesting support and tie this authentication to an identifier determined by the call agent - phone number or email as example.
     1. Use an onboarding partner to help type online device identifiers with known identifiers tied to the support request.
@@ -68,7 +66,7 @@ Data Ingestion into Customer Journey Analytics:
 * The field-based identity stitching process allows for rekeying identities in rows based on subsequent transient id records, such as an authentication id. This allows for resolving disparate records to a single id for analysis at the person level vs. at the device or cookie level.
 * Stitching happens once a week. With replay after the stitch.
 
-## FAQ
+## FAQs
 
 * What are the downstream impacts of data models in Customer Journey Analytics?
 

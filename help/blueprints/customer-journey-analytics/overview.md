@@ -14,7 +14,7 @@ Customer Journey Analytics Blueprint shows how brands can unify customer data an
 
 | Scenario | Description |  Experience Cloud Applications | 
 |---|---|---|
-| **[Cross-site and Cross-channel Analysis and Reporting](cross-site.md)**  | <ul><li>Have a single consolidated view of customer behavior across various channels by unifying data from various web, mobile, and offline properties.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li></ul>| 
+| **[Cross-site and Cross-channel Analysis and Reporting](cross-site.md)**  | <ul><li>Have a single consolidated view of customer behavior across various channels by unifying data from various web, mobile, and offline properties.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (optional)</li></ul>| 
 | **[Call Center deflection](call-deflect.md)** | <ul><li>Determine what behaviors are most indicative in resulting in agent assisted calls by bringing Call Center data together with web, mobile and other interaction data.</li><li>These insights can then be used to optimize the customer experience and reduce the path to agent assisted interactions through optimized self-service content and tooling.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
 ## Related Blog Posts

@@ -7,7 +7,7 @@ thumbnail: thumb-web-personalization-scenario2.jpg
 ---
 
 # Online/Offline Web Personalization scenario
-
+https://git.corp.adobe.com/AdobeDocs/blueprints-learn.en/pull/49/conflict?name=help%252Fblueprints%252Fweb-personalization%252Fonline-offline.md&ancestor_oid=a257abd9b894a2b07b69ab41142b424c77e5c5a5&base_oid=037897f1e3cb83d24a4d77d12ff20aa6e32286c7&head_oid=e5f88f8bff9c2e30aa629d99f45f8e9b19a67a79
 Synchronize web personalization with email and other known and anonymous channel personalization.
 
 ## Use Cases
@@ -18,11 +18,10 @@ Synchronize web personalization with email and other known and anonymous channel
 
 ## Applications
 
-* Real-time Customer Data Platform or Adobe Experience Platform Activation
+* Real-time Customer Data Platform
 * Adobe Target
-* Adobe Analytics (optional)
-* Adobe Audience Manager (optional)
-
+* Adobe Analytics (optional) - adds third-party audience data, co-op based device graph, and the ability to surface Platform segments in Adobe Analytics vice versa
+* Adobe Audience Manager (optional) - adds the ability to build segments based on historical behavioral data and fine grained segmentation from Adobe Analytics data
 
 ## Architecture
 
@@ -31,12 +30,8 @@ Synchronize web personalization with email and other known and anonymous channel
 ## Guardrails
 
 * By default the segment sharing service allows a maximum of 75 audiences to be shared for each Analytics report suite. If the customer has an Audience Manager license, there is no limit on the number of audiences that can be shared between Adobe Analytics and Target or Audience Manager and Target.
-* Segment realization from Platform is latent for both batch (1 per day) and streaming (~2 min). Therefore, segment rules based on same-session data for same-session personalization should be powered by Audience Manager. For personalization use cases, Platform is best used for long historical segmentation or segment activation of offline data to web.
-* Batch segment sharing – once per day latency, or manually initiated via API ad hoc Streaming Segmentation available within minutes
-* Shared segments available in Target for next page personalization, first page/hit is to establish profile sync between segment share service and Target
-* Concerning the ~6-hour delay of new segments being initiated. It takes ~5 hours for the Audience Manager metadata (segment rules) to get from the MySQL data-base to the Audience Manager Edge data collection system. While metadata is not available on the Audience Manager Edge, Audience Manager is not able to record the segment data.
-* The segment-sharing service listens for segment change events via projection on the pipeline. From this standpoint, the segment sharing service is not concerned with whether the segment is batch or streaming, it simply consumes the segment change events.
-* Experience events and profile records that have not been updated as of the last 14 days do not have a current record in the region hint routing information. As such, these profiles route through a slower batch-based path to Audience Manager which can take up to ~48 hours to activate.
+* Batch segment sharing – once per day or manually initiated via API.
+* Shared segments available in Target for next hit/page personalization.
 
 ## Implementation Prerequisites
 
@@ -46,8 +41,6 @@ Synchronize web personalization with email and other known and anonymous channel
 | Adobe Audience Manager (Optional) | Platform Web SDK* or dil.js 5.0+ | Adds third-party audience data, co-op based device graph, ability to surface Platform segments in Adobe Analytics and Adobe Analytics segments in Platform |
 | Adobe Analytics (Optional) | Platform Web SDK* or AppMeasurement.js 1.6.4+ | Analytics tracking must use Regional Data Collection (RDC). Adds the ability to build segments based on historical behavioral data and fine grained segmentation from Adobe Analytics data. |
 | Experience Cloud ID service | Platform Web SDK* or VisitorAPI.js 2.0+ | It is recommended to use Experience Platform Launch to deploy the ID service to ensure that the ID is set before any application calls |
-| Experience Cloud Audiences (Optional) | n/a |  |
-| Experience Platform Launch Edge Configuration <br> (if using Experience Platform Web SDK) | n/a |  |
 | Experience Platform Mobile SDK (Optional) | 4.11 or higher for iOS and Android |  |
 | Experience Platform Web SDK | 1.0, current Experience Platform SDK version has [various use cases not yet supported for the Experience Cloud applications](https://github.com/adobe/alloy/projects/5)| |
 
@@ -67,7 +60,7 @@ The Web/Mobile personalization blueprint can be implemented using either traditi
 
 ### Platform Web/Mobile SDK and Edge Approach
 
-<img src="assets/websdkflow.png" alt="Reference architecture for the Platform Web SDK/Mobile SDK and Edge Network Approach" style="border:1px solid #4a4a4a" />
+<img src="assets/websdkflow.svg" alt="Reference architecture for the Platform Web SDK/Mobile SDK and Edge Network Approach" style="border:1px solid #4a4a4a" />
 
 ### Application-specific SDK Approach
 

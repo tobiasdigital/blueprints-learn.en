@@ -15,19 +15,19 @@ Execute scheduled and batch messaging campaigns using Adobe Experience Platform 
 * Scheduled email campaigns
 * Onboarding and re-marketing campaigns
 
-## Architecture
+## Applications
 
-<img src="assets/aepbatch.svg" alt="Reference architecture for the Batch Messaging and Adobe Experience Platform scenario" style="border:1px solid #4a4a4a" />
+* Adobe Experience Platform
+* Adobe Campaign Classic or Standard
 
 ## Integration Patterns
 
 * Adobe Experience Platform → Adobe Campaign Classic
 * Adobe Experience Platform → Adobe Campaign Standard
 
-## Prerequisites
+## Architecture
 
-* Adobe Experience Platform
-* Adobe Campaign Classic or Standard
+<img src="assets/aepbatch.svg" alt="Reference architecture for the Batch Messaging and Adobe Experience Platform scenario" style="border:1px solid #4a4a4a" />
 
 ## Guardrails
 
@@ -46,8 +46,6 @@ Execute scheduled and batch messaging campaigns using Adobe Experience Platform 
 * File encryption is not supported
 * Campaign export workflows to run at most every 4 hrs
 * See [profile and data ingestion guardrails for Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
-
-## Implementation Steps
 
 ### Adobe Experience Platform
 

@@ -8,28 +8,28 @@ thumbnail:
 
 # Anonymous Audience Activation scenario
 
-Anonymous web and advertising activation.
+Target audiences across web and advertising channels based on anonymous and behavioral customer data. This enables personalized and consistent real-time customer experiences across devices.
 
 ## Use Cases
 
 * Anonymous digital audience targeting and personalization.
 * Build audiences for targeting on supported advertising networks.
 
+## Applications
+
+* Adobe Audience Manager
+
 ## Architecture
 
 <img src="assets/aam.svg" alt="Reference architecture for the Anonymous Audience Activation scenario" style="border:1px solid #4a4a4a" />
 
-## Prerequisites
-
-* Adobe Audience Manager
-
 ## Implementation Steps
 
-1. Implement Audience Manager 
-2. Collect data to Audience Manager
-3. Configure signals and traits for use in audience definition
-4. Build segments in Audience Manager
-5. Implement and configure destinations for Audience Manager to share audience membership
+1. Implement Audience Manager
+1. Collect data to Audience Manager
+1. Configure signals and traits for use in segment definitions
+1. Create segments in Audience Manager
+1. Configure destinations in Audience Manager to share audiences
 
 ## Related Documentation
 
