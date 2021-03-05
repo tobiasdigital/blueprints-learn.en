@@ -23,7 +23,6 @@ Analyze a customer's behavior across desktop and mobile before they contact the 
 ## Integration Patterns
 
 * Adobe Experience Platform → Customer Journey Analytics
-* Adobe Analytics → Adobe Experience Platform → Customer Journey Analytics
 
 ## Architecture
 
@@ -33,9 +32,8 @@ Analyze a customer's behavior across desktop and mobile before they contact the 
 
 Data Ingestion into Customer Journey Analytics:
 
-* Data Ingestion to Lake: API – 7 GB/hr, source connector – 200 GB/hr, streaming to lake ~15 min, Analytics source connector to lake ~45 min
-* Once data has been published to data lake, it can take up to 90 mins to ingest into Customer Journey Analytics.
-* Backfill data for loading historical data is also supported via the connection configuration.
+* Data ingestion to lake: API ~ 7 GB/hr, source connector ~ 200 GB/hr, streaming to lake ~ 15 min, Analytics source connector to lake ~ 45 min.
+* Once data has been published to the data lake, it can take up to 90 mins to process into Customer Journey Analytics.
 
 ## Implementation Steps
 
@@ -59,7 +57,7 @@ Data Ingestion into Customer Journey Analytics:
 
 ### Identity Stitching Considerations
 
-* Time-series data to be unioned must have the same id namespace on every record. To connect call center data to anonymized device data, the digital ID must be tied to the calling ID. This tying can occur through several possible mechanisms:
+* Time-series data to be unioned must have the same id namespace on every record. To connect call center data to anonymous device data, the digital ID must be tied to the calling ID. This tying can occur through several possible mechanisms:
     1. The dial number being a unique dial number for that visitor for that time, along with a lookup table to track the relationship. 
     1. Require the user to authenticate before requesting support and tie this authentication to an identifier determined by the call agent - phone number or email as example.
     1. Use an onboarding partner to help type online device identifiers with known identifiers tied to the support request.
@@ -68,7 +66,7 @@ Data Ingestion into Customer Journey Analytics:
 * The field-based identity stitching process allows for rekeying identities in rows based on subsequent transient id records, such as an authentication id. This allows for resolving disparate records to a single id for analysis at the person level vs. at the device or cookie level.
 * Stitching happens once a week. With replay after the stitch.
 
-## FAQ
+## FAQs
 
 * What are the downstream impacts of data models in Customer Journey Analytics?
 

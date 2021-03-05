@@ -8,18 +8,20 @@ thumbnail:
 
 # Online/Offline Audience Activation scenario
 
-Online/Offline Audience Activation.
+Use offline attributes and events such as offline orders, transactions, CRM, or loyalty data along with online behavior for online targeting and personalization.
+
+Activate audiences to known profile based destinations such as email providers, social networks, and advertising destinations. 
 
 ## Use Cases
 
-* Audience targeting for known audiences on social destinations.
-* Augment web/mobile personalization efforts with granular and enriched audiences.
-* Build audiences that can be exported for granular targeting and personalization in Email and Mobile messaging systems.
+* Audience targeting for known audiences on social and advertising destinations.
+* Online personalization with online and offline attributes.
+* Activate audiences to known channels such as email and SMS.
 
 ## Applications
 
+* Adobe Experience Platform
 * Real-time Customer Data Platform
-* Experience Platform Activation
 
 ## Architecture
 

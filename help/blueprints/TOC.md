@@ -25,12 +25,12 @@ role: Architect, Developer, Business Practitioner
     + [Overview](/help/blueprints/customer-journey-management/overview.md)
     + [Batch Messaging & Experience Platform](/help/blueprints/customer-journey-management/aepmessaging.md)
     + [Triggered Messaging & Experience Platform](/help/blueprints/customer-journey-management/triggered.md)
++ Custom Data Science and AI/ML Profile Enrichment{#data-science}
+  + [Overview](/help/blueprints/data-science/overview.md)
 + Data Preparation and Ingestion{#data-ingestion}
   + [Overview](/help/blueprints/data-ingestion/overview.md)
 + Data Exploration and Enterprise Reporting{#data-exploration}
   + [Overview](/help/blueprints/data-exploration/overview.md)
-+ Data Science and AI/ML Profile Enrichment{#data-science}
-  + [Overview](/help/blueprints/data-science/overview.md)
 + Enterprise Data Collection{#enterprise-collection}
   + [Overview](/help/blueprints/enterprise-collection/overview.md)
 + Profile Lookup{#profile-lookup}
