@@ -7,7 +7,7 @@ thumbnail: thumb-web-personalization-scenario2.jpg
 ---
 
 # Online/Offline Web Personalization scenario
-https://git.corp.adobe.com/AdobeDocs/blueprints-learn.en/pull/49/conflict?name=help%252Fblueprints%252Fweb-personalization%252Fonline-offline.md&ancestor_oid=a257abd9b894a2b07b69ab41142b424c77e5c5a5&base_oid=037897f1e3cb83d24a4d77d12ff20aa6e32286c7&head_oid=e5f88f8bff9c2e30aa629d99f45f8e9b19a67a79
+
 Synchronize web personalization with email and other known and anonymous channel personalization.
 
 ## Use Cases
