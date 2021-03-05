@@ -56,7 +56,7 @@ Execute triggered messages and experiences using Adobe Experience Platform as a 
 * Transactional messaging logs are not natively sync’d to Experience Platform currently, requiring a manual configuration - Recommendation to export logs at most every 4 hrs
 
 
-## Implementation Steps and Considerations
+## Implementation Steps
 
 ### Adobe Experience Platform
 

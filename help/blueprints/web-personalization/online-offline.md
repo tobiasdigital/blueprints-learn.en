@@ -50,7 +50,7 @@ Synchronize web personalization with email and other known and anonymous channel
 * Shared segments available in Target for next page personalization, first page/hit is to establish profile sync between segment share service and Target
 * Concerning the ~6-hour delay of new segments being initiated. It takes ~5 hours for the Audience Manager metadata (segment rules) to get from the MySQL data-base to the Audience Manager Edge data collection system. While metadata is not available on the Audience Manager Edge, Audience Manager is not able to record the segment data.
 * The segment-sharing service listens for segment change events via projection on the pipeline. From this standpoint, the segment sharing service is not concerned with whether the segment is batch or streaming, it simply consumes the segment change events.
-* Experience events and profile records that have not been updated as of the last 14 days do not have a current record in the region hint routing information. As such, these profiles route through a slower batch-based path to Audience Manager which can take up to ~48 hrs to activate.
+* Experience events and profile records that have not been updated as of the last 14 days do not have a current record in the region hint routing information. As such, these profiles route through a slower batch-based path to Audience Manager which can take up to ~48 hours to activate.
 
 ## Application Support
 
@@ -87,7 +87,6 @@ The Web/Mobile personalization blueprint can be implemented using either traditi
 * [Experience Platform Segment Builder Overview](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)
 * [Audience Manager Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
 * [Analytics Segment Sharing through AAM](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
-* Streaming Segmentation Guidelines
 * [Experience Platform Web SDK documentation](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * [Experience Cloud ID Service documentation](https://experienceleague.adobe.com/docs/id-service/using/home.html)
 * [Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch/using/home.html)
