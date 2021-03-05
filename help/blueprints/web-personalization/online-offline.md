@@ -6,7 +6,9 @@ kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 ---
 
+
 # Online/Offline Web Personalization scenario
+
 
 Synchronize web personalization with email and other known and anonymous channel personalization.
 
