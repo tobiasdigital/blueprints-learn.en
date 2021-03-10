@@ -5,36 +5,35 @@ user-guide-description: Blueprints are repeatable implementations to address est
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
 ---
-# Digital Experience Blueprints {#tutorials}
+# Digital Experience Blueprints {#architecture}
 
 + [Overview](/help/blueprints/overview.md)
 + Architecture Overview Diagrams{#architecture-overview}
-  + [Experience Cloud Overview](/help/blueprints/experience-platform/aecoverview.md)
-  + [Experience Platform & Applications](/help/blueprints/experience-platform/aepapps.md)
-  + [Experience Platform Data Flow](/help/blueprints/experience-platform/aepdataflow.md)
+  + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
+  + [Experience Platform & Applications](/help/blueprints/experience-platform/platform-applications.md)
+  + [Experience Platform Data Flow](/help/blueprints/experience-platform/platform-data-flow.md)
 + Audience Activation{#audience-activation}
   + [Overview](/help/blueprints/audience-activation/overview.md)
   + [Anonymous Audience Activation](/help/blueprints/audience-activation/anonymous.md)
   + [Online/Offline Audience Activation](/help/blueprints/audience-activation/online-offline.md)
++ Customer Activity Hub{#customer-activity-hub}
+  + [Overview](/help/blueprints/customer-activity-hub/overview.md)
 + Customer Journey Analytics{#customer-journey-analytics}
   + [Overview](/help/blueprints/customer-journey-analytics/overview.md)
-  + [Cross-site and Cross-channel Journey Analytics](/help/blueprints/customer-journey-analytics/cross-site.md)
+  + [Cross-site & Cross-channel Journey Analytics](/help/blueprints/customer-journey-analytics/cross-site.md)
   + [Call Deflection](/help/blueprints/customer-journey-analytics/call-deflect.md)
-+ Customer Journey Management{#customer-journey-management}
-  + Multi-channel Message Orchestration{#multi-channel-orchestration}
-    + [Overview](/help/blueprints/customer-journey-management/overview.md)
-    + [Batch Messaging & Experience Platform](/help/blueprints/customer-journey-management/aepmessaging.md)
-    + [Triggered Messaging & Experience Platform](/help/blueprints/customer-journey-management/triggered.md)
-+ Custom Data Science and AI/ML Profile Enrichment{#data-science}
++ Custom Data Science for Profile Enrichment{#data-science}
   + [Overview](/help/blueprints/data-science/overview.md)
-+ Data Preparation and Ingestion{#data-ingestion}
++ Data Preparation & Ingestion{#data-ingestion}
   + [Overview](/help/blueprints/data-ingestion/overview.md)
-+ Data Exploration and Enterprise Reporting{#data-exploration}
++ Enterprise Data Exploration & Reporting{#data-exploration}
   + [Overview](/help/blueprints/data-exploration/overview.md)
 + Enterprise Data Collection{#enterprise-collection}
   + [Overview](/help/blueprints/enterprise-collection/overview.md)
-+ Profile Lookup{#profile-lookup}
-  + [Overview](/help/blueprints/profile-lookup/overview.md)
++ Multi-channel Message Orchestration{#multi-channel-message-orchestration}
+  + [Overview](/help/blueprints/multi-channel-message-orchestration/overview.md)
+  + [Batch Messaging & Experience Platform](/help/blueprints/multi-channel-message-orchestration/batch-messaging.md)
+  + [Triggered Messaging & Experience Platform](/help/blueprints/multi-channel-message-orchestration/triggered-messaging.md)
 + Web & Mobile Personalization{#web-personalization}
   + [Overview](/help/blueprints/web-personalization/overview.md)
   + [Behavioral Web Personalization](/help/blueprints/web-personalization/behavioral.md)
