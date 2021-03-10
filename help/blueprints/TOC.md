@@ -5,7 +5,7 @@ user-guide-description: Blueprints are repeatable implementations to address est
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
 ---
-# Digital Experience Blueprints 
+# Digital Experience Blueprints {#architecture}
 
 + [Overview](/help/blueprints/overview.md)
 + Architecture Overview Diagrams{#architecture-overview}
