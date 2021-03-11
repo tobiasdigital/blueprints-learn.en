@@ -32,7 +32,7 @@ role: Architect, Developer, Business Practitioner
   + [Overview](/help/blueprints/multi-channel-message-orchestration/overview.md)
   + [Batch Messaging & Experience Platform](/help/blueprints/multi-channel-message-orchestration/batch-messaging.md)
   + [Triggered Messaging & Experience Platform](/help/blueprints/multi-channel-message-orchestration/triggered-messaging.md)
-+ Server Side Enterprise Data Collection{#enterprise-collection}
++ Server Side Enterprise Data Collection{#server-side-enterprise-data-collection}
   + [Overview](/help/blueprints/server-side-enterprise-data-collection/overview.md)
 + Web & Mobile Personalization{#web-personalization}
   + [Overview](/help/blueprints/web-personalization/overview.md)
