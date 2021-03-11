@@ -1,9 +1,8 @@
 ---
-title: Customer Journey Analytics - Cross-site and Cross-channel Analysis scenario
+title: Cross-site and Cross-channel Analysis scenario
 description: Analyze and extract insights from customer interactions across the customer journey.
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
-thumbnail: 
 ---
 
 # Cross-site and Cross-channel Customer Journey Analysis scenario
