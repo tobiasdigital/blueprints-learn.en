@@ -1,9 +1,8 @@
 ---
-title: Online/Offline Web Personalization Scenario
+title: Online/Offline Web Personalization scenario
 description: Synchronize web personalization with email and other known and anonymous channel personalization.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
-kt: 7194
-thumbnail: thumb-web-personalization-scenario2.jpg
+kt: 7194thumb-web-personalization-scenario2.jpg
 ---
 
 

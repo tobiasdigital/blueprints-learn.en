@@ -3,7 +3,6 @@ title: Customer Activity Hub Blueprint
 description: Real-time Customer Profile lookups to provide context for agent-assisted support and sales.
 solution: Experience Platform, Data Collection
 kt: 7195
-thumbnail: 
 ---
 
 # Customer Activity Hub Blueprint
