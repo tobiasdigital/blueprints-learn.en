@@ -25,7 +25,7 @@ Train and Score models to determine customer insights such as customer lifetime 
 
 ## Architecture
 
-<img src="assets/datascience.svg" alt="Reference Architecture for the Data Science and AI/ML Profile Enrichment Blueprint" style="border:1px solid #4a4a4a" />
+<img src="assets/datascience.svg" alt="Reference Architecture for the Custom Data Science for Profile Enrichment Blueprint" style="border:1px solid #4a4a4a" />
 
 ## Implementation Steps
 
