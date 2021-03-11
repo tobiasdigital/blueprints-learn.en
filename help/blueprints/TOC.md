@@ -28,12 +28,12 @@ role: Architect, Developer, Business Practitioner
   + [Overview](/help/blueprints/data-ingestion/overview.md)
 + Enterprise Data Exploration & Reporting{#data-exploration}
   + [Overview](/help/blueprints/data-exploration/overview.md)
-+ Enterprise Data Collection{#enterprise-collection}
-  + [Overview](/help/blueprints/enterprise-collection/overview.md)
 + Multi-channel Message Orchestration{#multi-channel-message-orchestration}
   + [Overview](/help/blueprints/multi-channel-message-orchestration/overview.md)
   + [Batch Messaging & Experience Platform](/help/blueprints/multi-channel-message-orchestration/batch-messaging.md)
   + [Triggered Messaging & Experience Platform](/help/blueprints/multi-channel-message-orchestration/triggered-messaging.md)
++ Server Side Enterprise Data Collection{#enterprise-collection}
+  + [Overview](/help/blueprints/server-side-enterprise-data-collection/overview.md)
 + Web & Mobile Personalization{#web-personalization}
   + [Overview](/help/blueprints/web-personalization/overview.md)
   + [Behavioral Web Personalization](/help/blueprints/web-personalization/behavioral.md)
