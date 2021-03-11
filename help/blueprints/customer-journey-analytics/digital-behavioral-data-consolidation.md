@@ -1,11 +1,11 @@
 ---
-title: Cross-site and Cross-channel Analysis scenario
+title: Digital Behavioral Data Consolidation scenario
 description: Analyze and extract insights from customer interactions across the customer journey.
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 ---
 
-# Cross-site and Cross-channel Customer Journey Analysis scenario
+# Digital Behavioral Data Consolidation scenario
 
 Have a single consolidated view of customer behavior across various channels by unifying data from various web, mobile, and offline properties.
 

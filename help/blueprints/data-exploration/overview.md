@@ -1,14 +1,14 @@
 ---
-title: Data Exploration and Enterprise Reporting Blueprint
+title: Enterprise Data Exploration and Reporting Blueprint
 description: This blueprint shows the ability within Adobe Experience Platform to perform exploratory query and analysis of the data that exists in the data lake.
 solution: Experience Platform
 kt: 7207
 thumbnail: 
 ---
 
-# Data Exploration & Enterprise Reporting Blueprint
+# Enterprise Data Exploration and Reporting Blueprint
 
-Data Exploration & Enterprise Reporting comprises the ability within Adobe Experience Platform to perform exploratory query and analysis of the data that exists in the data lake.
+Enterprise Data Exploration and Reporting comprises the ability within Adobe Experience Platform to perform exploratory query and analysis of the data that exists in the data lake.
 
 Experience Platform's Query Service allows SQL queries to be performed on the data, while the Data Science Workspace enables data exploration, data science, and machine learning workloads to be performed on the data. 
 
@@ -35,7 +35,7 @@ Certain guardrails apply for the query timeout and for the amount of data that i
 
 ## Architecture
 
-<img src="assets/dataexplore.svg" alt="Reference architecture for the Data Exploration & Enterprise Reporting Blueprint" style="border:1px solid #4a4a4a" />
+<img src="assets/dataexplore.svg" alt="Reference architecture for the Enterprise Data Exploration and Reporting Blueprint" style="border:1px solid #4a4a4a" />
 
 ## Guardrails
 
