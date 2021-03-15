@@ -65,7 +65,7 @@ Execute scheduled and batch messaging campaigns using Adobe Experience Platform 
 
 1.  Sources / Destinations
     1.  Ingest data into Experience Platform using streaming APIs & source connectors
-    1.  Configure Azure blob storage destination for use with Campaign
+    1.  Configure [!DNL Azure] blob storage destination for use with Campaign
 
 1.  Mobile app deployment
     1.  Implement Campaign SDK for Campaign Classic or Experience Platform SDK for Campaign Standard.  If Experience Platform Launch is present recommendation is to use Campaign Classic/Standard extension with Experience Platform SDK.
@@ -80,7 +80,7 @@ Execute scheduled and batch messaging campaigns using Adobe Experience Platform 
     1.  Import workflows
         1.  Load and ingest simplified profile data onto Campaign sFTP
         1.  Load and ingest orchestration and messaging personalization data onto Campaign sFTP
-        1.  Ingest Experience Platform segments from Azure blob via workflows
+        1.  Ingest Experience Platform segments from [!DNL Azure] blob via workflows
 
 1.  Export workflows
     1.  Send Campaign logs back to Experience Platform via workflows every 4 hrs (broadLog, trackingLog, non-deliverable addresses)
