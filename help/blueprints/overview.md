@@ -25,7 +25,7 @@ Each Blueprint offers Adobe customers a series of artifacts that explain the hig
 <tr>
   <td>
     <a href="/help/blueprints/web-personalization/overview.md"><img alt="thumbnail image for the 'Web Personalization' blueprint" src="web-personalization/assets/personalization.svg" /></a>
-    <div><a href="/help/blueprints/web-personalization/overview.md"><strong>Web Personalization Blueprint</strong></a></div>
+    <div><a href="/help/blueprints/web-personalization/overview.md"><strong>Web/Mobile Personalization Blueprint</strong></a></div>
     <p><em>Deliver personalized web and mobile content.</em></p>
   </td>
   <td>
