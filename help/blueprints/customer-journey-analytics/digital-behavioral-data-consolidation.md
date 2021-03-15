@@ -33,7 +33,7 @@ Have a single consolidated view of customer behavior across various channels by 
 
 Data Ingestion into Customer Journey Analytics:
 
-* Data ingestion to lake: API ~ 7 GB/hr, source connector ~ 200 GB/hr, streaming to lake ~ 15 min, Analytics source connector to lake ~ 45 min.
+* Data ingestion to lake: API ~ 7 GB/hr, source connector ~ 200 GB/hr, streaming to lake ~ 15 min, Adobe Analytics source connector to lake ~ 45 min.
 * Once data has been published to the data lake, it can take up to 90 mins to process into Customer Journey Analytics.
 
 ## Implementation Steps
