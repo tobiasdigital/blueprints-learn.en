@@ -30,6 +30,8 @@ Activate audiences to known profile based destinations such as email providers, 
 ## Guardrails
 
 * [Profile and Segmentation Guidelines](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
+* Batch segment jobs run once per day based on the pre-determined schedule. Segment export jobs are then run prior to the scheduled destination delivery. Note that batch segment jobs and destination delivery jobs run separately. Batch segment jobs and export job performance is dependent upon number of profiles, size of profiles and number of segments being evaluated.
+* Streaming segment jobs are evaluated in minutes of streaming data arriving to profile and immediately write the segment membership to the profile and send a event for applications to subscribe to. Streaming segment membership is acted upon immediately for streaming destinations and is delivered in either single segment membership events or a micro-batch of multiple profile events dependent upon the ingestion patterns of the destination. Scheduled destinations will initiate a segment export job from profile prior to delivery, for any segments evaluated in streaming that are delivered via scheduled batch segment delivery.
 
 ## Implementation Steps
 
