@@ -28,7 +28,7 @@ Personalize based on online behavior and audience data.
 
 ## Guardrails
 
-By default the segment sharing service allows a maximum of 75 audiences to be shared for each Adobe Analytics report suite. If Audience Manager is being used for audience sharing, there is no limit on the number of audiences that can be shared. 
+By default, the segment sharing service allows a maximum of 75 audiences to be shared for each Adobe Analytics report suite. If Audience Manager is being used for audience sharing, there is no limit on the number of audiences that can be shared. 
 
 ## Implementation Prerequisites
 
@@ -62,7 +62,7 @@ By default the segment sharing service allows a maximum of 75 audiences to be sh
 
 ## Implementation Data Flow Diagrams
 
-The Web/Mobile Personalization Blueprint can be implemented by using either the Platform Web SDK/Mobile SDK and Edge Network or using either traditional application-specific SDKs (for example, AppMeasurement.js).
+The Web/Mobile Personalization Blueprint can be implemented by using either the Platform Web SDK or Mobile SDK and the Edge network, or using either traditional application-specific SDKs (for example, AppMeasurement.js).
 
 ### Platform Web/Mobile SDK and Edge Network Approach
 

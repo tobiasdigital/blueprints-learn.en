@@ -8,11 +8,11 @@ thumbnail:
 
 # Anonymous Audience Activation scenario
 
-Target audiences across web and advertising channels based on anonymous and behavioral customer data. This enables personalized and consistent real-time customer experiences across devices.
+Target audiences across web and advertising channels based on anonymous and behavioral customer data. This ability enables personalized and consistent real-time customer experiences across devices.
 
 ## Use Cases
 
-* Anonymous digital audience targeting and personalization.
+* Perform anonymous digital audience targeting and personalization.
 * Build audiences for targeting on supported advertising networks.
 
 ## Applications
@@ -25,11 +25,11 @@ Target audiences across web and advertising channels based on anonymous and beha
 
 ## Implementation Steps
 
-1. Implement Audience Manager
-1. Collect data to Audience Manager
-1. Configure signals and traits for use in segment definitions
-1. Create segments in Audience Manager
-1. Configure destinations in Audience Manager to share audiences
+1. Implement Audience Manager.
+1. Collect data to Audience Manager.
+1. Configure signals and traits for use in segment definitions.
+1. Create segments in Audience Manager.
+1. Configure destinations in Audience Manager to share audiences.
 
 ## Related Documentation
 
