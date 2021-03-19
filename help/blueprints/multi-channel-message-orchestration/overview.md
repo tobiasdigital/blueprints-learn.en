@@ -10,7 +10,7 @@ thumbnail:
 
 Multi-channel Message Orchestration Blueprint shows how brands can proactively engage and communicate with their customers through channels such as email, SMS, and mobile alerts. 
 
-Orchestration tools can integrate with other interaction channels (such as with inbound channels) for web and mobile personalization by sharing audience state with the other channels' decision engines. Various factors help determine which applications and deployment options should be used, such as whether the customer interaction will be trigger-based or scheduled, what data is necessary for the targeting and personalization, and so on. These factors result in various possible scenarios and deployment options when building out message orchestration capability.
+Orchestration tools can integrate with other interaction channels (such as with inbound channels) for web and mobile personalization by sharing audience state with the other channels' decision engines. Various factors help determine which applications and deployment options to use, such as whether the customer interaction is trigger-based or scheduled, what data is necessary for the targeting and personalization, and so on. These factors result in various possible scenarios and deployment options when building out message orchestration capability.
 
 ## Scenarios
 

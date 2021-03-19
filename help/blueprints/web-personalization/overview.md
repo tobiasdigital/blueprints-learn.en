@@ -8,7 +8,7 @@ thumbnail:
 # Web and Mobile Personalization Blueprint
 
 
-Web and Mobile Personalization Blueprint addresses the ability to utilize audience segmentation in multiple applications to personalize and optimize customer experiences. You can use customer behaviors, demographics, loyalty level, and prior transactions to personalize layouts, call-to-actions, and content.
+Web and Mobile Personalization Blueprint addresses the ability to use audience segmentation in multiple applications to personalize and optimize customer experiences. You can use customer behaviors, demographics, loyalty level, and prior transactions to personalize layouts, call-to-actions, and content.
 
 ## Scenarios
 
