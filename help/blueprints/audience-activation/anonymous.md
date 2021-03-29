@@ -25,7 +25,7 @@ Target audiences across web and advertising channels based on anonymous and beha
 
 ## Implementation Steps
 
-1. Implement Audience Manager.
+1. [Implement Audience Manager](https://experienceleague.corp.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=en#implementation-integration-guides).
 1. Collect data to Audience Manager.
 1. Configure signals and traits for use in segment definitions.
 1. Create segments in Audience Manager.

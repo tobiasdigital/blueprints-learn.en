@@ -7,7 +7,7 @@ solution: Experience Platform
 # Digital Experience Blueprints
 
 Digital Experience Blueprints are repeatable implementations to address strategy and solve established business problems. Blueprints accelerate time-to-value and provide a fast path to success.
- 
+
 Each Blueprint offers Adobe customers a series of artifacts that explain the high-value business problem, architectures, implementation steps, technical considerations, and links to the relevant documentation.
 
 ## What's New
