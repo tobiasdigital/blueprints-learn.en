@@ -21,7 +21,7 @@ Each Blueprint offers Adobe customers a series of artifacts that explain the hig
 
 ## Featured Blueprints
 
-<table>
+<table style="table-layout:fixed">
 <tr>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/overview.html"><img alt="thumbnail image for the 'Web Personalization' blueprint" src="web-personalization/assets/personalization.svg" /></a>
