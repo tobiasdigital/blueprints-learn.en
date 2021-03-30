@@ -8,7 +8,6 @@ kt: 7194thumb-web-personalization-scenario2.jpg
 
 # Online/Offline Web Personalization scenario
 
-
 Synchronize web personalization with email and other known and anonymous channel personalization.
 
 ## Use Cases
@@ -21,8 +20,8 @@ Synchronize web personalization with email and other known and anonymous channel
 
 * Real-time Customer Data Platform
 * Adobe Target
-* Adobe Audience Manager (optional) - adds third-party audience data, co-op based device graph, the ability to surface Platform segments in Adobe Analytics, and the ability to surface Adobe Analytics segments in Platform
-* Adobe Analytics (optional) - adds the ability to build segments based on historical behavioral data and fine grained segmentation from Adobe Analytics data
+* Adobe Audience Manager (optional): Adds third-party audience data, co-op based device graph, the ability to surface Platform segments in Adobe Analytics, and the ability to surface Adobe Analytics segments in Platform
+* Adobe Analytics (optional): Adds the ability to build segments based on historical behavioral data and fine grained segmentation from Adobe Analytics data
 
 ## Architecture
 
@@ -30,12 +29,10 @@ Synchronize web personalization with email and other known and anonymous channel
 
 ## Guardrails
 
-* Segments shared from Experience Platform to Audience Manager are shared within minutes of segment realization - whether via the streaming or batch evaluation method. There is an initial segment configuration sync between AEP and AAM of ~4 hours for the AEP segment memberships to begin to be realized in AAM profiles. Once in the AAM profiles, the AEP segment memberships are available for same page personalization through Adobe Target. 
-* Note that for segment realizations that occur within the 4 hour segment configuration sync between AEP and AAM, these segment realizations will be realized into AAM on the subsequent batch segment job as "existing" segments.
-* Batch segment sharing from AEP – once per day or manually initiated via API. Once these segment memberships are realized they are shared to AAM within minutes and available for same/next page personalization in Target.
-* Streaming segmentation is realized within ~ p95 5min. Once these segment realizations occur they are shared to AAM within minutes and available for same/next page personalization in Target. 
-* By default the segment sharing service allows a maximum of 75 audiences to be shared for each Adobe Analytics report suite. If the customer has an Audience Manager license, there is no limit on the number of audiences that can be shared between Adobe Analytics and Adobe Target or Audience Manager and Adobe Target.
-
+* By default, the segment sharing service allows a maximum of 75 audiences to be shared for each Adobe Analytics report suite. If the customer has an Audience Manager license, there is no limit on the number of audiences that can be shared between Adobe Analytics and Adobe Target or Audience Manager and Adobe Target.
+* Batch segment sharing: once per day or manually initiated via API.
+* Shared segments available in Adobe Target for next hit/page personalization.
+* Segments shared from Experience Platform to Audience Manager are shared within minutes of segment realization - whether via the streaming or batch evaluation method. There is an initial segment configuration sync between AEP and AAM once the segment is initially created, after ~4 hours the AEP segment memberships can begin to be realized in AAM profiles.
 
 ## Implementation Prerequisites
 
@@ -44,7 +41,7 @@ Synchronize web personalization with email and other known and anonymous channel
 | Adobe Target | Platform Web SDK*, at.js 0.9.1+, or mbox.js 61+ | at.js is preferred as mbox.js is no longer being developed. |
 | Adobe Audience Manager (Optional) | Platform Web SDK* or dil.js 5.0+ |  |
 | Adobe Analytics (Optional) | Platform Web SDK* or AppMeasurement.js 1.6.4+ | Adobe Analytics tracking must use Regional Data Collection (RDC). |
-| Experience Cloud ID service | Platform Web SDK* or VisitorAPI.js 2.0+ | It is recommended to use Experience Platform Launch to deploy the ID service to ensure that the ID is set before any application calls |
+| Experience Cloud ID service | Platform Web SDK* or VisitorAPI.js 2.0+ | (Recommended) Use Experience Platform Launch to deploy the ID service to ensure that the ID is set before any application calls |
 | Experience Platform Mobile SDK (Optional) | 4.11 or higher for iOS and Android™ |  |
 | Experience Platform Web SDK | 1.0, current Experience Platform SDK version has [various use cases not yet supported for the Experience Cloud applications](https://github.com/adobe/alloy/projects/5)| |
 

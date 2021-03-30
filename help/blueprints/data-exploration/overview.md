@@ -10,11 +10,11 @@ thumbnail:
 
 Enterprise Data Exploration and Reporting comprises the ability within Adobe Experience Platform to perform exploratory query and analysis of the data that exists in the data lake.
 
-Experience Platform's Query Service allows SQL queries to be performed on the data, while the Data Science Workspace enables data exploration, data science, and machine learning workloads to be performed on the data. 
+Experience Platform's Query Service allows SQL queries to be performed on the data. The Data Science Workspace enables data exploration, data science, and machine learning workloads to be performed on the data. 
 
-In addition, Experience Platform allows connections with third-party SQL clients, interfaces, and Business Intelligence (BI) tools to directly connect to, access and query the data within Experience Platform utilizing the PostgreSQL protocol.
+In addition, Experience Platform allows connections with third-party SQL clients, interfaces, and Business Intelligence (BI) tools to directly connect to, access and query the data within Experience Platform, using the PostgreSQL protocol.
 
-Certain guardrails apply for the query timeout and for the amount of data that is included in the query result as noted within the scenario details.
+Certain guardrails apply for the query timeout and for the amount of data that is included in the query result, as noted within the scenario details.
 
 ## Use Cases
 
@@ -39,16 +39,16 @@ Certain guardrails apply for the query timeout and for the amount of data that i
 
 ## Guardrails
 
-* 10 minute time limit for interactive queries
-* 100 record limit returned in the UI
-* 50,000 record limit returned via the SQL connector
+* 10-minute time limit for interactive queries
+* 100-record limit returned in the UI
+* 50,000-record limit returned via the SQL connector
 
 ## Implementation Steps
 
-1.  Configure datasets and schemas for data ingestion into the data lake
-1.  Ingest data
-1.  Confirm data is available to Query Service and Data Science Workspace for raw access and query
-1.  Connect Business Intelligence tools and SQL clients to Query Service for visualization, data query, and exploration
+1.  Configure datasets and schemas for data ingestion into the data lake.
+1.  Ingest data.
+1.  Confirm that data is available to Query Service and Data Science Workspace for raw access and query.
+1.  Connect Business Intelligence tools and SQL clients to Query Service for visualization, data query, and exploration.
 
 ## Related Documentation
 

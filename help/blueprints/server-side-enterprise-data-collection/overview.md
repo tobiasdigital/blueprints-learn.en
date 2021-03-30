@@ -11,7 +11,7 @@ Server Side Enterprise Data Collection Blueprint shows how data collected with A
 
 ## Use Cases
 
-* Collect data from web/mobile via one single collection tag, lightening code weight on client browsers and apps. Propagate the collected data to various endpoints for a single source of data collection.
+* Collect data from web or mobile using a single collection tag, lightening code weight on client browsers and apps. Propagate the collected data to various endpoints for a single source of data collection.
 * Forward collected data to partner applications or data storage locations for building insights and applications against the collected data.
 
 ## Applications

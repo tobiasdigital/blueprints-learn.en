@@ -6,8 +6,8 @@ solution: Experience Platform
 
 # Digital Experience Blueprints
 
-Digital Experience Blueprints are repeatable implementations to address strategy and solve established business problems. They accelerate time-to-value and provide a fast path to success.
- 
+Digital Experience Blueprints are repeatable implementations to address strategy and solve established business problems. Blueprints accelerate time-to-value and provide a fast path to success.
+
 Each Blueprint offers Adobe customers a series of artifacts that explain the high-value business problem, architectures, implementation steps, technical considerations, and links to the relevant documentation.
 
 ## What's New
@@ -21,21 +21,21 @@ Each Blueprint offers Adobe customers a series of artifacts that explain the hig
 
 ## Featured Blueprints
 
-<table>
+<table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="/help/blueprints/web-personalization/overview.md"><img alt="thumbnail image for the 'Web Personalization' blueprint" src="web-personalization/assets/personalization.svg" /></a>
-    <div><a href="/help/blueprints/web-personalization/overview.md"><strong>Web/Mobile Personalization Blueprint</strong></a></div>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/overview.html"><img alt="thumbnail image for the 'Web Personalization' blueprint" src="web-personalization/assets/personalization.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/overview.html"><strong>Web/Mobile Personalization Blueprint</strong></a></div>
     <p><em>Deliver personalized web and mobile content.</em></p>
   </td>
   <td>
-    <a href="/help/blueprints/audience-activation/overview.md"><img alt="thumbnail image for the 'Audience Activation' blueprint" src="audience-activation/assets/aam.svg" /></a>
-    <div><a href="/help/blueprints/audience-activation/overview.md"><strong>Audience Activation Blueprint</strong></a></div>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html"><img alt="thumbnail image for the 'Audience Activation' blueprint" src="audience-activation/assets/aam.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html"><strong>Audience Activation Blueprint</strong></a></div>
     <p><em>Deliver audience-activated cross-channel advertising.</em></p>
   </td>
   <td>
-    <a href="/help/blueprints/multi-channel-message-orchestration/overview.md"><img alt="thumbnail image for the 'Multi-channel Orchestration blueprint'" src="multi-channel-message-orchestration/assets/aepbatch.svg" /></a>
-    <div><a href="/help/blueprints/multi-channel-message-orchestration/overview.md"><strong>Multi-channel Orchestration Blueprint</strong></a></div>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/overview.html"><img alt="thumbnail image for the 'Multi-channel Orchestration blueprint'" src="multi-channel-message-orchestration/assets/aepbatch.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/overview.html"><strong>Multi-channel Orchestration Blueprint</strong></a></div>
     <p><em>Deliver individual, just-in-time customer experiences across screens.</em></p>
   </td>
 </tr>

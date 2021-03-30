@@ -13,7 +13,7 @@ This Blueprint shows how the data in Adobe Experience Platform is used by Data S
 
 * Extract insight and discover patterns from customer data in Experience Platform. Train and score models from this data.
 * Enrich the Real-time Customer Profile with model driven insights and attributes for more granular personalization and optimized journey optimization.
-Train and Score models to determine customer insights such as customer lifetime value, propensity to convert or churn, product and content affinities, and engagement scores. 
+* Train and Score models to determine customer insights such as customer lifetime value, propensity to convert or churn, product and content affinities, and engagement scores. 
 
 ## Scenarios
 
@@ -28,14 +28,14 @@ Train and Score models to determine customer insights such as customer lifetime 
 
 ## Implementation Steps
 
-1. Create schemas and datasets
-1. Ingest data into Experience Platform
-1. Create a DSW notebook
-1. Choose a language - support for Python and PySpark
-1. Author model in notebook
-1. Train the model
-1. Score the model to generate predictions with the target data
-1. Enable the model results dataset for profile, if pushing model results to the Real-time Customer Profile
+1. Create schemas and datasets.
+1. Ingest data into Experience Platform.
+1. Create a DSW notebook.
+1. Choose a language. Python and PySpark are supported.
+1. Author model in notebook.
+1. Train the model.
+1. Score the model to generate predictions with the target data.
+1. Enable the model results dataset for profile, if pushing model results to the Real-time Customer Profile.
 
 ## Related Documentation
 
