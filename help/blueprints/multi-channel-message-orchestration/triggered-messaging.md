@@ -1,9 +1,8 @@
 ---
-title: Triggered Messaging and Adobe Experience Platform
+title: Triggered Messaging and Adobe Experience Platform scenario
 description: Execute triggered messages and experiences using Adobe Experience Platform as a central hub streaming data, customer profiles, and segmentation.
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
-thumbnail: 
 ---
 
 # Triggered Messaging and Adobe Experience Platform scenario
@@ -75,7 +74,7 @@ Execute triggered messages and experiences using Adobe Experience Platform as a 
 
 1.  Sources / Destinations
     1. Ingest data into Experience Platform using streaming APIs & source connectors
-    1. Configure Azure blob storage destination for use with Campaign
+    1. Configure [!DNL Azure] blob storage destination for use with Campaign
 
 1.  Mobile app deployment
     1. Implement Campaign SDK for Campaign Classic or Experience Platform SDK for Campaign Standard.  If Experience Platform Launch is present recommendation is to use Campaign Classic/Standard extension with Experience Platform SDK.

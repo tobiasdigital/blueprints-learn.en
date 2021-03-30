@@ -8,13 +8,13 @@ solution: Experience Platform
 
 Digital Experience Blueprints are repeatable implementations to address strategy and solve established business problems. They accelerate time-to-value and provide a fast path to success.
  
-Each Blueprint offers Adobe customers a series of artifacts that explain the high-value business problem, architectures, implementation steps, technical considerations, links to the relevant documentation, and product demonstrations.
+Each Blueprint offers Adobe customers a series of artifacts that explain the high-value business problem, architectures, implementation steps, technical considerations, and links to the relevant documentation.
 
 ## What's New
 
-* **[Profile Lookup Blueprint](/help/blueprints/profile-lookup/overview.md)**
+* **[Customer Activity Hub Blueprint](/help/blueprints/customer-activity-hub/overview.md)**
     *Provide context for agent-assisted support and sales.*
-* **[Data Exploration & Enterprise Reporting Blueprint](/help/blueprints/data-exploration/overview.md)**
+* **[Enterprise Data Exploration and Reporting Blueprint](/help/blueprints/data-exploration/overview.md)**
     *Perform exploratory query and analysis of the data in the data lake.*
 * **[Customer Journey Analytics Blueprint](/help/blueprints/customer-journey-analytics/overview.md)**
     *Unify and analyze data and customer behaviors from across the customer journey.​*
@@ -25,7 +25,7 @@ Each Blueprint offers Adobe customers a series of artifacts that explain the hig
 <tr>
   <td>
     <a href="/help/blueprints/web-personalization/overview.md"><img alt="thumbnail image for the 'Web Personalization' blueprint" src="web-personalization/assets/personalization.svg" /></a>
-    <div><a href="/help/blueprints/web-personalization/overview.md"><strong>Web Personalization Blueprint</strong></a></div>
+    <div><a href="/help/blueprints/web-personalization/overview.md"><strong>Web/Mobile Personalization Blueprint</strong></a></div>
     <p><em>Deliver personalized web and mobile content.</em></p>
   </td>
   <td>
@@ -34,8 +34,8 @@ Each Blueprint offers Adobe customers a series of artifacts that explain the hig
     <p><em>Deliver audience-activated cross-channel advertising.</em></p>
   </td>
   <td>
-    <a href="/help/blueprints/customer-journey-management/overview.md"><img alt="thumbnail image for the 'Multi-channel Orchestration blueprint'" src="customer-journey-management/assets/aepbatch.svg" /></a>
-    <div><a href="/help/blueprints/customer-journey-management/overview.md"><strong>Multi-channel Orchestration Blueprint</strong></a></div>
+    <a href="/help/blueprints/multi-channel-message-orchestration/overview.md"><img alt="thumbnail image for the 'Multi-channel Orchestration blueprint'" src="multi-channel-message-orchestration/assets/aepbatch.svg" /></a>
+    <div><a href="/help/blueprints/multi-channel-message-orchestration/overview.md"><strong>Multi-channel Orchestration Blueprint</strong></a></div>
     <p><em>Deliver individual, just-in-time customer experiences across screens.</em></p>
   </td>
 </tr>

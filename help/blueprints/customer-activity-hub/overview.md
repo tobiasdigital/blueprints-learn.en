@@ -1,14 +1,13 @@
 ---
-title: Customer Activity Hub
+title: Customer Activity Hub Blueprint
 description: Real-time Customer Profile lookups to provide context for agent-assisted support and sales.
 solution: Experience Platform, Data Collection
 kt: 7195
-thumbnail: 
 ---
 
-# Customer Activity Blueprint
+# Customer Activity Hub Blueprint
 
-Profile Lookup Blueprint shows how external applications can access Adobe Experience Platform’s Real-time Customer Profile. 
+Customer Activity Hub Blueprint shows how external applications can access Adobe Experience Platform’s Real-time Customer Profile. 
 
 External application can access Real-time Customer Profiles with an API GET request. Attributes, events, segment memberships, and model-driven features stored in the profile can then be used in these external, non-Adobe applications.
 
@@ -24,7 +23,7 @@ With this capability, you could surface rich context when a customer calls your 
 
 ## Architecture
 
-<img src="assets/cah.svg" alt="Reference Architecture for the Profile Lookup Blueprint" style="border:1px solid #4a4a4a" />
+<img src="assets/cah.svg" alt="Reference Architecture for the Customer Activity Hub Blueprint" style="border:1px solid #4a4a4a" />
 
 ## Guardrails
 

@@ -1,12 +1,11 @@
 ---
-title: Customer Journey Analytics - Cross-site and Cross-channel Analysis scenario
+title: Digital Behavioral Data Consolidation scenario
 description: Analyze and extract insights from customer interactions across the customer journey.
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
-thumbnail: 
 ---
 
-# Cross-site and Cross-channel Customer Journey Analysis scenario
+# Digital Behavioral Data Consolidation scenario
 
 Have a single consolidated view of customer behavior across various channels by unifying data from various web, mobile, and offline properties.
 
@@ -34,7 +33,7 @@ Have a single consolidated view of customer behavior across various channels by 
 
 Data Ingestion into Customer Journey Analytics:
 
-* Data ingestion to lake: API ~ 7 GB/hr, source connector ~ 200 GB/hr, streaming to lake ~ 15 min, Analytics source connector to lake ~ 45 min.
+* Data ingestion to lake: API ~ 7 GB/hr, source connector ~ 200 GB/hr, streaming to lake ~ 15 min, Adobe Analytics source connector to lake ~ 45 min.
 * Once data has been published to the data lake, it can take up to 90 mins to process into Customer Journey Analytics.
 
 ## Implementation Steps

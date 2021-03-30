@@ -1,9 +1,8 @@
 ---
-title: Behavioral Web Personalization Scenario
+title: Behavioral Web Personalization scenario
 description: Personalize based on online behavior and audience data.
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
-kt: 7085
-thumbnail: thumb-web-personalization-scenario1.jpg
+kt: 7085thumb-web-personalization-scenario1.jpg
 ---
 
 # Behavioral Web Personalization scenario
@@ -29,7 +28,7 @@ Personalize based on online behavior and audience data.
 
 ## Guardrails
 
-By default the segment sharing service allows a maximum of 75 audiences to be shared for each Analytics report suite. If Audience Manager is being used for audience sharing, there is no limit on the number of audiences that can be shared. 
+By default the segment sharing service allows a maximum of 75 audiences to be shared for each Adobe Analytics report suite. If Audience Manager is being used for audience sharing, there is no limit on the number of audiences that can be shared. 
 
 ## Implementation Prerequisites
 
@@ -57,7 +56,7 @@ By default the segment sharing service allows a maximum of 75 audiences to be sh
     >Each application must use the Experience Cloud ID and be part of the same Experience Cloud Org to allow audience sharing between applications.
 
 1. [Request provisioning for the People and Audience Sharing services (Shared Audiences)](https://www.adobe.com/go/audiences)
-1. Build segments in [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) or [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) and [configure those audiences for sharing to the Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)  (if using Audience Manager or Analytics)
+1. Build segments in [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) or [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) and [configure those audiences for sharing to the Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)  (if using Audience Manager or Adobe Analytics)
 1. Once the audiences are available in Adobe Target, they can be used for [targeting experiences with Adobe Target](https://experienceleague.adobe.com/docs/target/using/audiences/target.html)
 
 
@@ -79,7 +78,7 @@ The Web/Mobile Personalization Blueprint can be implemented by using either the 
 
 * [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 * [Integrate Audience Manager with Adobe Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
-* [Analytics Segment Sharing through AAM](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [Adobe Analytics Segment Sharing through AAM](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 
 
 ## Related Blog Posts

@@ -1,9 +1,8 @@
 ---
-title: Online/Offline Audience Activation
+title: Online/Offline Audience Activation scenario
 description: Online/Offline Audience Activation.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
-thumbnail: 
 ---
 
 # Online/Offline Audience Activation scenario
