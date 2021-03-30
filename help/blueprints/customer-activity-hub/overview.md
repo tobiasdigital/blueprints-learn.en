@@ -7,9 +7,9 @@ kt: 7195
 
 # Customer Activity Hub Blueprint
 
-Customer Activity Hub Blueprint shows how external applications can access Adobe Experience Platform’s Real-time Customer Profile. 
+Customer Activity Hub Blueprint shows how external applications can access Adobe Experience Platform’s [!UICONTROL Real-time Customer Profile].
 
-External applications can access Real-time Customer Profiles with an API GET request. Attributes, events, segment memberships, and model-driven features stored in the profile can then be used in these external, non-Adobe applications.
+External applications can access R[!UICONTROL eal-time Customer Profiles] with an API GET request. Attributes, events, segment memberships, and model-driven features stored in the profile can then be used in these external, non-Adobe applications.
 
 With this capability, you could surface rich context when a customer calls your call center. Support agents could have visibility into the customer's lifetime value, propensity to churn or exposure to marketing campaigns, for example. Sales agents can also benefit from more context or insight into their customer.
 
@@ -32,8 +32,8 @@ With this capability, you could surface rich context when a customer calls your 
 ## Implementation Steps
 
 1. Configure datasets and schemas.
-1. Configure Real-time Customer Profiles: configure the schema and dataset for Real-time Customer Profile, and set up a merge policy and identities.
-1. Ingest data into Platform and process it to Real-time Customer Profile.
+1. Configure [!UICONTROL Real-time Customer Profiles]: configure the schema and dataset for [!UICONTROL Real-time Customer Profile], and set up a merge policy and identities.
+1. Ingest data into Platform and process it to [!UICONTROL Real-time Customer Profile].
 1. Use the Entity API to look up a profile attribute, either from the record entity or the experience event entity.
 
 ## Related Documentation

@@ -8,7 +8,7 @@ thumbnail:
 
 # Anonymous Audience Activation scenario
 
-Target audiences across web and advertising channels based on anonymous and behavioral customer data. This ability enables personalized and consistent real-time customer experiences across devices.
+You can target audiences across web and advertising channels based on anonymous and behavioral customer data. This ability enables personalized and consistent real-time customer experiences across devices.
 
 ## Use Cases
 
@@ -24,6 +24,8 @@ Target audiences across web and advertising channels based on anonymous and beha
 <img src="assets/aam.svg" alt="Reference architecture for the Anonymous Audience Activation scenario" style="border:1px solid #4a4a4a" />
 
 ## Implementation Steps
+
+<!-- These steps should link to help. -->
 
 1. [Implement Audience Manager](https://experienceleague.corp.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=en#implementation-integration-guides).
 1. Collect data to Audience Manager.
