@@ -1,5 +1,5 @@
 ---
-cloud: experience-platform
+cloud: Experience Platform
 solution: Experience Platform
 product: experience platform
 type: Tutorial
