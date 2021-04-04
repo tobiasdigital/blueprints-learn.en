@@ -3,9 +3,9 @@ title: Customer Journey Analytics Blueprint
 description: Unify and analyze data and customer behaviors from across the customer journey
 solution: Experience Platform, Customer Journey Analytics
 kt: 
-thumbnail: 
+thumbnail:
+exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 ---
-
 # Customer Journey Analytics Blueprint
 
 Customer Journey Analytics Blueprint shows how brands can unify customer data and behavior from various interaction channels and sources to create a journey-based view of all customer interactions. Reporting and analysis can be performed in the Customer Journey Analytics application service to evaluate and gain insight into customer interaction and behavior patterns. 

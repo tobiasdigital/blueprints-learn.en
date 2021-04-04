@@ -3,9 +3,9 @@ title: Audience Activation Blueprint
 description: Deliver audience activated cross channel advertising with Real-time Customer Data Platform​.
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 
-thumbnail: 
+thumbnail:
+exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 ---
-
 # Audience Activation Blueprint
 
 Audience-first activation is the key to success in a data-driven marketing world. However, many brands still focus their efforts on channel-first activation, which often delivers inconsistent reach and personalization. With a channel-first approach, each channel acts as a silo in which personalization efforts target only the customers interacting with the brand on that channel. This approach doesn’t reflect the reality that customers interact with brands across many different touchpoints. Audience-first activation allows brands to connect customer interactions across multiple channels, to deliver a centralized audience that can be activated to all channels.

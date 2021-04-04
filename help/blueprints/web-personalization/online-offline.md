@@ -3,9 +3,8 @@ title: Online/Offline Web Personalization scenario
 description: Synchronize web personalization with email and other known and anonymous channel personalization.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
+exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 ---
-
-
 # Online/Offline Web Personalization scenario
 
 Synchronize web personalization with email and other known and anonymous channel personalization.
@@ -95,5 +94,3 @@ The Web/Mobile personalization blueprint can be implemented using either traditi
 * [How Adobe Experience Platform Can Help Customers Personalize Their Mobile Messaging in Real-Time with Journey Orchestration Service and a Mobile Messaging Vendor](https://medium.com/adobetech/how-adobe-experience-platform-helped-a-client-personalize-their-mobile-messaging-in-real-time-with-7d634aefa098)
 * [Segmentation in Seconds: How Adobe Experience Platform Made Real-time Customer Profiles a Reality](https://medium.com/adobetech/segmentation-in-seconds-how-adobe-experience-platform-made-real-time-customer-profiles-a-reality-a7a8552b0847)
 * [Build an Optimal Online Experience: Enrich Unified Profile with Query Service](https://medium.com/adobetech/build-an-optimal-online-experience-enrich-unified-profile-with-query-service-8027c196ab33)
-
-

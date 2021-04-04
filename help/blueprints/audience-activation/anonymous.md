@@ -3,9 +3,9 @@ title: Anonymous Audience Activation
 description: Anonymous Audience Activation.
 solution: Experience Platform, Audience Manager
 kt: 7211
-thumbnail: 
+thumbnail:
+exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 ---
-
 # Anonymous Audience Activation scenario
 
 You can target audiences across web and advertising channels based on anonymous and behavioral customer data. This ability enables personalized and consistent real-time customer experiences across devices.
@@ -39,18 +39,3 @@ You can target audiences across web and advertising channels based on anonymous 
 * [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 * [Integrate Audience Manager with Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
 * [Analytics Segment Sharing through Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

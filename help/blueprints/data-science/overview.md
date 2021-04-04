@@ -3,8 +3,8 @@ title: Custom Data Science for Profile Enrichment Blueprint
 description: This blueprint shows how Adobe Experience Platform's Data Science Workspace can use data within Experience Platform to train, deploy, and score models to provide machine learning insights from the data.
 solution: Experience Platform, Data Collection
 kt: 7203
+exl-id: f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 ---
-
 # Custom Data Science for Profile Enrichment Blueprint
 
 This Blueprint shows how the data in Adobe Experience Platform is used by Data Science Workspace to train, deploy, and score models to provide machine learning insights. These models can directly output to a dataset enabled for Real-time Customer Profile. Examples of machine learning insights include lifetime value, product and category affinity, propensity to convert, or propensity to churn. 
@@ -57,5 +57,3 @@ This Blueprint shows how the data in Adobe Experience Platform is used by Data S
 * [Accelerate Intelligent Insights with Adobe Experience Platform Data Science Workspace](https://medium.com/adobetech/accelerate-intelligent-insights-with-adobe-experience-platform-data-science-workspace-89538bacbbea)
 * [A Preview of Time Series Forecasting with Adobe Experience Platform](https://medium.com/adobetech/preview-of-time-series-forecasting-with-adobe-experience-platform-38a2fc778e89)
 * [Cutting Across Adobe Experience Products with Machine Learning to Elevated User Experience](https://medium.com/adobetech/cutting-across-adobe-experience-products-with-machine-learning-to-elevated-user-experience-7c85000510d1)
-
-

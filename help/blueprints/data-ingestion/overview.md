@@ -3,9 +3,9 @@ title: Data Preparation and Ingestion Blueprint
 description: This blueprint shows all the methods by which data can be ingested and prepared in Adobe Experience Platform.
 solution: Experience Platform, Data Collection
 kt: 7204
-thumbnail: 
+thumbnail:
+exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 ---
-
 # Data Preparation and Ingestion Blueprint
 
 Data Preparation and Ingestion Blueprint encompasses all the methods by which data can be prepared and ingested into Adobe Experience Platform.
@@ -49,4 +49,3 @@ Data preparation includes the mapping source data to Experience Data Model (XDM)
 * [Digging into Adobe Experience Platform’s Experience Data Model to More Fully Understand the Power of Real-time Customer Profile](https://medium.com/adobetech/digging-into-adobe-experience-platforms-experience-data-model-to-more-fully-understand-the-power-3e109271e04f?source=your_stories_page-------------------------------------)
 * [An Introductory Look at Exploratory Data Analysis on Adobe Experience Platform](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a?source=your_stories_page-------------------------------------)
 * [Modeling XDM Data for Data Science at Scale on Adobe Experience Platform](https://medium.com/adobetech/modeling-xdm-data-for-data-science-at-scale-on-adobe-experience-platform-222bb2a6dbf7?source=your_stories_page-------------------------------------)
-
