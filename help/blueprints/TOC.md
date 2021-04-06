@@ -12,10 +12,11 @@ role: Architect, Developer, Business Practitioner
   + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
   + [Experience Platform & Applications](/help/blueprints/experience-platform/platform-applications.md)
   + [Experience Platform Data Flow](/help/blueprints/experience-platform/platform-data-flow.md)
-+ Audience Activation{#audience-activation}
++ Profile and Audience Activation{#audience-activation}
   + [Overview](/help/blueprints/audience-activation/overview.md)
   + [Anonymous Audience Activation](/help/blueprints/audience-activation/anonymous.md)
   + [Online/Offline Audience Activation](/help/blueprints/audience-activation/online-offline.md)
+  + [Activation to Enterprise Destinations](/help/blueprints/audience-activation/enterprise_destination.md)
 + Customer Activity Hub{#customer-activity-hub}
   + [Overview](/help/blueprints/customer-activity-hub/overview.md)
 + Customer Journey Analytics{#customer-journey-analytics}
