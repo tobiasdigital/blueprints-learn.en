@@ -1,10 +1,10 @@
 ---
 title: Profile and Audience Activation to Enterprise Destinations
 description: Profile and Audience Activation to Enterprise Destinations
-solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
+solution: Experience Platform,Real-time Customer Data Platform,Target,Audience Manager,Analytics,Experience Cloud Services,Data Collection
 kt: 7086
+exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
 ---
-
 # Profile and Audience Activation to Enterprise Destinations Scenario
 
 Replication and update of profile changes to enterprise data stores for activation and reporting use cases. 
