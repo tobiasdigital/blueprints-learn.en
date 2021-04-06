@@ -12,7 +12,7 @@ Each Blueprint offers Adobe customers a series of artifacts that explain the hig
 
 ## What's New
 
-* **[Customer Activity Hub Blueprint](/help/blueprints/customer-activity-hub/overview.md)**
+* **[Customer Activity Hub Blueprint](/help/blueprints/audience-activation/customer-activity.md)**
     *Provide context for agent-assisted support and sales.*
 * **[Enterprise Data Exploration and Reporting Blueprint](/help/blueprints/data-exploration/overview.md)**
     *Perform exploratory query and analysis of the data in the data lake.*
