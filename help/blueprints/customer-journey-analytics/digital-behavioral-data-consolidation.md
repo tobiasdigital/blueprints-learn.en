@@ -3,8 +3,8 @@ title: Digital Behavioral Data Consolidation scenario
 description: Analyze and extract insights from customer interactions across the customer journey.
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
+exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 ---
-
 # Digital Behavioral Data Consolidation scenario
 
 Have a single consolidated view of customer behavior across various channels by unifying data from various web, mobile, and offline properties.
@@ -75,7 +75,3 @@ Data Ingestion into Customer Journey Analytics:
 * [Customer Journey Analytics product description](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html)
 * [Customer Journey Analytics documentation](https://experienceleague.adobe.com/docs/customer-journey-analytics.html)
 * [Customer Journey Analytics tutorials](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/overview.html)
-
-
-
-

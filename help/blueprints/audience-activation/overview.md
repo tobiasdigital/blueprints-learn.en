@@ -3,7 +3,8 @@ title: Profile and Audience Activation Blueprint
 description: Deliver audience activated cross channel advertising with Real-time Customer Data Platform​.
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 
-thumbnail: 
+thumbnail:
+exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 ---
 
 # Profile and Audience Activation Blueprint
