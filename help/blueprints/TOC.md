@@ -27,7 +27,7 @@ role: Architect, Developer, Business Practitioner
   + [Server Side Enterprise Data Collection](/help/blueprints/data-ingestion/server-side-collection.md)
 + Data Analysis and Custom Data Science{#data-exploration}
   + [Overview](/help/blueprints/data-insights/overview.md)
-  + [Custom Data Science for Profile Enrichment](/help/blueprints/data-insights/overview.md)
+  + [Custom Data Science for Profile Enrichment](/help/blueprints/data-insights/data-science.md)
 + Multi-channel Message Orchestration{#multi-channel-message-orchestration}
   + [Overview](/help/blueprints/multi-channel-message-orchestration/overview.md)
   + [Batch Messaging & Experience Platform](/help/blueprints/multi-channel-message-orchestration/batch-messaging.md)
