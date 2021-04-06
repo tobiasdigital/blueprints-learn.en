@@ -12,7 +12,7 @@ role: Architect, Developer, Business Practitioner
   + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
   + [Experience Platform & Applications](/help/blueprints/experience-platform/platform-applications.md)
   + [Experience Platform Data Flow](/help/blueprints/experience-platform/platform-data-flow.md)
-+ Audience and Profile Activation{#audience-activation}
++ Audience & Profile Activation{#audience-activation}
   + [Overview](/help/blueprints/audience-activation/overview.md)
   + [Anonymous Audience Activation](/help/blueprints/audience-activation/anonymous.md)
   + [Online/Offline Audience Activation](/help/blueprints/audience-activation/online-offline.md)
@@ -25,7 +25,7 @@ role: Architect, Developer, Business Practitioner
 + Data Collection & Preparation{#data-ingestion}
   + [Overview](/help/blueprints/data-ingestion/overview.md)
   + [Server Side Enterprise Data Collection](/help/blueprints/data-ingestion/server-side-collection.md)
-+ Data Analysis and Custom Data Science{#data-exploration}
++ Data Analysis & Custom Data Science{#data-exploration}
   + [Overview](/help/blueprints/data-insights/overview.md)
   + [Custom Data Science for Profile Enrichment](/help/blueprints/data-insights/data-science.md)
 + Multi-channel Message Orchestration{#multi-channel-message-orchestration}
