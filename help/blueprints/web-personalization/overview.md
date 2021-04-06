@@ -3,7 +3,8 @@ title: Web & Mobile Personalization Blueprint
 description: Deliver personalized web and mobile content with Real-time Customer Profile.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 
-thumbnail: 
+thumbnail:
+exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 ---
 # Web and Mobile Personalization Blueprint
 
@@ -33,4 +34,3 @@ Web and Mobile Personalization Blueprint addresses the ability to use audience s
 * [Segmentation in Seconds: How Adobe Experience Platform Made Real-time Customer Profiles a Reality](https://medium.com/adobetech/segmentation-in-seconds-how-adobe-experience-platform-made-real-time-customer-profiles-a-reality-a7a8552b0847)
 * [Analytical Workloads and Real-Time Customer Profile — Two Sides of the Same Brain with a Single-Minded Purpose](https://medium.com/adobetech/analytical-workloads-and-real-time-customer-profile-two-sides-of-the-same-brain-with-a-cdfac85ce8c1)
 * [Build an Optimal Online Experience: Enrich Unified Profile with Query Service](https://medium.com/adobetech/build-an-optimal-online-experience-enrich-unified-profile-with-query-service-8027c196ab33)
-

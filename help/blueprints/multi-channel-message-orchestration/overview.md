@@ -3,9 +3,9 @@ title: Multi-channel Message Orchestration Blueprint
 description: Deliver individual, just-in-time customer experiences across screens.
 solution: Experience Platform
 kt: 
-thumbnail: 
+thumbnail:
+exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
 ---
-
 # Multi-channel Message Orchestration Blueprint
 
 Multi-channel Message Orchestration Blueprint shows how brands can proactively engage and communicate with their customers through channels such as email, SMS, and mobile alerts. 
