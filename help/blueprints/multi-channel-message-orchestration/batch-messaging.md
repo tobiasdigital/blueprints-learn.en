@@ -1,11 +1,11 @@
 ---
-title: Batch Messaging and Adobe Experience Platform scenario
+title: Batch Messaging and Adobe Experience Platform Blueprint
 description: Execute scheduled and batch messaging campaigns using Adobe Experience Platform as a central hub for customer profiles and segmentation.
 solution: Experience Platform, Campaign
 kt: 7196
 exl-id: 4e55218c-c158-4f78-9f0b-c03528d992fa
 ---
-# Batch Messaging and Adobe Experience Platform scenario
+# Batch Messaging and Adobe Experience Platform Blueprint
 
 Execute scheduled and batch messaging campaigns using Adobe Experience Platform as a central hub for customer profiles and segmentation.
 
