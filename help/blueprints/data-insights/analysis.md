@@ -3,8 +3,8 @@ title: Data Analysis and Intelligence Blueprint
 description: This blueprint shows the ability within Adobe Experience Platform to perform exploratory query and analysis of the data that exists in the data lake.
 solution: Experience Platform
 kt: 7207
-thumbnail:
-exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
+thumbnail: 
+exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 ---
 # Data Analysis and Intelligence Blueprint
 
