@@ -1,51 +1,20 @@
 ---
-title: Data Preparation and Ingestion Blueprint
+title: Data Collection & Preparation
 description: This blueprint shows all the methods by which data can be ingested and prepared in Adobe Experience Platform.
 solution: Experience Platform, Data Collection
 kt: 7204
 thumbnail:
 exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 ---
-# Data Preparation and Ingestion Blueprint
+# Data Collection and Preparation
 
-Data Preparation and Ingestion Blueprint encompasses all the methods by which data can be prepared and ingested into Adobe Experience Platform.
+Data Collection and Preparation encompasses all the methods by which data can be prepared and ingested into Adobe Experience Platform. As well as the ability to collect data to Adobe Experience Platform's Edge Network for Server Side forwarding to enterprise destinations.
 
 Data preparation includes the mapping source data to Experience Data Model (XDM) schema. It also includes performing transformations on data, including date formatting, field splitting/concatenation/conversions, and joining/merging/re-keying of records. Data preparation helps unify customer data to provide aggregated/filtered analysis, including reporting or preparing data for customer profile assembly/data science/activation.
 
-## Architecture
+## Blueprints
 
-<img src="assets/dataingest.svg" alt="Reference architecture for the Data Preparation and Ingestion Blueprint" style="border:1px solid #4a4a4a" />
-
-## Data Ingestion Methods
-
-| Methods of Ingestion         | Description                                                                                                                                                                                                                                                                                                                                                                                                                             |
-|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Web/Mobile SDK               | Latency:<ul><li>Real time - same page collection to Edge Network</li><li>Streaming ingestion to Profile ~1 minute</li><li>Streaming ingestion to data lake (micro batch ~15 minutes)</ul>Documentation: <ul><li>[Web SDK](https://experienceleague.corp.adobe.com/docs/web-sdk.html)</li><li>[Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=en)</li></ul>                                                                     |
-| Streaming Sources            | Latency:<ul><li>Real time - same page collection to Edge Network</li><li>Streaming ingestion to Profile ~1 minute</li><li>Streaming ingestion to data lake (micro batch ~15 minutes)</li></ul>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=en#connectors)                                                                                                                    |
-| Streaming API                | Latency:<ul><li>Real time - same page collection to Edge Network</li><li>Streaming ingestion to Profile ~1 minute</li><li>Streaming ingestion to data lake (micro batch ~15 minutes)</li><li>7 GB/hour</li></ul>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=en#what-can-you-do-with-streaming-ingestion%3F)                                                                                             |
-| ETL Tooling                  | Use ETL tools to modify and transform enterprise data before ingestion into Experience Platform.<br><br>Latency:<ul><li>Timing dependent on external ETL tool scheduling, then standard ingestion guardrails apply based on the method used for ingestion.</li></ul>                                                                                                                                                                                                     |
-| Batch Sources                | Scheduled fetch from sources<br>Latency: ~ 200 GB/hour<br><br>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=en#connectors)<br>[Video Tutorials](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html)                                                                                                                                                                                                                                                                                         |
-| Batch API                    | Latency:<ul><li>Batch ingestion to Profile dependent on size and traffic loads ~45 minutes</li><li>Batch ingestion to data lake dependent on size and traffic loads</li></ul>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html?lang=en#batch)                                                                                                                                                        |
-| Adobe Application Connectors | Automatically ingest data that is sourced from Adobe Experience Cloud Applications<ul><li>Adobe Analytics: [Documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en#connectors) and [Video Tutorial](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-adobe-analytics.html)</li><li>Audience Manager: [Documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=en#connectors) and [Video Tutorial](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-aam.html)</li></ul> |
-
-
-## Data Preparation Methods
-
-| Methods of Data Preparation                                | Description                                                                                                                                                                                                                                                                                    |
-|------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Data Science Workspace - Data Prep                         | Model driven transformation, scripted transformation.<br>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en)                                                                                                                   |
->[!NOTE]
->
->| External ETL Tool ([!DNL Snaplogic], [!DNL Mulesoft], [!DNL Informatica], and so on) | Perform complex transformations in ETL tooling and use standard Experience Platform Source APIs or Connectors to ingest the resultant data.                                                                                                                                                               |
-
-| Query Service - Data Prep                                  | Joins, Splits, Merge, Transform, Query, and Filter data into a new dataset. Using Create Table as Select (CTAS) <br>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en#sql)                                                                       |
-| XDM Mapper & Data Prep functions (Streaming and Batch)     | Map source attributes in CSV or JSON format into XDM attributes during Experience Platform ingestion.<br>Compute functions on data as it is ingested; that is, data formatting, splitting, concatenation, and so on.<br>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) |
-
-## Related Blog Posts
-
-* [Leveraging External Data Platforms in Adobe Experience Platform Journey Orchestration](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17?source=your_stories_page-------------------------------------)
-* [High Throughput Ingestion with Iceberg](https://medium.com/adobetech/high-throughput-ingestion-with-iceberg-ccf7877a413f?source=your_stories_page-------------------------------------)
-* [Query Service Tricks in Adobe Experience Platform (Writing Queries and Storing Derived Datasets)](https://medium.com/adobetech/query-service-tricks-in-adobe-experience-platform-writing-queries-and-storing-derived-datasets-eaee0d6d683e?source=your_stories_page-------------------------------------)
-* [Digging into Adobe Experience Platform’s Experience Data Model to More Fully Understand the Power of Real-time Customer Profile](https://medium.com/adobetech/digging-into-adobe-experience-platforms-experience-data-model-to-more-fully-understand-the-power-3e109271e04f?source=your_stories_page-------------------------------------)
-* [An Introductory Look at Exploratory Data Analysis on Adobe Experience Platform](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a?source=your_stories_page-------------------------------------)
-* [Modeling XDM Data for Data Science at Scale on Adobe Experience Platform](https://medium.com/adobetech/modeling-xdm-data-for-data-science-at-scale-on-adobe-experience-platform-222bb2a6dbf7?source=your_stories_page-------------------------------------)
+| Blueprint | Description| Experience Cloud Applications|
+|---|---|---|
+| **[Data Preparation & Ingestion to Experience Platform](ingestion.md)** | <ul><li>Data Preparation and Ingestion Blueprint encompasses all the methods by which data can be prepared and ingested into Adobe Experience Platform.</ul></li> | <ul><li> Adobe Experience Platform </ul></li>|
+| **[Server Side Forwarding - Enterprise Collection](server-side-collection.md)**        | <ul><li>Activate to known profile-based destinations such as email providers, social networks, and advertising destinations. </li><li>Use offline attributes and events such as offline orders, transactions, CRM, or loyalty data along with online behavior for online targeting and personalization.</li></ul> | <ul><li>Adobe Experience Platform</li><li> Real-time Customer Data Platform</li><li>Adobe Audience Manager (optional)</li></ul> |

@@ -1,12 +1,12 @@
 ---
-title: Enterprise Data Exploration and Reporting Blueprint
+title: Data Analysis, Intelligence, & AI/ML
 description: This blueprint shows the ability within Adobe Experience Platform to perform exploratory query and analysis of the data that exists in the data lake.
 solution: Experience Platform
 kt: 7207
 thumbnail:
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
 ---
-# Enterprise Data Exploration and Reporting Blueprint
+# Data Analysis, Intelligence, & AI/ML
 
 Enterprise Data Exploration and Reporting comprises the ability within Adobe Experience Platform to perform exploratory query and analysis of the data that exists in the data lake.
 
@@ -16,41 +16,9 @@ In addition, Experience Platform allows connections with third-party SQL clients
 
 Certain guardrails apply for the query timeout and for the amount of data that is included in the query result, as noted within the scenario details.
 
-## Use Cases
+## Blueprints
 
-* Interactive query and aggregation of data
-* Row and column access to ingested data for exploration and validation
-* Dashboarding and visualization of data via Business Intelligence tooling
-
-## Applications
-
-* Adobe Experience Platform
-
-## Scenarios
-
-| Scenario | Description |  Experience Cloud Applications/Services | 
+| Blueprint | Description| Experience Cloud Applications|
 |---|---|---|
-| **Data Exploration - raw query of data**  | <ul><li>Write and perform SQL queries in the data lake using the interactive query user interface or a connected SQL client. Data Science Workspace can also be used to query and gain insight from the raw data in Experience Platform.</li></ul> | <ul><li>Adobe Experience Platform</li></ul>|
-| **Enterprise Dashboarding**  | <ul><li>Connect Business Intelligence tools to Experience Platform to visualize data for dashboarding and reporting use cases.</li></ul> | <ul><li>Adobe Experience Platform</li></ul>|  
-
-## Architecture
-
-<img src="assets/dataexplore.svg" alt="Reference architecture for the Enterprise Data Exploration and Reporting Blueprint" style="border:1px solid #4a4a4a" />
-
-## Guardrails
-
-* 10-minute time limit for interactive queries
-* 100-record limit returned in the UI
-* 50,000-record limit returned via the SQL connector
-
-## Implementation Steps
-
-1.  Configure datasets and schemas for data ingestion into the data lake.
-1.  Ingest data.
-1.  Confirm that data is available to Query Service and Data Science Workspace for raw access and query.
-1.  Connect Business Intelligence tools and SQL clients to Query Service for visualization, data query, and exploration.
-
-## Related Documentation
-
-* [Adobe Experience Platform Intelligence product description](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Query Service documentation](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)
+| **[Data Analysis & Intelligence](analysis.md)** | <ul><li>Data Preparation and Ingestion Blueprint encompasses all the methods by which data can be prepared and ingested into Adobe Experience Platform.</ul></li> | <ul><li> Adobe Experience Platform </ul></li>|
+| **[Custom Data Science for Profile Enrichment Blueprint](data-science.md)**        | <ul><li>Activate to known profile-based destinations such as email providers, social networks, and advertising destinations. </li><li>Use offline attributes and events such as offline orders, transactions, CRM, or loyalty data along with online behavior for online targeting and personalization.</li></ul> | <ul><li>Adobe Experience Platform</li><li> Real-time Customer Data Platform</li><li>Adobe Audience Manager (optional)</li></ul> |

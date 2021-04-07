@@ -24,9 +24,11 @@ role: Architect, Developer, Business Practitioner
   + [Call Deflection](/help/blueprints/customer-journey-analytics/call-deflect.md)
 + Data Collection & Preparation{#data-ingestion}
   + [Overview](/help/blueprints/data-ingestion/overview.md)
+  + [Data Ingestion & Preparation to Experience Platform](/help/blueprints/data-ingestion/ingestion.md)
   + [Server Side Enterprise Data Collection](/help/blueprints/data-ingestion/server-side-collection.md)
-+ Data Analysis & Custom Data Science{#data-exploration}
++ Data Analysis, Intelligence, & AI/ML{#data-exploration}
   + [Overview](/help/blueprints/data-insights/overview.md)
+  + [Data Analysis & Intelligence](/help/blueprints/data-insights/analysis.md)
   + [Custom Data Science for Profile Enrichment](/help/blueprints/data-insights/data-science.md)
 + Multi-channel Message Orchestration{#multi-channel-message-orchestration}
   + [Overview](/help/blueprints/multi-channel-message-orchestration/overview.md)
