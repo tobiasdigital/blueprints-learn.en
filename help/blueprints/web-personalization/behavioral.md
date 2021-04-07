@@ -45,7 +45,7 @@ By default, the segment sharing service allows a maximum of 75 audiences to be s
 
 1. [Implement Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) for your web or mobile applications.
 
-    If using Audience Manger or Analytics:
+    If using Audience Manager or Analytics:
 
 1. [Implement Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html)
 1. [Implement Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)
