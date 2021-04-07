@@ -1,11 +1,11 @@
 ---
-title: Call Deflection Analysis scenario
+title: Call Deflection Analysis Blueprint
 description: Analyze customer behavior before they contact the call center.
 solution: Experience Platform, Customer Journey Analytics
 kt: 7209
 exl-id: 13593c1c-4c58-4b8a-aa6c-7530fd679a14
 ---
-# Call Deflection Journey Analysis scenario
+# Call Deflection Journey Analysis Blueprint
 
 Analyze a customer's behavior across desktop and mobile before they contact the call center. Identify opportunities to improve the customer journey by understanding what actions your customers try to complete, what content they view, and what terms they search before they contact customer support. Determine the content and self-service tools that can be improved to help your customers resolve issues without needing to call in.
 

@@ -1,14 +1,14 @@
 ---
-title: Customer Journey Analytics Blueprint
+title: Customer Journey Analytics
 description: Unify and analyze data and customer behaviors from across the customer journey
 solution: Experience Platform, Customer Journey Analytics
 kt: 
 thumbnail:
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 ---
-# Customer Journey Analytics Blueprint
+# Customer Journey Analytics 
 
-Customer Journey Analytics Blueprint shows how brands can unify customer data and behavior from various interaction channels and sources to create a journey-based view of all customer interactions. Reporting and analysis can be performed in the Customer Journey Analytics application service to evaluate and gain insight into customer interaction and behavior patterns. 
+Customer Journey Analytics shows how brands can unify customer data and behavior from various interaction channels and sources to create a journey-based view of all customer interactions. Reporting and analysis can be performed in the Customer Journey Analytics application service to evaluate and gain insight into customer interaction and behavior patterns. 
 
 Common analyses include:
 
@@ -18,9 +18,9 @@ Common analyses include:
 * What campaigns resulted in conversion and increased engagement
 * Tool usage analysis to optimize self-service experiences
 
-## Scenarios
+## Blueprints
 
-| Scenario | Description |  Experience Cloud Applications | 
+| Blueprint | Description |  Experience Cloud Applications | 
 |---|---|---|
 | **[Digital Behavioral Data Consolidation](digital-behavioral-data-consolidation.md)**  | <ul><li>Have a single consolidated view of customer behavior across various channels by unifying data from various web, mobile, and offline properties.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (optional)</li></ul>| 
 | **[Call Center deflection](call-deflect.md)** | <ul><li>Determine what behaviors are most indicative in resulting in agent assisted calls by bringing Call Center data together with web, mobile, and other interaction data.</li><li>These insights can then be used to optimize the customer experience and reduce the path to agent assisted interactions through optimized self-service content and tooling.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |

@@ -1,11 +1,11 @@
 ---
-title: Behavioral Web Personalization scenario
+title: Behavioral Web Personalization Blueprint
 description: Personalize based on online behavior and audience data.
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 ---
-# Behavioral Web Personalization scenario
+# Behavioral Web Personalization Blueprint
 
 Personalize based on online behavior and audience data.
 
