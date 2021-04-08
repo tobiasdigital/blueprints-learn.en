@@ -8,7 +8,6 @@ exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 ---
 # Web and Mobile Personalization 
 
-
 Web and Mobile Personalization addresses the ability to use audience segmentation in multiple applications to personalize and optimize customer experiences. You can use customer behaviors, demographics, loyalty level, and prior transactions to personalize layouts, call-to-actions, and content.
 
 ## Blueprints

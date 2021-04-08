@@ -34,6 +34,21 @@ Synchronize web personalization with email and other known and anonymous channel
 * Streaming segmentation is realized within approximately 5 minutes. Once these segment realizations occur they are shared to Audience Manager within minutes and available for same/next page personalization in Target. 
 * By default the segment sharing service allows a maximum of 75 audiences to be shared for each Adobe Analytics report suite. If the customer has an Audience Manager license, there is no limit on the number of audiences that can be shared between Adobe Analytics and Adobe Target or Audience Manager and Adobe Target.
 
+## Implementation Patterns
+
+The Web/Mobile personalization blueprint can be implemented via the following approaches as outlined below.
+
+1. Using the Platform Web SDK/Mobile SDK and Edge Network.
+1. Using traditional application-specific SDKs (for example, AppMeasurement.js)
+
+### 1. Platform Web/Mobile SDK and Edge Approach
+
+<img src="assets/websdkflow.svg" alt="Reference architecture for the Platform Web SDK/Mobile SDK and Edge Network Approach" style="border:1px solid #4a4a4a" />
+
+### 2. Application-specific SDK Approach
+
+<img src="assets/appsdkflow.png" alt="Reference architecture for the Application-specific SDK Approach" style="border:1px solid #4a4a4a" />
+
 ## Implementation Prerequisites
 
 | Application/Service | Required Library |  Notes | 
@@ -57,18 +72,6 @@ Synchronize web personalization with email and other known and anonymous channel
     >
     >Each application must use the Experience Cloud ID and be part of the same Experience Cloud Org to allow audience sharing between applications.
 1. [Request provisioning for Audience Sharing between Experience Platform and Adobe Target (Shared Audiences)](https://www.adobe.com/go/audiences)
-
-## Implementation Data Flow Diagrams
-
-The Web/Mobile personalization blueprint can be implemented using either traditional application-specific SDKs (for example, AppMeasurement.js), or by using the Platform Web SDK/Mobile SDK and Edge Network.
-
-### Platform Web/Mobile SDK and Edge Approach
-
-<img src="assets/websdkflow.svg" alt="Reference architecture for the Platform Web SDK/Mobile SDK and Edge Network Approach" style="border:1px solid #4a4a4a" />
-
-### Application-specific SDK Approach
-
-<img src="assets/appsdkflow.png" alt="Reference architecture for the Application-specific SDK Approach" style="border:1px solid #4a4a4a" />
 
 ## Related Documentation
 

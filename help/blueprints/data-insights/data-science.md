@@ -7,20 +7,13 @@ exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071
 ---
 # Custom Data Science for Profile Enrichment Blueprint
 
-This Blueprint shows how the data in Adobe Experience Platform is used by Data Science Workspace to train, deploy, and score models to provide machine learning insights. These models can directly output to a dataset enabled for Real-time Customer Profile. Examples of machine learning insights include lifetime value, product and category affinity, propensity to convert, or propensity to churn. 
+Custom Data Science for Profile Enrichment Blueprint illustrates how data in Adobe Experience Platform can be used in Data Science Workspace to train, deploy, and score models to provide machine learning insights. These models can directly output to a dataset enabled for Real-time Customer Profile to further enrich customer profiles. These insights can then be actioned for personalization. Examples of machine learning insights include lifetime value scoring, product and category affinity, propensity to convert, or propensity to churn. 
 
 ## Use Cases
 
 * Extract insight and discover patterns from customer data in Experience Platform. Train and score models from this data.
-* Enrich the Real-time Customer Profile with model driven insights and attributes for more granular personalization and optimized journey optimization.
+* Enrich the Real-time Customer Profile with model driven insights and attributes for more granular personalization and optimized journeys.
 * Train and Score models to determine customer insights such as customer lifetime value, propensity to convert or churn, product and content affinities, and engagement scores. 
-
-## Scenarios
-
-| Scenario | Scenario Description | Experience Cloud Applications |
-|---|---|---|
-|Exploratory Data Science | <ul><li>Discover signals, completeness, correctness of data</li><li>Discover new insights using data science tooling</li></ul> | <ul><li>Experience Platform Intelligence</li></ul> |
-|Profile enrichment with AI/ML<br> - batch | <ul><li>Discover, author, train, deploy, score, and operationalize models.</li><li>Push model prediction to profile or to data lake for batch-based activation.</li></ul> | <ul><li>Experience Platform Intelligence</li></ul> |
 
 ## Architecture
 

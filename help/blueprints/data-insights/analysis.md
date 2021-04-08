@@ -26,13 +26,6 @@ Certain guardrails apply for the query timeout and for the amount of data that i
 
 * Adobe Experience Platform
 
-## Scenarios
-
-| Scenario | Description |  Experience Cloud Applications/Services | 
-|---|---|---|
-| **Data Exploration - raw query of data**  | <ul><li>Write and perform SQL queries in the data lake using the interactive query user interface or a connected SQL client. Data Science Workspace can also be used to query and gain insight from the raw data in Experience Platform.</li></ul> | <ul><li>Adobe Experience Platform</li></ul>|
-| **Enterprise Dashboarding**  | <ul><li>Connect Business Intelligence tools to Experience Platform to visualize data for dashboarding and reporting use cases.</li></ul> | <ul><li>Adobe Experience Platform</li></ul>|  
-
 ## Architecture
 
 <img src="assets/dataexplore.svg" alt="Reference architecture for the Enterprise Data Exploration and Reporting Blueprint" style="border:1px solid #4a4a4a" />

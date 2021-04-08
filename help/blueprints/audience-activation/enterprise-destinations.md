@@ -1,14 +1,14 @@
 ---
-title: Profile and Audience Activation to Enterprise Destinations Blueprint
-description: Profile and Audience Activation to Enterprise Destinations
-solution: Experience Platform,Real-time Customer Data Platform,Target,Audience Manager,Analytics,Experience Cloud Services,Data Collection
-kt: 7086
-exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
+title: Audience and Profile Activation to Enterprise Destinations Blueprint
+description: Audience and Profile Activation to Enterprise Destinations
+solution: Experience Platform,Real-time Customer Data Platform
+kt: 7475
+exl-id: 
 ---
 
-# Profile and Audience Activation to Enterprise Destinations Blueprint
+# Audience and Profile Activation to Enterprise Destinations Blueprint
 
-Replication and update of profile changes to enterprise data stores for activation and reporting use cases. 
+Replication and update of profile and audience changes to enterprise data stores for activation and reporting use cases. 
 
 Initiate a sales or support action to the customer through notification of a customer action from the Real-time Customer Data Platform to enterprise systems and applications.
 
@@ -72,10 +72,12 @@ Activation of Experience Events
 
 ## Related Documentation
 
+* [Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+* [Enterprise Cloud Storage Destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/overview.html?lang=en#catalog)
+* [HTTP Destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/http-destination.html?lang=en#overview)
 * [Real-time Customer Data Platform Product Description](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Profile and Segmentation Guidelines](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 * [Segmentation documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
-* [Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 
 ## Related Videos & Tutorials
 
