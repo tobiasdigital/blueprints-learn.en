@@ -30,6 +30,24 @@ Personalize based on online behavior and audience data.
 
 By default, the segment sharing service allows a maximum of 75 audiences to be shared for each Adobe Analytics report suite. If Audience Manager is being used for audience sharing, there is no limit on the number of audiences that can be shared. 
 
+## Implementation Patterns
+
+The Web/Mobile personalization blueprint can be implemented via the following approaches as outlined below.
+
+1. Using the Platform Web SDK/Mobile SDK and Edge Network.
+1. Using traditional application-specific SDKs (for example, AppMeasurement.js)
+
+### 1. Platform Web/Mobile SDK and Edge Approach
+
+<img src="assets/websdkflow.svg" alt="Reference architecture for the Platform Web SDK/Mobile SDK and Edge Network Approach" style="border:1px solid #4a4a4a" />
+
+### 2. Application-specific SDK Approach
+
+<img src="assets/appsdkflow.png" alt="Reference architecture for the Application-specific SDK Approach" style="border:1px solid #4a4a4a" />
+
+
+
+
 ## Implementation Prerequisites
 
 | Application/Service | Required Library |  Notes | 
@@ -58,21 +76,6 @@ By default, the segment sharing service allows a maximum of 75 audiences to be s
 1. [Request provisioning for the People and Audience Sharing services (Shared Audiences)](https://www.adobe.com/go/audiences)
 1. Build segments in [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) or [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) and [configure those audiences for sharing to the Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)  (if using Audience Manager or Adobe Analytics)
 1. Once the audiences are available in Adobe Target, they can be used for [targeting experiences with Adobe Target](https://experienceleague.adobe.com/docs/target/using/audiences/target.html)
-
-
-## Implementation Data Flow Diagrams
-
-The Web/Mobile Personalization Blueprint can be implemented by using either the Platform Web SDK or Mobile SDK and the Edge network, or using either traditional application-specific SDKs (for example, AppMeasurement.js).
-
-### Platform Web/Mobile SDK and Edge Network Approach
-
-<img src="assets/websdkflow.svg" alt="Reference architecture for the Platform Web SDK/Mobile SDK and Edge Network Approach" style="border:1px solid #4a4a4a" />
-
-
-### Application-specific SDK Approach
-
-<img src="assets/appsdkflow.png" alt="Reference architecture for the Application-specific SDK Approach" style="border:1px solid #4a4a4a" />
-
 
 ## Related Documentation
 
