@@ -38,7 +38,7 @@ Data preparation includes the mapping of source data to Experience Data Model (X
 >
 >| External ETL Tool ([!DNL Snaplogic], [!DNL Mulesoft], [!DNL Informatica], and so on) | Perform complex transformations in ETL tooling and use standard Experience Platform Source APIs or Connectors to ingest the resultant data.                                                                                                                                                               |
 
-| Query Service - Data Prep                                  | Joins, Splits, Merge, Transform, Query, and Filter data into a new dataset. Using Create Table as Select (CTAS) <br>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en#sql)                                                                       |
+| [!UICONTROL Query Service] - Data Prep                                  | Joins, Splits, Merge, Transform, Query, and Filter data into a new dataset. Using Create Table as Select (CTAS) <br>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en#sql)                                                                       |
 | XDM Mapper & Data Prep functions (Streaming and Batch)     | Map source attributes in CSV or JSON format into XDM attributes during Experience Platform ingestion.<br>Compute functions on data as it is ingested; that is, data formatting, splitting, concatenation, and so on.<br>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) |
 
 ## Related Blog Posts
