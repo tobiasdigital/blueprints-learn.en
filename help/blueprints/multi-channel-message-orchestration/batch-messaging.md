@@ -26,7 +26,7 @@ Execute scheduled and batch messaging campaigns using Adobe Experience Platform 
 
 ## Architecture
 
-<img src="assets/aepbatch.svg" alt="Reference architecture for the Batch Messaging and Adobe Experience Platform scenario" style="border:1px solid #4a4a4a" />
+<img src="assets/aepbatch.svg" alt="Reference architecture for the Batch Messaging and Adobe Experience Platform Blueprint" style="border:1px solid #4a4a4a" />
 
 ## Guardrails
 
@@ -62,7 +62,7 @@ Execute scheduled and batch messaging campaigns using Adobe Experience Platform 
 1.  Create any customer-specific namespaces.
 1.  Add identities to schemas.
 1.  Enable schemas and datasets for profile.
-1.  Set up merge rules for differing views of Real-time Customer Profile (optional).
+1.  Set up merge rules for differing views of [!UICONTROL Real-time Customer Profile] (optional).
 1.  Create segments for campaign usage.
 
 #### Sources / Destinations
