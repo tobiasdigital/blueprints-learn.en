@@ -1,13 +1,13 @@
 ---
 title: Triggered Messaging and Adobe Experience Platform Blueprint
-description: Execute triggered messages and experiences using Adobe Experience Platform as a central hub streaming data, customer profiles, and segmentation.
+description: Execute triggered messages and experiences using Adobe Experience Platform as a central hub of streaming data, customer profiles, and segmentation.
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 ---
 # Triggered Messaging and Adobe Experience Platform Blueprint
 
-Execute triggered messages and experiences using Adobe Experience Platform as a central hub streaming data, customer profiles, and segmentation.
+Execute triggered messages and experiences using Adobe Experience Platform as a central hub of streaming data, customer profiles, and segmentation.
 
 ## Use Cases
 
@@ -18,7 +18,7 @@ Execute triggered messages and experiences using Adobe Experience Platform as a 
 
 ## Architecture
 
-<img src="assets/triggered.svg" alt="Reference architecture for the Triggered Messaging and Adobe Experience Platform scenario" style="border:1px solid #4a4a4a" />
+<img src="assets/triggered.svg" alt="Reference architecture for the Triggered Messaging and Adobe Experience Platform blueprint" style="border:1px solid #4a4a4a" />
 
 ## Integration Patterns
 

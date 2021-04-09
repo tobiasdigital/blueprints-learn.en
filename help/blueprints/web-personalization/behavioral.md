@@ -23,7 +23,7 @@ Personalize based on online behavior and audience data.
 
 ## Architecture
 
-<img src="assets/personalization.svg" alt="Reference architecture for the Behavioral Web Personalization scenario" style="border:1px solid #4a4a4a" />
+<img src="assets/personalization.svg" alt="Reference architecture for the Behavioral Web Personalization Blueprint" style="border:1px solid #4a4a4a" />
 
 
 ## Guardrails

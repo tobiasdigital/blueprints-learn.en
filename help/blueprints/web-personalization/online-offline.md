@@ -24,7 +24,7 @@ Synchronize web personalization with email and other known and anonymous channel
 
 ## Architecture
 
-<img src="assets/onoff.svg" alt="Reference architecture for the Online/Offline Web Personalization scenario" style="border:1px solid #4a4a4a" />
+<img src="assets/onoff.svg" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="border:1px solid #4a4a4a" />
 
 ## Guardrails
 
