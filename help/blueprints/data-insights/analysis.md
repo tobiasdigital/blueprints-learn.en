@@ -12,7 +12,7 @@ Data Analysis and Intelligence comprises the ability within Adobe Experience Pla
 
 Experience Platform's [!UICONTROL Query Service] allows SQL queries to be performed on the data. [!UICONTROL Data Science Workspace] enables data exploration, data science, and machine learning workloads to be performed on the data. 
 
-In addition, Experience Platform allows connections with third-party SQL clients, interfaces, and Business Intelligence (BI) tools to directly connect to, access and query the data within Experience Platform, using the PostgreSQL protocol.
+In addition, Experience Platform allows connections with third-party SQL clients, interfaces, and Business Intelligence (BI) tools to directly connect to, access and query the data within Experience Platform, using the [!DNL PostgreSQL] protocol.
 
 Certain guardrails apply for the query timeout and for the amount of data that is included in the query result, as noted within the scenario details.
 
