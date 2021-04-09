@@ -34,12 +34,12 @@ By default, the segment sharing service allows a maximum of 75 audiences to be s
 
 The Web/Mobile personalization blueprint can be implemented via the following approaches as outlined below.
 
-1. Using the Platform Web SDK/Mobile SDK and Edge Network.
+1. Using the [!UICONTROL Platform Web SDK] or [!UICONTROL Platform Mobile SDK] and [!UICONTROL Edge Network].
 1. Using traditional application-specific SDKs (for example, AppMeasurement.js)
 
 ### 1. Platform Web/Mobile SDK and Edge Approach
 
-<img src="assets/websdkflow.svg" alt="Reference architecture for the Platform Web SDK/Mobile SDK and Edge Network Approach" style="border:1px solid #4a4a4a" />
+<img src="assets/websdkflow.svg" alt="Reference architecture for the [!UICONTROL Platform Web SDK] or [!UICONTROL Platform Mobile SDK] and [!UICONTROL Edge Network] Approach" style="border:1px solid #4a4a4a" />
 
 ### 2. Application-specific SDK Approach
 
@@ -52,10 +52,10 @@ The Web/Mobile personalization blueprint can be implemented via the following ap
 
 | Application/Service | Required Library |  Notes | 
 |---|---|---|
-| Adobe Target | Platform Web SDK*, at.js 0.9.1+, or mbox.js 61+ | at.js is preferred as mbox.js is no longer being developed. |
-| Adobe Audience Manager (Optional) | Platform Web SDK* or dil.js 5.0+ |  |
-| Adobe Analytics (Optional) | Platform Web SDK* or AppMeasurement.js 1.6.4+ |  |
-| Experience Cloud Identity Service | Platform Web SDK* or VisitorAPI.js 2.0+ |  |
+| Adobe Target | [!UICONTROL Platform Web SDK]*, at.js 0.9.1+, or mbox.js 61+ | at.js is preferred as mbox.js is no longer being developed. |
+| Adobe Audience Manager (Optional) | [!UICONTROL Platform Web SDK]* or dil.js 5.0+ |  |
+| Adobe Analytics (Optional) | [!UICONTROL Platform Web SDK]* or AppMeasurement.js 1.6.4+ |  |
+| Experience Cloud Identity Service | [!UICONTROL Platform Web SDK]* or VisitorAPI.js 2.0+ |  |
 | Experience Platform Mobile SDK (Optional) | 4.11 or higher for iOS and Android™ |  |
 | Experience Platform Web SDK | 1.0, current Experience Platform SDK version has [various use cases not yet supported for the Experience Cloud applications](https://github.com/adobe/alloy/projects/5)| |
 
@@ -63,7 +63,7 @@ The Web/Mobile personalization blueprint can be implemented via the following ap
 
 1. [Implement Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) for your web or mobile applications.
 
-    If using Audience Manger or Analytics:
+    If using Audience Manger or Adobe Analytics:
 
 1. [Implement Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html)
 1. [Implement Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)

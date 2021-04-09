@@ -47,7 +47,7 @@ Execute triggered messages and experiences using Adobe Experience Platform as a 
 * Does not support Offer Decisioning currently
 * See [profile and data ingestion guardrails for Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 
-### Campaign Standard
+### Adobe Campaign Standard
 
 * Can only support 14 tps (50k per hour) in throughput
 * Segment-membership-initiated journeys are not supported
@@ -62,7 +62,7 @@ Execute triggered messages and experiences using Adobe Experience Platform as a 
 #### Schema/Datasets
 
 1. Configure individual profile, experience event, and multi-entity schemas in Experience Platform based on customer-supplied data.
-1. Create Campaign schemas for the following: broadLog, trackingLog, non-deliverable addresses, and profile preferences (optional).
+1. Create Adobe Campaign schemas for the following: broadLog, trackingLog, non-deliverable addresses, and profile preferences (optional).
 1. Add data usage labels to the dataset for governance.
 1. Create policies to enforce governance on destinations.
 
@@ -72,16 +72,16 @@ Execute triggered messages and experiences using Adobe Experience Platform as a 
 1. Add identities to schemas.
 1. Enable schemas and datasets for profile.
 1. Set up merge rules for differing views of [!UICONTROL Real-time Customer Profile] (optional).
-1. Create segments for campaign usage.
+1. Create segments for Adobe Campaign usage.
 
 #### Sources/Destinations
 
 1. Ingest data into Experience Platform using streaming APIs & source connectors.
-1. Configure [!DNL Azure] blob storage destination for use with Campaign.
+1. Configure [!DNL Azure] blob storage destination for use with Adobe Campaign.
 
 #### Mobile app deployment
 
-1. Implement Campaign SDK for Campaign Classic or Experience Platform SDK for Campaign Standard. If Experience Platform Launch is present, the recommendation is to use Campaign Classic/Standard extension with Experience Platform SDK.
+1. Implement Adobe Campaign SDK for Adobe Campaign Classic or Experience Platform SDK for Adobe Campaign Standard. If Experience Platform Launch is present, the recommendation is to use Adobe Campaign Classic or Adobe Campaign Standard extension with Experience Platform SDK.
 
 
 ### Journey Orchestration
@@ -90,7 +90,7 @@ Execute triggered messages and experiences using Adobe Experience Platform as a 
 1. Configure external data sources.
 1. Configure custom actions.
 
-### Campaign Standard
+### Adobe Campaign Standard
 
 1. Configure messaging templates with appropriate personalization settings.
 1. Configure export workflows export transactional messaging logs. Recommendation is to run at most every four hours.
@@ -100,7 +100,7 @@ Execute triggered messages and experiences using Adobe Experience Platform as a 
 
 * [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
 * [Journey Orchestration documentation](https://experienceleague.adobe.com/docs/journey-orchestration.html?lang=en)
-* [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
-* [Campaign Standard documentation](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=en)
+* [Adobe Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
+* [Adobe Campaign Standard documentation](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=en)
 * [Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch.html?lang=en)
 * [Experience Platform Mobile SDK documentation](https://experienceleague.adobe.com/docs/mobile.html?lang=en)
