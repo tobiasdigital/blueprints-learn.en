@@ -35,7 +35,8 @@ Each Blueprint offers Adobe customers a series of artifacts that explain the hig
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><img alt="thumbnail image for the Digital Behavioral Data Consolidation Blueprint" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Web/Mobile Personalization Blueprint</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Digital Behavioral Data Consolidation Blueprint
+</strong></a></div>
     <p><em>Have a single consolidated view of customer behavior across various channels.</em></p>
   </td>
 </tr>
