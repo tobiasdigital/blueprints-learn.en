@@ -12,7 +12,7 @@ Data Analysis, Intelligence, and AI/ML comprises the ability within Adobe Experi
 
 Experience Platform's [!UICONTROL Query Service] allows SQL queries to be performed on the data. In addition, Experience Platform allows connections with third-party SQL clients, interfaces, and Business Intelligence (BI) tools to directly connect to, access and query the data within Experience Platform, using the PostgreSQL protocol.
 
-The Data Science Workspace enables data exploration, data science, and machine learning workloads to be performed on the data. Models can be trained, scored, and operationalized to further enrich customer profiles and surface deeper insights on customer behaviors and experiences.
+[!UICONTROL Data Science Workspace] enables data exploration, data science, and machine learning workloads to be performed on the data. Models can be trained, scored, and operationalized to further enrich customer profiles and surface deeper insights on customer behaviors and experiences.
 
 | Blueprint | Description| Experience Cloud Applications|
 |---|---|---|

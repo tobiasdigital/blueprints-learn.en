@@ -7,7 +7,7 @@ exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071
 ---
 # Custom Data Science for Profile Enrichment Blueprint
 
-Custom Data Science for Profile Enrichment Blueprint illustrates how data in Adobe Experience Platform can be used in Data Science Workspace to train, deploy, and score models to provide machine learning insights. These models can directly output to a dataset enabled for Real-time Customer Profile to further enrich customer profiles. These insights can then be actioned for personalization. Examples of machine learning insights include lifetime value scoring, product and category affinity, propensity to convert, or propensity to churn. 
+Custom Data Science for Profile Enrichment Blueprint illustrates how data in Adobe Experience Platform can be used in [!UICONTROL Data Science Workspace] to train, deploy, and score models to provide machine learning insights. These models can directly output to a dataset enabled for [!UICONTROL Real-time Customer Profile] to further enrich customer profiles. These insights can then be actioned for personalization. Examples of machine learning insights include lifetime value scoring, product and category affinity, propensity to convert, or propensity to churn. 
 
 ## Use Cases
 
@@ -28,13 +28,13 @@ Custom Data Science for Profile Enrichment Blueprint illustrates how data in Ado
 1. Author model in notebook.
 1. Train the model.
 1. Score the model to generate predictions with the target data.
-1. Enable the model results dataset for profile, if pushing model results to the Real-time Customer Profile.
+1. Enable the model results dataset for profile, if pushing model results to the [!UICONTROL Real-time Customer Profile].
 
 ## Related Documentation
 
 * [Adobe Experience Platform Intelligence product description](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Data Science Workspace documentation](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en)
-* [Data Science Workspace tutorials](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/understanding-data-science-workspace.html)
+* [[!UICONTROL Data Science Workspace] documentation](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en)
+* [[!UICONTROL Data Science Workspace] tutorials](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/understanding-data-science-workspace.html)
 
 ## Related Blog Posts
 
