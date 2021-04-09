@@ -5,7 +5,7 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 ---
-# Online/Offline Web Personalization Blueprint
+# Online/Offline Web/Mobile Personalization Blueprint
 
 Synchronize web personalization with email and other known and anonymous channel personalization.
 

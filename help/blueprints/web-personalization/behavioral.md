@@ -5,7 +5,7 @@ solution: Experience Platform, Target, Audience Manager, Analytics, Experience C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 ---
-# Behavioral Web Personalization Blueprint
+# Behavioral Web/Mobile Personalization Blueprint
 
 Personalize based on online behavior and audience data.
 
