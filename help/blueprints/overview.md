@@ -25,17 +25,17 @@ Each Blueprint offers Adobe customers a series of artifacts that explain the hig
 <tr>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><img alt="thumbnail image for the Triggered Messaging and Adobe Experience Platform Blueprint" src="multi-channel-message-orchestration/assets/triggered.svg" /></a>
-    <div><a href="/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><strong>Triggered Messaging and Adobe Experience Platform Blueprint</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><strong>Triggered Messaging and Adobe Experience Platform Blueprint</strong></a></div>
     <p><em>Trigger messages and experiences using Adobe Experience Platform as a central hub.</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="thumbnail image for the Online/Offline Audience Activation Blueprint" src="audience-activation/assets/onoff.svg" /></a>
-    <div><a href="/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Online/Offline Audience Activation Blueprint</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Online/Offline Audience Activation Blueprint</strong></a></div>
     <p><em>Deliver audience-activated cross-channel advertising.</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><img alt="thumbnail image for the Digital Behavioral Data Consolidation Blueprint" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Web/Mobile Personalization Blueprint</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Web/Mobile Personalization Blueprint</strong></a></div>
     <p><em>Have a single consolidated view of customer behavior across various channels.</em></p>
   </td>
 </tr>
