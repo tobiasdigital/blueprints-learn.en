@@ -30,11 +30,11 @@ Execute scheduled and batch messaging campaigns using Adobe Experience Platform 
 
 ## Guardrails
 
-* Supports Campaign single organizational unit deployments only
-* Campaign is source of truth for all active profiles meaning profiles must exist in Campaign and new profiles should not be created based on Experience Platform segments.
+* Supports Adobe Campaign single organizational unit deployments only
+* Adobe Campaign is source of truth for all active profiles meaning profiles must exist in Adobe Campaign and new profiles should not be created based on Experience Platform segments.
 * Segment membership realization from Experience Platform is latent for both batch (1 per day) and streaming (~5 minutes)
 
-**[!UICONTROL Real-time Customer Data Platform] segment sharing to campaign:**
+**[!UICONTROL Real-time Customer Data Platform] segment sharing to Adobe Campaign:**
 
 * Recommendation of 20-segment limit
 * Activation is limited to every 24 hours
@@ -43,7 +43,7 @@ Execute scheduled and batch messaging campaigns using Adobe Experience Platform 
 * One file per segment of all profiles with “realized” segment membership OR if segment membership is added as an attribute in the file both “realized” and “exited” profiles
 * Incremental or full segment exports are supported
 * File encryption is not supported
-* Campaign export workflows to run at most every 4 hrs
+* Adobe Campaign export workflows to run at most every 4 hrs
 * See [profile and data ingestion guardrails for Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 
 ## Implementation Steps
@@ -53,7 +53,7 @@ Execute scheduled and batch messaging campaigns using Adobe Experience Platform 
 #### Schema / Datasets
 
 1.  Configure individual profile, experience event, and multi-entity schemas in Experience Platform, based on customer-supplied data.
-1.  Create Campaign schemas for broadLog, trackingLog, non-deliverable addresses, and profile preferences (optional).
+1.  Create Adobe Campaign schemas for broadLog, trackingLog, non-deliverable addresses, and profile preferences (optional).
 1.  Add data usage labels to the dataset for governance.
 1.  Create policies that enforce governance on destinations.
 
@@ -63,34 +63,34 @@ Execute scheduled and batch messaging campaigns using Adobe Experience Platform 
 1.  Add identities to schemas.
 1.  Enable schemas and datasets for profile.
 1.  Set up merge rules for differing views of [!UICONTROL Real-time Customer Profile] (optional).
-1.  Create segments for campaign usage.
+1.  Create segments for Adobe Campaign usage.
 
 #### Sources / Destinations
 
 1.  Ingest data into Experience Platform using streaming APIs & source connectors.
-1.  Configure [!DNL Azure] blob storage destination for use with Campaign.
+1.  Configure [!DNL Azure] blob storage destination for use with Adobe Campaign.
 
 #### Mobile app deployment
 
-1.  Implement Campaign SDK for Campaign Classic or Experience Platform SDK for Campaign Standard. If Experience Platform Launch is present, the recommendation is to use Campaign Classic/Standard extension with Experience Platform SDK.
+1.  Implement Adobe Campaign SDK for Adobe Campaign Classic or Experience Platform SDK for Adobe Campaign Standard. If Experience Platform Launch is present, the recommendation is to use Adobe Campaign Classic or Adobe Campaign Standard extension with Experience Platform SDK.
 
-#### Campaign
+#### Adobe Campaign
 
 1.  Configure schemas for profile, lookup data, and relevant delivery personalization data.
     
 >[!IMPORTANT]
 >
->It's critical to understand at this point what the data model is within Experience Platform for profile and event data so you know what data will be required in Campaign.
+>It's critical to understand at this point what the data model is within Experience Platform for profile and event data so you know what data will be required in Adobe Campaign.
     
 #### Import workflows
 
-1.  Load and ingest simplified profile data onto Campaign sFTP.
-1.  Load and ingest orchestration and messaging personalization data onto Campaign sFTP.
+1.  Load and ingest simplified profile data onto Adobe Campaign sFTP.
+1.  Load and ingest orchestration and messaging personalization data onto Adobe Campaign sFTP.
 1.  Ingest Experience Platform segments from [!DNL Azure] blob via workflows.
 
 #### Export workflows
 
-1.  Send Campaign logs back to Experience Platform via workflows every four hours (broadLog, trackingLog, non-deliverable addresses).
+1.  Send Adobe Campaign logs back to Experience Platform via workflows every four hours (broadLog, trackingLog, non-deliverable addresses).
 1.  Send profile preferences back to Experience Platform via consulting-built workflows every four hours (optional).
 
 

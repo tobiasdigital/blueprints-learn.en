@@ -38,12 +38,12 @@ Synchronize web personalization with email and other known and anonymous channel
 
 The Web/Mobile personalization blueprint can be implemented via the following approaches as outlined below.
 
-1. Using the Platform Web SDK/Mobile SDK and Edge Network.
+1. Using the [!UICONTROL Platform Web SDK] or [!UICONTROL Platform Mobile SDK] and [!UICONTROL Edge Network].
 1. Using traditional application-specific SDKs (for example, AppMeasurement.js)
 
 ### 1. Platform Web/Mobile SDK and Edge Approach
 
-<img src="assets/websdkflow.svg" alt="Reference architecture for the Platform Web SDK/Mobile SDK and Edge Network Approach" style="border:1px solid #4a4a4a" />
+<img src="assets/websdkflow.svg" alt="Reference architecture for the [!UICONTROL Platform Web SDK] or [!UICONTROL Platform Mobile SDK] and [!UICONTROL Edge Network] Approach" style="border:1px solid #4a4a4a" />
 
 ### 2. Application-specific SDK Approach
 
@@ -53,10 +53,10 @@ The Web/Mobile personalization blueprint can be implemented via the following ap
 
 | Application/Service | Required Library |  Notes | 
 |---|---|---|
-| Adobe Target | Platform Web SDK*, at.js 0.9.1+, or mbox.js 61+ | at.js is preferred as mbox.js is no longer being developed. |
-| Adobe Audience Manager (Optional) | Platform Web SDK* or dil.js 5.0+ |  |
-| Adobe Analytics (Optional) | Platform Web SDK* or AppMeasurement.js 1.6.4+ | Adobe Analytics tracking must use Regional Data Collection (RDC). |
-| Experience Cloud ID service | Platform Web SDK* or VisitorAPI.js 2.0+ | (Recommended) Use Experience Platform Launch to deploy the ID service to ensure that the ID is set before any application calls |
+| Adobe Target | [!UICONTROL Platform Web SDK]*, at.js 0.9.1+, or mbox.js 61+ | at.js is preferred as mbox.js is no longer being developed. |
+| Adobe Audience Manager (Optional) | [!UICONTROL Platform Web SDK]* or dil.js 5.0+ |  |
+| Adobe Analytics (Optional) | [!UICONTROL Platform Web SDK]* or AppMeasurement.js 1.6.4+ | Adobe Analytics tracking must use Regional Data Collection (RDC). |
+| Experience Cloud ID service | [!UICONTROL Platform Web SDK]* or VisitorAPI.js 2.0+ | (Recommended) Use Experience Platform Launch to deploy the ID service to ensure that the ID is set before any application calls |
 | Experience Platform Mobile SDK (Optional) | 4.11 or higher for iOS and Android™ |  |
 | Experience Platform Web SDK | 1.0, current Experience Platform SDK version has [various use cases not yet supported for the Experience Cloud applications](https://github.com/adobe/alloy/projects/5)| |
 

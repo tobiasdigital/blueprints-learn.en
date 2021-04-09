@@ -24,7 +24,7 @@ role: Architect, Developer, Business Practitioner
   + [Call Deflection](/help/blueprints/customer-journey-analytics/call-deflect.md)
 + Data Collection & Preparation{#data-ingestion}
   + [Overview](/help/blueprints/data-ingestion/overview.md)
-  + [Data Ingestion & Preparation to Experience Platform](/help/blueprints/data-ingestion/ingestion.md)
+  + [Data Preparation & Ingestion](/help/blueprints/data-ingestion/ingestion.md)
   + [Server Side Enterprise Data Collection](/help/blueprints/data-ingestion/server-side-collection.md)
 + Data Analysis, Intelligence, & AI/ML{#data-exploration}
   + [Overview](/help/blueprints/data-insights/overview.md)
@@ -36,6 +36,6 @@ role: Architect, Developer, Business Practitioner
   + [Triggered Messaging & Experience Platform](/help/blueprints/multi-channel-message-orchestration/triggered-messaging.md)
 + Web & Mobile Personalization{#web-personalization}
   + [Overview](/help/blueprints/web-personalization/overview.md)
-  + [Behavioral Web Personalization](/help/blueprints/web-personalization/behavioral.md)
-  + [Online/Offline Web Personalization](/help/blueprints/web-personalization/online-offline.md)
+  + [Behavioral Personalization](/help/blueprints/web-personalization/behavioral.md)
+  + [Online/Offline Personalization](/help/blueprints/web-personalization/online-offline.md)
 
