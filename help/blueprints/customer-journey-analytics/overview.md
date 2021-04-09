@@ -18,8 +18,6 @@ Common analyses include:
 * What campaigns resulted in conversion and increased engagement
 * Tool usage analysis to optimize self-service experiences
 
-## Blueprints
-
 | Blueprint | Description |  Experience Cloud Applications | 
 |---|---|---|
 | **[Digital Behavioral Data Consolidation](digital-behavioral-data-consolidation.md)**  | <ul><li>Have a single consolidated view of customer behavior across various channels by unifying data from various web, mobile, and offline properties.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (optional)</li></ul>| 

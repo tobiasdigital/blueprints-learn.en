@@ -10,12 +10,10 @@ exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 
 Web and Mobile Personalization addresses the ability to use audience segmentation in multiple applications to personalize and optimize customer experiences. You can use customer behaviors, demographics, loyalty level, and prior transactions to personalize layouts, call-to-actions, and content.
 
-## Blueprints
-
 | Blueprint | Description |  Experience Cloud Applications | 
 |---|---|---|
 | **[Behavioral Personalization](behavioral.md)**  | <ul><li>Personalize based on online behavior and audience data</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul>| 
-| **[Online/Offline Web Personalization](online-offline.md)** | <ul><li>Personalize with offline attributes and events (transactions, reservations, CRM, and loyalty data).</li><li>Synchronize personalization across web, email, and other known channels.</li></ul> | <ul><li>Real-time Customer Data Platform</li><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
+| **[Online/Offline Web Personalization](online-offline.md)** | <ul><li>Personalize with offline attributes and events (transactions, reservations, CRM, and loyalty data).</li><li>Synchronize personalization across web, email, and other known channels.</li></ul> | <ul><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
 
 ## Related Blog Posts
 

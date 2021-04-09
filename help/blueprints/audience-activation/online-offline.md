@@ -20,7 +20,7 @@ Activate audiences to known profile-based destinations such as email providers, 
 ## Applications
 
 * Adobe Experience Platform
-* Real-time Customer Data Platform
+* [!UICONTROL Real-time Customer Data Platform]
 
 ## Architecture
 
@@ -43,7 +43,7 @@ Activate audiences to known profile-based destinations such as email providers, 
 1. Configure the correct identities and identity namespaces on the schema to be sure that ingested data can stitch into a unified profile.
 1. Enable the schema and datasets for Profile. 
 1. Ingest data into Platform.
-1. Provision Real-time Customer Data Platform segment sharing between Experience Platform and Audience Manager for audiences defined in Experience Platform to be shared to Audience Manager.
+1. Provision [!UICONTROL Real-time Customer Data Platform] segment sharing between Experience Platform and Audience Manager for audiences defined in Experience Platform to be shared to Audience Manager.
 1. Author Segments in Experience Platform, to be evaluated in batch or streaming. The system automatically determines whether the segment is evaluated as batch or streaming.
 1. Configure destinations for sharing of profile attributes and audience memberships to desired destinations.
 
@@ -55,13 +55,13 @@ Activate audiences to known profile-based destinations such as email providers, 
 
 ## Related Documentation
 
-* [Real-time Customer Data Platform Product Description](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
-* [Profile and Segmentation Guidelines](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
+* [[!UICONTROL Real-time Customer Data Platform] Product Description](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
+* [Profile and segmentation guidelines](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 * [Segmentation documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
 * [Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 
 ## Related Videos & Tutorials
 
-* [Real-time Customer Data Platform overview](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html)
-* [Demo of Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html)
+* [[!UICONTROL Real-time Customer Data Platform] overview](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html)
+* [Demo of [!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html)
 * [Create segments](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)

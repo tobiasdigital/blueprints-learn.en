@@ -14,9 +14,7 @@ Experience Platform's Query Service allows SQL queries to be performed on the da
 
 The Data Science Workspace enables data exploration, data science, and machine learning workloads to be performed on the data. Models can be trained, scored, and operationalized to further enrich customer profiles and surface deeper insights on customer behaviors and experiences.
 
-## Blueprints
-
 | Blueprint | Description| Experience Cloud Applications|
 |---|---|---|
 | **[Data Analysis & Intelligence](analysis.md)** | <ul><li>Data Analysis and Intelligence Blueprint encompasses the methods by which data can be queried and analyzed for deeper insight within Adobe Experience Platform</ul></li> | <ul><li> Adobe Experience Platform Intelligence</ul></li>|
-| **[Custom Data Science for Profile Enrichment Blueprint](data-science.md)**        | <ul><li>Train, score, and operationalize models to further enrich customer profiles and action model driven customer insights</li></ul> | <ul><li>Adobe Experience Platform Intelligence</li><li> Real-time Customer Data Platform</li></ul> |
+| **[Custom Data Science for Profile Enrichment Blueprint](data-science.md)**        | <ul><li>Train, score, and operationalize models to further enrich customer profiles and action model driven customer insights</li></ul> | <ul><li>Adobe Experience Platform Intelligence</li><li> [!UICONTROL Real-time Customer Data Platform]</li></ul> |
