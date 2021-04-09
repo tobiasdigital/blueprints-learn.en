@@ -24,27 +24,22 @@ Each Blueprint offers Adobe customers a series of artifacts that explain the hig
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/overview.html"><img alt="thumbnail image for the 'Web Personalization' blueprint" src="web-personalization/assets/personalization.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/overview.html"><strong>Web/Mobile Personalization Blueprint</strong></a></div>
-    <p><em>Deliver personalized web and mobile content.</em></p>
+    <a href="/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><img alt="thumbnail image for the Triggered Messaging and Adobe Experience Platform Blueprint" src="multi-channel-message-orchestration/assets/triggered.svg" /></a>
+    <div><a href="/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><strong>Triggered Messaging and Adobe Experience Platform Blueprint</strong></a></div>
+    <p><em>Trigger messages and experiences using Adobe Experience Platform as a central hub.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html"><img alt="thumbnail image for the 'Audience Activation' blueprint" src="audience-activation/assets/aam.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html"><strong>Audience Activation Blueprint</strong></a></div>
+    <a href="/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="thumbnail image for the Online/Offline Audience Activation Blueprint" src="audience-activation/assets/onoff.svg" /></a>
+    <div><a href="/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Online/Offline Audience Activation Blueprint</strong></a></div>
     <p><em>Deliver audience-activated cross-channel advertising.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.corp.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><img alt="thumbnail image for the 'Triggered Messaging and Adobe Experience Platform Blueprint'" src="multi-channel-message-orchestration/assets/triggered.svg" /></a>
-    <div><a href="https://experienceleague.corp.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><strong>Triggered Messaging and Adobe Experience Platform Blueprint</strong></a></div>
-    <p><em>Trigger messages and experiences using Adobe Experience Platform as a central hub.</em></p>
+    <a href="/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><img alt="thumbnail image for the Digital Behavioral Data Consolidation Blueprint" src="customer-journey-analytics/assets/CJA.svg" /></a>
+    <div><a href="/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Web/Mobile Personalization Blueprint</strong></a></div>
+    <p><em>Have a single consolidated view of customer behavior across various channels.</em></p>
   </td>
 </tr>
 </table>
-
-Triggered Messaging and Adobe Experience Platform Blueprint
-Online/Offline Audience Activation Blueprint
-Digital Behavioral Data Consolidation Blueprint
-
 
 ## Blog Posts
 
