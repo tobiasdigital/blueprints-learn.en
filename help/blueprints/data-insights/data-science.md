@@ -12,7 +12,7 @@ Custom Data Science for Profile Enrichment Blueprint illustrates how data in Ado
 ## Use Cases
 
 * Extract insight and discover patterns from customer data in Experience Platform. Train and score models from this data.
-* Enrich the Real-time Customer Profile with model driven insights and attributes for more granular personalization and optimized journeys.
+* Enrich the [!UICONTROL Real-time Customer Profile] with model driven insights and attributes for more granular personalization and optimized journeys.
 * Train and Score models to determine customer insights such as customer lifetime value, propensity to convert or churn, product and content affinities, and engagement scores. 
 
 ## Architecture

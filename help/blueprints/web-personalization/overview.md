@@ -1,6 +1,6 @@
 ---
 title: Web & Mobile Personalization
-description: Deliver personalized web and mobile content with Real-time Customer Profile.
+description: Deliver personalized web and mobile content with [!UICONTROL Real-time Customer Profile].
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 
 thumbnail:

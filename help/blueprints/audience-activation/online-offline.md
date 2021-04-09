@@ -49,7 +49,7 @@ Activate audiences to known profile-based destinations such as email providers, 
 
 ## Implementation Considerations
 
-* Sharing profile data to destinations requires that you include the specific identity value used by the destination in the destination payload. Any identity that is necessary for a target destination must be ingested into Platform and configured as an identity for the Real-time Customer Profile.
+* Sharing profile data to destinations requires that you include the specific identity value used by the destination in the destination payload. Any identity that is necessary for a target destination must be ingested into Platform and configured as an identity for the [!UICONTROL Real-time Customer Profile].
 
 * For activation scenarios where audiences are shared from Experience Platform to Audience Manager, all identities included in the [!UICONTROL Real-time Customer Profile] are shared to Audience Manager. The audiences from Experience Platform can be shared through Audience Manager destinations when the required destination identities are included in the [!UICONTROL Real-time Customer Profile], or where identities in the [!UICONTROL Real-time Customer Profile] can be related to the required destination identities that are linked in Audience Manager.
 
