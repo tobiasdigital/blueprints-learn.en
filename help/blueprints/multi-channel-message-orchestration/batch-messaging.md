@@ -62,7 +62,7 @@ Execute scheduled and batch messaging campaigns using Adobe Experience Platform 
 1.  Create any customer-specific namespaces.
 1.  Add identities to schemas.
 1.  Enable schemas and datasets for profile.
-1.  Set up merge rules for differing views of Real-time Customer Profile (optional).
+1.  Set up merge rules for differing views of [!UICONTROL Real-time Customer Profile] (optional).
 1.  Create segments for campaign usage.
 
 #### Sources / Destinations
