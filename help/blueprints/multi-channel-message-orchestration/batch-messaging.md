@@ -34,7 +34,7 @@ Execute scheduled and batch messaging campaigns using Adobe Experience Platform 
 * Campaign is source of truth for all active profiles meaning profiles must exist in Campaign and new profiles should not be created based on Experience Platform segments.
 * Segment membership realization from Experience Platform is latent for both batch (1 per day) and streaming (~5 minutes)
 
-**Real-time Customer Data Platform segment sharing to campaign:**
+**[!UICONTROL Real-time Customer Data Platform] segment sharing to campaign:**
 
 * Recommendation of 20-segment limit
 * Activation is limited to every 24 hours

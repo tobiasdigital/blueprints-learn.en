@@ -10,9 +10,9 @@ exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a244
 
 Data Analysis and Intelligence comprises the ability within Adobe Experience Platform to perform exploratory query and analysis of the data that exists in the data lake.
 
-Experience Platform's Query Service allows SQL queries to be performed on the data. The Data Science Workspace enables data exploration, data science, and machine learning workloads to be performed on the data. 
+Experience Platform's [!UICONTROL Query Service] allows SQL queries to be performed on the data. [!UICONTROL Data Science Workspace] enables data exploration, data science, and machine learning workloads to be performed on the data. 
 
-In addition, Experience Platform allows connections with third-party SQL clients, interfaces, and Business Intelligence (BI) tools to directly connect to, access and query the data within Experience Platform, using the PostgreSQL protocol.
+In addition, Experience Platform allows connections with third-party SQL clients, interfaces, and Business Intelligence (BI) tools to directly connect to, access and query the data within Experience Platform, using the [!DNL PostgreSQL] protocol.
 
 Certain guardrails apply for the query timeout and for the amount of data that is included in the query result, as noted within the scenario details.
 
@@ -40,10 +40,10 @@ Certain guardrails apply for the query timeout and for the amount of data that i
 
 1.  Configure datasets and schemas for data ingestion into the data lake.
 1.  Ingest data.
-1.  Confirm that data is available to Query Service and Data Science Workspace for raw access and query.
-1.  Connect Business Intelligence tools and SQL clients to Query Service for visualization, data query, and exploration.
+1.  Confirm that data is available to [!UICONTROL Query Service] and [!UICONTROL Data Science Workspace] for raw access and query.
+1.  Connect Business Intelligence tools and SQL clients to [!UICONTROL Query Service] for visualization, data query, and exploration.
 
 ## Related Documentation
 
 * [Adobe Experience Platform Intelligence product description](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Query Service documentation](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)
+* [[!UICONTROL Query Service] documentation](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)
