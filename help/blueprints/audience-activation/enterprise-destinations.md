@@ -7,13 +7,13 @@ exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 ---
 # Audience and Profile Activation to Enterprise Destinations Blueprint
 
-Replication and update of profile and audience changes to enterprise data stores for activation and reporting use cases. 
+Replication and update of profile and audience changes to enterprise data stores for activation and reporting use cases. <!-- This sentence is difficult to mentally process because there's no verb. Describe what the customer can do with this feature. The first paragraph on a page should not be an abstract description.-->
 
-Initiate a sales or support action to the customer through notification of a customer action from the [!UICONTROL Real-time Customer Data Platform] to enterprise systems and applications.
+Initiate a sales or support action to the customer through notification of a customer action from the [!UICONTROL Real-time Customer Data Platform] to enterprise systems and applications. <!-- What kinds of sales or support actions? You might add a "For example...." The content in these blueprints should be more simple and friendly.-->
 
 ## Use Cases
 
-* Profile and Audience activation to cloud storage destinations or streaming destinations for enterprise tracking, storage, analysis, and activation of customer data and insights. 
+* Profile and audience activation to cloud storage destinations, or streaming destinations for enterprise tracking, storage, analysis, and activation of customer data and insights. 
 
 ## Applications
 
@@ -27,7 +27,7 @@ Initiate a sales or support action to the customer through notification of a cus
 
 [Profile and Segmentation Guidelines](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 
-Latency and Throughput thresholds:
+Latency and throughput thresholds:
 
 Streaming segmentation:
 
@@ -35,39 +35,39 @@ Streaming segmentation:
 * Up to 11 minutes for streaming activation
 
 Batch segmentation:
-Once per day, or manually initiated ad hoc via API 
+Once per day, or manually initiated ad hoc via API.
 
 * Approximately 1 hour per job for up to 10 TB profile store size
 * Approximately 2 hours per job for 10 TB to 100 TB profile store size
 
 ## Implementation Steps
 
-1. Create schemas for data to be ingested
-1. Create datasets for data to be ingested
+1. Create schemas for data to be ingested. <!-- Cross-references to these topics would be helpful -->
+1. Create datasets for data to be ingested.
 1. Configure the correct identities and identity namespaces on the schema to be sure that ingested data can stitch into a unified profile.
 1. Enable the schemas and datasets for profile processing.
-1. Configure any Sources for data ingestion
-1. Author Segments in Experience Platform, to be evaluated in batch or streaming. The system automatically determines whether the segment is evaluated as batch or streaming.
+1. Configure any sources for data ingestion.
+1. Author segments in Experience Platform, to be evaluated in batch or streaming. The system automatically determines whether the segment is evaluated as batch or streaming.
 1. Configure destinations for sharing of profile attributes and audience memberships to desired destinations.
 
 ## Implementation Considerations
 
-Activation of attributes and identities
+Activating attributes and identities
 
-* The Real-time Customer Data Platform can activate both audience memberships as well as attribute and identity changes that occur for profiles that are members of segments that have been selected for activation. As such if the use case is to activate attributes and/or identities, a global segment must be defined that will include all the profiles for which attribute/identity updates will be sent must be defined. Once this is in place the segment and desired attributes to activate can be selected as part of the destination configuration.
-* Note that batch destinations do not support activation of attribute only change events. Audience membership full or incremental can be sent along with the selected attributes for activation, but attribute only change events can not be activated via batch destinations.  
+* [!UICONTROL The Real-time Customer Data Platform] can activate audience memberships as well as attribute and identity changes that occur for profiles that are members of segments selected for activation. If your goal is to activate attributes or identities, you must define a global segment that includes all the profiles to which attribute and identity updates are sent. At that point, you can select the segment and desired attributes to activate as part of the destination configuration.
+* Note that batch destinations do not support activation of attribute-only change events. Full or incremental audience memberships can be sent along with the selected attributes for activation, but you cannot activate attribute-only change events via batch destinations.  
 
-Batch Segment Activation to Streaming Destinations
+Activating batch segments to streaming destinations
 
 * Batch Segment Activation to Streaming Destinations is supported. Batch segment jobs place messages on the pipeline once the segment job is complete for streaming activation
 
-Streaming Segment Activation to Batch Destinations
+Activating streaming segments to batch destinations
 
-* Streaming segment activation to batch destination is supported. The batch destination schedule will export segment memberships of the profiles based on the batch destination schedule. This includes both segment memberships determined via streaming and batch methods.
+* Streaming segment activation to batch destination is supported. The batch destination schedule exports profile segment memberships based on the batch destination schedule. This includes both segment memberships determined via streaming and batch methods.
 
-Activation of Experience Events
+Activating of experience events
 
-* Activation of raw experience events is currently not supported. To activate against experience events a segment must be created with the necessary rules that include/exclude the experience event logic to be activated against. This creates a segment that is defined against experience events - and the segment membership can be activated as a proxy for activating raw experience events. Also consider leveraging Launch Server Side for activation of raw experience events collected via SDK.
+* Activating raw experience events is not supported. To activate against experience events, a segment must be created with the necessary rules that include or exclude the experience event logic. This creates a segment that is defined against experience events, and the segment membership can be activated as a proxy for activating raw experience events. Also consider using [!UICONTROL Launch Server Side] to activate raw experience events collected via SDK.
 
 ## Related Documentation
 
