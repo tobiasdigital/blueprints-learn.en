@@ -20,7 +20,7 @@ role: Architect, Developer, Business Practitioner
   + [Customer Activity Hub](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics{#customer-journey-analytics}
   + [Overview](/help/blueprints/customer-journey-analytics/overview.md)
-  + [Digital Behavioral Data Consolidation](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
+  + [Cross Channel Journey Analysis](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
   + [Call Deflection](/help/blueprints/customer-journey-analytics/call-deflect.md)
 + Data Collection & Preparation{#data-ingestion}
   + [Overview](/help/blueprints/data-ingestion/overview.md)

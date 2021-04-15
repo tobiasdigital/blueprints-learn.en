@@ -7,9 +7,7 @@ exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 ---
 # Audience and Profile Activation to Enterprise Destinations Blueprint
 
-Replication and update of profile and audience changes to enterprise data stores for activation and reporting use cases. <!-- This sentence is difficult to mentally process because there's no verb. Describe what the customer can do with this feature. The first paragraph on a page should not be an abstract description.-->
-
-Initiate a sales or support action to the customer through notification of a customer action from the [!UICONTROL Real-time Customer Data Platform] to enterprise systems and applications. <!-- What kinds of sales or support actions? You might add a "For example...." The content in these blueprints should be more simple and friendly.-->
+Share profile and audience changes and events in streaming or batch from [!UICONTROL Real-time Customer Data Platform] to enterprise data stores and applications. These profile and audience events can be used to initiate a sales or support action to the customer such as following up on an abandoned application process or webinar registration or to update enterprise applications with the latest customer attributes and intelligence from [!UICONTROL Real-time Customer Data Platform].
 
 ## Use Cases
 
@@ -42,7 +40,7 @@ Once per day, or manually initiated ad hoc via API.
 
 ## Implementation Steps
 
-1. Create schemas for data to be ingested. <!-- Cross-references to these topics would be helpful -->
+1. Create schemas for data to be ingested.
 1. Create datasets for data to be ingested.
 1. Configure the correct identities and identity namespaces on the schema to be sure that ingested data can stitch into a unified profile.
 1. Enable the schemas and datasets for profile processing.
