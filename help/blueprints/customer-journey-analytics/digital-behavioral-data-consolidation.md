@@ -1,11 +1,11 @@
 ---
-title: Digital Behavioral Data Consolidation Blueprint
+title: Cross Channel Journey Analysis
 description: Analyze and extract insights from customer interactions across the customer journey.
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 ---
-# Digital Behavioral Data Consolidation Blueprint
+# Cross Channel Journey Analysis Blueprint
 
 Have a single consolidated view of customer behavior across various channels by unifying data from various web, mobile, and offline properties.
 
