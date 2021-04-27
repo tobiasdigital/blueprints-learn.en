@@ -25,18 +25,16 @@ Share profile and audience changes and events in streaming or batch from [!UICON
 
 [Profile and Segmentation Guidelines](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 
-Latency and throughput thresholds:
+### Guardrails for Segment Evaluation and Activation
 
-Streaming segmentation:
+| Segmentation Type | Frequency | Throughput | Latency (Segment Evaluation) | Latency (Segment Activation) | Activation Payload |
+|-|-|-|-|-|-|
+| Edge Segmentation | Edge segmentation is currently in beta and allows for valid real-time segmentation to be evaluated on the Experience Platform Edge Network for real-time, same page decisioning via Adobe Target and Adobe Journey Optimizer. |  | ~100 ms | Available immediately for personalization in Adobe Target, for profile lookups in the Edge Profile, and for activation via cookie based destinations. | Audience Memberships available on the Edge for profile lookups and cookie based destinations.<br>Audience Memberships and Profile attributes are available to Adobe Target and Journey Optimizer.  |
+| Streaming Segmentation | Every time a new streaming event or record is ingested into the real-time customer profile and the segment definition is a valid streaming segment. <br>See the [segmentation documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html) for guidance on streaming segment criteria  | Up to 1500 events per second.  | ~ p95 <5min | Streaming Destinations: Streaming audience memberships are activated within approximately 10 minutes or micro-batched based on the requirements of the destination.<br>Scheduled Destinations: Streaming audience memberships are activated in batch based on the scheduled destination delivery time. | Streaming Destinations: Audience membership changes, identity values, and profile attributes.<br>Scheduled Destinations: Audience membership changes, identity values, and profile attributes. |
+| Incremental Segmentation | Once per hour for new data that has been ingested into the real-time customer profile since the last incremental or batch segment evaluation. |  |  | Streaming Destinations: Incremental audience memberships are activated within approximately 10 minutes or micro-batched based on the requirements of the destination.<br>Scheduled Destinations: Incremental audience memberships are activated in batch based on the scheduled destination delivery time. | Streaming Destinations: Audience membership changes and identity values only.<br>Scheduled Destinations: Audience membership changes, identity values, and profile attributes. |
+| Batch Segmentation | Once per day based on a predetermined system set schedule, or manually initiated ad hoc via API. |  | Approximately one hour per job for up to 10 TB profile store size, 2 hours per job for 10 TB to 100 TB profile store size. Batch segment job performance is dependent upon number profiles, size of profiles and number of segments being evaluated. | Streaming Destinations: Batch audience memberships are activated within approximately 10 of completion of the segmentation evaluation or micro-batched based on the requirements of the destination.<br>Scheduled Destinations: Batch audience memberships are activated based on the scheduled destination delivery time. | Streaming Destinations: Audience membership changes and identity values only.<br>Scheduled Destinations: Audience membership changes, identity values, and profile attributes. |
 
-* Up to 5 minutes for streaming segmentation, at up to 1500 events per second 
-* Up to 11 minutes for streaming activation
 
-Batch segmentation:
-Once per day, or manually initiated ad hoc via API.
-
-* Approximately 1 hour per job for up to 10 TB profile store size
-* Approximately 2 hours per job for 10 TB to 100 TB profile store size
 
 ## Implementation Steps
 
