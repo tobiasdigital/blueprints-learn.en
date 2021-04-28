@@ -31,7 +31,7 @@ Synchronize web personalization with email and other known and anonymous channel
 ### Guardrails for Segment Evaluation and Activation
 
 | Segmentation Type | Frequency | Throughput | Latency (Segment Evaluation) | Latency (Segment Activation) |
-|-|-|-|-|-|
+|---|---|---|---|---|
 | Edge Segmentation | Edge segmentation is currently in beta and allows for valid real-time segmentation to be evaluated on the Experience Platform Edge Network for real-time, same page decisioning via Adobe Target and Adobe Journey Optimizer. |  | ~100 ms | Available immediately for personalization in Adobe Target, for profile lookups in the Edge Profile, and for activation via cookie based destinations. |
 | Streaming Segmentation | Every time a new streaming event or record is ingested into the real-time customer profile and the segment definition is a valid streaming segment. <br>See the [segmentation documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html) for guidance on streaming segment criteria  | Up to 1500 events per second.  | ~ p95 <5min | Once these segment realizations occur they are shared to Audience Manager and the audience sharing service within minutes and available for same/next page personalization in Adobe Target. |
 | Incremental Segmentation | Once per hour for new data that has been ingested into the real-time customer profile since the last incremental or batch segment evaluation. |  |  | Once these segment memberships are realized they are shared to Audience Manager and the audience sharing service within minutes and available for same/next page personalization in Adobe Target. |
@@ -41,7 +41,7 @@ Synchronize web personalization with email and other known and anonymous channel
 
 
 | Audience Sharing Integration Pattern | Detail | Frequency | Throughput | Latency (Segment Evaluation) | Latency (Segment Activation) |
-|-|-|-|-|-|-|
+|---|---|---|---|---|---|
 | Real-time Customer Data Platform to Audience Manager |  | Dependent on segmentation type - see above segmentation guardrails table. | Dependent on segmentation type - see above segmentation guardrails table. | Dependent on segmentation type - see above segmentation guardrails table. | Within minutes of completion of the segment evaluation.<br>Initial audience configuration sync between Real-time Customer Data Platform and Audience Manager takes approximately 4 hours.<br>Any audience memberships realized during the 4 hour period will be written to Audience Manager on the subsequent batch segmentation job as "existing" audience memberships. |
 | Adobe Analytics to Audience Manager | By default a maximum of 75 audiences can be shared for each Adobe Analytics report suite. If an Audience Manager license is used, there is no limit on the number of audiences that can be shared between Adobe Analytics and Adobe Target or Adobe Audience Manager and Adobe Target. |  |  |  |  |
 | Adobe Analytics to Real-time Customer Data Platform | Not currently available. |  |  |  |  |
