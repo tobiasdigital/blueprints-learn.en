@@ -42,7 +42,7 @@ Activate audiences to known profile-based destinations such as email providers, 
 ### Guardrails for Cross Application Audience Sharing
 
 | Audience Application Integrations | Frequency | Throughput/Volume | Latency (Segment Evaluation) | Latency (Segment Activation) |
-|-|-|-|-|-|
+|---|---|---|---|---|
 | Real-time Customer Data Platform to Audience Manager | Dependent on segmentation type - see above segmentation guardrails table. | Dependent on segmentation type - see above segmentation guardrails table. | Dependent on segmentation type - see above segmentation guardrails table. | Within minutes of completion of the segment evaluation.<br>Initial audience configuration sync between Real-time Customer Data Platform and Audience Manager takes approximately 4 hours.<br>Any audience memberships realized during the 4 hour period will be written to Audience Manager on the subsequent batch segmentation job as "existing" audience memberships. |
 | Adobe Analytics to Audience Manager |  | By default a maximum of 75 audiences can be shared for each Adobe Analytics report suite. If an Audience Manager license is used, there is no limit on the number of audiences that can be shared between Adobe Analytics and Adobe Target or Adobe Audience Manager and Adobe Target. |  |  |
 | Adobe Analytics to Real-time Customer Data Platform | Not currently available | Not currently available | Not currently available | Not currently available |
