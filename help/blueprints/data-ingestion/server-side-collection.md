@@ -20,7 +20,7 @@ Server Side Enterprise Data Collection Blueprint shows how data collected with A
 
 ## Architecture
 
-<img src="assets/entcollect.svg" alt="Reference Architecture for Enterprise Data Collection" style="border:1px solid #4a4a4a" />
+<img src="assets/enterprise_collection.svg" alt="Reference Architecture for Enterprise Data Collection" style="border:1px solid #4a4a4a" />
 
 ## Related Documentation
 

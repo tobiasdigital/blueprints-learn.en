@@ -10,4 +10,4 @@ exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
 
 This architecture diagram shows how Adobe Experience Cloud applications, application services, and Adobe Experience Platform fit into an enterprise marketing architecture.
 
-<img src="assets/AEC.svg" alt="Experience Cloud" style="border:1px solid #4a4a4a" />
+<img src="assets/experience_cloud.svg" alt="Experience Cloud" style="border:1px solid #4a4a4a" />

@@ -23,7 +23,7 @@ With this capability, you could surface rich context when a customer calls your 
 
 ## Architecture
 
-<img src="assets/cah.svg" alt="Reference Architecture for the Customer Activity Hub Blueprint" style="border:1px solid #4a4a4a" />
+<img src="assets/customer_activity_hub.svg" alt="Reference Architecture for the Customer Activity Hub Blueprint" style="border:1px solid #4a4a4a" />
 
 ## Guardrails
 
