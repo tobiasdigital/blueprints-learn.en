@@ -28,7 +28,7 @@ Activate audiences to known profile-based destinations such as email providers, 
 
 ## Guardrails
 
-Refer to the guardrails as outlined on the Audience and Profile Activation Overview page - [LINK](/overview.md)  
+Refer to the guardrails as outlined on the Audience and Profile Activation Overview page - [LINK](overview.md)  
 
 ## Implementation Steps
 
