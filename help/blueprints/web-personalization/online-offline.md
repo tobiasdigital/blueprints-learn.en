@@ -24,27 +24,11 @@ Synchronize web personalization with email and other known and anonymous channel
 
 ## Architecture
 
-<img src="assets/onoff.svg" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="border:1px solid #4a4a4a" />
+<img src="assets/online_offline_personalization.svg" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="border:1px solid #4a4a4a" />
 
 ## Guardrails
 
-### Guardrails for Segment Evaluation and Activation
-
-| Segmentation Type | Frequency | Throughput | Latency (Segment Evaluation) | Latency (Segment Activation) |
-|---|---|---|---|---|
-| Edge Segmentation | Edge segmentation is currently in beta and allows for valid real-time segmentation to be evaluated on the Experience Platform Edge Network for real-time, same page decisioning via Adobe Target and Adobe Journey Optimizer. |  | ~100 ms | Available immediately for personalization in Adobe Target, for profile lookups in the Edge Profile, and for activation via cookie based destinations. |
-| Streaming Segmentation | Every time a new streaming event or record is ingested into the real-time customer profile and the segment definition is a valid streaming segment. <br>See the [segmentation documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html) for guidance on streaming segment criteria  | Up to 1500 events per second.  | ~ p95 <5min | Once these segment realizations occur they are shared to Audience Manager and the audience sharing service within minutes and available for same/next page personalization in Adobe Target. |
-| Incremental Segmentation | Once per hour for new data that has been ingested into the real-time customer profile since the last incremental or batch segment evaluation. |  |  | Once these segment memberships are realized they are shared to Audience Manager and the audience sharing service within minutes and available for same/next page personalization in Adobe Target. |
-| Batch Segmentation | Once per day based on a predetermined system set schedule, or manually initiated ad hoc via API. |  | Approximately one hour per job for up to 10 TB profile store size, 2 hours per job for 10 TB to 100 TB profile store size. Batch segment job performance is dependent upon number profiles, size of profiles and number of segments being evaluated. | Once these segment memberships are realized they are shared to Audience Manager and the audience sharing service within minutes and available for same/next page personalization in Adobe Target. |
-
-### Guardrails for cross application audience sharing
-
-
-| Audience Sharing Integration Pattern | Detail | Frequency | Throughput | Latency (Segment Evaluation) | Latency (Segment Activation) |
-|---|---|---|---|---|---|
-| Real-time Customer Data Platform to Audience Manager |  | Dependent on segmentation type - see above segmentation guardrails table. | Dependent on segmentation type - see above segmentation guardrails table. | Dependent on segmentation type - see above segmentation guardrails table. | Within minutes of completion of the segment evaluation.<br>Initial audience configuration sync between Real-time Customer Data Platform and Audience Manager takes approximately 4 hours.<br>Any audience memberships realized during the 4 hour period will be written to Audience Manager on the subsequent batch segmentation job as "existing" audience memberships. |
-| Adobe Analytics to Audience Manager | By default a maximum of 75 audiences can be shared for each Adobe Analytics report suite. If an Audience Manager license is used, there is no limit on the number of audiences that can be shared between Adobe Analytics and Adobe Target or Adobe Audience Manager and Adobe Target. |  |  |  |  |
-| Adobe Analytics to Real-time Customer Data Platform | Not currently available. |  |  |  |  |
+Refer to the guardrails under the Audience and Profile Activation Blueprints section - [LINK](../audience-activation/overview.md)
 
 ## Implementation Patterns
 
@@ -55,11 +39,11 @@ The Web/Mobile personalization blueprint can be implemented via the following ap
 
 ### 1. Platform Web/Mobile SDK and Edge Approach
 
-<img src="assets/websdkflow.svg" alt="Reference architecture for the [!UICONTROL Platform Web SDK] or [!UICONTROL Platform Mobile SDK] and [!UICONTROL Edge Network] Approach" style="border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_flow.svg" alt="Reference architecture for the [!UICONTROL Platform Web SDK] or [!UICONTROL Platform Mobile SDK] and [!UICONTROL Edge Network] Approach" style="border:1px solid #4a4a4a" />
 
 ### 2. Application-specific SDK Approach
 
-<img src="assets/appsdkflow.png" alt="Reference architecture for the Application-specific SDK Approach" style="border:1px solid #4a4a4a" />
+<img src="assets/app_sdk_flow.png" alt="Reference architecture for the Application-specific SDK Approach" style="border:1px solid #4a4a4a" />
 
 ## Implementation Prerequisites
 

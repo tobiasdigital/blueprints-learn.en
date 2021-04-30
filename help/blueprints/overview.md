@@ -27,7 +27,7 @@ Digital Experience Blueprints are repeatable implementations that let you addres
     <p><em>Trigger messages and experiences using [!UICONTROL Platform] as a central hub.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="thumbnail image for the Online/Offline Audience Activation Blueprint" src="audience-activation/assets/onoff.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="thumbnail image for the Online/Offline Audience Activation Blueprint" src="audience-activation/assets/online_offline_activation.svg" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Online/Offline Audience Activation</strong></a></div>
     <p><em>Deliver audience-activated cross-channel advertising.</em></p>
   </td>
