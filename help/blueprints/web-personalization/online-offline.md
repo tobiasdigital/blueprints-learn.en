@@ -28,7 +28,7 @@ Synchronize web personalization with email and other known and anonymous channel
 
 ## Guardrails
 
-Refer to the guardrails under the Audience and Profile Activation Blueprints section - [LINK](\help\blueprints\audience-activation\overview.md)
+Refer to the guardrails under the Audience and Profile Activation Blueprints section - [LINK](../audience-activation/overview.md)
 
 ## Implementation Patterns
 
