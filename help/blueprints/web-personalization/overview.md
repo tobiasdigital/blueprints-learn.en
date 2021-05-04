@@ -15,6 +15,14 @@ Web and Mobile Personalization addresses the ability to use audience segmentatio
 | **[Behavioral Web/Mobile Personalization](behavioral.md)**  | <ul><li>Personalize based on online behavior and audience data</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul>| 
 | **[Online/Offline Web/Mobile Personalization](online-offline.md)** | <ul><li>Personalize with offline attributes and events (transactions, reservations, CRM, and loyalty data).</li><li>Synchronize personalization across web, email, and other known channels.</li></ul> | <ul><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
 
+## Guardrails for Web and Mobile Personalization
+
+Refer to the guardrails under the Audience and Profile Activation Blueprints section - [LINK](../audience-activation/overview.md)
+
+### Online/Offline Personalization Guardrail diagram
+
+<img src="assets/personalization_guardrails.svg" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="border:1px solid #4a4a4a" />
+
 ## Related Blog Posts
 
 * [[!DNL Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)

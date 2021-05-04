@@ -27,13 +27,6 @@ Analyze a customer's behavior across desktop and mobile before they contact the 
 
 <img src="assets/CJA.svg" alt="Reference architecture for the Customer Journey Analytics Blueprint" style="border:1px solid #4a4a4a" />
 
-## Guardrails
-
-Data Ingestion into Customer Journey Analytics:
-
-* Data ingestion to lake: API ~ 7 GB/hour, source connector ~ 200 GB/hour, streaming to lake ~ 15 minutes, Analytics source connector to lake ~ 45 minutes.
-* After data has been published to the data lake, it can take up to 90 minutes to process into Customer Journey Analytics.
-
 ## Implementation Steps
 
 1. Configure datasets and schemas.

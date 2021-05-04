@@ -23,6 +23,13 @@ Common analyses include:
 | **[Cross Channel Journey Analysis](digital-behavioral-data-consolidation.md)**  | <ul><li>Have a single consolidated view of customer behavior across various channels by unifying data from various web, mobile, and offline properties.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (optional)</li></ul>| 
 | **[Call Deflection Journey Analysis](call-deflect.md)** | <ul><li>Determine what behaviors are most indicative in resulting in agent assisted calls by bringing Call Center data together with web, mobile, and other interaction data.</li><li>These insights can then be used to optimize the customer experience and reduce the path to agent assisted interactions through optimized self-service content and tooling.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
+## Guardrails for Customer Journey Analytics Blueprints
+
+### Guardrail Diagram
+
+<img src="assets/cja_guardrails.svg" alt="Guardrail diagram for the Customer Journey Analytics Blueprints" style="border:1px solid #4a4a4a" />
+
+
 ## Related Blog Posts
 
 * [[!DNL Blueprint for Multi-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)

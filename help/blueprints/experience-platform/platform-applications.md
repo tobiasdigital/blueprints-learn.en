@@ -6,10 +6,16 @@ kt: 7199
 thumbnail:
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
 ---
-# Adobe Experience Platform & Applications architecture diagram
+# Adobe Experience Platform & Applications
+
+## Adobe Experience Platform & Applications architecture diagram
 
 This architecture diagram shows how Adobe Experience Platform relates to Adobe Experience Cloud applications and application services.
 
 <img src="assets/aep+apps.svg" alt="Experience Platform & Applications" style="border:1px solid #4a4a4a" />
 
 >[!VIDEO](https://video.tv.adobe.com/v/32456/?quality=12&learn=on)
+
+## Adobe Experience Platform & Applications detailed architecture diagram
+
+<img src="assets/aep+apps2.svg" alt="Experience Platform & Applications" style="border:1px solid #4a4a4a" />
