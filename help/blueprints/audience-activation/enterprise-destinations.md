@@ -21,6 +21,7 @@ Share profile and audience changes and events in streaming or batch from [!UICON
 
 <img src="assets/enterprise_destination_activation.svg" alt="Reference architecture for the Enterprise Activation Scenario" style="border:1px solid #4a4a4a" />
 
+
 ## Guardrails
 
 Refer to the guardrails as outlined on the Audience and Profile Activation Overview page - [LINK](overview.md)  

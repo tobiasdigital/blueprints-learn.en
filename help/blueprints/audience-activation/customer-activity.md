@@ -25,6 +25,7 @@ With this capability, you could surface rich context when a customer calls your 
 
 <img src="assets/customer_activity_hub.svg" alt="Reference Architecture for the Customer Activity Hub Blueprint" style="border:1px solid #4a4a4a" />
 
+
 ## Guardrails
 
 * [Guardrails for [!UICONTROL Real-time Customer Profile] data](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)

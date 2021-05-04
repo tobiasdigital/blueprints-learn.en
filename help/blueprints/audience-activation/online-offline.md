@@ -27,6 +27,7 @@ Activate audiences to known profile-based destinations such as email providers, 
 ### Online/Offline Audience Activation with destinations
 
 <img src="assets/online_offline_activation.svg" alt="Reference architecture for the Online/Offline Audience Activation Blueprint" style="border:1px solid #4a4a4a" />
+<br>
 
 ### Online/Offline Audience Activation with Experience Cloud Applications
 

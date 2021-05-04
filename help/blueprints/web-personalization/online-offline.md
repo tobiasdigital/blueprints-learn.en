@@ -24,17 +24,12 @@ Synchronize web personalization with email and other known and anonymous channel
 
 ## Architecture
 
-### Online/Offline Personalization Architecture diagram with Real-time Customer Data Platform, Target, and Audience Manager
-
 <img src="assets/online_offline_personalization_with_apps.svg" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="border:1px solid #4a4a4a" />
 
 ## Guardrails
 
-Refer to the guardrails under the Audience and Profile Activation Blueprints section - [LINK](../audience-activation/overview.md)
-
-### Online/Offline Personalization Guardrail diagram
-
-<img src="assets/personalization_guardrails.svg" alt="Guardrail diagram for the Online/Offline Web Personalization Blueprint" style="border:1px solid #4a4a4a" />
+Refer to the guardrails on the Web and Mobile Personalization Blueprints Overview page.
+[LINK](overview.md)
 
 ## Implementation Patterns
 
