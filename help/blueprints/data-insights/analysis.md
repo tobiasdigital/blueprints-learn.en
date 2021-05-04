@@ -32,9 +32,8 @@ Certain guardrails apply for the query timeout and for the amount of data that i
 
 ## Guardrails
 
-* 10-minute time limit for interactive queries
-* 100-record limit returned in the UI
-* 50,000-record limit returned via the SQL connector
+Refer to the Query Service Product Documentation for details on best practices and guardrails.
+[Query Service Guidance](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/writing-queries.html?lang=en#best-practices)
 
 ## Implementation Steps
 

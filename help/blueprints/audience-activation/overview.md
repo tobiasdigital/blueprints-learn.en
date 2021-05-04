@@ -22,11 +22,13 @@ With a channel-first approach, each channel acts as a silo in which personalizat
 
 ## Guardrails for Audience and Profile Activation Blueprints
 
+* [Profile and Segmentation Guidelines](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
+
 ### Guardrail Diagram
 
 <img src="assets/activation_guardrails.svg" alt="Guardrail diagram for the Audience and Profile Activation Blueprints" style="border:1px solid #4a4a4a" />
 
-* [Profile and Segmentation Guidelines](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
+
 
 ### Guardrails for Segment Evaluation and Activation
 
