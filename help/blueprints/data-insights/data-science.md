@@ -23,7 +23,7 @@ Custom Data Science for Profile Enrichment Blueprint illustrates how data in Ado
 
 1. [Create schemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) for data to be ingested.
 1. [Create datasets](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) for data to be ingested.
-1. [Ingest data into Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion).
+1. [Ingest data](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) into Experience Platform.
 1. Create a DSW notebook.
 1. Choose a language. Python and PySpark are supported.
 1. Author model in notebook.
