@@ -36,8 +36,9 @@ Data Ingestion into Customer Journey Analytics:
 
 ## Implementation Steps
 
-1. Configure datasets and schemas.
-1. Ingest data into Platform.
+1. [Create schemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) for data to be ingested.
+1. [Create datasets](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) for data to be ingested.
+1. [Ingest data into Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion).
     Data must be ingested into Platform before ingestion into Customer Journey Analytics. 
 1.  Analyze cross-channel event datasets. 
     Datasets analyzed in union must have a common namespace ID or be rekeyed through the field based stitching capability of Customer Journey Analytics.    
