@@ -17,6 +17,7 @@ role: Architect, Developer, Business Practitioner
   + [Anonymous Audience Activation](/help/blueprints/audience-activation/anonymous.md)
   + [Online/Offline Audience Activation](/help/blueprints/audience-activation/online-offline.md)
   + [Activation to Enterprise Destinations](/help/blueprints/audience-activation/enterprise-destinations.md)
+  + [Audience and Profile Activation with Experience Cloud Applications](/help/blueprints/audience-activation/aep+apps.md)
   + [Customer Activity Hub](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics{#customer-journey-analytics}
   + [Overview](/help/blueprints/customer-journey-analytics/overview.md)
