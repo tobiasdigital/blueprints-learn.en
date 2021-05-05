@@ -9,7 +9,7 @@ exl-id:
 
 Manage profiles and audiences in Experience Platform and share them with Experience Cloud Applications. Build and share rich customer segments and insights in Experience Platform and share them with Experience Cloud applications.
 
-Activation with Experience Cloud Applications aligns closely with the [Online/Offline Audience Activation Blueprint](online-offline.md). Additional detail is provided in this blueprint specific to integrations between Experience Platform and Experience Cloud applications.
+Activation with Experience Cloud Applications aligns closely with the [Online/Offline Audience Activation Blueprint](online-offline.md).
 
 ## Use Cases
 
@@ -28,8 +28,6 @@ Activation with Experience Cloud Applications aligns closely with the [Online/Of
     * Journey Optimizer 
  
 ## Architecture
-
-### Audience and Profile Activation with Experience Cloud Applications
 
 <img src="assets/activation+apps.svg" alt="Reference architecture for the Audience and Profile Activation with Experience Cloud Applications" style="border:1px solid #4a4a4a" />
 
