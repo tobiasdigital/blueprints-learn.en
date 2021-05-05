@@ -28,8 +28,7 @@ Synchronize web personalization with email and other known and anonymous channel
 
 ## Guardrails
 
-Refer to the guardrails on the Web and Mobile Personalization Blueprints Overview page.
-[LINK](overview.md)
+[Refer to the guardrails on the Web and Mobile Personalization Blueprints Overview page.](overview.md)
 
 ## Implementation Patterns
 

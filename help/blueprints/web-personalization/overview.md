@@ -17,7 +17,7 @@ Web and Mobile Personalization addresses the ability to use audience segmentatio
 
 ## Guardrails for Web and Mobile Personalization
 
-For guardrails related to audience and profile activation refer to the guardrails under the Audience and Profile Activation Blueprints section - [LINK](../audience-activation/overview.md)
+[For guardrails related to audience and profile activation refer to the guardrails under the Audience and Profile Activation Blueprints section.](../audience-activation/overview.md)
 
 ### Online/Offline Personalization Guardrail diagram
 
