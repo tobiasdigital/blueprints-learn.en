@@ -11,6 +11,8 @@ Use offline attributes and events such as offline orders, transactions, CRM, or 
 
 Activate audiences to known profile-based destinations such as email providers, social networks, and advertising destinations. 
 
+The Online/Offline Audience Activation Blueprint aligns closely with the [Audience and Profile Activation with Experience Cloud Applications Blueprint](platform-and-applications.md). Additional detail is provided in the [Audience and Profile Activation with Experience Cloud Applications Blueprint](platform-and-applications.md)   specific to integrations between Experience Platform and Experience Cloud Applications.
+
 ## Use Cases
 
 * Audience targeting for known audiences on social and advertising destinations.
@@ -35,7 +37,7 @@ Activate audiences to known profile-based destinations such as email providers, 
 
 ## Guardrails
 
-Refer to the guardrails as outlined on the Audience and Profile Activation Overview page - [LINK](overview.md)  
+[Refer to the guardrails as outlined on the Audience and Profile Activation Overview page.](overview.md)  
 
 ## Implementation Steps
 
