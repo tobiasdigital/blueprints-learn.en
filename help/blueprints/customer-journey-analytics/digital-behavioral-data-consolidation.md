@@ -31,8 +31,9 @@ Have a single consolidated view of customer behavior across various channels by 
 
 ## Implementation Steps
 
-1. Configure datasets and schemas.
-1. Ingest data into Platform.
+1. [Create schemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) for data to be ingested.
+1. [Create datasets](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) for data to be ingested.
+1. [Ingest data into Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion).
     Data must be ingested into Platform before processing into Customer Journey Analytics. 
 1. Analyze cross-channel event datasets to be analyzed in union to make sure they have a common namespace ID or are rekeyed through the field-based stitching capability of Customer Journey Analytics. 
  
