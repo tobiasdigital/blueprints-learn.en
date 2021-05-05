@@ -1,11 +1,11 @@
 ---
-title: Audience and Profile Activation with Experience Cloud Applications
-description: Audience and Profile Activation with Experience Cloud Applications
+title: Audience and Profile Activation with Experience Cloud Applications Blueprint
+description: Manage profiles and audiences in Experience Platform and share them with Experience Cloud Applications.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: 
 ---
-# Audience and Profile Activation with Experience Cloud Applications
+# Audience and Profile Activation with Experience Cloud Applications Blueprint
 
 Manage profiles and audiences in Experience Platform and share them with Experience Cloud Applications. Build and share rich customer segments and insights in Experience Platform and share them with Experience Cloud Applications.
 
@@ -29,16 +29,15 @@ Activation with Experience Cloud Applications aligns closely with the [Online/Of
  
 ## Architecture
 
-[See the Experience Platform and Applications Architecture Section for additional architecture diagrams related to Experience Platform integrations with Experience Cloud Applications.](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html)
-
 ### Audience and Profile Activation with Experience Cloud Applications
 
 <img src="assets/activation+apps.svg" alt="Reference architecture for the Audience and Profile Activation with Experience Cloud Applications" style="border:1px solid #4a4a4a" />
-<br>
+
+See the [Adobe Experience Platform & Applications diagram](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html) for an additional architecture diagram related to Experience Platform and its integrations with Experience Cloud Applications.
 
 ## Guardrails
 
-[Refer to the guardrails as outlined on the Audience and Profile Activation Overview page](overview.md)  
+Refer to the [guardrails on the Audience and Profile Activation Overview page](overview.md)  
 
 ## Related Documentation
 
