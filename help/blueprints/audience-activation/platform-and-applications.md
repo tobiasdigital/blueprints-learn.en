@@ -1,20 +1,20 @@
 ---
 title: Audience and Profile Activation with Experience Cloud Applications Blueprint
-description: Manage profiles and audiences in Experience Platform and share them with Experience Cloud Applications.
+description: Manage profiles and audiences in Experience Platform and share them with Experience Cloud applications.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: 
 ---
 # Audience and Profile Activation with Experience Cloud Applications Blueprint
 
-Manage profiles and audiences in Experience Platform and share them with Experience Cloud Applications. Build and share rich customer segments and insights in Experience Platform and share them with Experience Cloud Applications.
+Manage profiles and audiences in Experience Platform and share them with Experience Cloud Applications. Build and share rich customer segments and insights in Experience Platform and share them with Experience Cloud applications.
 
-Activation with Experience Cloud Applications aligns closely with the [Online/Offline Audience Activation Blueprint](online-offline.md). Additional detail is provided in this blueprint specific to integrations between Experience Platform and Experience Cloud Applications.
+Activation with Experience Cloud Applications aligns closely with the [Online/Offline Audience Activation Blueprint](online-offline.md). Additional detail is provided in this blueprint specific to integrations between Experience Platform and Experience Cloud applications.
 
 ## Use Cases
 
-* Personalization and targeting across customer interaction channels powered by Experience Cloud.
-* Sharing of audience and profile data with Experience Platform to and from Experience Cloud Applications.
+* Personalize and target across customer interaction channels powered by Experience Cloud.
+* Share audience and profile data between Experience Platform and Experience Cloud applications.
 
 ## Applications
 
@@ -22,9 +22,9 @@ Activation with Experience Cloud Applications aligns closely with the [Online/Of
 * [!UICONTROL Real-time Customer Data Platform]
 * Experience Platform Activation
 * Experience Cloud Applications
-    * Audience Manager
-    * Target
-    * Campaign
+    * Adobe Audience Manager
+    * Adobe Target
+    * Adobe Campaign
     * Journey Optimizer 
  
 ## Architecture
@@ -33,7 +33,7 @@ Activation with Experience Cloud Applications aligns closely with the [Online/Of
 
 <img src="assets/activation+apps.svg" alt="Reference architecture for the Audience and Profile Activation with Experience Cloud Applications" style="border:1px solid #4a4a4a" />
 
-See the [Adobe Experience Platform & Applications diagram](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html) for an additional architecture diagram related to Experience Platform and its integrations with Experience Cloud Applications.
+See the [Adobe Experience Platform & Applications diagram](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html) for an additional architecture diagram related to Experience Platform and its integrations with Experience Cloud applications.
 
 ## Guardrails
 
