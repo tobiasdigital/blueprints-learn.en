@@ -31,10 +31,6 @@ The Online/Offline Audience Activation Blueprint aligns closely with the [Audien
 <img src="assets/online_offline_activation.svg" alt="Reference architecture for the Online/Offline Audience Activation Blueprint" style="border:1px solid #4a4a4a" />
 <br>
 
-### Online/Offline Audience Activation with Experience Cloud Applications
-
-<img src="assets/activation+apps.svg" alt="Reference architecture for the Online/Offline Audience Activation Blueprint with Experience Cloud Applications" style="border:1px solid #4a4a4a" />
-
 ## Guardrails
 
 [Refer to the guardrails as outlined on the Audience and Profile Activation Overview page.](overview.md)  
