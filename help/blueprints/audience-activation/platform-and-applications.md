@@ -33,7 +33,7 @@ Activation with Experience Cloud Applications aligns closely with the [Online/Of
 
 ### Audience and Profile Activation with Experience Cloud Applications
 
-<img src="assets/activation+apps.svg" alt="Reference architecture for the Audience and Profile Activation with Experience Cloud Applications" style="border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Reference architecture for the Audience and Profile Activation with Experience Cloud Applications" style="border:1px solid #4a4a4a" />
 <br>
 
 ## Guardrails
