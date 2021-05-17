@@ -37,8 +37,9 @@ Refer to the Query Service Product Documentation for details on best practices a
 
 ## Implementation Steps
 
-1.  Configure datasets and schemas for data ingestion into the data lake.
-1.  Ingest data.
+1. [Create schemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) for data to be ingested.
+1. [Create datasets](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) for data to be ingested.
+1. [Ingest data](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) into Experience Platform.
 1.  Confirm that data is available to [!UICONTROL Query Service] and [!UICONTROL Data Science Workspace] for raw access and query.
 1.  Connect Business Intelligence tools and SQL clients to [!UICONTROL Query Service] for visualization, data query, and exploration.
 
