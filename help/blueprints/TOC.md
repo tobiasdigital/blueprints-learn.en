@@ -8,7 +8,7 @@ role: Architect, Developer, Business Practitioner
 # Digital Experience Blueprints {#architecture}
 
 + [Overview](/help/blueprints/overview.md)
-+ Architecture Overview Diagrams{#architecture-overview}
++ Architecture Overviews{#architecture-overview}
   + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
   + [Experience Platform & Applications](/help/blueprints/experience-platform/platform-applications.md)
   + [Experience Platform Data Flow](/help/blueprints/experience-platform/platform-data-flow.md)
