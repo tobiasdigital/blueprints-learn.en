@@ -31,10 +31,10 @@ role: Architect, Developer, Business Practitioner
   + [Overview](/help/blueprints/data-insights/overview.md)
   + [Data Analysis & Intelligence](/help/blueprints/data-insights/analysis.md)
   + [Custom Data Science for Profile Enrichment](/help/blueprints/data-insights/data-science.md)
-+ Multi-channel Message Orchestration{#multi-channel-message-orchestration}
-  + [Overview](/help/blueprints/multi-channel-message-orchestration/overview.md)
-  + [Batch Messaging & Experience Platform](/help/blueprints/multi-channel-message-orchestration/batch-messaging.md)
-  + [Triggered Messaging & Experience Platform](/help/blueprints/multi-channel-message-orchestration/triggered-messaging.md)
++ Multi-channel Message Orchestration{#customer-journeys}
+  + [Overview](/help/blueprints/customer-journeys/overview.md)
+  + [Batch Messaging & Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
+  + [Triggered Messaging & Experience Platform](/help/blueprints/customer-journeys/triggered-messaging.md)
 + Web & Mobile Personalization{#web-personalization}
   + [Overview](/help/blueprints/web-personalization/overview.md)
   + [Behavioral Personalization](/help/blueprints/web-personalization/behavioral.md)
