@@ -1,17 +1,14 @@
 ---
-title: Multi-channel Message Orchestration 
+title: Customer Journeys 
 description: Deliver individual, just-in-time customer experiences across screens.
 solution: Experience Platform
 kt: 
 thumbnail:
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
 ---
-# Multi-channel Message Orchestration 
+# Customer Journeys 
 
-Multi-channel Message Orchestration shows how brands can proactively engage and communicate with their customers through channels such as email, SMS, and mobile alerts. 
-
-Orchestration tools can integrate with other interaction channels (such as with inbound channels) for web and mobile personalization by sharing audience state with the other channels' decision engines. Various factors help determine which applications and deployment options to use, such as whether the customer interaction is trigger-based or scheduled, what data is necessary for the targeting and personalization, and so on. These factors result in various possible scenarios and deployment options when building out message orchestration capability.
-
+Customer Journeys addresses the ability for brands to proactively engage and communicate with their customers through channels such as email, SMS, and mobile alerts. Orchestration tools can also be integrated with other interaction channels such as with inbound channels for web/mobile personalization by sharing audience state with the other channel specific decision engines. A number of factors go into what applications and deployment options should be used for Customer Journeys but it can be summed up in two different approaches:  react to a customer as they engage (triggered) OR react to a group of customers as they engage (scheduled).
 
 | Blueprint | Description |  Experience Cloud Applications | 
 |---|---|---|
