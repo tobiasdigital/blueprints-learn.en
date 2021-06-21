@@ -28,9 +28,10 @@ Adobe Journey Optimizer is a purpose built system for marketing teams to react i
 
 1. Customer must be provisioned for Experience Cloud with a valid IMS Org
 1. Mobile Push
- * Customer must have a mobile developer available to build the app 
- * Adobe Experience Platform Mobile SDK
- * Adobe Launch
+
+* Customer must have a mobile developer available to build the app 
+* Adobe Experience Platform Mobile SDK
+* Adobe Launch
    * Mobile Property
       * Extensions: 
         * Adobe Journey Optimizer Extension
