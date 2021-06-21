@@ -22,8 +22,8 @@ Digital Experience Blueprints are repeatable implementations that let you addres
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><img alt="thumbnail image for the Triggered Messaging and Experience Platform Blueprint" src="multi-channel-message-orchestration/assets/triggered.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><strong>Triggered Messaging and Experience Platform</strong></a></div>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/triggered-messaging.html"><img alt="thumbnail image for the Triggered Messaging and Experience Platform Blueprint" src="customer-journeys/assets/triggered.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/triggered-messaging.html"><strong>Triggered Messaging and Experience Platform</strong></a></div>
     <p><em>Trigger messages and experiences using [!UICONTROL Platform] as a central hub.</em></p>
   </td>
   <td>

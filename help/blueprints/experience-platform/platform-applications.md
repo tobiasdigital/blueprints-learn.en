@@ -120,7 +120,7 @@ This architecture diagram shows how Adobe Experience Platform relates to Adobe E
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/batch-messaging.html?lang=en">Batch Messaging</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">Batch Messaging</a>
           </li>
         </ul>
       </td>
@@ -140,7 +140,7 @@ This architecture diagram shows how Adobe Experience Platform relates to Adobe E
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/batch-messaging.html?lang=en">Batch Messaging</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">Batch Messaging</a>
           </li>
         </ul>
       </td>
@@ -192,7 +192,7 @@ This architecture diagram shows how Adobe Experience Platform relates to Adobe E
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html?lang=en">Triggered Messaging</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/triggered-messaging.html?lang=en">Triggered Messaging</a>
           </li>
         </ul>
       </td>
