@@ -26,7 +26,7 @@ role: Architect, Developer, Business Practitioner
 + Customer Journeys{#customer-journeys}
   + [Overview](/help/blueprints/customer-journeys/overview.md)
   + [Batch Messaging & Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
-  + [Triggered Messaging & Experience Platform](/help/blueprints/customer-journeys/triggered-messaging.md)
+  + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
 + Data Collection & Preparation{#data-ingestion}
   + [Overview](/help/blueprints/data-ingestion/overview.md)
   + [Data Preparation & Ingestion](/help/blueprints/data-ingestion/ingestion.md)
