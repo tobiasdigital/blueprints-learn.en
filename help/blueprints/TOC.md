@@ -23,6 +23,10 @@ role: Architect, Developer, Business Practitioner
   + [Overview](/help/blueprints/customer-journey-analytics/overview.md)
   + [Cross Channel Journey Analysis](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
   + [Call Deflection](/help/blueprints/customer-journey-analytics/call-deflect.md)
++ Customer Journeys{#customer-journeys}
+  + [Overview](/help/blueprints/customer-journeys/overview.md)
+  + [Batch Messaging & Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
+  + [Triggered Messaging & Experience Platform](/help/blueprints/customer-journeys/triggered-messaging.md)
 + Data Collection & Preparation{#data-ingestion}
   + [Overview](/help/blueprints/data-ingestion/overview.md)
   + [Data Preparation & Ingestion](/help/blueprints/data-ingestion/ingestion.md)
@@ -31,10 +35,6 @@ role: Architect, Developer, Business Practitioner
   + [Overview](/help/blueprints/data-insights/overview.md)
   + [Data Analysis & Intelligence](/help/blueprints/data-insights/analysis.md)
   + [Custom Data Science for Profile Enrichment](/help/blueprints/data-insights/data-science.md)
-+ Multi-channel Message Orchestration{#customer-journeys}
-  + [Overview](/help/blueprints/customer-journeys/overview.md)
-  + [Batch Messaging & Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
-  + [Triggered Messaging & Experience Platform](/help/blueprints/customer-journeys/triggered-messaging.md)
 + Web & Mobile Personalization{#web-personalization}
   + [Overview](/help/blueprints/web-personalization/overview.md)
   + [Behavioral Personalization](/help/blueprints/web-personalization/behavioral.md)
