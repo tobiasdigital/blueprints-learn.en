@@ -14,7 +14,7 @@ Data preparation includes the mapping of source data to Experience Data Model (X
 
 ## Architecture
 
-<img src="assets/data_ingestion.svg" alt="Reference architecture for the Data Preparation and Ingestion Blueprint" style="border:1px solid #4a4a4a" />
+<img src="assets/data_ingestion.png" alt="Reference architecture for the Data Preparation and Ingestion Blueprint" style="border:1px solid #4a4a4a" />
 
 ## Data Ingestion Methods
 

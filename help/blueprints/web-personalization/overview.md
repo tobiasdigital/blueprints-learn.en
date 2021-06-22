@@ -21,7 +21,7 @@ Web and Mobile Personalization addresses the ability to use audience segmentatio
 
 ### Online/Offline Personalization Guardrail diagram
 
-<img src="assets/personalization_guardrails.svg" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="border:1px solid #4a4a4a" />
+<img src="assets/personalization_guardrails.png" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="border:1px solid #4a4a4a" />
 
 ## Related Blog Posts
 

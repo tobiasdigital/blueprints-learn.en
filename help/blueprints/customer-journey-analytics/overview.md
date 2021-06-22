@@ -27,7 +27,7 @@ Common analyses include:
 
 ### Guardrail Diagram
 
-<img src="assets/cja_guardrails.svg" alt="Guardrail diagram for the Customer Journey Analytics Blueprints" style="border:1px solid #4a4a4a" />
+<img src="assets/cja_guardrails.png" alt="Guardrail diagram for the Customer Journey Analytics Blueprints" style="border:1px solid #4a4a4a" />
 
 
 ## Related Blog Posts
