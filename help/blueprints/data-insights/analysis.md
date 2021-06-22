@@ -4,7 +4,7 @@ description: This blueprint shows the ability within Adobe Experience Platform t
 solution: Experience Platform
 kt: 7207
 thumbnail: 
-exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
+exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
 ---
 # Data Analysis and Intelligence Blueprint
 
