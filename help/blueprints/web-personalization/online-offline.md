@@ -39,7 +39,7 @@ The Web/Mobile personalization blueprint can be implemented via the following ap
 
 ### 1. Platform Web/Mobile SDK and Edge Approach
 
-[Refer to the Experience Platform Web and Mobile SDK Blueprint](../data-ingest/web_sdk_flow.svg) 
+[Refer to the Experience Platform Web and Mobile SDK Blueprint](../data-ingest/websdk.md) 
 
 ### 2. Application-specific SDK Approach
 
