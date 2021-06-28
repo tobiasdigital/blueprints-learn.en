@@ -16,6 +16,12 @@ Data preparation includes the mapping of source data to Experience Data Model (X
 
 <img src="assets/data_ingestion.png" alt="Reference architecture for the Data Preparation and Ingestion Blueprint" style="border:1px solid #4a4a4a" />
 
+## Data Ingestion Guardrails
+
+The below diagram illustrates the average performance guardrails and latency for data ingestion into Adobe Experience Platform.
+
+<img src="../experience-platform/assets/aep_data_flow_guardrails.png" alt="Experience Platform Data Flow" style="border:1px solid #4a4a4a" width="90%" />
+
 ## Data Ingestion Methods
 
 | Methods of Ingestion         | Description                                                                                                                                                                                                                                                                                                                                                                                                                             |

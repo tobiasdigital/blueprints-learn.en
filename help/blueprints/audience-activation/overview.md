@@ -25,13 +25,13 @@ With a channel-first approach, each channel acts as a silo in which personalizat
 
 The below illustration outlines the core components of the Real-time Customer Profile of the Experience Platform.
 
+<img src="assets/profile_architecture.jpg" alt="Reference architecture for the Real-time Customer Profile" style="border:1px solid #4a4a4a" width="90%"/>
+
 First data sources are ingested into Experience Platform. If the data source is configured for profile processing it will feed into the Real-time Customer Profile. A single profile fragment or document is created for each data source and each primary id record that is configured for each data source. Additionally as data is ingested to the profile it is also processed by the identity service. Any record from the data sources that have more than one identity marked in the schema and with the corresponding values populated in the record will be processed as a identity relationship within the identity service. 
 
 Note that records that have only one identity are not processed by identity service as such records have no identity links to further populate the graph with. Note as well that the identity service does not distinguish primary identities from secondary identities. It is simply processing identity relationships across identities. 
 
 The merging of profile fragments occurs as the identity graph provides the relationships across the various source profile fragments that have been related. The merge policy determines which source fragments and which identity graph will be used as the fragments are merged. Anytime the profile is access the merging of the profile fragments occurs to ensure the most up to date combined view of the profile. Governance and policy rules ensure that only the authorized segments and attributes can be activated to the specified destinations.
-
-<img src="assets/profile_architecture.jpg" alt="Reference architecture for the Real-time Customer Profile" style="border:1px solid #4a4a4a" />
 
 
 ## Guardrails for Audience and Profile Activation Blueprints
