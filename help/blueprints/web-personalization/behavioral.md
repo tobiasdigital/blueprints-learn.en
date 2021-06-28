@@ -39,7 +39,7 @@ The Web/Mobile personalization blueprint can be implemented via the following ap
 
 ### 1. Platform Web/Mobile SDK and Edge Approach
 
-<img src="assets/web_sdk_flow.svg" alt="Reference architecture for the [!UICONTROL Platform Web SDK] or [!UICONTROL Platform Mobile SDK] and [!UICONTROL Edge Network] Approach" style="border:1px solid #4a4a4a" />
+[Refer to the Experience Platform Web and Mobile SDK Blueprint](../data-ingestion/websdk.md) 
 
 ### 2. Application-specific SDK Approach
 
