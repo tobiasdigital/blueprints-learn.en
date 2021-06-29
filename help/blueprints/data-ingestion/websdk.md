@@ -1,12 +1,12 @@
 ---
-title: Data Preparation and Ingestion Blueprint
+title: Web/Mobile SDK Data Collection Blueprint
 description: This blueprint shows the architecture and ingestion through the Experience Platform Web and Mobile SDK
 solution: Experience Platform,Data Collection
 kt: 
 thumbnail: 
 exl-id: 
 ---
-# Experience Platform WebSDK Data Collection 
+# Experience Platform Web/Mobile SDK Data Collection 
 
 The below architecture diagram illustrates the integration paths and data collection utilizing the Experience Platform WebSDK.
 
@@ -14,4 +14,4 @@ The below architecture diagram illustrates the integration paths and data collec
 
 ## Reference Documentation
 
-[Experience Platform WebSDK Overview](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)
+[Experience Platform Web/Mobile SDK Overview](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)
