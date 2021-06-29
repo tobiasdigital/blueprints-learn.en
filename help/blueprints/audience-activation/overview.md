@@ -33,6 +33,11 @@ Note that records that have only one identity are not processed by identity serv
 
 The merging of profile fragments occurs as the identity graph provides the relationships across the various source profile fragments that have been related. The merge policy determines which source fragments and which identity graph will be used as the fragments are merged. Anytime the profile is access the merging of the profile fragments occurs to ensure the most up to date combined view of the profile. Governance and policy rules ensure that only the authorized segments and attributes can be activated to the specified destinations.
 
+## Segmentation and Destination Overview
+
+The below illustration outlines the various segmentation methods and the various profile and audience activation patterns.
+
+<img src="assets/segmentation_destination_overview.png" alt="Reference architecture for the Real-time Customer Profile" style="border:1px solid #4a4a4a" width="90%"/>
 
 ## Guardrails for Audience and Profile Activation Blueprints
 
