@@ -47,6 +47,11 @@ The Web/Mobile personalization blueprint can be implemented via the following ap
 
 ## Implementation Prerequisites
 
+Identity pre-requisites
+
+* Sharing audiences from Adobe Experience Platform to Adobe Target requires the use of ECID as a identity.
+* Alternate identities can be used to share Experience Platform audiences to Adobe Target via Audience Manager, as Audience Manager is able to resolve the alternate IDs to an ECID as long as both ECID and the alternate ID are being collected to Audience Manager as well. Note that Audience Manager and Target resolve audience memberships via the ECID identity, so ECID is still required for the final audience sharing to Adobe Target. 
+
 | Application/Service | Required Library |  Notes | 
 |---|---|---|
 | Adobe Target | [!UICONTROL Platform Web SDK]*, at.js 0.9.1+, or mbox.js 61+ | at.js is preferred as mbox.js is no longer being developed. |
@@ -55,6 +60,8 @@ The Web/Mobile personalization blueprint can be implemented via the following ap
 | Experience Cloud ID service | [!UICONTROL Platform Web SDK]* or VisitorAPI.js 2.0+ | (Recommended) Use Experience Platform Launch to deploy the ID service to ensure that the ID is set before any application calls |
 | Experience Platform Mobile SDK (Optional) | 4.11 or higher for iOS and Android™ |  |
 | Experience Platform Web SDK | 1.0, current Experience Platform SDK version has [various use cases not yet supported for the Experience Cloud applications](https://github.com/adobe/alloy/projects/5)| |
+
+
 
 
 ## Implementation Steps
