@@ -39,5 +39,5 @@ role: Architect, Developer, User
 + Web & Mobile Personalization{#web-personalization}
   + [Overview](/help/blueprints/web-personalization/overview.md)
   + [Behavioral Personalization](/help/blueprints/web-personalization/behavioral.md)
-  + [Online/Offline Personalization](/help/blueprints/web-personalization/online-offline.md)
+  + [Peronsalization with Online & Offline data](/help/blueprints/web-personalization/online-offline.md)
 
