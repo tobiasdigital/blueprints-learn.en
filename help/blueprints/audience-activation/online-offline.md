@@ -1,17 +1,17 @@
 ---
-title: Online/Offline Audience Activation Blueprint
+title: Activation with Online and Offline Data Blueprint
 description: Online/Offline Audience Activation.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 ---
-# Online/Offline Audience Activation Blueprint
+# Activation with Online and Offline Data Blueprint
 
 Use offline attributes and events such as offline orders, transactions, CRM, or loyalty data, along with online behavior for online targeting and personalization.
 
 Activate audiences to known profile-based destinations such as email providers, social networks, and advertising destinations. 
 
-The Online/Offline Audience Activation Blueprint aligns closely with the [Audience and Profile Activation with Experience Cloud Applications Blueprint](platform-and-applications.md). Additional detail is provided in the [Audience and Profile Activation with Experience Cloud Applications Blueprint](platform-and-applications.md)   specific to integrations between Experience Platform and Experience Cloud Applications.
+The Activation with online and offline data blueprint aligns closely with the [Audience and Profile Activation with Experience Cloud Applications Blueprint](platform-and-applications.md). Additional detail is provided in the [Audience and Profile Activation with Experience Cloud Applications Blueprint](platform-and-applications.md)   specific to integrations between Experience Platform and Experience Cloud Applications.
 
 ## Use Cases
 
@@ -26,7 +26,7 @@ The Online/Offline Audience Activation Blueprint aligns closely with the [Audien
 
 ## Architecture
 
-### Online/Offline Audience Activation with destinations
+### Activation with Online and Offline data with destinations
 
 <img src="assets/online_offline_activation.svg" alt="Reference architecture for the Online/Offline Audience Activation Blueprint" style="border:1px solid #4a4a4a" />
 <br>
