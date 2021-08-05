@@ -1,11 +1,11 @@
 ---
-title: Activation with Online and Offline Data Blueprint
+title: Activation with Online & Offline Data Blueprint
 description: Online/Offline Audience Activation.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 ---
-# Activation with Online and Offline Data Blueprint
+# Activation with Online & Offline Data Blueprint
 
 Use offline attributes and events such as offline orders, transactions, CRM, or loyalty data, along with online behavior for online targeting and personalization.
 
@@ -26,7 +26,7 @@ The Activation with online and offline data blueprint aligns closely with the [A
 
 ## Architecture
 
-### Activation with Online and Offline data with destinations
+### Activation with Online & Offline data with destinations
 
 <img src="assets/online_offline_activation.svg" alt="Reference architecture for the Online/Offline Audience Activation Blueprint" style="border:1px solid #4a4a4a" />
 <br>
