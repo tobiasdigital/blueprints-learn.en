@@ -1,6 +1,7 @@
 ---
 title: Web/Mobile Personalization with online & offline data
 description: Synchronize web personalization with email and other known and anonymous channel personalization.
+landing-page-description: Synchronize web personalization with email and other known and anonymous channel personalization.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
