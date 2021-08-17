@@ -99,6 +99,6 @@ Adobe Journey Optimizer is a purpose built system for marketing teams to react i
 ## Related Documentation
 
 * [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
-* [Journey Optimizer documentation](https://experienceleague.adobe.com/docs/journey-orchestration.html?lang=en)
+* [Journey Optimizer documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=en)
 * [Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch.html?lang=en)
 * [Experience Platform Mobile SDK documentation](https://experienceleague.adobe.com/docs/mobile.html?lang=en)
