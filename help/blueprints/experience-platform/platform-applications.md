@@ -192,7 +192,7 @@ This architecture diagram shows how Adobe Experience Platform relates to Adobe E
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/triggered-messaging.html?lang=en">Triggered Messaging</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en">Journey Optimizer</a>
           </li>
         </ul>
       </td>
