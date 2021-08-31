@@ -35,7 +35,7 @@ Have a single consolidated view of customer behavior across various channels by 
 1. [Create datasets](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) for data to be ingested.
 1. [Ingest data](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) into Experience Platform.
     Data must be ingested into Platform before processing into Customer Journey Analytics. 
-1. Analyze cross-channel event datasets to be analyzed in union to make sure they have a common namespace ID or are rekeyed through the field-based stitching capability of Customer Journey Analytics. 
+1. Analyze cross-channel event datasets to be analyzed in union to make sure they have a common namespace ID or are rekeyed through the field-based stitching capability of Customer Journey Analytics. See the cross channel analytics documentation for further information on identity stitching in Customer Journey Analytics. [Identity Stitching](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en)
  
     >[!NOTE]
     >
