@@ -13,8 +13,9 @@ Customer Journey Analytics shows how brands can unify customer data and behavior
 Common analyses include:
 
 * Top/bottom converting paths
+* Channel engagement and conversion 
 * Top viewed content
-* Categories and products
+* Top Categories and products
 * What campaigns resulted in conversion and increased engagement
 * Tool usage analysis to optimize self-service experiences
 
