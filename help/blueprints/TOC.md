@@ -8,6 +8,7 @@ role: Architect, Developer, User
 # Digital Experience Blueprints {#architecture}
 
 + [Overview](/help/blueprints/overview.md)
++ [See all use cases](/help/blueprints/use-cases.md)
 + Architecture Overviews{#architecture-overview}
   + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
   + [Experience Platform & Applications](/help/blueprints/experience-platform/platform-applications.md)
@@ -39,5 +40,5 @@ role: Architect, Developer, User
 + Web & Mobile Personalization{#web-personalization}
   + [Overview](/help/blueprints/web-personalization/overview.md)
   + [Behavioral Personalization](/help/blueprints/web-personalization/behavioral.md)
-  + [Peronsalization with Online & Offline data](/help/blueprints/web-personalization/online-offline.md)
+  + [Personalization with Online & Offline data](/help/blueprints/web-personalization/online-offline.md)
 
