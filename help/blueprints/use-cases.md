@@ -52,7 +52,7 @@ Which of these use cases are important to your business? Discover which Digital 
   powered by Experience Cloud.</td>
   <td rowspan=2><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Activation
-  with AEC Apps</a></td>
+  with Experience Cloud Applications</a></td>
  </tr>
  <tr>
   <td>Share audience and profile data between Experience Platform and
@@ -97,7 +97,7 @@ Which of these use cases are important to your business? Discover which Digital 
   <td>Scheduled email campaigns</td>
   <td rowspan=2><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">Batch
-  Messaging &amp; AEP</a></td>
+  Messaging &amp; Platform</a></td>
   <td rowspan=6>Customer
   Journeys</td>
  </tr>
@@ -142,7 +142,7 @@ Which of these use cases are important to your business? Discover which Digital 
  <tr>
   <td></td>
   <td><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html?lang=en">WebSDK
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html?lang=en">Web SDK
   Data Collection</a></td>
  </tr>
  <tr>
@@ -151,7 +151,7 @@ Which of these use cases are important to your business? Discover which Digital 
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-exploration/analysis.html?lang=en">Data
   Analysis &amp; Intelligence</a></td>
   <td rowspan=6>Data
-  Analytics, Intelligene, &amp; ML</td>
+  Analytics, Intelligence, &amp; ML</td>
  </tr>
  <tr>
   <td>Row and column access to ingested data for exploration and
