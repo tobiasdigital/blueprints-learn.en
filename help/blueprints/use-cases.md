@@ -56,7 +56,7 @@ Which of these use cases are important to your business? Discover which Digital 
  </tr>
  <tr>
   <td>Share audience and profile data between Experience Platform and
-  Experience Cloud applications</td>
+  Experience Cloud applications.</td>
  </tr>
  <tr>
   <td>Provide deeper consumer context to agent-supported interactions,
@@ -85,16 +85,16 @@ Which of these use cases are important to your business? Discover which Digital 
   better understand and optimize the customer journey.</td>
  </tr>
  <tr>
-  <td>Analyze customer behavior before customers contact support</td>
+  <td>Analyze customer behavior before customers contact support.</td>
   <td rowspan="2" border="1" valign="middle"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/call-deflect.html?lang=en">Call
   Deflection</a></td>
  </tr>
  <tr>
-  <td>Discover opportunities to improve self-service capabilities</td>
+  <td>Discover opportunities to improve self-service capabilities.</td>
  </tr>
  <tr>
-  <td>Scheduled email campaigns</td>
+  <td>Scheduled email campaigns.</td>
   <td rowspan="2" border="1" valign="middle"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">Batch
   Messaging &amp; Platform</a></td>
@@ -102,22 +102,22 @@ Which of these use cases are important to your business? Discover which Digital 
   Journeys</td>
  </tr>
  <tr>
-  <td>Onboarding and re-marketing campaigns</td>
+  <td>Onboarding and re-marketing campaigns.</td>
  </tr>
  <tr>
-  <td>Triggered messages</td>
+  <td>Triggered messages.</td>
   <td rowspan="4" border="1" valign="middle"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en">Journey
   Optimizer</a></td>
  </tr>
  <tr>
-  <td>Registration confirmations</td>
+  <td>Registration confirmations.</td>
  </tr>
  <tr>
-  <td>Shopping cart and application form abandons</td>
+  <td>Shopping cart and application form abandons.</td>
  </tr>
  <tr>
-  <td>Location triggered messages</td>
+  <td>Location triggered messages.</td>
  </tr>
  <tr>
   <td></td>
@@ -146,7 +146,7 @@ Which of these use cases are important to your business? Discover which Digital 
   Data Collection</a></td>
  </tr>
  <tr>
-  <td>Interactive query and aggregation of data</td>
+  <td>Interactive query and aggregation of data.</td>
   <td rowspan="3" border="1" valign="middle"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-exploration/analysis.html?lang=en">Data
   Analysis &amp; Intelligence</a></td>
@@ -155,11 +155,11 @@ Which of these use cases are important to your business? Discover which Digital 
  </tr>
  <tr>
   <td>Row and column access to ingested data for exploration and
-  validation</td>
+  validation.</td>
  </tr>
  <tr>
   <td>Dashboarding and visualization of data via Business Intelligence
-  tooling</td>
+  tooling.</td>
  </tr>
  <tr>
   <td>Extract insight and discover patterns from customer data in
@@ -178,7 +178,7 @@ Which of these use cases are important to your business? Discover which Digital 
   affinities, and engagement scores.</td>
  </tr>
  <tr>
-  <td>Landing page optimization</td>
+  <td>Landing page optimization.</td>
   <td rowspan="3" border="1" valign="middle"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/behavioral.html?lang=en">Behavioral
   Personalization</a></td>
@@ -186,26 +186,26 @@ Which of these use cases are important to your business? Discover which Digital 
   &amp; Mobile Personalization</td>
  </tr>
  <tr>
-  <td>Behavioral targeting</td>
+  <td>Behavioral targeting.</td>
  </tr>
  <tr>
   <td>Personalization based on prior product/content views,
   product/content affinity, environmental attributes, third-party audience
-  data, and demographics</td>
+  data, and demographics.</td>
  </tr>
  <tr>
-  <td>Landing page optimization</td>
+  <td>Landing page optimization.</td>
   <td rowspan="3" border="1" valign="middle"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html?lang=en">Online/Offline
   Personalization</a></td>
  </tr>
  <tr>
-  <td>Behavioral and offline profile targeting</td>
+  <td>Behavioral and offline profile targeting.</td>
  </tr>
  <tr>
   <td>Personalization based on prior product/content views,
   product/content affinity, environmental attributes, third-party audience
   data, and demographics in addition to offline insights such as transactions,
-  loyalty and CRM data, and modeled insights</td>
+  loyalty and CRM data, and modeled insights.</td>
  </tr>
 </table>
