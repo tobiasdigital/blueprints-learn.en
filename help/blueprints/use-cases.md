@@ -17,10 +17,10 @@ Which of these use cases are important to your business? Discover which Digital 
  <tr>
   <td>Perform anonymous digital audience targeting and
   personalization.</td>
-  <td rowspan="2" border="1" valign="middle"><a
+  <td rowspan="2" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=en">Anonymous
   Audience Activation</a></td>
-  <td rowspan="9" border="1" valign="middle">Audience
+  <td rowspan="9" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Audience
   &amp; Profile Activation</td>
  </tr>
  <tr>
@@ -29,7 +29,7 @@ Which of these use cases are important to your business? Discover which Digital 
  <tr>
   <td>Audience targeting for known audiences on social and advertising
   destinations.</td>
-  <td rowspan="3" border="1" valign="middle"><a
+  <td rowspan="3" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Online/Offline
   Audience Activation</a></td>
  </tr>
@@ -50,7 +50,7 @@ Which of these use cases are important to your business? Discover which Digital 
  <tr>
   <td>Personalize and target across customer interaction channels
   powered by Experience Cloud.</td>
-  <td rowspan="2" border="1" valign="middle"><a
+  <td rowspan="2" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Activation
   with Experience Cloud Applications</a></td>
  </tr>
@@ -73,10 +73,10 @@ Which of these use cases are important to your business? Discover which Digital 
   <td>Analyze customer interactions across desktop and mobile to
   understand customer behavior and extract insights to optimize digital
   customer experiences.</td>
-  <td rowspan="2" border="1" valign="middle"><a
+  <td rowspan="2" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html?lang=en">Cross
   Channel</a></td>
-  <td rowspan="4" border="1" valign="middle">Customer
+  <td rowspan="4" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Customer
   Journey Analytics</td>
  </tr>
  <tr>
@@ -86,7 +86,7 @@ Which of these use cases are important to your business? Discover which Digital 
  </tr>
  <tr>
   <td>Analyze customer behavior before customers contact support.</td>
-  <td rowspan="2" border="1" valign="middle"><a
+  <td rowspan="2" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/call-deflect.html?lang=en">Call
   Deflection</a></td>
  </tr>
@@ -95,10 +95,10 @@ Which of these use cases are important to your business? Discover which Digital 
  </tr>
  <tr>
   <td>Scheduled email campaigns.</td>
-  <td rowspan="2" border="1" valign="middle"><a
+  <td rowspan="2" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">Batch
   Messaging &amp; Platform</a></td>
-  <td rowspan="6" border="1" valign="middle">Customer
+  <td rowspan="6" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Customer
   Journeys</td>
  </tr>
  <tr>
@@ -106,7 +106,7 @@ Which of these use cases are important to your business? Discover which Digital 
  </tr>
  <tr>
   <td>Triggered messages.</td>
-  <td rowspan="4" border="1" valign="middle"><a
+  <td rowspan="4" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en">Journey
   Optimizer</a></td>
  </tr>
@@ -124,14 +124,14 @@ Which of these use cases are important to your business? Discover which Digital 
   <td><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/ingestion.html?lang=en">Data
   Prep &amp; Ingestion</a></td>
-  <td rowspan="4" border="1" valign="middle">Data
+  <td rowspan="4" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Data
   Collection &amp; Preparation</td>
  </tr>
  <tr>
   <td>Collect data from web or mobile using a single collection tag,
   lightening code weight on client browsers and apps. Propagate the collected
   data to various endpoints for a single source of data collection.</td>
-  <td rowspan="2" border="1" valign="middle"><a
+  <td rowspan="2" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/server-side-collection.html?lang=en">AEP
   Collection Enterprise (Event Forwarding)</a></td>
  </tr>
@@ -147,10 +147,10 @@ Which of these use cases are important to your business? Discover which Digital 
  </tr>
  <tr>
   <td>Interactive query and aggregation of data.</td>
-  <td rowspan="3" border="1" valign="middle"><a
+  <td rowspan="3" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-exploration/analysis.html?lang=en">Data
   Analysis &amp; Intelligence</a></td>
-  <td rowspan="6" border="1" valign="middle">Data
+  <td rowspan="6" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Data
   Analytics, Intelligence, &amp; ML</td>
  </tr>
  <tr>
@@ -164,7 +164,7 @@ Which of these use cases are important to your business? Discover which Digital 
  <tr>
   <td>Extract insight and discover patterns from customer data in
   Experience Platform. Train and score models from this data.</td>
-  <td rowspan="3" border="1" valign="middle"><a
+  <td rowspan="3" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-exploration/data-science.html?lang=en">Customer
   Data Science for Profile Enrichment</a></td>
  </tr>
@@ -179,10 +179,10 @@ Which of these use cases are important to your business? Discover which Digital 
  </tr>
  <tr>
   <td>Landing page optimization.</td>
-  <td rowspan="3" border="1" valign="middle"><a
+  <td rowspan="3" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/behavioral.html?lang=en">Behavioral
   Personalization</a></td>
-  <td rowspan="6" border="1" valign="middle">Web
+  <td rowspan="6" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Web
   &amp; Mobile Personalization</td>
  </tr>
  <tr>
@@ -195,7 +195,7 @@ Which of these use cases are important to your business? Discover which Digital 
  </tr>
  <tr>
   <td>Landing page optimization.</td>
-  <td rowspan="3" border="1" valign="middle"><a
+  <td rowspan="3" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html?lang=en">Online/Offline
   Personalization</a></td>
  </tr>
