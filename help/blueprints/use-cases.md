@@ -1,8 +1,8 @@
 ---
 title: Use cases of Digital Experience Blueprints
 description: Digital Experience Blueprints are repeatable implementations to address strategy and solve established business problems. They accelerate time-to-value and provide a fast path to success.
+exl-id: 7ec2b5c9-b46c-4434-b0d3-8aba863e9006
 ---
-
 # Use cases of Digital Experience Blueprints
 
 Which of these use cases are important to your business? Discover which Digital Experience Blueprints address your business goals.
