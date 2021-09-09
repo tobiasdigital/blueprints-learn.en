@@ -47,7 +47,7 @@ Adobe Journey Optimizer is a purpose built system for marketing teams to react i
 
 ## Guardrails
 
-* See link for more details on limitations
+* See link for more details on guardrails for Journey Optimizer [LINK](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en)
 * Batch segments – need to ensure you understand the daily volume of qualified users and ensure the destination system can handle the burst throughput per journey and across all journeys
 * Streaming segments – need to ensure the initial burst of profile qualifications can be handled along with the daily streaming qualifying volume per journey and across all journeys
 * Profile update activity - the Real-Time Customer Profile can be updated natively from within a journey.  There is a delay of up to 1min on processing the update into the profile store
