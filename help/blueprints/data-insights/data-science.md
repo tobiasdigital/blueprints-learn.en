@@ -21,15 +21,15 @@ Custom Data Science for Profile Enrichment Blueprint illustrates how data in Ado
 
 ## Implementation Steps
 
-1. [Create schemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) for data to be ingested.
+1. [Create schemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) for data to be ingested.
 1. [Create datasets](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) for data to be ingested.
 1. [Ingest data](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) into Experience Platform.
-1. Create a DSW notebook.
+1. [Create a DSW notebook](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html?lang=en).
 1. Choose a language. Python and PySpark are supported.
-1. Author model in notebook.
-1. Train the model.
-1. Score the model to generate predictions with the target data.
-1. Enable the model results dataset for profile, if pushing model results to the [!UICONTROL Real-time Customer Profile].
+1. [Author model](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/recipe-builder-template.html?lang=en) in notebook.
+1. [Train the model](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=en).
+1. [Score the model](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=en) to generate predictions with the target data.
+1. [Enable the model results dataset for profile, if pushing model results to the [!UICONTROL Real-time Customer Profile](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/dsw-profile-segmentation.html?lang=en).
 
 ## Related Documentation
 
