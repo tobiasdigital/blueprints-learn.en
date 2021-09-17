@@ -22,8 +22,6 @@ role: Architect, Developer, User
   + [Customer Activity Hub](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics{#customer-journey-analytics}
   + [Overview](/help/blueprints/customer-journey-analytics/overview.md)
-  + [Cross Channel Journey Analysis](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
-  + [Call Deflection](/help/blueprints/customer-journey-analytics/call-deflect.md)
 + Customer Journeys{#customer-journeys}
   + [Overview](/help/blueprints/customer-journeys/overview.md)
   + [Batch Messaging & Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
