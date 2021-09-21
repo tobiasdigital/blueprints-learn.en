@@ -24,7 +24,7 @@ Server Side Enterprise Data Collection Blueprint shows how data collected with A
 
 ## Related Documentation
 
-[Experience Platform Launch Server Side documentation](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=en#server-side-info)
+[Experience Platform Launch Event Forwarding documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=en)
 [Experience Platform Launch Server Side videos](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html)
 
 ## Related Blog Posts
