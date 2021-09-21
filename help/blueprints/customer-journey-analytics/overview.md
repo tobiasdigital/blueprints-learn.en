@@ -19,17 +19,14 @@ Common analyses include:
 * What campaigns resulted in conversion and increased engagement
 * Tool usage analysis to optimize self-service experiences
 
-| Blueprint | Description |  Experience Cloud Applications | 
+| Blueprint | Description |  Experience Cloud Applications |
 |---|---|---|
-| **[Cross Channel Journey Analysis](digital-behavioral-data-consolidation.md)**  | <ul><li>Have a single consolidated view of customer behavior across various channels by unifying data from various web, mobile, and offline properties.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (optional)</li></ul>| 
-| **[Call Deflection Journey Analysis](call-deflect.md)** | <ul><li>Determine what behaviors are most indicative in resulting in agent assisted calls by bringing Call Center data together with web, mobile, and other interaction data.</li><li>These insights can then be used to optimize the customer experience and reduce the path to agent assisted interactions through optimized self-service content and tooling.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
+| **[Cross Channel Journey Analysis](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html)**  | <ul><li>Have a single consolidated view of customer behavior across various channels by unifying data from various web, mobile, and offline properties.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (optional)</li></ul>| 
+| **[Call Deflection Journey Analysis](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/call-center.html)** | <ul><li>Determine what behaviors are most indicative in resulting in agent assisted calls by bringing Call Center data together with web, mobile, and other interaction data.</li><li>These insights can then be used to optimize the customer experience and reduce the path to agent assisted interactions through optimized self-service content and tooling.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
-## Guardrails for Customer Journey Analytics Blueprints
+## Guardrail diagram for Customer Journey Analytics Blueprints
 
-### Guardrail Diagram
-
-<img src="assets/cja_guardrails.png" alt="Guardrail diagram for the Customer Journey Analytics Blueprints" style="border:1px solid #4a4a4a" />
-
+![Guardrail diagram](assets/cja_guardrails.png)
 
 ## Related Blog Posts
 
