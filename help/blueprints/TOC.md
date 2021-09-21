@@ -3,11 +3,12 @@ user-guide-title: Digital Experience Blueprints
 breadcrumb-title: Blueprints 
 user-guide-description: Blueprints are repeatable implementations to address established business problems and contain architecture diagrams, technical considerations, and relevant documentation links.
 product: adobe experience platform
-role: Architect, Developer, Business Practitioner
+role: Architect, Developer, User
 ---
 # Digital Experience Blueprints {#architecture}
 
 + [Overview](/help/blueprints/overview.md)
++ [See all use cases](/help/blueprints/use-cases.md)
 + Architecture Overviews{#architecture-overview}
   + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
   + [Experience Platform & Applications](/help/blueprints/experience-platform/platform-applications.md)
@@ -21,8 +22,6 @@ role: Architect, Developer, Business Practitioner
   + [Customer Activity Hub](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics{#customer-journey-analytics}
   + [Overview](/help/blueprints/customer-journey-analytics/overview.md)
-  + [Cross Channel Journey Analysis](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
-  + [Call Deflection](/help/blueprints/customer-journey-analytics/call-deflect.md)
 + Customer Journeys{#customer-journeys}
   + [Overview](/help/blueprints/customer-journeys/overview.md)
   + [Batch Messaging & Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
@@ -31,7 +30,7 @@ role: Architect, Developer, Business Practitioner
   + [Overview](/help/blueprints/data-ingestion/overview.md)
   + [Data Preparation & Ingestion](/help/blueprints/data-ingestion/ingestion.md)
   + [Server Side Enterprise Data Collection](/help/blueprints/data-ingestion/server-side-collection.md)
-  + [Experience Platform WebSDK](/help/blueprints/data-ingestion/websdk.md)
+  + [Experience Platform Web SDK](/help/blueprints/data-ingestion/websdk.md)
 + Data Analysis, Intelligence, & AI/ML{#data-exploration}
   + [Overview](/help/blueprints/data-insights/overview.md)
   + [Data Analysis & Intelligence](/help/blueprints/data-insights/analysis.md)
@@ -39,5 +38,5 @@ role: Architect, Developer, Business Practitioner
 + Web & Mobile Personalization{#web-personalization}
   + [Overview](/help/blueprints/web-personalization/overview.md)
   + [Behavioral Personalization](/help/blueprints/web-personalization/behavioral.md)
-  + [Peronsalization with Online & Offline data](/help/blueprints/web-personalization/online-offline.md)
+  + [Personalization with Online & Offline data](/help/blueprints/web-personalization/online-offline.md)
 

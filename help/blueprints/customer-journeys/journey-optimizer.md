@@ -31,8 +31,8 @@ Adobe Journey Optimizer is a purpose built system for marketing teams to react i
 
 * Customer must have a mobile developer available to build the app 
 * Adobe Experience Platform Mobile SDK
-* Adobe Launch
-   * Mobile Property
+* Data Collection
+   * Mobile tags property
       * Extensions: 
         * Adobe Journey Optimizer Extension
         * Adobe Experience Platform Edge Network
@@ -67,7 +67,7 @@ Adobe Journey Optimizer is a purpose built system for marketing teams to react i
 
 #### Schema/Datasets
 
-1. [Configure individual profile, experience event, and multi-entity schemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) in Experience Platform, based on customer-supplied data.
+1. [Configure individual profile, experience event, and multi-entity schemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) in Experience Platform, based on customer-supplied data.
 1. Create Adobe Campaign schemas for broadLog, trackingLog, non-deliverable addresses, and profile preferences (optional).
 1. [Create datasets](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) in Experience Platform for data to be ingested.
 1. [Add data usage labels](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) in Experience Platform to the dataset for governance.
@@ -99,6 +99,6 @@ Adobe Journey Optimizer is a purpose built system for marketing teams to react i
 ## Related Documentation
 
 * [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
-* [Journey Optimizer documentation](https://experienceleague.adobe.com/docs/journey-orchestration.html?lang=en)
+* [Journey Optimizer documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=en)
 * [Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch.html?lang=en)
 * [Experience Platform Mobile SDK documentation](https://experienceleague.adobe.com/docs/mobile.html?lang=en)

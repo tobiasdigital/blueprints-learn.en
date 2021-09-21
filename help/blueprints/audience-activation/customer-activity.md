@@ -3,7 +3,7 @@ title: Customer Activity Hub Blueprint
 description: [!UICONTROL Real-time Customer Profile] lookups to provide context for agent-assisted support and sales.
 solution: Experience Platform,Data Collection
 kt: 7195
-exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c,4f15aa5d-9ee3-4d92-8012-3e2f0c0d615f
+exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
 ---
 # Customer Activity Hub Blueprint
 
@@ -31,7 +31,7 @@ With this capability, you could surface rich context when a customer calls your 
 
 ## Implementation Steps
 
-1. [Create schemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) for data to be ingested.
+1. [Create schemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) for data to be ingested.
 1. [Create datasets](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) for data to be ingested.
 1. [Configure the correct identities and identity namespaces](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html) on the schema to be sure that ingested data can stitch into a unified profile.
 1. [Enable the schemas and datasets for profile](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html). 
