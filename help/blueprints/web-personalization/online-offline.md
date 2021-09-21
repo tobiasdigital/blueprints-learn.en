@@ -86,7 +86,7 @@ Identity pre-requisites
 * [Adobe Analytics Segment Sharing through Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 * [Experience Platform Web SDK documentation](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * [Experience Cloud ID Service documentation](https://experienceleague.adobe.com/docs/id-service/using/home.html)
-* [Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch/using/home.html)
+* [Experience Platform Tags documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)
 
 ## Related Blog Posts
 

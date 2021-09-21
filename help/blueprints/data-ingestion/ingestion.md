@@ -4,7 +4,7 @@ description: This blueprint shows all the methods by which data can be ingested
 solution: Experience Platform,Data Collection
 kt: 7204
 thumbnail: 
-exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1,5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
+exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
 ---
 # Data Preparation and Ingestion Blueprint
 
