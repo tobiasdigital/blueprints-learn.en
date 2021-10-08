@@ -51,7 +51,7 @@ The Web/Mobile personalization blueprint can be implemented via the following ap
 Identity pre-requisites
 
 * Sharing audiences from Adobe Experience Platform to Adobe Target requires the use of ECID as a identity.
-* Alternate identities can be used to share Experience Platform audiences to Adobe Target via Audience Manager, as Audience Manager is able to resolve the alternate IDs to an ECID as long as both ECID and the alternate ID are being collected to Audience Manager as well and are using the same identity namespace in both Audience Manager and Experience Platform. Note that Audience Manager and Target resolve audience memberships via the ECID identity, so ECID is still required for the final audience sharing to Adobe Target. 
+* Alternate identities can be used to share Experience Platform audiences to Adobe Target via Audience Manager as well. Experience Platform activates audiences to Audience Manager via the following supported namespaces: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Note that Audience Manager and Target resolve audience memberships via the ECID identity, so ECID is still required for the final audience sharing to Adobe Target. 
 
 | Application/Service | Required Library |  Notes | 
 |---|---|---|
