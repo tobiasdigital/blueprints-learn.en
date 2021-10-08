@@ -50,7 +50,7 @@ The Activation with online and offline data blueprint aligns closely with the [A
 
 * Sharing profile data to destinations requires that you include the specific identity value used by the destination in the destination payload. Any identity that is necessary for a target destination must be ingested into Platform and configured as an identity for the [!UICONTROL Real-time Customer Profile].
 
-* For activation scenarios where audiences are shared from Experience Platform to Audience Manager, all identities included in the [!UICONTROL Real-time Customer Profile] are shared to Audience Manager. The audiences from Experience Platform can be shared through Audience Manager destinations when the required destination identities are included in the [!UICONTROL Real-time Customer Profile], or where identities in the [!UICONTROL Real-time Customer Profile] can be related to the required destination identities that are linked in Audience Manager.
+* For activation scenarios where audiences are shared from Experience Platform to Audience Manager the following identities are shared automatically: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Currently, customer namespaces are not shared. The audiences from Experience Platform can be shared through Audience Manager destinations when the required destination identities are included in the [!UICONTROL Real-time Customer Profile], or where identities in the [!UICONTROL Real-time Customer Profile] can be related to the required destination identities that are linked in Audience Manager.
 
 ## Related Documentation
 
