@@ -29,7 +29,7 @@ Certain guardrails apply for the query timeout and for the amount of data that i
 
 ## Architecture
 
-<img src="assets/data_exploration.svg" alt="Reference architecture for the Enterprise Data Exploration and Reporting Blueprint" style="border:1px solid #4a4a4a" />
+<img src="assets/data_exploration.svg" alt="Reference architecture for the Enterprise Data Exploration and Reporting Blueprint" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Guardrails
 

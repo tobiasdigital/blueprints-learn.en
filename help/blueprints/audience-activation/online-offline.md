@@ -28,7 +28,7 @@ The Activation with online and offline data blueprint aligns closely with the [A
 
 ### Activation with Online & Offline data with destinations
 
-<img src="assets/online_offline_activation.svg" alt="Reference architecture for the Online/Offline Audience Activation Blueprint" style="border:1px solid #4a4a4a" />
+<img src="assets/online_offline_activation.svg" alt="Reference architecture for the Online/Offline Audience Activation Blueprint" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
 ## Guardrails

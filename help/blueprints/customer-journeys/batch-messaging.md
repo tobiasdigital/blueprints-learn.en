@@ -26,7 +26,7 @@ Execute scheduled and batch messaging campaigns using Adobe Experience Platform 
 
 ## Architecture
 
-<img src="assets/aepbatch.svg" alt="Reference architecture for the Batch Messaging and Adobe Experience Platform Blueprint" style="border:1px solid #4a4a4a" />
+<img src="assets/aepbatch.svg" alt="Reference architecture for the Batch Messaging and Adobe Experience Platform Blueprint" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Guardrails
 
