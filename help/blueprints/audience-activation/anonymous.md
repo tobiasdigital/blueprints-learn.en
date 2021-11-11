@@ -22,7 +22,7 @@ You can target audiences across web and advertising channels based on anonymous 
 
 ## Architecture
 
-<img src="assets/anonymous_activation.svg" alt="Reference architecture for the Anonymous Audience Activation Blueprint" style="border:1px solid #4a4a4a" />
+<img src="assets/anonymous_activation.svg" alt="Reference architecture for the Anonymous Audience Activation Blueprint" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Implementation Steps
 

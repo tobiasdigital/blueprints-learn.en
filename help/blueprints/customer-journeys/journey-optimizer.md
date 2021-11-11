@@ -18,7 +18,7 @@ Adobe Journey Optimizer is a purpose built system for marketing teams to react i
 
 ## Architecture
 
-<img src="assets/journey-optimizer.png" alt="Reference architecture for the Triggered Messaging and Adobe Experience Platform blueprint" style="border:1px solid #4a4a4a" />
+<img src="assets/journey-optimizer.png" alt="Reference architecture for the Triggered Messaging and Adobe Experience Platform blueprint" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Integration Patterns
 

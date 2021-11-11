@@ -24,7 +24,7 @@ Personalize based on online behavior and audience data.
 
 ## Architecture
 
-<img src="assets/behavioral_personalization.svg" alt="Reference architecture for the Behavioral Web Personalization Blueprint" style="border:1px solid #4a4a4a" />
+<img src="assets/behavioral_personalization.svg" alt="Reference architecture for the Behavioral Web Personalization Blueprint" style="width:80%; border:1px solid #4a4a4a" />
 
 
 ## Guardrails
@@ -44,7 +44,7 @@ The Web/Mobile personalization blueprint can be implemented via the following ap
 
 ### 2. Application-specific SDK Approach
 
-<img src="assets/app_sdk_flow.png" alt="Reference architecture for the Application-specific SDK Approach" style="border:1px solid #4a4a4a" />
+<img src="assets/app_sdk_flow.png" alt="Reference architecture for the Application-specific SDK Approach" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Implementation Prerequisites
 

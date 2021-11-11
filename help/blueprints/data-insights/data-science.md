@@ -17,7 +17,7 @@ Custom Data Science for Profile Enrichment Blueprint illustrates how data in Ado
 
 ## Architecture
 
-<img src="assets/data_science.svg" alt="Reference Architecture for the Custom Data Science for Profile Enrichment Blueprint" style="border:1px solid #4a4a4a" />
+<img src="assets/data_science.svg" alt="Reference Architecture for the Custom Data Science for Profile Enrichment Blueprint" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Implementation Steps
 

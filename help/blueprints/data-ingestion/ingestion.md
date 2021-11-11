@@ -14,7 +14,7 @@ Data preparation includes the mapping of source data to Experience Data Model (X
 
 ## Architecture
 
-<img src="../experience-platform/assets/aep_data_flow.png" alt="Reference architecture for the Data Preparation and Ingestion Blueprint" style="border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep_data_flow.png" alt="Reference architecture for the Data Preparation and Ingestion Blueprint" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Data Ingestion Guardrails
 
