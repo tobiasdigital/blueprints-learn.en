@@ -4,7 +4,6 @@ description: Deliver accouunt based audiences and profile centric customer exper
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
 thumbnail:
-exl-id: 
 ---
 
 # B2B Activation & Marketing

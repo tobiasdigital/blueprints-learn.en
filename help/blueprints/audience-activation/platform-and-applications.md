@@ -3,7 +3,6 @@ title: Audience and Profile Activation with Experience Cloud Applications Bluepr
 description: Manage profiles and audiences in Experience Platform and share them with Experience Cloud applications.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
-exl-id: 
 ---
 # Audience and Profile Activation with Experience Cloud Applications Blueprint
 
