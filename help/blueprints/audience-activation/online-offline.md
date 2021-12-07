@@ -50,7 +50,15 @@ The Activation with online and offline data blueprint aligns closely with the [A
 
 * Sharing profile data to destinations requires that you include the specific identity value used by the destination in the destination payload. Any identity that is necessary for a target destination must be ingested into Platform and configured as an identity for the [!UICONTROL Real-time Customer Profile].
 
-* For activation scenarios where audiences are shared from Experience Platform to Audience Manager the following identities are shared automatically: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Currently, customer namespaces are not shared. The audiences from Experience Platform can be shared through Audience Manager destinations when the required destination identities are included in the [!UICONTROL Real-time Customer Profile], or where identities in the [!UICONTROL Real-time Customer Profile] can be related to the required destination identities that are linked in Audience Manager.
+### Audience sharing from Real-time Customer Data Platform to Audience Manager
+
+* Audience membership from RT-CDP is shared to Audience Manager in a streaming fashion as soon as segment evaluation is complete and written to the Real-time Customer profile, whether the segment evaluation occurred in batch or streaming. If the qualified profile contains the regional routing information for related profile devices then the audience membership from RTCDP is qualified in streaming fashion on the associated Audience Manager Edge. If the profiles from RTCDP do not contain regional routing information then the profile memberships are sent to the Audience Manager hub location for batch based evaluation and activation. Profiles that are eligible for Edge activation will activate within minutes of segment qualification from RTCDP, profile that do not qualify for Edge activation will qualify in the Audience Manager hub and may have a 12-24 hour timeframe for processing. 
+
+* Regional routing information for which Audience Manager Edge the profile's related device information is stored on can be collected from the Analytics Data Connector when the Analytics data is enabled for collection to profile, or directly from the WebSDK as a separate profile record class dataset which must then be enabled for profile. 
+
+* For activation scenarios where audiences are shared from Experience Platform to Audience Manager the following identities are shared automatically: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Currently, custom namespaces are not shared. 
+
+The audiences from Experience Platform can be shared through Audience Manager destinations when the required destination identities are included in the [!UICONTROL Real-time Customer Profile], or where identities in the [!UICONTROL Real-time Customer Profile] can be related to the required destination identities that are linked in Audience Manager.
 
 ## Related Documentation
 
