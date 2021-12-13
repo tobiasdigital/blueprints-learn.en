@@ -3,7 +3,7 @@ title: B2B Analysis
 description: Perfoam B2B account level analysis with Customer Journey Analytics​.
 solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics
 kt: 9311
-exl-id: 
+exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 ---
 # B2B Analysis
 
