@@ -3,7 +3,7 @@ title: Audience and Profile Activation to File and Enterprise Streaming Destinat
 description: Audience and Profile Activation to Enterprise Destinations
 solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
-exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
+exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
 ---
 # Audience and Profile Activation to File and Enterprise Streaming Destinations Blueprint
 

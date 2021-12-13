@@ -4,7 +4,6 @@ description: This blueprint shows the architecture and ingestion through the Ex
 solution: Experience Platform,Data Collection
 kt: 
 thumbnail: 
-exl-id: 
 ---
 # Experience Platform Web/Mobile SDK Data Collection 
 
