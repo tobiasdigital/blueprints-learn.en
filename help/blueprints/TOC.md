@@ -20,9 +20,10 @@ role: Architect, Developer, User
   + [Activation to File & Enterprise Streaming Destinations](/help/blueprints/audience-activation/enterprise-destinations.md)
   + [Activation with Experience Cloud Applications](/help/blueprints/audience-activation/platform-and-applications.md)
   + [Customer Activity Hub](/help/blueprints/audience-activation/customer-activity.md)
-+ B2B Activation & Marketing{#b2b-activation}
++ B2B Analysis & Activation{#b2b-activation}
   + [Overview](/help/blueprints/b2b/overview.md)
   + [B2B Activation](/help/blueprints/b2b/b2bactivation.md)
+  + [B2B Analysis](/help/blueprints/b2b/b2banalysis.md)
 + Customer Journey Analytics{#customer-journey-analytics}
   + [Overview](/help/blueprints/customer-journey-analytics/overview.md)
 + Customer Journeys{#customer-journeys}
