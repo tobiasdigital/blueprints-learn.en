@@ -12,7 +12,7 @@ Web and Mobile Personalization addresses the ability to use audience segmentatio
 
 | Blueprint | Description |  Experience Cloud Applications | 
 |---|---|---|
-| **[Behavioral Web/Mobile Personalization](behavioral.md)**  | <ul><li>Personalize based on online behavior and audience data</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul>| 
+| **[Behavioral Web/Mobile Personalization](behavioral.md)**  | <ul><li>Personalize based on online behavior and audience data</li></ul> | <ul><li>Adobe Target</li><li>Adobe Real-time Customer Data Platform *(optional)*</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul>| 
 | **[Web/Mobile Personalization with online & offline data](online-offline.md)** | <ul><li>Personalize with offline attributes and events (transactions, reservations, CRM, and loyalty data).</li><li>Synchronize personalization across web, email, and other known channels.</li></ul> | <ul><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
 
 ## Guardrails for Web and Mobile Personalization
