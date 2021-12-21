@@ -1,12 +1,11 @@
 ---
-title: Retail Business: Activation with Experience Cloud Applications
+title: Retail Industry - Activation with Experience Cloud Applications
 description: Delivering real-time, customer experiences across digital media, email, push, and web channels.
 solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Adobe Campaign, Adobe Analytics, and Adobe Target
 kt: 9474
-|
 ---
 
-# Business Challenge
+# Retail Industry Business Challenge
 
 This integrated experience business sought to personalize the entire customer journey to increase loyalty, upsell to existing customers, and improve marketing spend across their campaigns. The strategy to accomplish the goal is by extending their digital capability to include offline customer data & transaction data to drive growth. 
 

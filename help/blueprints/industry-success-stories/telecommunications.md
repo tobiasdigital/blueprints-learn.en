@@ -1,12 +1,11 @@
 ---
-title: Telecommunications Business: Journey Optimizer for Triggered Messaging
+title: Telecommunications Industry - Journey Optimizer for Triggered Messaging
 description: Provide customers tailored deals in real-time while with efficient customer onboarding for long term loyalty.
 solution: Experience Platform, Adobe Journey Optimizer
 kt: 9486
-
 ---
 
-# Business Challenge
+# Telecommunications Industry Business Challenge
 
 Before implementing this Blueprint the telecommunications company's "add a new line" email campaigns relied on whether the user had converted and only checked for this after a 7-day waiting period. Once these criteria were met any additional touchpoints were initiated. 
 

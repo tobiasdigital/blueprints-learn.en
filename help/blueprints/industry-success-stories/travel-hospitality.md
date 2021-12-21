@@ -1,12 +1,11 @@
 ---
-title: Travel & Hospitality Business: Activation with Online & Offline Data
+title: Travel & Hospitality Industry - Activation with Online & Offline Data
 description: Real-time decisions with a single consolidated view of customer behavior across various channels.
 solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Adobe Analytics, Adobe Audience Manager, Adobe Experience Manager, Adobe Target
 kt: 9485
-
 ---
 
-# Business Challenge
+# Travel & Hospitality Industry Business Challenge
 
 A casino and entertainment company in the United States wanted to revolutionize their ability to leverage data to create real-time personalized connections.  This vision became even more vital as the COVID-19 pandemc changed how customers interact with travel and hospitality businesses.  
 

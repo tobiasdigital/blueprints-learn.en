@@ -1,13 +1,11 @@
 ---
-title: Apparel Business: Activation with Experience Cloud Applications
+title: Apparel Industry - Activation with Experience Cloud Applications
 description: Used multiple Blueprints to enable real-time marketing, cross-channel activation, & cross-channel analytics.
 solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
-
-
 ---
 
-# Business Challenge
+# Apparel Industry Business Challenge
 
 This specific apperal company is a global leader in design, development, manufacturing, and worldwide marketing and sales of footwear, apparel, equipment, accessories, and services. 
 
