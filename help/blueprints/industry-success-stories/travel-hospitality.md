@@ -7,7 +7,7 @@ kt: 9485
 
 # Travel & Hospitality Industry Business Challenge
 
-A casino and entertainment company in the United States wanted to revolutionize their ability to leverage data to create real-time personalized connections.  This vision became even more vital as the COVID-19 pandemc changed how customers interact with travel and hospitality businesses.  
+A casino and entertainment company in the United States wanted to revolutionize their ability to leverage data to create real-time personalized connections.  This vision became even more vital as the COVID-19 pandemic changed how customers interact with travel and hospitality businesses.  
 
 Leveraging Adobe technologies & services this organization is now prepared to excel in its goals and is ready to face the post-pandemic future.
 
@@ -20,18 +20,19 @@ Leveraging Adobe technologies & services this organization is now prepared to ex
 
 ## Business Value Delivered
 
-| Goals | Tactics| Value Unloacked|
+| Goals | Tactics| Value Unlocked|
 |---|---|---|
-| **Make every experience relevant to that guest**<br></br>**Business ready insights & data democracy through dashboards**<br></br>**Organizational & Operational Efficacy**</ul> | <ul><li>Built unified rewards program guest profiles using online & offline data for activation and measurement</li><li>Real time activation across channels at speed and scale</li><li>Customer level analysis capability unlocked with Customer Journey Analysis</li><li>Develop intelligence in order to improve activation by learning from the historical click stream interaction data.</li><li>Use online and offline data to unify a customer view for insights across customer journeys and channels.</li></ul>                               | <ul><li><strong> Cross-Channel Activation:</strong>Driving 3X email engagement, addressable audience growth & impression growth, highly personalized web experiences </li><li><strong>Intelligence:</strong>Guest rewards program operates an activation campaign to reduce member churn rates</li><li><strong>Reporting:</strong>Merged online/offline data with AI/ML learnings into a business friendly journey & attribution dashboard while also reducing latency (by days)</li><li><strong>Futureproofed Technology Stack:</strong>Tens of millions of profiles across 7 channels ready to execute on cross-sell, up-sell, and spend optimization scenarios</li></ul>    |
+| **Make every experience relevant to that guest**<br></br>**Business ready insights & data democracy through dashboards**<br></br>**Organizational & Operational Efficacy**</ul> | <ul><li>Built unified rewards program guest profiles using online & offline data for activation and measurement</li><li>Real time activation across channels at speed and scale</li><li>Customer level analysis capability unlocked with Customer Journey Analysis</li><li>Develop intelligence in order to improve activation by learning from the historical click stream interaction data.</li><li>Use online and offline data to unify a customer view for insights across customer journeys and channels.</li></ul>                               | <ul><li><strong> Cross-Channel Activation: </strong>Driving 3X email engagement, addressable audience growth & impression growth, highly personalized web experiences </li><li><strong>Intelligence: </strong>Guest rewards program operates an activation campaign to reduce member churn rates</li><li><strong>Reporting: </strong>Merged online/offline data with AI/ML learnings into a business friendly journey & attribution dashboard while also reducing latency (by days)</li><li><strong>Future-proofed Technology Stack: </strong>Tens of millions of profiles across 7 channels ready to execute on cross-sell, up-sell, and spend optimization scenarios</li></ul>    |
 
-## Key Blueprint: Activation with Online & Offline Data
+## Primary Blueprint: Activation with Online & Offline Data
 
-<strong>Description</strong>
+### Description 
+
 <ul><li>Activate to known profile-based destinations, such as email providers, social networks, and advertising destinations.</li><li>Use offline attributes and events, such as offline orders, transactions, CRM, or loyalty data along with online behavior for online targeting and personalization.</li></li></ul> 
 
-<strong>Experience Cloud Applications</strong>
+### Experience Cloud Applications
+
 <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager</li><li>Customer Journey Analytics</li></ul> 
-<br>
 
 ### Blueprint Architecture
 

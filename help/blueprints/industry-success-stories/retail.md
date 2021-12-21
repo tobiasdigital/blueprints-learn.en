@@ -16,18 +16,19 @@ This integrated experience business sought to personalize the entire customer jo
 
 ## Business Value Delivered
 
-| Goals | Tactics| Value Unloacked|
+| Goals | Tactics| Value Unlocked|
 |---|---|---|
-| **Orchestrate real-time customer journeys**<br></br>**Drive repeat purchases from new customers**<br></br>**Improve marketing efficiencies and reduce media costs**</ul> | <ul><li>Robust data and identity strategy to fuel a comprehensive real-time profile.</li><li>Customer and transactional data streaming in real-time including plus a 90 day historical load</li><li>Streaming segmentation to Google and Adobe Target to power media spend and personalization efforts.</li><li>Real-time customer journeys through Adobe Campaign that includes a strategy to measure performance</li></ul>                               | <ul><li><strong>Real-Time Customer Data Platform:</strong> Delivering real-time, customer experiences across media, email, push, and web</li><li><strong>Data Sources:</strong> Streaming data covering this reatailer's profile stores, order system, product catalogue, and retail outlets.</li><li><strong>Real-time Media Activation:</strong>Streaming segments out to Google media for attribution & ad suppression</li><li><strong>Real-time Web Personalization:</strong>Streaming segments out to Adobe Target in order to activate on retailer's web experience.</li><li><strong>Journey Orchestration at Scale:</strong>Triggered messaging in real-time enriched with all available cusotmer data & activating real-time in email & push channels</li></ul>    |
+| **Orchestrate real-time customer journeys**<br></br>**Drive repeat purchases from new customers**<br></br>**Improve marketing efficiencies and reduce media costs**</ul> | <ul><li>Robust data and identity strategy to fuel a comprehensive real-time profile.</li><li>Customer and transactional data streaming in real-time including plus a 90 day historical load</li><li>Streaming segmentation to Google and Adobe Target to power media spend and personalization efforts.</li><li>Real-time customer journeys through Adobe Campaign that includes a strategy to measure performance</li></ul>                               | <ul><li><strong>Real-Time Customer Data Platform:</strong> Delivering real-time, customer experiences across media, email, push, and web</li><li><strong>Data Sources:</strong> Streaming data covering this retailer's profile stores, order system, product catalogue, and retail outlets.</li><li><strong>Real-time Media Activation:</strong>Streaming segments out to Google media for attribution & ad suppression</li><li><strong>Real-time Web Personalization:</strong>Streaming segments out to Adobe Target in order to activate on retailer's web experience.</li><li><strong>Journey Orchestration at Scale:</strong>Triggered messaging in real-time enriched with all available customer data & activating real-time in email & push channels</li></ul>    |
 
-## Key Blueprint: Audience & Activation with Experience Cloud Applications
+## Primary Blueprint: Audience & Activation with Experience Cloud Applications
 
-<strong>Description</strong>
+### Description 
+
 <ul><li>Manage profiles and audiences in Experience Platform and share them with Experience Cloud Applications</li><li>Build and share rich customer segments and insights in Experience Platform and share them with Experience Cloud Applications</li></ul> 
 
-<strong>Experience Cloud Applications</strong>
+### Experience Cloud Applications
+
 <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud Applications</li></ul> 
-<br>
 
 ### Blueprint Architecture
 
