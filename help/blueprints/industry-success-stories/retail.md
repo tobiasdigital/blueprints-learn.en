@@ -1,7 +1,7 @@
 ---
 title: Retail Industry - Activation with Experience Cloud Applications
 description: Delivering real-time, customer experiences across digital media, email, push, and web channels.
-solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Adobe Campaign, Adobe Analytics, and Adobe Target
+solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, and Target
 kt: 9474
 ---
 

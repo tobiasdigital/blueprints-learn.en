@@ -1,7 +1,7 @@
 ---
 title: Travel & Hospitality Industry - Activation with Online & Offline Data
 description: Real-time decisions with a single consolidated view of customer behavior across various channels.
-solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Adobe Analytics, Adobe Audience Manager, Adobe Experience Manager, Adobe Target
+solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
 ---
 
