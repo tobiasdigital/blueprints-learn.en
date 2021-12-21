@@ -5,36 +5,40 @@ exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 ---
 # Industry Success with Digital Experience Blueprints
 
-Learn how our customers are architecting great experiences and succeeding with Digital Experience Blueprints. 
-
-These proven repeatable implementations let you address strategy and quickly solve established business problems. Each Blueprint provides a series of artifacts that explain the high-value business problem, architectures, implementation steps, technical considerations, and links to the relevant documentation.
+Learn how our customers are architecting great experiences and succeeding with Digital Experience Blueprints. These proven repeatable implementations let you address strategy and quickly solve established business problems. 
 
 ## Featured Success Stories
 
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><img alt="thumbnail image for the Triggered Messaging and Experience Platform Blueprint" src="customer-journeys/assets/journey-optimizer.png" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><strong>Triggered Messaging and Experience Platform</strong></a></div>
-    <p><em>Trigger messages and experiences using [!UICONTROL Platform] as a central hub.</em></p>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en"><img alt="thumbnail image for an Apparel business using audience activation, customer journey analytics, and customer journeys Blueprints" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><strong>Apparel Business: Activation with Experience Cloud Applications </strong></a></div>
+    <p><em>Used multiple Blueprints to enable real-time marketing, cross-channel activation, & cross-channel analytics.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="thumbnail image for the Online/Offline Audience Activation Blueprint" src="audience-activation/assets/online_offline_activation.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Online/Offline Audience Activation</strong></a></div>
-    <p><em>Deliver audience-activated cross-channel advertising.</em></p>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><img alt="thumbnail image for a Retail business using Activation with Online/Offline Data & Journey Optimizer Blueprints" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Retail business: Activation with Experience Cloud Applications </strong></a></div>
+    <p><em>Delivering real-time, customer experiences across digital media, email, push, and web channels.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><img alt="thumbnail image for the Digital Behavioral Data Consolidation Blueprint" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><strong>Cross Channel Journey Analysis</strong></a></div>
-    <p><em>Have a single consolidated view of customer behavior across various channels.</em></p>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><img alt="thumbnail image for the Digital Behavioral Data Consolidation Blueprint" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/journey-optimizer.png?lang=en" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><strong>Telecommunications Business: Journey Optimizer for Triggered Messaging</strong></a></div>
+    <p><em>Provide customers tailored deals in real-time while with efficient customer onboarding for long term loyalty.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><img alt="thumbnail image for the Digital Behavioral Data Consolidation Blueprint" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><strong>Cross Channel Journey Analysis</strong></a></div>
-    <p><em>Have a single consolidated view of customer behavior across various channels.</em></p>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en"><img alt="thumbnail image for the Digital Behavioral Data Consolidation Blueprint" src="customer-journey-analytics/assets/CJA.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/assets/online_offline_activation.svg"><strong>Travel & Hospitality Business: Activation with Online & Offline Data</strong></a></div>
+    <p><em>Real-time decisions with a single consolidated view of customer behavior across various channels.</em></p>
   </td>
 </tr>
 </table>
+
+## More Success Stories
+* <a href="https://business.adobe.com/customer-success-stories/index.html?Products+%26+Services=Experience">Adobe Experience Cloud</a>
+* <a href="https://business.adobe.com/customer-success-stories/index.html?Products+%26+Services=Experience+Platform">Adobe Experience Platform</a>
+* <a href="https://business.adobe.com/customer-success-stories/index.html?Products+%26+Services=Intelligent+Services">Adobe Intelligent Services</a>
+
 
 ## Blog Posts
 

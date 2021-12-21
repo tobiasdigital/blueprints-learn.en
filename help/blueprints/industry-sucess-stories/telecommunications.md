@@ -34,7 +34,7 @@ This limitation had to be solved in order to initiate a timelier follow-up to us
 <br>
 
 # Blueprint Architecture
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><img alt="thumbnail image for an Apparel business using audience activation, customer journey analytics, and customer journeys Blueprints" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/journey-optimizer.png?lang=en"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><img alt="thumbnail image for an Telecommunications business offers tailored deals in real-time while with efficient customer onboarding for long term loyalty." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/journey-optimizer.png?lang=en"/></a>
     
 
 

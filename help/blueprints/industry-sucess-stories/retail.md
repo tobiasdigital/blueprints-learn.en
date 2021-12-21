@@ -1,7 +1,7 @@
 ---
 title: Retail Business: Activation with Experience Cloud Applications
 description: Delivering real-time, customer experiences across digital media, email, push, and web channels.
-solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
+solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Adobe Campaign, Adobe Analytics, and Adobe Target
 kt: 
 thumbnail:
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
@@ -31,7 +31,7 @@ This integrated experience business sought to personalize the entire customer jo
 <br>
 
 # Blueprint Architecture
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en"><img alt="thumbnail image for an Apparel business using audience activation, customer journey analytics, and customer journeys Blueprints" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en"><img alt="thumbnail image for a Retail business delivering real-time, customer experiences across digital media, email, push, and web channels" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
     
 
 

@@ -18,10 +18,10 @@ Their global technology team is using Adobe Experience Platform and relevant Ado
 
 # Adobe Approach
 
-* Create a strong Platform foundation to deliver value to the business and results in enterprise-wide adoption
-* Collaborate with technical teams to ensure business value is delivered with the technoly implementation
-* Create a 360 view this apparel company's customers in order to directly segment, activate and report on campaigns
-* Automate triggers and orchestrate personalized customer journeys  
+* Create a strong Platform foundation to deliver value to the business and results in enterprise-wide adoption.
+* Collaborate with technical teams to ensure business value is delivered with the technoly implementation.
+* Create a 360 view this apparel company's customers in order to directly segment, activate and report on campaigns.
+* Automate triggers and orchestrate personalized customer journeys.  
 
 # Business Value Delivered
 

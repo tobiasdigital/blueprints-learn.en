@@ -9,7 +9,11 @@ role: Architect, Developer, User
 
 + [Overview](/help/blueprints/overview.md)
 + [See all use cases](/help/blueprints/use-cases.md)
-+ [See all industry case studies](/help/blueprints/industry-case-studies.md)
++ [See all industry success stories](/help/blueprints/industry-success-stories.md)
+  + [Apparel](/help/blueprints/industry-success-stories/apparel.md)
+  + [Retail](/help/blueprints/industry-success-stories/retail.md)
+  + [Telecommunications](/help/blueprints/industry-success-stories/telecommunications.md)
+  + [Travel & Hospitality](/help/blueprints/industry-success-stories/travel-hospitality.md)
 + Architecture Overviews{#architecture-overview}
   + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
   + [Experience Platform & Applications](/help/blueprints/experience-platform/platform-applications.md)
