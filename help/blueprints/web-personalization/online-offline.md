@@ -66,6 +66,12 @@ Synchronize web personalization with email and other known and anonymous channel
 
 ## Architecture
 
+Overview Architecture
+
+<img src="assets/RTCDP+Target.png" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:80%; border:1px solid #4a4a4a" />
+
+Detailed Architecture
+
 <img src="assets/online_offline_personalization_with_apps.svg" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Guardrails
