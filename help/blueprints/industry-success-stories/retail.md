@@ -3,8 +3,8 @@ title: Retail Industry - Activation with Experience Cloud Applications
 description: Delivering real-time, customer experiences across digital media, email, push, and web channels.
 solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
+exl-id: a675bc81-e76c-491a-8718-359867d63351
 ---
-
 # Retail Industry Business Challenge
 
 This integrated experience business sought to personalize the entire customer journey to increase loyalty, upsell to existing customers, and improve marketing spend across their campaigns. The strategy to accomplish the goal is by extending their digital capability to include offline customer data & transaction data to drive growth. 
@@ -33,7 +33,3 @@ This integrated experience business sought to personalize the entire customer jo
 ### Blueprint Architecture
 
 <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en"><img alt="thumbnail image for a Retail business delivering real-time, customer experiences across digital media, email, push, and web channels" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
-    
-
-
-

@@ -3,8 +3,8 @@ title: Apparel Industry - Activation with Experience Cloud Applications
 description: Used multiple Blueprints to enable real-time marketing, cross-channel activation, & cross-channel analytics.
 solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
+exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
 ---
-
 # Apparel Industry Business Challenge
 
 This specific appeal company is a global leader in design, development, manufacturing, and worldwide marketing and sales of footwear, apparel, equipment, accessories, and services. 
@@ -41,7 +41,3 @@ Their global technology team is using Adobe Experience Platform and relevant Ado
 ### Blueprint Architecture
 
 <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en"><img alt="thumbnail image for an Apparel business using audience activation, customer journey analytics, and customer journeys Blueprints" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
-    
-
-
-

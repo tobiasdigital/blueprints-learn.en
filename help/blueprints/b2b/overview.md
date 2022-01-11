@@ -3,8 +3,8 @@ title: B2B Analytics & Activation
 description: Deliver account based audiences and profile centric customer experiences with Real-time Customer Data Platform​.
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
+exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
 ---
-
 # B2B Analytics & Activation
 
 B2B Audience and Profile activation is the key to success in a data-driven marketing world. However, many brands still focus their efforts on channel-first activation, which often delivers inconsistent reach and personalization.

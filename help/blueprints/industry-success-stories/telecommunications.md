@@ -3,8 +3,8 @@ title: Telecommunications Industry - Journey Optimizer for Triggered Messaging
 description: Provide customers tailored deals in real-time while with efficient customer onboarding for long term loyalty.
 solution: Experience Platform, Journey Optimizer
 kt: 9486
+exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
 ---
-
 # Telecommunications Industry Business Challenge
 
 Before implementing this Blueprint the telecommunications company's "add a new line" email campaigns relied on whether the user had converted and only checked for this after a 7-day waiting period. Once these criteria were met any additional touch-points were initiated. 
@@ -36,8 +36,3 @@ This limitation had to be solved in order to initiate a timelier follow-up to us
 ### Blueprint Architecture
 
 <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><img alt="thumbnail image for an Telecommunications business offers tailored deals in real-time while with efficient customer onboarding for long term loyalty." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/journey-optimizer.png?lang=en"/></a>
-    
-
-
-
-

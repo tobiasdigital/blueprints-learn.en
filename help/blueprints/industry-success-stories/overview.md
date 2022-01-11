@@ -1,8 +1,8 @@
 ---
 title: Digital Experience Blueprints Industry Success Stories
 description: Digital Experience Blueprints success stories showcase how various industries are realizing business value using Adobe Experience Cloud Applications, powered by Adobe Experience Platform.
+exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
 ---
-
 # Industry Success with Digital Experience Blueprints
 
 Learn how customers are architecting great experiences and succeeding with Digital Experience Blueprints. These proven repeatable implementations let you address strategy and quickly solve established business problems. 
@@ -50,5 +50,3 @@ Learn how customers are architecting great experiences and succeeding with Digit
 * <a href="https://business.adobe.com/customer-success-stories/index.html?Products+%26+Services=Experience">Adobe Experience Cloud</a>
 * <a href="https://business.adobe.com/customer-success-stories/index.html?Products+%26+Services=Experience+Platform">Adobe Experience Platform</a>
 * <a href="https://business.adobe.com/customer-success-stories/index.html?Products+%26+Services=Intelligent+Services">Adobe Intelligent Services</a>
-
-

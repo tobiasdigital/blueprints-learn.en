@@ -3,8 +3,8 @@ title: Travel & Hospitality Industry - Activation with Online & Offline Data
 description: Real-time decisions with a single consolidated view of customer behavior across various channels.
 solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
+exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
 ---
-
 # Travel & Hospitality Industry Business Challenge
 
 A casino and entertainment company in the United States wanted to revolutionize their ability to leverage data to create real-time personalized connections.  This vision became even more vital as the COVID-19 pandemic changed how customers interact with travel and hospitality businesses.  
@@ -37,7 +37,3 @@ Leveraging Adobe technologies & services this organization is now prepared to ex
 ### Blueprint Architecture
 
 <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en"><img alt="thumbnail image for a Travel & Hospitality business making real-time decisions with a single consolidated view of customer behavior across various channels." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/online_offline_activation.svg"/></a>
-    
-
-
-
