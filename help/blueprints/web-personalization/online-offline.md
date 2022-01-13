@@ -70,9 +70,13 @@ Overview Architecture
 
 <img src="assets/RTCDP+Target.png" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:80%; border:1px solid #4a4a4a" />
 
+Process Flow Architecture
+
+<img src="assets/RTCDP+Target_flow.png" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:80%; border:1px solid #4a4a4a" />
+
 Detailed Architecture
 
-<img src="assets/online_offline_personalization_with_apps.svg" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/personalization_with_apps.png" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:80%; border:1px solid #4a4a4a"/>
 
 ## Guardrails
 
@@ -119,7 +123,7 @@ Identity pre-requisites
 1. [Implement Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)  (optional)
 1. [Implement Experience Platform and [!UICONTROL Real-time Customer Profile]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html)
 1. Implement [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html) or [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
-1. [Request provisioning for Audience Sharing between Experience Platform and Adobe Target (Shared Audiences)](https://www.adobe.com/go/audiences)
+1. [Enable Adobe Target as a destination within Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en) or for the audience sharing approach [Request provisioning for Audience Sharing between Experience Platform and Adobe Target (Shared Audiences)](https://www.adobe.com/go/audiences) to share audiences from Experience Platform to Target.
     >[!NOTE]
     >
     >When using the Audience Sharing service between RTCDP and Adobe Target, audiences must be shared using the Experience Cloud ID and be part of the same Experience Cloud Org. Support for identities other than ECID requires the use of the WebSDK and Experience Edge Network.
@@ -130,6 +134,7 @@ Identity pre-requisites
 * [Experience Platform segment sharing with Audience Manager and other Experience Cloud solutions](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html)
 * [Experience Platform Segmentation Overview](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)
 * [Streaming Segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
+* [Adobe Target Connection for Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en)
 * [Experience Platform Segment Builder Overview](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)
 * [Audience Manager Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
 * [Adobe Analytics Segment Sharing through Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
