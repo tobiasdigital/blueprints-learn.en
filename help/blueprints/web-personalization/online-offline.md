@@ -52,13 +52,13 @@ Synchronize web personalization with email and other known and anonymous channel
     <td class="tg-0lax">2</td>
     <td class="tg-73oq">RTCDP streaming and batch audience sharing to Target via the Edge approach</td>
     <td class="tg-0lax">- Share streaming and batch audiences from RTCDP to Target via the Edge Network. Audiences evaluated in real-time require the WebSDK and real-time audience evaluation outlined in integration pattern 3.</td>
-    <td class="tg-73oq"><span style="text-decoration:none">- Currently in beta</span><br>- Target destination must be configured in RTCDP Destinations.<br>- Integration with Target requires the same IMS Org as the Experience Platform instance.<br>WebSDK is not required. WebSDk and AT.js are supported. <br>- If using AT.js only profile lookup against the ECID is supported. <br>- For custom id namespace lookups on the Edge, the WebSDK deployment is required and each identity must be set as an identity in the identity map.</td>
+    <td class="tg-73oq">- Target destination must be configured in RTCDP Destinations.<br>- Integration with Target requires the same IMS Org as the Experience Platform instance.<br>WebSDK is not required. WebSDk and AT.js are supported. <br>- If using AT.js only profile lookup against the ECID is supported. <br>- For custom id namespace lookups on the Edge, the WebSDK deployment is required and each identity must be set as an identity in the identity map.</td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
     <td class="tg-73oq">RTCDP real-time segment evaluation on the Edge shared to Target via the Edge Network using the WebSDK.</td>
     <td class="tg-0lax">- Evaluate audiences in real-time for same or next page personalization on the Edge.</td>
-    <td class="tg-73oq"><span style="text-decoration:none">- Currently in beta</span><br>- Target destination must be configured in RTCDP Destinations.<br>- Integration with Target requires the same IMS Org as the Experience Platform instance.<br>- WebSDK must be implemented.<br>- Also supported via API.</td>
+    <td class="tg-73oq">- Target destination must be configured in RTCDP Destinations.<br>- Integration with Target requires the same IMS Org as the Experience Platform instance.<br>- WebSDK must be implemented.<br>- Also supported via API.</td>
   </tr>
 </tbody>
 </table>
@@ -73,6 +73,11 @@ Overview Architecture
 Process Flow Architecture
 
 <img src="assets/RTCDP+Target_flow.png" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:80%; border:1px solid #4a4a4a" />
+
+<br>
+
+<img src="assets/RTCDP+Target_sequence.png" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:80%; border:1px solid #4a4a4a" />
+
 
 Detailed Architecture
 
