@@ -3,7 +3,6 @@ title: B2B Analytics & Activation
 description: Deliver account based audiences and profile centric customer experiences with Real-time Customer Data Platform​.
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
-exl-id: 9d0766cba6562066e5d8d7dc5c8983ab6fb1824b
 ---
 # B2B Analytics & Activation
 
