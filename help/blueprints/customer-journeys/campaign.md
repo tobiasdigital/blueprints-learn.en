@@ -1,10 +1,10 @@
 ---
 title: Adobe Campaign
 description: Traditional campaigning application(s)
-solution: Campaign v8, Campaign v7, Campaign Standard
+solution: Campaign v8, Campaign Classic v7, Campaign Standard
 kt: 
 thumbnail:
-exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
+exl-id:
 ---
 # Adobe Campaign Managed Cloud Services
 

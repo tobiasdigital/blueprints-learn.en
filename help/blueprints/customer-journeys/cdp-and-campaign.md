@@ -1,9 +1,9 @@
 ---
 title: Campaign with Experience Platform CDP Blueprint
 description: Showcases how the Adobe Experience Platform and its Real-Time Customer Profile and centralized segmentation tool can be utilized with Adobe Campaign to deliver personalized conversations.
-solution: Experience Platform, Campaign
-kt: 7196
-exl-id: 4e55218c-c158-4f78-9f0b-c03528d992fa
+solution: Experience Platform, Campaign v8, Campaign Classic v7, Campaign Standard
+kt: 
+exl-id: 
 ---
 # Campaign with Experience Platform CDP Blueprint
 

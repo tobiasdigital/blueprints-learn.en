@@ -1,10 +1,10 @@
 ---
 title: Customer Journeys 
 description: Deliver individual, just-in-time customer experiences across screens.
-solution: Experience Platform, Campaign, Journey Optimizer
+solution: Experience Platform, Campaign v8, Campaign Classic v7, Campaign Standard, Journey Optimizer
 kt: 
 thumbnail:
-exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
+exl-id: 
 ---
 # Customer Journeys 
 

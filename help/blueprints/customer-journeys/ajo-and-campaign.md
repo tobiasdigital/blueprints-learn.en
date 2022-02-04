@@ -1,9 +1,9 @@
 ---
 title: Journey Optimizer - 3rd Party Messaging Blueprint
 description: Demonstrates how Adobe Journey Optimizer can be used with Adobe Campaign to natively send messages by utilizing the real-time messaging server in Campaign
-solution: Experience Platform, Journey Optimizer, Campaign
-kt: 9647
-exl-id: 97831309-f235-4418-bd52-28af815e1878
+solution: Experience Platform, Journey Optimizer, Campaign v8, Campaign v7, Campaign Standard
+kt: 
+exl-id:
 ---
 # Journey Optimizer with Adobe Campaign
 
