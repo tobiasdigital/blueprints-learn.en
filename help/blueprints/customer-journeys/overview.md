@@ -4,7 +4,7 @@ description: Deliver individual, just-in-time customer experiences across screen
 solution: Experience Platform, Campaign v8, Campaign Classic v7, Campaign Standard, Journey Optimizer
 kt: 
 thumbnail:
-exl-id: 
+exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
 ---
 # Customer Journeys 
 

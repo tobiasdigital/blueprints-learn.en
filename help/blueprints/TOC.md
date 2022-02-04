@@ -34,7 +34,12 @@ role: Architect, Developer, User
 + Customer Journeys{#customer-journeys}
   + [Overview](/help/blueprints/customer-journeys/overview.md)
   + [Campaign Managed Cloud Services](/help/blueprints/customer-journeys/campaign.md)
+    + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
+    + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
+    + [Campaign with Journey Optimizer](/help/blueprints/customer-journeys/ajo-and-campaign.md)
+    + [Campaign with Experience Platform CDP](/help/blueprints/customer-journeys/cdp-and-campaign.md)    
   + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
+    + [3rd Party Messaging](/help/blueprints/customer-journeys/3rd-pary-messaging.md)
 + Data Collection & Preparation{#data-ingestion}
   + [Overview](/help/blueprints/data-ingestion/overview.md)
   + [Data Preparation & Ingestion](/help/blueprints/data-ingestion/ingestion.md)
