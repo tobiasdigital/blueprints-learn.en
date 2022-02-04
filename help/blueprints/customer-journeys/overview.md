@@ -14,7 +14,8 @@ Today there are two options for Adobe for customers to select from when wanting 
 
 <ul><li>Adobe Campaign Managed Cloud Services</li><li>Adobe Journey Optimizer</li></ul>
 
-| Blueprint | Description | Experience Cloud Applications |
+| Blueprint | Description | Architecture |
 |---|---|---|
-| **[Adobe Campaign Managed Cloud Services](campaign.md)** | Our traditional campaigning application hosted and managed by reducing the burden and complexity of running a system for IT while empowering marketers to build batch-based marketing campaigns across channels such as email, SMS and direct mail. Enables customers to combine their complex data management processes with rich marketing campaign communications | Adobe Campaign v8<br>Adobe Campaign v7<br>Adobe Campaign Standard |
-| **[Journey Optimizer](journey-optimizer.md)** | Natively built on top of the Experience Platforms Real-Time Customer Profile enabling marketing teams to react in real-time to changing customer behaviors and meet them where they are at in any channel at any time | Adobe Experience Platform<br>Adobe Journey Optimizer |
+| **[Journey Optimizer](journey-optimizer.md)** | Natively built on top of the Experience Platforms Real-Time Customer Profile enabling marketing teams to react in real-time to changing customer behaviors and meet them where they are at in any channel at any time | <img src="assets/ajo-architecture.svg" alt="Reference architecture for Journey Optimizer Blueprint" style="width:75%; border:1px solid #4a4a4a" /> |
+| **[Adobe Campaign v8](campaign-v8.md)** | Next generation campaigning tool that is optimized for highly complex data management and campaign processes. Enables customers to combine discover and create rich marketing campaign communications | <img src="assets/campaign-v8-architecture.svg" alt="Reference architecture for Campaign v8 Blueprint" style="width:75%; border:1px solid #4a4a4a" /> |
+| **[Adobe Campaign v7](campaign-v7.md)** | Traditional campaigning tool built for batch-based marketing campaigns across channels such as email, SMS and direct mail. Enables customers to orchestrate and manage the various customer communications in a single place | <img src="assets/campaign-v7-architecture.svg" alt="Reference architecture for Campaign v7 Blueprint" style="width:75%; border:1px solid #4a4a4a" /> |

@@ -25,7 +25,7 @@ Adobe Campaign v7 is a campaigning tool built for traditional marketing channels
 
 <br>
 
-## Blueprint Scenarios
+## Integration Patterns
 
 | Scenario | Description | Capabilities |
 | :-- | :--- | :--- |

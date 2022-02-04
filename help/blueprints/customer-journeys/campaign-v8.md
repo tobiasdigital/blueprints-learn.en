@@ -25,7 +25,7 @@ Adobe Campaign v8 is the next-gen campaigning tool built for traditional marketi
 
 <br>
 
-## Blueprint Scenarios
+## Integration Patterns
 
 | Scenario | Description | Capabilities |
 | :-- | :--- | :--- |
