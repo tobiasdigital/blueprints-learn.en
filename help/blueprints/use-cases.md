@@ -96,8 +96,7 @@ Which of these use cases are important to your business? Discover which Digital 
  <tr>
   <td>Scheduled email campaigns.</td>
   <td rowspan="2" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">Batch
-  Messaging &amp; Platform</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/campaign-managed-cloud-services.html?lang=en">Campaign Managed Cloud Services</a></td>
   <td rowspan="6" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Customer
   Journeys</td>
  </tr>

@@ -1,50 +1,54 @@
 ---
-title: Batch Messaging and Adobe Experience Platform Blueprint
-description: Execute scheduled and batch messaging campaigns using Adobe Experience Platform as a central hub for customer profiles and segmentation.
-solution: Experience Platform, Campaign
-kt: 7196
-exl-id: 4e55218c-c158-4f78-9f0b-c03528d992fa
+title: Campaign with Real-Time CDP Blueprint
+description: Showcases how the Adobe Experience Platform and its Real-Time Customer Profile and centralized segmentation tool can be utilized with Adobe Campaign to deliver personalized conversations.
+solution: Experience Platform, Campaign v8, Campaign Classic v7, Campaign Standard
+hidefromtoc: yes
 ---
-# Batch Messaging and Adobe Experience Platform Blueprint
+# Campaign with Real-Time CDP Blueprint
 
-Execute scheduled and batch messaging campaigns using Adobe Experience Platform as a central hub for customer profiles and segmentation.
+Showcases how the Adobe Experience Platform and its Real-Time Customer Profile and centralized segmentation tool can be utilized with Adobe Campaign to deliver personalized conversations.
 
-## Use Cases
-
-* Scheduled email campaigns
-* Onboarding and re-marketing campaigns
+<br>
 
 ## Applications
 
-* Adobe Experience Platform
-* Adobe Campaign Classic or Standard
+* Adobe Experience Platform Real-Time CDP
+* Adobe Campaign v7 or Campaign Standard
 
-## Integration Patterns
-
-* Adobe Experience Platform → Adobe Campaign Classic
-* Adobe Experience Platform → Adobe Campaign Standard
+<br>
 
 ## Architecture
 
-<img src="assets/aepbatch.svg" alt="Reference architecture for the Batch Messaging and Adobe Experience Platform Blueprint" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/rtcdp-campaign-architecture.svg" alt="Reference architecture for the Batch Messaging and Adobe Experience Platform Blueprint" style="width:100%; border:1px solid #4a4a4a" />
+
+<br> 
+
+## Prerequisites
+
+* Experience Platform and Campaign are recommended to be provisioned in the same IMS Org and be utilizing Adobe Admin Console for user access. This also ensures that customers can utilize the solution switcher from within the marketing UI
+
+<br>
 
 ## Guardrails
 
-* Supports Adobe Campaign single organizational unit deployments only
+### Adobe Campaign
+
+* Only supports Adobe Campaign single organizational unit deployments
 * Adobe Campaign is source of truth for all active profiles meaning profiles must exist in Adobe Campaign and new profiles should not be created based on Experience Platform segments.
-* Segment membership realization from Experience Platform is latent for both batch (1 per day) and streaming (~5 minutes)
+* Campaign export workflows to run at most every 4hrs
+* XDM schema and datasets for Adobe Campaign broadLog, trackingLogs and non-deliverable addresses are not out of the box and must be designed and built
 
-**[!UICONTROL Real-time Customer Data Platform] segment sharing to Adobe Campaign:**
+### Experience Platform CDP segment sharing
 
-* Recommendation of 20-segment limit
-* Activation is limited to every 24 hours
-* Only union schema attributes available for activation (no support for array/maps/experience events). 
-* Recommendation of no more than 20 attributes per segment
+* Recommendation of 20 segment limit
+* Activation is limited to every 24hrs
+* Only union schema attributes available for activation (no support for array/maps/experience events)
+* Recommendation on no more than 20 attributes per segment
 * One file per segment of all profiles with “realized” segment membership OR if segment membership is added as an attribute in the file both “realized” and “exited” profiles
-* Incremental or full segment exports are supported
+* Incremental and full segment exports are supported
 * File encryption is not supported
-* Adobe Campaign export workflows to run at most every 4 hrs
-* See [profile and data ingestion guardrails for Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
+
+<br>
 
 ## Implementation Steps
 
@@ -71,10 +75,6 @@ Execute scheduled and batch messaging campaigns using Adobe Experience Platform 
 1. [Ingest data into Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) using streaming APIs & source connectors.
 1. Configure [!DNL Azure] blob storage destination for use with Adobe Campaign.
 
-#### Mobile app deployment
-
-1. Implement Adobe Campaign SDK for Adobe Campaign Classic or Experience Platform SDK for Adobe Campaign Standard. If Experience Platform Launch is present, the recommendation is to use Adobe Campaign Classic or Adobe Campaign Standard extension with Experience Platform SDK.
-
 #### Adobe Campaign
 
 1. Configure schemas for profile, lookup data, and relevant delivery personalization data.
@@ -94,6 +94,22 @@ Execute scheduled and batch messaging campaigns using Adobe Experience Platform 
 1.  Send Adobe Campaign logs back to Experience Platform via workflows every four hours (broadLog, trackingLog, non-deliverable addresses).
 1.  Send profile preferences back to Experience Platform via consulting-built workflows every four hours (optional).
 
+
+### Mobile Push Configuration
+
+* Two supported approaches for integrating with mobile devices for push notifications:
+    * Experience Platform Mobile SDK
+    * Campaign Mobile SDK
+* Experience Platform Mobile SDK route:
+    * Leverage Adobe Tags and the Campaign Classic extension for setting up your integration with the Experience Platform Mobile SDK
+    * Need a working knowledge of Adobe Tags and data collection
+    * Need mobile development experience with push notifications in both Android and iOS to deploy the SDK, integrate with FCM (Android) and APNS (iOS) to get push token, configure your app to receive push notifications and handle push interactions
+* Campaign Mobile SDK
+    * Please follow the [Campaign SDK documentation](Campaign Mobile SDK
+Please follow the deployment documentation outlined here)
+
+    >[!IMPORTANT]
+    >If you deploy the Campaign SDK and are working with other Experience Cloud applications they will require the use of the Experience Platform Mobile SDK for data collection. This will create duplicate client side calls on the device.
 
 ## Related Documentation
 

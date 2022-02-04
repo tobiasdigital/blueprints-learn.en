@@ -1,65 +1,92 @@
 ---
 title: Journey Optimizer - Triggered Messaging and Adobe Experience Platform Blueprint
 description: Execute triggered messages and experiences using Adobe Experience Platform as a central hub of streaming data, customer profiles, and segmentation.
-solution: Experience Platform, Campaign, Journey Orchestration
-kt: 7197
+solution: Experience Platform, Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 ---
 # Journey Optimizer
 
 Adobe Journey Optimizer is a purpose built system for marketing teams to react in real-time to customer behaviors and meet them where they are at. Data management capabilities have been moved to the Adobe Experience Platform allowing marketing teams to focus on what they do best: which is creating world class customer journey's and personalized conversations.  This blueprint outlines the technical capabilities of the application and provides a deep dive into the various architectural components that make up Adobe Journey Optimizer. 
 
+<br>
+
 ## Use Cases
 
 * Triggered messages
-* Registration confirmations
+* Welcome and registration confirmations
 * Shopping cart and application form abandons
 * Location triggered messages
+* In-stadium experiences
+* Travel and hospitality pre-arrival and stay experiences
+
+<br>
 
 ## Architecture
 
-<img src="assets/journey-optimizer.png" alt="Reference architecture for the Triggered Messaging and Adobe Experience Platform blueprint" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/ajo-architecture.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:100%; border:1px solid #4a4a4a" />
 
-## Integration Patterns
+<br>
 
-* Adobe Experience Platform -> Journey Optimizer
+## Blueprint Scenarios
+
+| Scenario | Description | Capabilities |
+| :-- | :--- | :--- |
+| [3rd Party Messaging](3rd-party-messaging.md) | Demonstrates how Adobe Journey Optimizer can be utilized with 3rd party messaging systems to orchestrate and send personalized communications | Deliver 1:1 in the moment personalized communications to customers as they interact with your brand or company<br><br>Considerations:<br><ul><li>3rd party system has to support bearer tokens for authentication</li><li>No support for static IPs due to multi-tenant architecture</li><li>Be aware of architectural constraints on 3rd party system when it comes to API calls per second.  May be a need for the customer to buy additional volume from the 3rd party vendor to support volume coming from Journey Optimizer</li><li>Does not support Offer Decisioning in messages or payloads</li></ul> |
+| [Journey Optimizer with Adobe Campaign](ajo-and-campaign.md) | Shows how you can use Adobe Journey Optimizer to orchestrate 1:1 experiences utilizing the Real-Time Customer Profile and leverage the native Adobe Campaign transactional messaging system to send the message | Leverage the Real-Time Customer Profile and power of Journey Optimizer to orchestrate in the moment experiences while utilizing the native real-time messaging capabilities of Adobe Campaign to do the last mile communication<br><br>Considerations:<br><ul><li>Campaign application must be on either v7 build >21.1 or v8</li><li>Messaging throughput</li><ul><li>Campaign v7 - up to 50k per hour</li><li>Campaign v8 - up to 1M per hour</li><li>Campaign Standard - up to 50k per hour</li></ul><li>No throttling is performed so use cases need technical vetting by an Enterprise Architect</li><li>No support for utilizing Offer Decisioning in message sent by Campaign</li></ul> |
+
+<br>
 
 ## Prerequisites
 
-1. Customer must be provisioned for Experience Cloud with a valid IMS Org
-1. Mobile Push
+Adobe Experience Platform
+
+* Schemas and datasets must be configured in the system before you can configure Journey Optimizer data sources
+* For Experience Event class-based schemas add 'Orchestration eventID field group when you want to have an event triggered that is not a rule-based event
+* For Individual Profile class-based schemas add the 'Profile test details' field group to be able to load test profiles for use with Journey Optimizer
+
+Email
+
+* Must have a subdomain ready to be used for message sending
+* Subdomain can either be fully delegated to Adobe (recommended) or CNAMEs can be used to point to Adobe-specific DNS servers (custom)
+* Google TXT record is needed for each subdomain to ensure good deliverability
+
+Mobile Push
 
 * Customer must have a mobile developer available to build the app 
 * Adobe Experience Platform Mobile SDK
-* Data Collection
-   * Mobile tags property
-      * Extensions: 
-        * Adobe Journey Optimizer Extension
-        * Adobe Experience Platform Edge Network
-        * Identity
-        * Mobile Core
-        * Profile
-    * App Configurations
-    * Datastreams
-        * Enabled for Experience Platform
-        * Event Dataset - used for collecting general mobile behavior
-        * Profile Dataset - AJO Push Profile Dataset (cannot be different)
+
+<br>
 
 ## Guardrails
 
-* See link for more details on guardrails for Journey Optimizer [LINK](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en)
+[Journey Optimizer Guardrails Product Link](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en)
+
+Please be aware of these not listed in the link above:
+
 * Batch segments – need to ensure you understand the daily volume of qualified users and ensure the destination system can handle the burst throughput per journey and across all journeys
 * Streaming segments – need to ensure the initial burst of profile qualifications can be handled along with the daily streaming qualifying volume per journey and across all journeys
-* Profile update activity - the Real-Time Customer Profile can be updated natively from within a journey.  There is a delay of up to 1min on processing the update into the profile store
-* Business events - a read segment based journey can be triggered to start based on an external call into the JO system
-* Natively supports Offer Decisioning in messages only. Future support via native action
-* Channels Supported:
+* Natively supports Offer Decisioning in messages only (no custom actions)
+* Message types supported:
   * Email
   * Push (FCM / APNS)
-  * Rest API Endpoints
-* Processes 5k events per second with horizontal scaling (wallet is limitation)
-* A/B testing is done by using two deliveries and determining results using QS or CJA
-* Litmus Integration – must have an account with Litmus to leverage integration
+  * Custom Actions (via Rest API)
+* Outbound integrations to 3rd Party systems
+  * No support for a single Static IPs as our infrastructure is multi-tenant (must allow list all datacenter IPs)
+  * Only POST and PUT methods are supported for custom actions
+  * Authentication via user/pass or authorization token
+* No ability to package and move individual components of Adobe Experience Platform or Journey Optimizer between various sandboxes. Must re-implement in new environments
+
+### Data Ingestion Guardrails
+
+<img src="assets/aep-data-ingestion-details-latency.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:80%; border:1px solid #4a4a4a" />
+
+<br>
+
+### Activation Guardrails
+
+<img src="assets/ajo-activation-details-latency.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:80%; border:1px solid #4a4a4a" />
+
+<br>
 
 ## Implementation Steps
 
@@ -68,7 +95,6 @@ Adobe Journey Optimizer is a purpose built system for marketing teams to react i
 #### Schema/Datasets
 
 1. [Configure individual profile, experience event, and multi-entity schemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) in Experience Platform, based on customer-supplied data.
-1. Create Adobe Campaign schemas for broadLog, trackingLog, non-deliverable addresses, and profile preferences (optional).
 1. [Create datasets](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) in Experience Platform for data to be ingested.
 1. [Add data usage labels](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) in Experience Platform to the dataset for governance.
 1. [Create policies](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html) that enforce governance on destinations.
@@ -79,26 +105,34 @@ Adobe Journey Optimizer is a purpose built system for marketing teams to react i
 1. [Add identities to schemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
 1. [Enable the schemas and datasets for Profile](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
 1. [Set up merge policies](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) for differing views of [!UICONTROL Real-time Customer Profile] (optional).
-1. Create segments for campaign usage.
+1. Create segments for Journey usage.
 
 #### Sources/Destinations
 
-1. [Ingest data into Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) using streaming APIs & source connectors.1. Configure [!DNL Azure] blob storage destination for use with Adobe Campaign.
+1. [Ingest data into Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) using streaming APIs & source connectors.
 
-#### Mobile app deployment
+### Journey Optimizer
 
-1. Implement Adobe Campaign SDK for Adobe Campaign Classic or Experience Platform SDK for Adobe Campaign Standard. If Experience Platform Launch is present, the recommendation is to use Adobe Campaign Classic or Adobe Campaign Standard extension with Experience Platform SDK.
-
-
-### Journey Orchestration
-
-1. Streaming data used to initiate a customer journey must be configured within Journey Optimizer first to get an orchestration ID. This orchestration ID is then supplied to the developer to use with ingestion.
+1. Configure your Experience Platform data source and determine what fields should be cached as part of the profileStreaming data used to initiate a customer journey must be configured within Journey Optimizer first to get an orchestration ID. This orchestration ID is then supplied to the developer to use with ingestion
 1. Configure external data sources.
 1. Configure custom actions.
 
+### Mobile Push Configuration
+
+1. Implement Experience Platform Mobile SDK to collect push tokens and login information to tie back to known customer profiles
+1. Leverage Adobe Tags and create a mobile property with the following extension:
+1. Adobe Journey Optimizer
+1. Adobe Experience Platform Edge Network
+1. Identity for Edge Network
+1. Mobile Core
+1. Ensure you have a dedicated datastream for mobile app deployments vs. web deployments
+1. For more information follow the [Adobe Journey Optimizer Mobile Guide](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
+
+
 ## Related Documentation
 
-* [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
-* [Journey Optimizer documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=en)
-* [Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch.html?lang=en)
+* [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
+* [Experience Platform Tags documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 * [Experience Platform Mobile SDK documentation](https://experienceleague.adobe.com/docs/mobile.html?lang=en)
+* [Journey Optimizer documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=en)
+* [Journey Optimizer Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
