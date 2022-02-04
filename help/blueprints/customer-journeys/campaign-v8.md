@@ -60,6 +60,7 @@ Adobe Campaign v8 is the next-gen campaigning tool built for traditional marketi
 * Adobe is only providing a SDK to collect the necessary information from FCM (Android) and APNS (iOS) to send message payloads to their servers. How the mobile app needs to be coded, deployed, managed and debugged is the responsibility of the customer
 
 ### Webapps (optional)
+
 * Can delegate an additional subdomain for Campaign hosted unsubscribe and landing pages
 * SSL certificate is highly encouraged
 

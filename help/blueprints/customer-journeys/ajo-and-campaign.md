@@ -40,7 +40,8 @@ Demonstrates how Adobe Journey Optimizer can be used with Adobe Campaign to nati
 
 [Journey Optimizer Guardrails Product Link](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en)
 
-### Additional Journey Optimizer Guardrails: 
+### Additional Journey Optimizer Guardrails
+
 * Capping is available via API today to ensure that the destination system is not saturated to the point of failure. This means that messages that exceed the cap will be dropped completely and never sent. Throttling is not supported.
   * Max connections - maximum number of http/s connections a destination can handle
   * Max call count - maximum number of calls to be made in the periodInMs paramater
@@ -61,6 +62,7 @@ Demonstrates how Adobe Journey Optimizer can be used with Adobe Campaign to nati
 <br>
 
 ### Campaign (v7/v8)
+
 * Execution instance of Message Center must be hosted by Adobe Managed Cloud Services
 * Needs to be on either v7 build >21.1 or v8
 * Messaging throughput
@@ -76,6 +78,7 @@ Demonstrates how Adobe Journey Optimizer can be used with Adobe Campaign to nati
 <br>
 
 ### Campaign Standard
+
 * Supports 14 tps (50k per hour) in throughput
 * Only supports event initiated journeys
   * No segment or segment membership initiated Journey's
@@ -116,6 +119,7 @@ Demonstrates how Adobe Journey Optimizer can be used with Adobe Campaign to nati
 1. Configure custom actions for Campaign instance
 
 ### Campaign v7/v8 or Campaign Standard
+
 * Messaging templates need to be configured with appropriate personalization context
 * Export workflows need to configured to export the transactional messaging logs back to the Experience Platform. Recommendation is to run at most every 4hrs
 

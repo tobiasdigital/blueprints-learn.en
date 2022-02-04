@@ -63,6 +63,7 @@ Mobile Push
 [Journey Optimizer Guardrails Product Link](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en)
 
 Please be aware of these not listed in the link above:
+
 * Batch segments – need to ensure you understand the daily volume of qualified users and ensure the destination system can handle the burst throughput per journey and across all journeys
 * Streaming segments – need to ensure the initial burst of profile qualifications can be handled along with the daily streaming qualifying volume per journey and across all journeys
 * Natively supports Offer Decisioning in messages only (no custom actions)
@@ -113,7 +114,7 @@ Please be aware of these not listed in the link above:
 
 ### Journey Optimizer
 
-1. Configure your Experience Platform datasource and determine what fields should be cached as part of the profileStreaming data used to initiate a customer journey must be configured within Journey Optimizer first to get an orchestration ID. This orchestration ID is then supplied to the developer to use with ingestion
+1. Configure your Experience Platform data source and determine what fields should be cached as part of the profileStreaming data used to initiate a customer journey must be configured within Journey Optimizer first to get an orchestration ID. This orchestration ID is then supplied to the developer to use with ingestion
 1. Configure external data sources.
 1. Configure custom actions.
 
@@ -121,10 +122,10 @@ Please be aware of these not listed in the link above:
 
 1. Implement Experience Platform Mobile SDK to collect push tokens and login information to tie back to known customer profiles
 1. Leverage Adobe Tags and create a mobile property with the following extension:
-  1. Adobe Journey Optimizer
-  1. Adobe Experience Platform Edge Network
-  1. Identity for Edge Network
-  1. Mobile Core
+1. Adobe Journey Optimizer
+1. Adobe Experience Platform Edge Network
+1. Identity for Edge Network
+1. Mobile Core
 1. Ensure you have a dedicated datastream for mobile app deployments vs. web deployments
 1. For more information follow the [Adobe Journey Optimizer Mobile Guide](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
 
