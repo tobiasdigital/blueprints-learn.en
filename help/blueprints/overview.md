@@ -22,8 +22,8 @@ Digital Experience Blueprints are repeatable implementations that let you addres
 <tr>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><img alt="thumbnail image for the Triggered Messaging and Experience Platform Blueprint" src="customer-journeys/assets/journey-optimizer.png" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><strong>Triggered Messaging and Experience Platform</strong></a></div>
-    <p><em>Trigger messages and experiences using [!UICONTROL Platform] as a central hub.</em></p>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><strong>Cross-Channel Customer Journey's</strong></a></div>
+    <p><em>Send messages and influence customer experiences in real-time using [!UICONTROL Platform] as a central hub.</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="thumbnail image for the Online/Offline Audience Activation Blueprint" src="audience-activation/assets/online_offline_activation.svg" /></a>

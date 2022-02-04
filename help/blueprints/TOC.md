@@ -33,7 +33,7 @@ role: Architect, Developer, User
   + [Overview](/help/blueprints/customer-journey-analytics/overview.md)
 + Customer Journeys{#customer-journeys}
   + [Overview](/help/blueprints/customer-journeys/overview.md)
-  + [Batch Messaging & Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
+  + [Campaign Managed Cloud Services](/help/blueprints/customer-journeys/campaign.md)
   + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
 + Data Collection & Preparation{#data-ingestion}
   + [Overview](/help/blueprints/data-ingestion/overview.md)
