@@ -21,7 +21,7 @@ Adobe Campaign v7 is a campaigning tool built for traditional marketing channels
 
 ## Architecture
 
-<img src="assets/campaign-v7-architecture.png" alt="Reference architecture for Campaign v7 Blueprint" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/campaign-v7-architecture.svg" alt="Reference architecture for Campaign v7 Blueprint" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -30,7 +30,7 @@ Adobe Campaign v7 is a campaigning tool built for traditional marketing channels
 | Scenario | Description | Capabilities |
 | :-- | :--- | :--- |
 | [Journey Optimizer with Adobe Campaign](ajo-and-campaign.md) | Shows how you can use Adobe Journey Optimizer to orchestrate 1:1 experiences utilizing the Real-Time Customer Profile and leverage the native Adobe Campaign transactional messaging system to send the message | Leverage the Real-Time Customer Profile and power of Journey Optimizer to orchestrate in the moment experiences while utilizing the native real-time messaging capabilities of Adobe Campaign to do the last mile communication<br><br>Considerations:<br><ul><li>Can send up to 50k messages per hour via the Real-Time Message server<li>No throttling is performed from Journey Optimizer so ensure technical vetting by a Pre-Sales Enterprise Architect</li><li>Offer Decisioning is not supported in payloads to the Campaign v7 real-time messaging server</li></ul> |
-| [Experience Platform CDP with Adobe Campaign v7](cdp-and-campaign.md) | Showcases how the Adobe Experience Platform and its Real-Time Customer Profile and centralized segmentation tool can be utilized with Adobe Campaign to deliver personalized conversations | <ul><li>Sharing of audiences from the Experience Platform natively with Adobe Campaign v8 via a productized destination</li><li>Native support for ingesting the delivery and interaction data from customer conversations back into the Experience Platform to enhance both the Real-Time Customer Profile and provide cross-channel reporting on messaging campaigns</li></ul> |
+| [Real-Time CDP with Adobe Campaign](rtcdp-and-campaign.md) | Showcases how the Adobe Experience Platform's Real-Time CDP and its centralized segmentation tool can be utilized with Adobe Campaign to deliver personalized conversations | <ul><li>Sharing of audiences from the Experience Platform natively with Adobe Campaign v8 via a productized destination</li><li>Native support for ingesting the delivery and interaction data from customer conversations back into the Experience Platform to enhance both the Real-Time Customer Profile and provide cross-channel reporting on messaging campaigns</li></ul> |
 
 <br>
 

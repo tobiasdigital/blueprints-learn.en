@@ -13,7 +13,7 @@ Demonstrates how Adobe Journey Optimizer can be utilized with 3rd party messagin
 
 ## Architecture
 
-<img src="assets/3rd-party-messaging-architecture.png" alt="Reference architecture Journey Optimizer blueprint" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/3rd-party-messaging-architecture.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -26,6 +26,7 @@ Adobe Experience Platform
 * For Individual Profile class-based schemas add the 'Profile test details' field group to be able to load test profiles for use with Journey Optimizer
 
 3rd Party Messaging Application
+
 * Must support REST API calls for sending transactional payloads
 
 <br>
@@ -35,6 +36,7 @@ Adobe Experience Platform
 [Journey Optimizer Guardrails Product Link](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en)
 
 Additional Journey Optimizer Guardrails: 
+
 * Capping is available via API today to ensure that the destination system is not saturated to the point of failure. This means that messages that exceed the cap will be dropped completely and never sent. Throttling is not supported.
   * Max connections - maximum number of http/s connections a destination can handle
   * Max call count - maximum number of calls to be made in the periodInMs paramater
@@ -54,6 +56,7 @@ Additional Journey Optimizer Guardrails:
 <br>
 
 3rd Party Messaging System
+
 * Need to understand what load the system can support for transactional API calls
   * Number of calls allowed per second
   * Number of connections

@@ -1,10 +1,10 @@
 ---
-title: Campaign with Experience Platform CDP Blueprint
+title: Campaign with Real-Time CDP Blueprint
 description: Showcases how the Adobe Experience Platform and its Real-Time Customer Profile and centralized segmentation tool can be utilized with Adobe Campaign to deliver personalized conversations.
 solution: Experience Platform, Campaign v8, Campaign Classic v7, Campaign Standard
 hidefromtoc: yes
 ---
-# Campaign with Experience Platform CDP Blueprint
+# Campaign with Real-Time CDP Blueprint
 
 Showcases how the Adobe Experience Platform and its Real-Time Customer Profile and centralized segmentation tool can be utilized with Adobe Campaign to deliver personalized conversations.
 
@@ -12,20 +12,20 @@ Showcases how the Adobe Experience Platform and its Real-Time Customer Profile a
 
 ## Applications
 
-* Adobe Experience Platform
+* Adobe Experience Platform Real-Time CDP
 * Adobe Campaign v7 or Campaign Standard
 
 <br>
 
 ## Architecture
 
-<img src="assets/cdp-campaign-architecture.png" alt="Reference architecture for the Batch Messaging and Adobe Experience Platform Blueprint" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/rtcdp-campaign-architecture.svg" alt="Reference architecture for the Batch Messaging and Adobe Experience Platform Blueprint" style="width:100%; border:1px solid #4a4a4a" />
 
 <br> 
 
 ## Prerequisites
 
-* AEP and Campaign are recommended to be provisioned in the same IMS Org and be utilizing Adobe Admin Console for user access. This also ensures that customers can utilize the solution switcher from within the marketing UI
+* Experience Platform and Campaign are recommended to be provisioned in the same IMS Org and be utilizing Adobe Admin Console for user access. This also ensures that customers can utilize the solution switcher from within the marketing UI
 
 <br>
 

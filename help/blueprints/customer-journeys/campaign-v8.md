@@ -21,7 +21,7 @@ Adobe Campaign v8 is the next-gen campaigning tool built for traditional marketi
 
 ## Architecture
 
-<img src="assets/campaign-v8-architecture.png" alt="Reference architecture for Campaign v8 Blueprint" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/campaign-v8-architecture.svg" alt="Reference architecture for Campaign v8 Blueprint" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
