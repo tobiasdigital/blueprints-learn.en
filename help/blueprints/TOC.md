@@ -33,13 +33,15 @@ role: Architect, Developer, User
   + [Overview](/help/blueprints/customer-journey-analytics/overview.md)
 + Customer Journeys{#customer-journeys}
   + [Overview](/help/blueprints/customer-journeys/overview.md)
-  + [Campaign Managed Cloud Services](/help/blueprints/customer-journeys/campaign.md)
-  + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
-  + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-  + [Campaign with Real-Time CDP](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)   
-  + [Campaign with Journey Optimizer](/help/blueprints/customer-journeys/ajo-and-campaign.md) 
-  + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-  + [3rd Party Messaging](/help/blueprints/customer-journeys/3rd-party-messaging.md)
+  + Journey Optimizer{#journey-optimizer}
+    + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)  
+    + [Journey Optimizer with Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
+    + [3rd Party Messaging](/help/blueprints/customer-journeys/3rd-party-messaging.md) 
+  + Campaign v8{#campaign-v8}
+    + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
+  + Campaign v7{#campaign-v7}
+    + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
+    + [Real-Time CDP with Adobe Campaign](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)   
 + Data Collection & Preparation{#data-ingestion}
   + [Overview](/help/blueprints/data-ingestion/overview.md)
   + [Data Preparation & Ingestion](/help/blueprints/data-ingestion/ingestion.md)
