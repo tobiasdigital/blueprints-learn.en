@@ -38,7 +38,7 @@ role: Architect, Developer, User
     + [3rd Party Messaging](/help/blueprints/customer-journeys/3rd-party-messaging.md) 
   + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
   + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-    + [Campaign with Real-Time CDP](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)   
+    + [Real-Time CDP with Adobe Campaign](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)   
 + Data Collection & Preparation{#data-ingestion}
   + [Overview](/help/blueprints/data-ingestion/overview.md)
   + [Data Preparation & Ingestion](/help/blueprints/data-ingestion/ingestion.md)
