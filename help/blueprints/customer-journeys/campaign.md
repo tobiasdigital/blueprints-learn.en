@@ -2,9 +2,9 @@
 title: Adobe Campaign Managed Cloud Services
 description: Traditional campaigning application(s)
 solution: Campaign v8, Campaign Classic v7, Campaign Standard
-kt: 
-thumbnail:
-
+kt: null
+thumbnail: null
+exl-id: b797b7f6-71f6-486e-a9aa-713bb761704c
 ---
 # Adobe Campaign Managed Cloud Services
 
