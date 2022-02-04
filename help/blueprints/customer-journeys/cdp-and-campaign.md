@@ -33,6 +33,7 @@ Showcases how the Adobe Experience Platform and its Real-Time Customer Profile a
 ## Guardrails
 
 ### Adobe Campaign
+
 * Only supports Adobe Campaign single organizational unit deployments
 * Adobe Campaign is source of truth for all active profiles meaning profiles must exist in Adobe Campaign and new profiles should not be created based on Experience Platform segments.
 * Campaign export workflows to run at most every 4hrs
