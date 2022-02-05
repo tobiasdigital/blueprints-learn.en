@@ -30,7 +30,7 @@ Adobe Campaign v7 is a campaigning tool built for traditional marketing channels
 | Scenario | Description | Capabilities |
 | :-- | :--- | :--- |
 | [Journey Optimizer with Adobe Campaign](ajo-and-campaign.md) | Shows how you can use Adobe Journey Optimizer to orchestrate 1:1 experiences utilizing the Real-Time Customer Profile and leverage the native Adobe Campaign transactional messaging system to send the message | Leverage the Real-Time Customer Profile and power of Journey Optimizer to orchestrate in the moment experiences while utilizing the native real-time messaging capabilities of Adobe Campaign to do the last mile communication<br><br>Considerations:<br><ul><li>Can send up to 50k messages per hour via the Real-Time Message server<li>No throttling is performed from Journey Optimizer so ensure technical vetting by a Pre-Sales Enterprise Architect</li><li>Offer Decisioning is not supported in payloads to the Campaign v7 real-time messaging server</li></ul> |
-| [Real-Time CDP with Adobe Campaign](rtcdp-and-campaign.md) | Showcases how the Adobe Experience Platform's Real-Time CDP and its centralized segmentation tool can be utilized with Adobe Campaign to deliver personalized conversations | <ul><li>Sharing of audiences from the Experience Platform natively with Adobe Campaign v8 via a productized destination</li><li>Native support for ingesting the delivery and interaction data from customer conversations back into the Experience Platform to enhance both the Real-Time Customer Profile and provide cross-channel reporting on messaging campaigns</li></ul> |
+| [Real-Time CDP with Adobe Campaign](rtcdp-and-campaign.md) | Showcases how the Adobe Experience Platform's Real-Time CDP and its centralized segmentation tool can be utilized with Adobe Campaign to deliver personalized conversations | <ul><li>Sharing of audiences from the Real-Time CDP to Adobe Campaign via use of cloud storage file exchange and Adobe Campaign ingestion workflows </li><li>Easily share delivery and interaction data from customer conversations back into the Real-time CDP from Adobe Campaign to enhance both the Real-Time Customer Profile and provide cross-channel reporting on messaging campaigns</li></ul> |
 
 <br>
 
@@ -83,9 +83,7 @@ Adobe Campaign v7 is a campaigning tool built for traditional marketing channels
 ### Real-Time Messaging Server sizing
 
 * Can send up to 50k messages per hour 
-* By default only one (1) real-time messaging server is provisioned. This is to ensure that any communication with the server is done via a session token which expires in 24hrs
-* Optionally you can deploy up to eight (8) real-time messaging servers but authentication then only supports user/pass  
-* Recommended approach is always to utilize one real-time messaging server to take advantage of session token based auth where possible
+* By default two real-time messaging servers are provisioned. Ability to scale up to eight real-time messaging servers.
 
 ### SMS Configuration
 
