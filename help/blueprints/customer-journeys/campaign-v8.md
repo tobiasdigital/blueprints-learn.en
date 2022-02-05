@@ -2,6 +2,7 @@
 title: Campaign v8 Blueprint
 description: Adobe Campaign v8 is the next-gen campaigning tool built for traditional marketing channels such as email and direct mail. It provides robust ETL and data management capabilities to help craft and curate the perfect campaign. Its orchestration engine provides for rich multi-touch marketing programs with a core focus on batch-based driven journeys.  It also comes paired with a scalable real-time messaging server that enables marketing teams to send pre-defined messages based on a all-inclusive payload from any IT system for things such as password reset, order confirmation, e-receipt's and much more.
 solution: Campaign v8
+exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
 ---
 # Campaign v8 Blueprint
 
