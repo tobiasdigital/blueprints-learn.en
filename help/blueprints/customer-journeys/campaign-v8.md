@@ -84,9 +84,7 @@ Adobe Campaign v8 is the next-gen campaigning tool built for traditional marketi
 ### Real-Time Messaging Server sizing
 
 * Can send up to 1M messages per hour 
-* By default only one (1) real-time messaging server is provisioned. This is to ensure that any communication with the server is done via a session token which expires in 24hrs
-* Optionally you can deploy up to eight (8) real-time messaging servers but authentication then only supports user/pass  
-* Recommended approach is always to utilize one real-time messaging server to take advantage of session token based auth where possible
+* By default two real-time messaging servers are provisioned. Ability to scale up to eight real-time messaging servers.
 
 ### SMS Configuration
 
