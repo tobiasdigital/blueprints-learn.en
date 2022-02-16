@@ -21,7 +21,7 @@ Synchronize web personalization with email and other known and anonymous channel
 
 * [!UICONTROL Real-time Customer Data Platform]
 * Adobe Target
-* Adobe Audience Manager (optional): Adds third-party audience data, co-op based device graph, the ability to surface Platform segments in Adobe Analytics, and the ability to surface Adobe Analytics segments in Platform
+* Adobe Audience Manager (optional): Adds third-party audience data, co-op based device graph, the ability to surface Real-time Customer Data Platform audiences in Adobe Analytics, and the ability to surface Adobe Analytics audiences in Real-time Customer Data Platform
 * Adobe Analytics (optional): Adds the ability to build segments based on historical behavioral data and fine grained segmentation from Adobe Analytics data
 
 ## Integraion Patterns
@@ -44,21 +44,21 @@ Synchronize web personalization with email and other known and anonymous channel
 <tbody>
   <tr>
     <td class="tg-0lax">1</td>
-    <td class="tg-73oq"><span style="font-weight:400;font-style:normal">RTCDP streaming and batch audience sharing to Target and Audience Manager via the Audience Sharing Service Approach</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- Share streaming and batch audiences from RTCDP to Target and Audience Manager via the Audience Sharing service. Audiences evaluated in real-time require the WebSDK and real-time audience evaluation outlined in integration pattern 3.</span></td>
-    <td class="tg-73oq">- Audience projection via audience sharing service must be provisioned.<br>- Integration with Target requires the same IMS Org as the Experience Platform instance.<br>- Identity must be resolved to ECID to share to the edge for Target to action upon.<br>- WebSDK deployment is not required for this integration.</td>
+<td class="tg-73oq">Real-time Customer Data Platform real-time segment evaluation on the Edge shared to Target</td>
+    <td class="tg-0lax">- Evaluate audiences in real-time for same or next page personalization on the Edge.</td>
+    <td class="tg-73oq">- Target destination must be configured in Real-time Customer Data Platform Destinations.<br>- Integration with Target requires the same IMS Org as the Experience Platform instance.<br>- WebSDK must be implemented.<br>- Mobile SDK and API based implementation is not currently available</td> 
   </tr>
   <tr>
     <td class="tg-0lax">2</td>
-    <td class="tg-73oq">RTCDP streaming and batch audience sharing to Target via the Edge approach</td>
-    <td class="tg-0lax">- Share streaming and batch audiences from RTCDP to Target via the Edge Network. Audiences evaluated in real-time require the WebSDK and real-time audience evaluation outlined in integration pattern 3.</td>
-    <td class="tg-73oq">- Target destination must be configured in RTCDP Destinations.<br>- Integration with Target requires the same IMS Org as the Experience Platform instance.<br>WebSDK is not required. <br>- If using AT.js only profile lookup against the ECID is supported. <br>- For custom id namespace lookups on the Edge, the WebSDK deployment is required and each identity must be set as an identity in the identity map.</td>
+    <td class="tg-73oq">Real-time Customer Data Platform streaming and batch audience sharing to Target via the Edge approach</td>
+    <td class="tg-0lax">- Share streaming and batch audiences from Real-time Customer Data Platform to Target through the Edge Network. Audiences evaluated in real-time require the WebSDK and real-time audience evaluation outlined in integration pattern 1.</td>
+    <td class="tg-73oq">- Target destination must be configured in Real-time Customer Data Platform Destinations.<br>- Integration with Target requires the same IMS Org as the Experience Platform instance.<br>WebSDK is not required. <br>- If using AT.js only profile lookup against the ECID is supported. <br>- For custom identity namespace lookups on the Edge, the WebSDK deployment is required and each identity must be set as an identity in the identity map.</td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
-    <td class="tg-73oq">RTCDP real-time segment evaluation on the Edge shared to Target via the Edge  using the WebSDK.</td>
-    <td class="tg-0lax">- Evaluate audiences in real-time for same or next page personalization on the Edge.</td>
-    <td class="tg-73oq">- Target destination must be configured in RTCDP Destinations.<br>- Integration with Target requires the same IMS Org as the Experience Platform instance.<br>- WebSDK must be implemented.<br>- Mobile SDK and API based implementation is not yet available</td>
+    <td class="tg-73oq"><span style="font-weight:400;font-style:normal">Real-time Customer Data Platform streaming and batch audience sharing to Target and Audience Manager via the Audience Sharing Service Approach</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- Share streaming and batch audiences from Real-time Customer Data Platform to Target and Audience Manager via the Audience Sharing service. Audiences evaluated in real-time require the WebSDK and real-time audience evaluation outlined in integration pattern 1.</span></td>
+    <td class="tg-73oq">- Audience projection via audience sharing service must be provisioned.<br>- Integration with Target requires the same IMS Org as the Experience Platform instance.<br>- Identity must be resolved to ECID to share to the edge for Target to action upon.<br>- WebSDK deployment is not required for this integration.</td>
   </tr>
 </tbody>
 </table>
@@ -91,37 +91,26 @@ Detailed Architecture
 
 The Web/Mobile personalization blueprint can be implemented via the following approaches as outlined below.
 
-1. Using the [!UICONTROL Platform Web SDK] or [!UICONTROL Platform Mobile SDK] and [!UICONTROL Edge Network].
-1. Using traditional application-specific SDKs (for example, AppMeasurement.js)
-
-### 1. Platform Web/Mobile SDK and Edge Approach
-
-[Refer to the Experience Platform Web and Mobile SDK Blueprint](../data-ingestion/websdk.md) 
-
-### 2. Application-specific SDK Approach
-
+1. Using the [!UICONTROL Platform Web SDK] or [!UICONTROL Platform Mobile SDK] and [!UICONTROL Edge Network]. [Refer to the Experience Platform Web and Mobile SDK Blueprint](../data-ingestion/websdk.md)
+1. Using traditional application-specific SDKs (for example, AppMeasurement.js) 
 <img src="assets/app_sdk_flow.png" alt="Reference architecture for the Application-specific SDK Approach" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Implementation Considerations
 
 Identity pre-requisites
 
-* Sharing audiences from Adobe Experience Platform to Adobe Target requires the use of ECID as a identity.
+* Any primary identity can be leveraged when utilizing integration pattern 1 outlined above with the Edge network and WebSDK. First login personalization requires the personalization request set primary identity match the primary identity of the profile from Real-time Customer Data Platform. Identity stitching between anonymous devices and known customers is processed on the hub and subsequently projected to the edge. Hence if the primary identity is set as the device identifier, known customer data will not apply until subsequent sessions where the anonymous and known profiles have been unified.
+* Sharing audiences from Adobe Experience Platform to Adobe Target requires the use of ECID as a identity when using the audience sharing service as outlined in integration pattern 3 above.
 * Alternate identities can be used to share Experience Platform audiences to Adobe Target via Audience Manager as well. Experience Platform activates audiences to Audience Manager via the following supported namespaces: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Note that Audience Manager and Target resolve audience memberships via the ECID identity, so ECID is still required for the final audience sharing to Adobe Target. 
 
 ## Implementation Steps
-
 
 1. [Implement Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) for your web or mobile applications
 1. [Implement Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html) (optional)
 1. [Implement Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)  (optional)
 1. [Implement Experience Platform and [!UICONTROL Real-time Customer Profile]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html)
-1. Implement [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html) or [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) Experience Platform Web SDK is required for real-time Edge segmentation, but not required for sharing of streaming and batch audiences from RTCDP to Target. Note that support for real-time segmentation via the Mobile SDK is still in development.
+1. Implement [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html) or [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) Experience Platform Web SDK is required for real-time Edge segmentation, but not required for sharing of streaming and batch audiences from Real-time Customer Data Platform to Target. Note that support for real-time segmentation via the Mobile SDK and API is not currently available.
 1. [Enable Adobe Target as a destination within Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en) or for the audience sharing approach [Request provisioning for Audience Sharing between Experience Platform and Adobe Target (Shared Audiences)](https://www.adobe.com/go/audiences) to share audiences from Experience Platform to Target.
-    >[!NOTE]
-    >
-    >When using the Audience Sharing service between RTCDP and Adobe Target, audiences must be shared using the Experience Cloud ID and be part of the same Experience Cloud Org. Support for identities other than ECID requires the use of the WebSDK and Experience Edge Network.
-
 
 ## Related Documentation
 
