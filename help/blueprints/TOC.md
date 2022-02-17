@@ -3,6 +3,7 @@ user-guide-title: Digital Experience Blueprints
 breadcrumb-title: Blueprints 
 user-guide-description: Blueprints are repeatable implementations to address established business problems and contain architecture diagrams, technical considerations, and relevant documentation links.
 product: adobe experience platform
+mini-toc-levels: 3
 role: Architect, Developer, User
 ---
 # Digital Experience Blueprints {#architecture}
