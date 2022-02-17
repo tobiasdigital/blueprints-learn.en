@@ -3,7 +3,6 @@ title: Activation to Facebook Custom Audiences
 description: Activation to Facebook Custom Audiences.
 solution: Experience Platform, Real-time Customer Data Platform, Data Collection
 kt: 7086
-exl-id: 
 ---
 
 # Activation to Facebook Custom Audiences

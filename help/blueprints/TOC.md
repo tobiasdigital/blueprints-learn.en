@@ -6,6 +6,7 @@ product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
 ---
+
 # Digital Experience Blueprints {#architecture}
 
 + [Overview](/help/blueprints/overview.md)
@@ -50,4 +51,3 @@ role: Architect, Developer, User
   + [Overview](/help/blueprints/web-personalization/overview.md)
   + [Behavioral Personalization](/help/blueprints/web-personalization/behavioral.md)
   + [Personalization with Online & Offline data](/help/blueprints/web-personalization/online-offline.md)
-

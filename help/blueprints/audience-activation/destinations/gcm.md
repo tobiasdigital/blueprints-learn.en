@@ -3,7 +3,6 @@ title: Activation with Online & Offline Data Blueprint
 description: Online/Offline Audience Activation.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
-exl-id: 
 ---
 # Activation with Online & Offline Data Blueprint
 
