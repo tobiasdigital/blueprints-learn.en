@@ -3,8 +3,10 @@ user-guide-title: Digital Experience Blueprints
 breadcrumb-title: Blueprints 
 user-guide-description: Blueprints are repeatable implementations to address established business problems and contain architecture diagrams, technical considerations, and relevant documentation links.
 product: adobe experience platform
+mini-toc-levels: 3
 role: Architect, Developer, User
 ---
+
 # Digital Experience Blueprints {#architecture}
 
 + [Overview](/help/blueprints/overview.md)
@@ -22,7 +24,9 @@ role: Architect, Developer, User
 + Audience & Profile Activation{#audience-activation}
   + [Overview](/help/blueprints/audience-activation/overview.md)
   + [Anonymous Audience Activation](/help/blueprints/audience-activation/anonymous.md)
-  + [Activation with Online & Offline Data](/help/blueprints/audience-activation/online-offline.md)
+  + [Activation to Social & Advertising Channels]{#audience-activation}
+    + [Activation with online and offline data](/help/blueprints/audience-activation/online-offline.md)
+    + [Activation to Facebook Custom Audiences](/help/blueprints/audience-activation/destinations/facebook.md)
   + [Activation to File & Enterprise Streaming Destinations](/help/blueprints/audience-activation/enterprise-destinations.md)
   + [Activation with Experience Cloud Applications](/help/blueprints/audience-activation/platform-and-applications.md)
   + [Customer Activity Hub](/help/blueprints/audience-activation/customer-activity.md)
@@ -55,4 +59,3 @@ role: Architect, Developer, User
   + [Overview](/help/blueprints/web-personalization/overview.md)
   + [Behavioral Personalization](/help/blueprints/web-personalization/behavioral.md)
   + [Personalization with Online & Offline data](/help/blueprints/web-personalization/online-offline.md)
-
