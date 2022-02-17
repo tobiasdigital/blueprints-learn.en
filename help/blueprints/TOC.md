@@ -25,7 +25,7 @@ role: Architect, Developer, User
   + [Overview](/help/blueprints/audience-activation/overview.md)
   + [Anonymous Audience Activation](/help/blueprints/audience-activation/anonymous.md)
   + [Activation with online and offline data](/help/blueprints/audience-activation/online-offline.md)
-  + [Activation to Social & Advertising Channels]{#audience-activation}
+  + Activation to Social & Advertising Channels{#audience-activation}
     + [Activation to Facebook Custom Audiences](/help/blueprints/audience-activation/destinations/facebook.md)
   + [Activation to File & Enterprise Streaming Destinations](/help/blueprints/audience-activation/enterprise-destinations.md)
   + [Activation with Experience Cloud Applications](/help/blueprints/audience-activation/platform-and-applications.md)
