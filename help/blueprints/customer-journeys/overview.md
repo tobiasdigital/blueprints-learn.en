@@ -1,7 +1,7 @@
 ---
 title: Customer Journeys 
 description: Deliver individual, just-in-time customer experiences across screens.
-solution: Experience Platform
+solution: Experience Platform, Campaign v8, Campaign Classic v7, Campaign Standard, Journey Optimizer
 kt: 
 thumbnail:
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
@@ -10,7 +10,12 @@ exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
 
 Customer Journeys addresses the ability for brands to proactively engage and communicate with their customers through channels such as email, SMS, and mobile alerts. Orchestration tools can also be integrated with other interaction channels such as with inbound channels for web/mobile personalization by sharing audience state with the other channel specific decision engines. A number of factors go into what applications and deployment options should be used for Customer Journeys but it can be summed up in two different approaches:  react to a customer as they engage (triggered) OR react to a group of customers as they engage (scheduled).
 
-| Blueprint | Description |  Experience Cloud Applications | 
+Today there are two options for Adobe for customers to select from when wanting a Customer Journey solution:
+
+<ul><li>Adobe Campaign Managed Cloud Services</li><li>Adobe Journey Optimizer</li></ul>
+
+| Blueprint | Description | Architecture |
 |---|---|---|
-| **[Adobe Campaign](batch-messaging.md)** | <ul><li>Execute scheduled and batch messaging campaigns using Adobe Experience Platform as a central hub for customer profiles and segmentation</li></ul> | <ul><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Campaign Classic, Managed Services, or Campaign Standard</li><li>Supported third-party messaging provider</li></ul> |
-| **[Journey Optimizer](journey-optimizer.md)** | <ul><li>Execute triggered and streaming messaging using Adobe Experience Platform as a central hub for streaming data, customer profiles and segmentation, with Journey Orchestration for streaming journey orchestration and message delivery</li></ul> | <ul><li>Adobe Experience Platform</li><li>Journey Optimizer</li></ul> |
+| **[Journey Optimizer](journey-optimizer.md)** | Natively built on top of the Experience Platforms Real-Time Customer Profile enabling marketing teams to react in real-time to changing customer behaviors and meet them where they are at in any channel at any time | <img src="assets/ajo-architecture.svg" alt="Reference architecture for Journey Optimizer Blueprint" style="width:75%; border:1px solid #4a4a4a" /> |
+| **[Adobe Campaign v8](campaign-v8.md)** | Next generation campaigning tool that is optimized for highly complex data management and campaign processes. Enables customers to combine discover and create rich marketing campaign communications | <img src="assets/campaign-v8-architecture.svg" alt="Reference architecture for Campaign v8 Blueprint" style="width:75%; border:1px solid #4a4a4a" /> |
+| **[Adobe Campaign v7](campaign-v7.md)** | Traditional campaigning tool built for batch-based marketing campaigns across channels such as email, SMS and direct mail. Enables customers to orchestrate and manage the various customer communications in a single place | <img src="assets/campaign-v7-architecture.svg" alt="Reference architecture for Campaign v7 Blueprint" style="width:75%; border:1px solid #4a4a4a" /> |
