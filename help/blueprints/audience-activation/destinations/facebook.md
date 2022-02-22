@@ -13,7 +13,9 @@ Ingest customer data from multiple sources to build a single profile view of the
 
 * Audience targeting for known audiences on social and advertising destinations.
 * Online personalization with online and offline attributes.
-Applications
+
+## Applications
+
 * Real-time Customer Data Platform
 
 ## Architecture
@@ -26,7 +28,7 @@ Applications
     * Use out of the box namespaces such as Email, Email SHA256 Hash, where available.
     * Facebook has a list of supported identities. In order to activate to Facebook custom audiences, one of the supported identities must be present in the profiles to be activated.
     * The following identities are currently supported by Facebook: GAID, IDFA, phone_sha256, email_lc_sha256, extern_id.
-    * For additional details see the [Facebook Destination Guide](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=en).
+    * For additional details see the [Facebook Destination Guide](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html).
     * Create custom namespaces where out of the box namespaces are not available for the applicable identities.
 1. Configure Profile data source schemas and datasets.
     * Create Profile Record schemas for all profile record source data.
@@ -61,7 +63,7 @@ Applications
     * Review the segment results count for the given segments.
     * Investigate the profile that should be included in the segment to verify the segment membership is included in the segment membership portion of the profile.
 1. Configure the delivery of the audience to the destination in the Destination configuration.
-    * See the [Facebook Destination Guide](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=en) for further details on configuring the Facebook Destination.
+    * See the [Facebook Destination Guide](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html) for further details on configuring the Facebook Destination.
     * When configuring a destination, select which audience you would like to activate to the destination.
     * Determine the scheduled start date you would like the destination dataflow to begin delivering the audience to the destination.
     * Each destination has required and optional attributes that will be sent.
@@ -82,4 +84,4 @@ Applications
 
 ## Related Documentation
 
-Activation to Facebook Custom Audiences - [Destination Configuration](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=en)
+Activation to Facebook Custom Audiences - [Destination Configuration](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html)
