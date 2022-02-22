@@ -27,6 +27,7 @@ role: Architect, Developer, User
   + [Activation with online and offline data](/help/blueprints/audience-activation/online-offline.md)
   + Activation to Social & Advertising Channels{#audience-activation}
     + [Activation to Facebook Custom Audiences](/help/blueprints/audience-activation/destinations/facebook.md)
+    + [Activation to Google Customer Match](/help/blueprints/audience-activation/destinations/gcm.md)
   + [Activation to File & Enterprise Streaming Destinations](/help/blueprints/audience-activation/enterprise-destinations.md)
   + [Activation with Experience Cloud Applications](/help/blueprints/audience-activation/platform-and-applications.md)
   + [Customer Activity Hub](/help/blueprints/audience-activation/customer-activity.md)
