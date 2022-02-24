@@ -57,7 +57,7 @@ Synchronize web personalization with email and other known and anonymous channel
   <tr>
     <td class="tg-0lax">3</td>
     <td class="tg-73oq"><span style="font-weight:400;font-style:normal">Real-time Customer Data Platform streaming and batch audience sharing to Target and Audience Manager via the Audience Sharing Service Approach</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- Share streaming and batch audiences from Real-time Customer Data Platform to Target and Audience Manager via the Audience Sharing service. Audiences evaluated in real-time require the WebSDK and real-time audience evaluation outlined in integration pattern 1.</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- Share streaming and batch audiences from Real-time Customer Data Platform to Target and Audience Manager via the Audience Sharing service. This integration pattern can be leveraged when additional enrichment from 3rd party data and audiences in Audience Manager is desired. Otherwise integration pattern 1 and 2 are preferred. Audiences evaluated in real-time require the WebSDK and real-time audience evaluation outlined in integration pattern 1.</span></td>
     <td class="tg-73oq">- Audience projection via audience sharing service must be provisioned.<br>- Integration with Target requires the same IMS Org as the Experience Platform instance.<br>- Identity must be resolved to ECID to share to the edge for Target to action upon.<br>- WebSDK deployment is not required for this integration.</td>
   </tr>
 </tbody>
