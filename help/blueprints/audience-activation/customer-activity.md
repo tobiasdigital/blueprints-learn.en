@@ -1,6 +1,6 @@
 ---
 title: Customer Activity Hub Blueprint
-description: [!UICONTROL Real-time Customer Profile] lookups to provide context for agent-assisted support and sales.
+description: "[!UICONTROL Real-time Customer Profile] lookups to provide context for agent-assisted support and sales."
 solution: Experience Platform,Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
