@@ -45,7 +45,7 @@ Synchronize web personalization with email and other known and anonymous channel
   <tr>
     <td class="tg-0lax">1</td>
 <td class="tg-73oq">Real-time segment evaluation on the Edge shared from Real-time Customer Data Platform to Target</td>
-    <td class="tg-0lax">- Evaluate audiences in real-time for same or next page personalization on the Edge.<br>- Share streaming and batch audiences from Real-time Customer Data Platform to Target through the Edge Network.</td>
+    <td class="tg-0lax">- Evaluate audiences in real-time for same or next page personalization on the Edge.<br>- In addition, any segments evaluated in the streaming or batch will also be projected to the Edge Network to be included in edge segment evaluation and personalization.</td>
     <td class="tg-73oq">- Datastream must be configured in Experience Edge with the Target and Experience Platform extension enabled, the Datastream ID will be provided in the Target destination configuration.<br>- Target destination must be configured in Real-time Customer Data Platform Destinations.<br>- Integration with Target requires the same IMS Org as the Experience Platform instance.<br>- WebSDK must be implemented.<br>- Mobile SDK and API based implementation is not currently available</td> 
   </tr>
   <tr>
