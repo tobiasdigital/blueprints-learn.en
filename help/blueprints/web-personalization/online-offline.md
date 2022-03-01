@@ -111,7 +111,6 @@ Online and Offline Personalization is supported via several implementation appro
 Using the Edge Network with the Web/Mobile SDK
 <img src="assets/web_sdk_flow.png" alt="Reference architecture for the Application-specific SDK Approach" style="width:80%; border:1px solid #4a4a4a" />
 
-<br>
 Sequence Diagram
 
 <img src="assets/RTCDP+Target_sequence.png" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:80%; border:1px solid #4a4a4a" />
