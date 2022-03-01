@@ -106,7 +106,7 @@ Architecture
 
 Online and Offline Personalization is supported via several implementation approaches.
 
-#### Implementation Pattern 1 - Supports Use Case Scenario 1 and 2. Edge Network with Web/Mobile SDK (Recommended Approach)
+### Implementation Pattern 1 - Supports Use Case Scenario 1 and 2. Edge Network with Web/Mobile SDK (Recommended Approach)
 
 Using the Edge Network with the Web/Mobile SDK
 <img src="assets/web_sdk_flow.png" alt="Reference architecture for the Application-specific SDK Approach" style="width:80%; border:1px solid #4a4a4a" />
@@ -116,7 +116,7 @@ Sequence Diagram
 
 <img src="assets/RTCDP+Target_sequence.png" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:80%; border:1px solid #4a4a4a" />
 
-#### Implementation Pattern 2 - Supports Use Case Scenario 2 and 3. Application specific SDKs 
+### Implementation Pattern 2 - Supports Use Case Scenario 2 and 3. Application specific SDKs 
 
 Using traditional application-specific SDKs (for example, AT.js and AppMeasurement.js) 
 <img src="assets/app_sdk_flow.png" alt="Reference architecture for the Application-specific SDK Approach" style="width:80%; border:1px solid #4a4a4a" />
