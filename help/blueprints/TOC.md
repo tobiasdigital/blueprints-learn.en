@@ -24,7 +24,7 @@ role: Architect, Developer, User
 + Audience & Profile Activation{#audience-activation}
   + [Overview](/help/blueprints/audience-activation/overview.md)
   + [Anonymous Audience Activation](/help/blueprints/audience-activation/anonymous.md)
-  + Known Customer Activation{#Known-customer-audience-activation}
+  + Known Customer Activation{#known-customer-audience-activation}
     + [Overview](/help/blueprints/audience-activation/known.md)
     + Activation to Social & Advertising Channels{#audience-activation}
       + [Activation to Facebook Custom Audiences](/help/blueprints/audience-activation/destinations/facebook.md)
