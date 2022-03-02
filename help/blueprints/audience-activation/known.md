@@ -1,15 +1,15 @@
 ---
-title: Activation with Online & Offline Data Blueprint
+title: Known Customer Activation
 description: Online/Offline Audience Activation.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 ---
-# Activation with Online & Offline Data Blueprint
+# Known Customer Activation Blueprint
 
 Use offline attributes and events such as offline orders, transactions, CRM, or loyalty data, along with online behavior for online targeting and personalization.
 
-Activate audiences to known profile-based destinations such as email providers, social networks, and advertising destinations. 
+Expanded identifiers with built in governance controls provide more opportunities to communicate with known customers. Activate audiences to known profile-based destinations such as email providers, social networks, and advertising destinations. 
 
 Additional detail is provided in the [Audience and Profile Activation with Experience Cloud Applications Blueprint](platform-and-applications.md) specific to integrations between Experience Platform and Experience Cloud Applications.
 
