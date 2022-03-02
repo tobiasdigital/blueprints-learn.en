@@ -24,14 +24,14 @@ role: Architect, Developer, User
 + Audience & Profile Activation{#audience-activation}
   + [Overview](/help/blueprints/audience-activation/overview.md)
   + [Anonymous Audience Activation](/help/blueprints/audience-activation/anonymous.md)
-  + [Known Customer Activation](/help/blueprints/audience-activation/known.md)
+  + Known Customer Activation{#Known-customer-audience-activation}
+    + [Overview](/help/blueprints/audience-activation/known.md)
     + Activation to Social & Advertising Channels{#audience-activation}
       + [Activation to Facebook Custom Audiences](/help/blueprints/audience-activation/destinations/facebook.md)
       + [Activation to Google Customer Match](/help/blueprints/audience-activation/destinations/gcm.md)
     + [Activation to File & Enterprise Streaming Destinations](/help/blueprints/audience-activation/enterprise-destinations.md)
     + [Customer Activity Hub](/help/blueprints/audience-activation/customer-activity.md)
   + [Activation with Experience Cloud Applications](/help/blueprints/audience-activation/platform-and-applications.md)
-
 + B2B Activation & Marketing{#b2b-activation}
   + [Overview](/help/blueprints/b2b/overview.md)
   + [B2B Activation](/help/blueprints/b2b/b2bactivation.md)
