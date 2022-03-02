@@ -30,8 +30,7 @@ Which of these use cases are important to your business? Discover which Digital 
   <td>Audience targeting for known audiences on social and advertising
   destinations.</td>
   <td rowspan="3" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Online/Offline
-  Audience Activation</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known.html?lang=en">Known Customer Activation</a></td>
  </tr>
  <tr>
   <td>Online personalization with online and offline attributes.</td>
