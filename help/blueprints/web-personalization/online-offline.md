@@ -9,13 +9,11 @@ exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 
 # Web/Mobile Personalization with online & offline data
 
-Synchronize web personalization with email and other known and anonymous channel personalization.
-
 ## Use Cases
 
+* Online personalization with online & offline data and known profiles
 * Landing page optimization
-* Behavioral and offline profile targeting
-* Personalization based on prior product/content views, product/content affinity, environmental attributes, third-party audience data, and demographics in addition to offline insights such as transactions, loyalty and CRM data, and modeled insights
+* Personalization based on prior product/content views, product/content affinity, environmental attributes, and demographics in addition to offline data such as transactions, loyalty and CRM data, and modeled insights
 * Share and target audiences defined in Real-time Customer Data Platform on websites and mobile apps using Adobe Target.
 
 ## Applications
@@ -161,6 +159,7 @@ Identity pre-requisites
 * [Real-time Segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html)
 * [Streaming Segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
 * [Adobe Analytics Segment Sharing through Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [Merge Policy Configuration](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#create-a-merge-policy)
 
 ### Tutorials
 
@@ -168,6 +167,7 @@ Identity pre-requisites
 
 ### Related Blog Posts
 
+* [Adobe announces Same Page Enhanced Personalization with Adobe Target and Real-time Customer Data Platform](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform)
 * [[!DNL Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
 * [[!DNL Adobe Experience Platform’s Identity Service — How to Solve the Customer Identity Conundrum]](https://medium.com/adobetech/adobe-experience-platforms-identity-service-how-to-solve-the-customer-identity-conundrum-f95e22d16ea9)
 * [[!DNL Adobe Experience Platform Web SDK for Audience Management]](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
