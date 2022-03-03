@@ -9,13 +9,11 @@ exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 
 # Web/Mobile Personalization with online & offline data
 
-Synchronize web personalization with email and other known and anonymous channel personalization.
-
 ## Use Cases
 
+* Online personalization with online & offline data and known profiles
 * Landing page optimization
-* Behavioral and offline profile targeting
-* Personalization based on prior product/content views, product/content affinity, environmental attributes, third-party audience data, and demographics in addition to offline insights such as transactions, loyalty and CRM data, and modeled insights
+* Personalization based on prior product/content views, product/content affinity, environmental attributes, and demographics in addition to offline data such as transactions, loyalty and CRM data, and modeled insights
 * Share and target audiences defined in Real-time Customer Data Platform on websites and mobile apps using Adobe Target.
 
 ## Applications
