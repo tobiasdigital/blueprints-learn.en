@@ -33,7 +33,7 @@ Additional detail is provided in the [Audience and Profile Activation with Exper
 
 ## Guardrails
 
-[Refer to the guardrails as outlined on the Audience and Profile Activation Overview page.](overview.md)  
+[Refer to the guardrails as outlined on the Audience and Profile Activation Overview page](overview.md).
 
 ## Implementation Steps
 
