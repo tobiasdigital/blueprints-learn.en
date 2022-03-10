@@ -15,4 +15,5 @@ The below architecture diagram illustrates the integration paths and data collec
 ## Reference Documentation
 
 * [Experience Platform Web/Mobile SDK Overview](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)
-* [Implement Adobe Experience Cloud with Web SDK tutorial](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html)
+* [Implement Adobe Experience Cloud with Web SDK tutorial](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html)
+* [Implement Adobe Experience Cloud in mobile apps tutorial](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html)

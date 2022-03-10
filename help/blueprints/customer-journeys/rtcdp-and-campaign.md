@@ -1,10 +1,10 @@
 ---
-title: Real-Time CDP with Adobe Campaign Blueprint
+title: Real-Time CDP with Adobe Campaign Integration Pattern
 description: Showcases how the Adobe Experience Platform and its Real-Time Customer Profile and centralized segmentation tool can be utilized with Adobe Campaign to deliver personalized conversations.
 solution: Experience Platform, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
 ---
-# Real-Time CDP with Adobe Campaign Blueprint
+# Real-Time CDP with Adobe Campaign Integration Pattern
 
 Showcases how the Adobe Experience Platform and its Real-Time Customer Profile and centralized segmentation tool can be utilized with Adobe Campaign to deliver personalized conversations.
 
@@ -19,7 +19,7 @@ Showcases how the Adobe Experience Platform and its Real-Time Customer Profile a
 
 ## Architecture
 
-<img src="assets/rtcdp-campaign-architecture.svg" alt="Reference architecture for the Batch Messaging and Adobe Experience Platform Blueprint" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/rtcdp-campaign-architecture.svg" alt="Reference architecture for the Batch Messaging and Adobe Experience Platform Integration Pattern" style="width:100%; border:1px solid #4a4a4a" />
 
 <br> 
 

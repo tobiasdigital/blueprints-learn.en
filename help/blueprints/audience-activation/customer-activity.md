@@ -1,6 +1,6 @@
 ---
 title: Customer Activity Hub Blueprint
-description: Real-time Customer Profile lookups to provide context for agent-assisted support and sales.
+description: "[!UICONTROL Real-time Customer Profile] lookups to provide context for agent-assisted support and sales."
 solution: Experience Platform,Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
@@ -44,4 +44,4 @@ With this capability, you could surface rich context when a customer calls your 
 * [Adobe Experience Platform Activation product description](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform0.html)
 * [[!UICONTROL Real-time Customer Profile] documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en)
 * [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
-* [Profile Lookup API](https://www.adobe.io/apis/experienceplatform/home/api-reference.html)
+* [Profile Lookup API](https://www.adobe.io/apis/experienceplatform/home/api-reference.html) 

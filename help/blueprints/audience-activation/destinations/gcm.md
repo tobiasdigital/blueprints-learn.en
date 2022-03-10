@@ -3,6 +3,7 @@ title: Activation to Google Customer Match
 description: Activation to FGoogle Customer Match.
 solution: Experience Platform, Real-time Customer Data Platform, Data Collection
 kt: 7086
+exl-id: 32bdc04d-b101-4b17-af27-329e5c71d888
 ---
 
 # Activation to Google Customer Match
