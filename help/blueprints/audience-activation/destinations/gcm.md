@@ -5,7 +5,7 @@ solution: Experience Platform, Real-time Customer Data Platform, Data Collection
 kt: 7086
 ---
 
-# Activation to FGoogle Customer Match
+# Activation to Google Customer Match
 
 Ingest customer data from multiple sources to build a single profile view of the customer, segment these profiles to built audiences for marketing and personalization, share these audiences to Social Ad Networks such as Google Customer Match to target and personalization campaigns against those audiences. Google Customer Match lets you use your online and offline data to reach and re-engage with your customers across Google’s owned and operated properties, such as: Search, Shopping, Gmail, and YouTube.
 
