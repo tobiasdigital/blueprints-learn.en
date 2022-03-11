@@ -38,7 +38,29 @@ Activation with Experience Cloud Applications aligns closely with the [Known Cus
 
 ## Guardrails
 
-Refer to the [guardrails on the Audience and Profile Activation Overview page](overview.md)  
+Refer to the [guardrails on the Audience and Profile Activation Overview page](overview.md)
+
+## Implementation Considerations
+
+* Sharing profile data to destinations requires that you include the specific identity value used by the destination in the destination payload. Any identity that is necessary for a target destination must be ingested into Platform and configured as an identity for the [!UICONTROL Real-time Customer Profile].
+
+### Audience sharing from Real-time Customer Data Platform to Audience Manager
+
+* Audience membership from RT-CDP is shared to Audience Manager in a streaming fashion as soon as segment evaluation is complete and written to the Real-time Customer profile, whether the segment evaluation occurred in batch or streaming. If the qualified profile contains the regional routing information for related profile devices then the audience membership from RTCDP is qualified in streaming fashion on the associated Audience Manager Edge. If the regional routing information was applied to a profile with a timestamp in the past 14 days it will be evaluate on the Audience Manager Edge in streaming. If the profiles from RTCDP do not contain regional routing information or the regional routing information is greater than 14 days old, then the profile memberships are sent to the Audience Manager hub location for batch based evaluation and activation. Profiles that are eligible for Edge activation will activate within minutes of segment qualification from RTCDP, profiles that do not qualify for Edge activation will qualify in the Audience Manager hub and may have a 12-24 hour timeframe for processing. 
+
+* Regional routing information for which Edge the Audience Manager profile is stored on can be collected to Experience Platform from Audience Manager, the Visitor ID Service, Analytics, Launch, or directly from the Web SDK as a separate profile record class dataset using the "data capture region information" XDM field group.
+
+* For activation scenarios where audiences are shared from Experience Platform to Audience Manager the following identities are shared automatically: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Currently, custom namespaces are not shared. 
+
+* The audiences from Experience Platform can be shared through Audience Manager destinations when the required destination identities are included in the [!UICONTROL Real-time Customer Profile], or where identities in the [!UICONTROL Real-time Customer Profile] can be related to the required destination identities that are linked in Audience Manager.
+
+### Audience sharing from Real-time Customer Data Platform to Target
+
+* See the [Web/Mobile Personalization with online & offline data Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html) for additional details on sharing profiles and audiences from Real-time Customer Data Platform to Target.
+
+### Audience sharing from Real-time Customer Data Platform to Campaign and Journey Optimizer
+
+* See the [Customer Journeys Blueprints](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/overview.html) for additional details on sharing profiles and audiences from Real-time Customer Data Platform to Campaign and Journey Optimizer.
 
 ## Related Documentation
 
