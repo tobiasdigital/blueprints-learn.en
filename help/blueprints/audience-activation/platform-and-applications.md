@@ -29,7 +29,7 @@ Activation with Experience Cloud Applications aligns closely with the [Known Cus
  
 ## Architecture
 
-[See the Experience Platform and Applications Architecture Section for additional architecture diagrams related to Experience Platform integrations with Experience Cloud Applications.](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html)
+See the [Experience Platform and Applications Architecture Section](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html) for additional architecture diagrams related to Experience Platform integrations with Experience Cloud Applications.
 
 ### Audience and Profile Activation with Experience Cloud Applications
 
