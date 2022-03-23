@@ -23,19 +23,25 @@ Additional detail is provided in the [Audience and Profile Activation with Exper
 
 * Adobe Experience Platform
 * [!UICONTROL Real-time Customer Data Platform]
+* Audience Manager People Based destinations can also be leveraged for people based activation to Facebook, LinkedIn, and Google Customer Match.
 
 ## Architecture
 
-### Activation with Online & Offline data with destinations
+### Known Customer Activation via Real-time Customer Data Platform
 
-<img src="assets/online_offline_activation.svg" alt="Reference architecture for the Online/Offline Audience Activation Blueprint" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/known_activation.svg" alt="Reference architecture for the Known Customer Activation Blueprint" style="width:80%; border:1px solid #4a4a4a" />
+<br>
+
+### Known Customer Activation via Audience Manager People Based Destinations
+
+<img src="assets/AAM_PBD.svg" alt="Reference architecture for the Known Customer Activation Blueprint" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
 ## Guardrails
 
 [Refer to the guardrails as outlined on the Audience and Profile Activation Overview page](overview.md).
 
-## Implementation Steps
+## Implementation Steps for Real-time Customer Data Platform
 
 1. [Create schemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) for data to be ingested.
 1. [Create datasets](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) for data to be ingested.
@@ -51,6 +57,12 @@ Additional detail is provided in the [Audience and Profile Activation with Exper
 * Sharing profile data to destinations requires that you include the specific identity value used by the destination in the destination payload. Any identity that is necessary for a target destination must be ingested into Platform and configured as an identity for the [!UICONTROL Real-time Customer Profile].
 
 * See the [Audience and Profile Activation with Experience Cloud Applications Blueprint](platform-and-applications.md) for additional details on sharing audiences from Real-time Customer Data Platform to Audience Manager, Analytics, Target, Campaign and Journey Optimizer.
+
+## Implementation Steps for Audience Manager People Based Destinations
+
+* For details on implementing Audience Manager see the following [documentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html).
+
+* For details on implementing People Based Destinations in Audience Manager see the following [documentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/faqs/faq-people-based-destinations.html).
 
 ## Related Documentation
 

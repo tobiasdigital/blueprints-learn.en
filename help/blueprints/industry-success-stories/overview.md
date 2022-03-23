@@ -22,7 +22,7 @@ Learn how customers are architecting great experiences and succeeding with Digit
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><img alt="thumbnail image for the Journey Optimizer Blueprint" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/journey-optimizer.png?lang=en" /></a>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en"><img alt="thumbnail image for the Activation of Online/Offline Data Blueprint" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/online_offline_activation.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en"><img alt="thumbnail image for the Activation of Online/Offline Data Blueprint" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/known_activation.svg" /></a>
   </td>
 </tr>
 <tr>
