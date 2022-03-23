@@ -20,6 +20,9 @@ Anonymou audience activation is the ability to target and personalize to audienc
 
 ## Applications
 
+* Audience Manager
+* Real-time Customer Data Platform
+
 Both Audience Manager and Real-time Customer Data Platform can be leveraged to power Anonymous Audience Activation for onsite and advertising destinations. Note that Real-time Customer Data Platform supports only a subset of advertising destinations with anonymous device identifiers as cataloged in the [destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en).
 
 Microsoft Bing, Google DV360, and TradeDesk are the primary supported Real-time Customer Data Platform advertising destinations for anonymous device based targeting. Beyond these, Real-time Customer Data Platform supports numerous known customer based destinations as cataloged in the [destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en) and as described in the [known customer activation blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
@@ -28,9 +31,9 @@ Microsoft Bing, Google DV360, and TradeDesk are the primary supported Real-time 
 
 <img src="assets/anonymous_activation.svg" alt="Reference architecture for the Anonymous Audience Activation Blueprint" style="width:80%; border:1px solid #4a4a4a" />
 
-## Implementation Steps
+<br>
 
-<!-- These steps should link to help. -->
+## Implementation Steps
 
 1. [Implement Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=en#implementation-integration-guides).
 1. Collect data to Audience Manager.
