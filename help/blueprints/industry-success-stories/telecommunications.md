@@ -1,7 +1,7 @@
 ---
 title: Telecommunications Industry - Journey Optimizer for Triggered Messaging
 description: Provide customers tailored deals in real-time while with efficient customer onboarding for long term loyalty.
-solution: Experience Platform, Journey Optimizer
+solution: Journey Optimizer
 kt: 9486
 exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
 ---
