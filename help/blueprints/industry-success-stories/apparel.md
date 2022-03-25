@@ -1,7 +1,7 @@
 ---
 title: Apparel Industry - Activation with Experience Cloud Applications
 description: Used multiple Blueprints to enable real-time marketing, cross-channel activation, & cross-channel analytics.
-solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
+solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
 exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
 ---
