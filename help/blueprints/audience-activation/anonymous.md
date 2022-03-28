@@ -33,15 +33,13 @@ Microsoft Bing, Google DV360, and TradeDesk are the primary supported Real-time 
 
 <br>
 
-## Implementation Steps
+## Implementation Steps for Audience Manager
 
-1. [Implement Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=en#implementation-integration-guides).
-1. Collect data to Audience Manager.
-1. Configure signals and traits for use in segment definitions.
-1. Create segments in Audience Manager.
-1. Configure destinations in Audience Manager to share audiences.
+* For details on implementing Audience Manager see the following [documentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html).
 
-For implementation steps of Real-time Customer Data Platform please refer to the [known customer activation blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
+## Implementation Steps for Real-time Customer Data Platform
+
+* For implementation steps of Real-time Customer Data Platform see the following [documentation](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
 
 ## Related Documentation
 
