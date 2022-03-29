@@ -1,7 +1,7 @@
 ---
 title: Web/Mobile SDK Data Collection Blueprint
 description: This blueprint shows the architecture and ingestion through the Experience Platform Web and Mobile SDK
-solution: Experience Platform,Data Collection
+solution: Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89

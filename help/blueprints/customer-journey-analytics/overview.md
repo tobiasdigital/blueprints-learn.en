@@ -1,7 +1,7 @@
 ---
 title: Customer Journey Analytics
 description: Unify and analyze data and customer behaviors from across the customer journey
-solution: Experience Platform, Customer Journey Analytics
+solution: Customer Journey Analytics
 kt: 
 thumbnail:
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224

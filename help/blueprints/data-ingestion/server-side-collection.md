@@ -1,7 +1,7 @@
 ---
 title: Server Side Enterprise Data Collection Blueprint
 description: Stream collected data by Experience Platform SDKs to destinations
-solution: Experience Platform,Data Collection
+solution: Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
 ---
