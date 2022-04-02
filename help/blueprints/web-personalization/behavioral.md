@@ -21,15 +21,12 @@ Personalize based on online behavior and audience data.
 * Adobe Target
 * Adobe Analytics (optional)
 * Adobe Audience Manager (optional)
+* Adobe Real-time Customer Data Platform (optional)
 
 ## Architecture
 
-<img src="assets/behavioral_personalization.png" alt="Reference architecture for the Behavioral Web Personalization Blueprint" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/behavioral_personalization.svg" alt="Reference architecture for the Behavioral Web Personalization Blueprint" style="width:80%; border:1px solid #4a4a4a" />
 
-
-## Guardrails
-
-By default, the segment sharing service allows a maximum of 75 audiences to be shared for each Adobe Analytics report suite. If Audience Manager is being used for audience sharing, there is no limit on the number of audiences that can be shared. 
 
 ## Implementation Patterns
 
@@ -44,24 +41,14 @@ The Web/Mobile personalization blueprint can be implemented via the following ap
 
 ### 2. Application-specific SDK Approach
 
-<img src="assets/app_sdk_flow.png" alt="Reference architecture for the Application-specific SDK Approach" style="width:80%; border:1px solid #4a4a4a" />
+[Refer to the application specific SDK Blueprint](../data-ingestion/appsdk.md) 
 
-## Implementation Prerequisites
-
-| Application/Service | Required Library |  Notes | 
-|---|---|---|
-| Adobe Target | [!UICONTROL Platform Web SDK]*, at.js 0.9.1+, or mbox.js 61+ | at.js is preferred as mbox.js is no longer being developed. |
-| Adobe Audience Manager (Optional) | [!UICONTROL Platform Web SDK]* or dil.js 5.0+ |  |
-| Adobe Analytics (Optional) | [!UICONTROL Platform Web SDK]* or AppMeasurement.js 1.6.4+ |  |
-| Experience Cloud Identity Service | [!UICONTROL Platform Web SDK]* or VisitorAPI.js 2.0+ |  |
-| Experience Platform Mobile SDK (Optional) | 4.11 or higher for iOS and Android™ |  |
-| Experience Platform Web SDK | 1.0, current Experience Platform SDK version has [various use cases not yet supported for the Experience Cloud applications](https://github.com/adobe/alloy/projects/5)| |
 
 ## Implementation Steps
 
 1. [Implement Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) for your web or mobile applications.
 
-    If using Audience Manager or Adobe Analytics:
+### Implementation Steps - Audience Manager or Adobe Analytics
 
 1. [Implement Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html)
 1. [Implement Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)
@@ -75,12 +62,28 @@ The Web/Mobile personalization blueprint can be implemented via the following ap
 1. Build segments in [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) or [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) and [configure those audiences for sharing to the Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)  (if using Audience Manager or Adobe Analytics)
 1. Once the audiences are available in Adobe Target, they can be used for [targeting experiences with Adobe Target](https://experienceleague.adobe.com/docs/target/using/audiences/target.html)
 
+### Implementation Steps - Real-time Customer Data Platform
+
+1. [Create schemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) for data to be ingested.
+1. [Create datasets](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) for data to be ingested.
+1. [Configure the correct identities and identity namespaces](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html) on the schema to be sure that ingested data can stitch into a unified profile.
+1. [Enable the schemas and datasets for profile](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html). 
+1. [Ingest data](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) into Experience Platform.
+1. [Provision [!UICONTROL Real-time Customer Data Platform] segment sharing](https://www.adobe.com/go/audiences) between Experience Platform and Audience Manager for audiences defined in Experience Platform to be shared to Audience Manager.
+1. [Create segments](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html) in Experience Platform. The system automatically determines whether the segment is evaluated as batch or streaming.
+1. [Configure destinations](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html) for sharing of profile attributes and audience memberships to desired destinations.
+
+
 ## Related Documentation
 
 * [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 * [Integrate Audience Manager with Adobe Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
 * [Adobe Analytics Segment Sharing through Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
-
+* [[!UICONTROL Real-time Customer Data Platform] overview](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html)
+* [[!UICONTROL Real-time Customer Data Platform] Product Description](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
+* [Profile and segmentation guidelines](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
+* [Segmentation documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
+* [Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 
 ## Related Blog Posts
 

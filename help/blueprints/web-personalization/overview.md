@@ -15,7 +15,7 @@ Web and Mobile Personalization addresses the ability to use profile and audience
 | Blueprint | Description |  Experience Cloud Applications | 
 |---|---|---|
 | **[Behavioral Web/Mobile Personalization](behavioral.md)**  | <ul><li>Personalize based on online behavior and audience data</li></ul> | <ul><li>Adobe Target</li><li>Adobe Real-time Customer Data Platform *(optional)*</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul>| 
-| **[Web/Mobile Personalization with online & offline data](online-offline.md)** | <ul><li>Complete customer profiles and enhanced segmentation deliver improved personalized experiences.</li><li>Personalize with offline attributes and events (transactions, reservations, CRM, and loyalty data).</li><li>Synchronize personalization across web, email, and other known channels.</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
+| **[Web/Mobile Personalization with known customer data](online-offline.md)** | <ul><li>Complete customer profiles and enhanced segmentation deliver improved personalized experiences.</li><li>Personalize with offline attributes and events (transactions, reservations, CRM, and loyalty data).</li><li>Synchronize personalization across web, email, and other known channels.</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
 
 <br>
 
@@ -25,7 +25,7 @@ Web and Mobile Personalization addresses the ability to use profile and audience
 
 <br>
 
-### Online/Offline Personalization Guardrail diagram
+### Known Customer Personalization Guardrail diagram
 
 <img src="assets/personalization_guardrails.png" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:80%; border:1px solid #4a4a4a" />
 

@@ -1,5 +1,5 @@
 ---
-title: Web/Mobile Personalization with online & offline data
+title: Web/Mobile Personalization Overview
 description: Synchronize web personalization with email and other known and anonymous channel personalization.
 landing-page-description: Synchronize web personalization with email and other known and anonymous channel personalization.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
@@ -7,11 +7,11 @@ kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 ---
 
-# Web/Mobile Personalization with online & offline data
+# Web/Mobile Personalization with known customer data
 
 ## Use Cases
 
-* Online personalization with online & offline data and known profiles
+* Online personalization with known customer data
 * Landing page optimization
 * Personalization based on prior product/content views, product/content affinity, environmental attributes, and demographics in addition to offline data such as transactions, loyalty and CRM data, and modeled insights
 * Share and target audiences defined in Real-time Customer Data Platform on websites and mobile apps using Adobe Target.
@@ -20,7 +20,7 @@ exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 
 * [!UICONTROL Real-time Customer Data Platform]
 * Adobe Target
-* Adobe Audience Manager (optional): Adds third-party audience data, co-op based device graph, the ability to surface Real-time Customer Data Platform audiences in Adobe Analytics, and the ability to surface Adobe Analytics audiences in Real-time Customer Data Platform
+* Adobe Audience Manager (optional): Adds third-party audience data, co-op based device graph
 * Adobe Analytics (optional): Adds the ability to build segments based on historical behavioral data and fine grained segmentation from Adobe Analytics data
 
 ## Use Case Scenarios
@@ -45,7 +45,7 @@ exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
     <td class="tg-0lax">1</td>
 <td class="tg-73oq">Real-time segment evaluation on the Edge shared from Real-time Customer Data Platform to Target</td>
     <td class="tg-0lax">- Evaluate audiences in real-time for same or next page personalization on the Edge.<br>- In addition, any segments evaluated in streaming or batch fashion will also be projected to the Edge Network to be included in edge segment evaluation and personalization.</td>
-    <td class="tg-73oq">- Implementation Pattern 1 described below.<br>- Web/Mobile SDK must be implemented.<br>- Note that the Mobile SDK and API based support for real-time segmentation is not currently available<br>- Datastream must be configured in Experience Edge with the Target and Experience Platform extension enabled, the Datastream ID will be provided in the Target destination configuration.<br>- Target destination must be configured in Real-time Customer Data Platform Destinations.<br>- Integration with Target requires the same IMS Org as the Experience Platform instance.</td> 
+    <td class="tg-73oq">- Implementation Pattern 1 described below.<br>- Web/Mobile SDK must be implemented.<br>- Note that the Mobile SDK based support for real-time segmentation is not currently available<br>- Datastream must be configured in Experience Edge with the Target and Experience Platform extension enabled, the Datastream ID will be provided in the Target destination configuration.<br>- Target destination must be configured in Real-time Customer Data Platform Destinations.<br>- Integration with Target requires the same IMS Org as the Experience Platform instance.</td> 
   </tr>
   <tr>
     <td class="tg-0lax">2</td>
@@ -62,7 +62,7 @@ exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 </tbody>
 </table>
 
-## Scenario 1 and 2 - Real-time, Streaming, and Batch Audience Sharing to Adobe Target
+## Real-time, Streaming, and Batch Audience Sharing to Adobe Target
 
 Architecture
 
@@ -72,60 +72,35 @@ Sequence Detail
 
 <img src="assets/RTCDP+Target_flow.png" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:80%; border:1px solid #4a4a4a" />
 
-Overview Architecture for Use Case Scenario 1 and 2
+Overview Architecture
 
 <img src="assets/personalization_with_apps.png" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:80%; border:1px solid #4a4a4a"/>
 
-### Implementation Steps for Use Case Scenario 1, also supports Use Case Scenario 2
+## Implementation Patterns
+
+Known Customer Personalization is supported via several implementation approaches.
+
+### Implementation Pattern 1 - Edge Network with Web/Mobile SDK (Recommended Approach)
+
+Using the Edge Network with the Web/Mobile SDK. Real-time edge segmentation requires the Web/Mobile SDK or Edge API implementation approach.
+
+[Refer to the Experience Platform Web and Mobile SDK Blueprint](../data-ingestion/websdk.md) 
+
+### Implementation Pattern 2 - Application specific SDKs
+
+Using traditional application-specific SDKs (for example, AT.js and AppMeasurement.js). Real-time Edge segment evaluation is not supported using this implementation approach. However streaming and batch audience sharing from Experience Platform hub are supported using this implemenation approach.
+
+[Refer to the application specific SDK Blueprint](../data-ingestion/appsdk.md) 
+
+### Implementation Steps
 
 1. [Implement Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) for your web or mobile applications
 1. [Implement Experience Platform and [!UICONTROL Real-time Customer Profile]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html) ensure that audiences created are activated to the Edge by configuring the applicable [merge policy](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#create-a-merge-policy) as active on the Edge. 
 1. Implement [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html). Experience Platform Web SDK is required for real-time Edge segmentation, but not required for sharing of streaming and batch audiences from Real-time Customer Data Platform to Target. Note that support for real-time segmentation via the Mobile SDK and API is not currently available.
 1. [Configure the Edge Network with a Edge Datastream](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)
 1. [Enable Adobe Target as a destination within Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en)
-
-<br>
-
-## Scenario 3 - Streaming and Batch Audience Sharing through the Audience Sharing Service to Adobe Target and Audience Manager
-
-Architecture
-
-<img src="assets/audience_share_architecture.png" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:80%; border:1px solid #4a4a4a" />
-
-### Implementation Steps for Scenario 3, also supports scenario 2
-
-1. [Implement Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) for your web or mobile applications
-1. [Implement Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html) (optional)
-1. [Implement Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)  (optional)
-1. [Implement Experience Platform and [!UICONTROL Real-time Customer Profile]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html)
-1. Implement [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html)
-1. [Request provisioning for Audience Sharing between Experience Platform and Adobe Target (Shared Audiences)](https://www.adobe.com/go/audiences) to share audiences from Experience Platform to Target.
-1. (Optional) [Configure the Edge Network with a Edge Datastream](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html) (This is only required for integration pattern 2, where the audiences do not need to be shared to Audience Manager or enriched by Audience Manager audiences or data).
-1. (Optional) [Enable Adobe Target as a destination within Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en) to share streaming and batch audiences from Real-time Customer Data Platform directly to the Edge vs. through the audience sharing service and Audience Manager.
-
-<br>
-
-## Implementation Patterns
-
-Online and Offline Personalization is supported via several implementation approaches.
-
-### Implementation Pattern 1 - Supports Use Case Scenario 1 and 2. Edge Network with Web/Mobile SDK (Recommended Approach)
-
-Using the Edge Network with the Web/Mobile SDK
-<img src="assets/web_sdk_flow.png" alt="Reference architecture for the Application-specific SDK Approach" style="width:80%; border:1px solid #4a4a4a" />
-
-Sequence Diagram
-
-<img src="assets/RTCDP+Target_sequence.png" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:80%; border:1px solid #4a4a4a" />
-
-<br>
-
-### Implementation Pattern 2 - Supports Use Case Scenario 2 and 3. Application specific SDKs
-
-Using traditional application-specific SDKs (for example, AT.js and AppMeasurement.js)
-<img src="assets/app_sdk_flow.png" alt="Reference architecture for the Application-specific SDK Approach" style="width:80%; border:1px solid #4a4a4a" />
-
-<br>
+1. (Optional) [Implement Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html) (optional)
+1. (Optional) [Request provisioning for Audience Sharing between Experience Platform and Adobe Target (Shared Audiences)](https://www.adobe.com/go/audiences) to share audiences from Experience Platform to Target.
 
 ## Guardrails
 
@@ -146,7 +121,6 @@ Identity pre-requisites
 * [Experience Platform Web SDK documentation](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * [Experience Platform Tags documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)
 * [Experience Cloud ID Service documentation](https://experienceleague.adobe.com/docs/id-service/using/home.html)
-
 ### Connection Documentation
 
 * [Adobe Target Connection for Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en)
