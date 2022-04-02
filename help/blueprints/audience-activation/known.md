@@ -21,7 +21,6 @@ Additional detail is provided in the [Audience and Profile Activation with Exper
 
 ## Applications
 
-* Adobe Experience Platform
 * [!UICONTROL Real-time Customer Data Platform]
 * Audience Manager People Based destinations can also be leveraged for people based activation to Facebook, LinkedIn, and Google Customer Match.
 

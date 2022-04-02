@@ -53,6 +53,7 @@ role: Architect, Developer, User
   + [Data Preparation & Ingestion](/help/blueprints/data-ingestion/ingestion.md)
   + [Server Side Enterprise Data Collection](/help/blueprints/data-ingestion/server-side-collection.md)
   + [Experience Platform Web SDK](/help/blueprints/data-ingestion/websdk.md)
+  + [Application SDKs](/help/blueprints/data-ingestion/appsdk.md)
 + Data Analysis, Intelligence, & AI/ML{#data-exploration}
   + [Overview](/help/blueprints/data-insights/overview.md)
   + [Data Analysis & Intelligence](/help/blueprints/data-insights/analysis.md)
@@ -60,4 +61,4 @@ role: Architect, Developer, User
 + Web & Mobile Personalization{#web-personalization}
   + [Overview](/help/blueprints/web-personalization/overview.md)
   + [Behavioral Personalization](/help/blueprints/web-personalization/behavioral.md)
-  + [Personalization with Online & Offline data](/help/blueprints/web-personalization/online-offline.md)
+  + [Known Customer Personalization](/help/blueprints/web-personalization/known-personalization.md)

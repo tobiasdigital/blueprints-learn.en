@@ -12,6 +12,10 @@ The below architecture diagram illustrates the integration paths and data collec
 
 <img src="assets/web_sdk_flow.png" alt="Reference architecture for implementation using the Experience Platform Web and Mobile SDK" style="width:80%; border:1px solid #4a4a4a" />
 
+Sequence Diagram
+
+<img src="assets/web_sdk_sequence.png" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:80%; border:1px solid #4a4a4a" />
+
 ## Reference Documentation
 
 * [Experience Platform Web/Mobile SDK Overview](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)
