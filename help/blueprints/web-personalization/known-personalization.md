@@ -121,6 +121,7 @@ Identity pre-requisites
 * [Experience Platform Web SDK documentation](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * [Experience Platform Tags documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)
 * [Experience Cloud ID Service documentation](https://experienceleague.adobe.com/docs/id-service/using/home.html)
+
 ### Connection Documentation
 
 * [Adobe Target Connection for Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en)
