@@ -32,17 +32,8 @@ Personalize based on online behavior and audience data.
 
 The Web/Mobile personalization blueprint can be implemented via the following approaches as outlined below.
 
-1. Using the [!UICONTROL Platform Web SDK] or [!UICONTROL Platform Mobile SDK] and [!UICONTROL Edge Network].
-1. Using traditional application-specific SDKs (for example, AppMeasurement.js)
-
-### 1. Platform Web/Mobile SDK and Edge Approach
-
-[Refer to the Experience Platform Web and Mobile SDK Blueprint](../data-ingestion/websdk.md) 
-
-### 2. Application-specific SDK Approach
-
-[Refer to the application specific SDK Blueprint](../data-ingestion/appsdk.md) 
-
+1. Using the [!UICONTROL Platform Web SDK] or [!UICONTROL Platform Mobile SDK] and [!UICONTROL Edge Network]. [Refer to the Experience Platform Web and Mobile SDK Blueprint](../data-ingestion/websdk.md)
+1. Using traditional application-specific SDKs (for example, AppMeasurement.js). [Refer to the application specific SDK Blueprint](../data-ingestion/appsdk.md)
 
 ## Implementation Steps
 
