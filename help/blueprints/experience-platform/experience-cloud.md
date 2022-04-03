@@ -15,7 +15,3 @@ The architecture diagram below illustrates how Adobe Experience Platform connect
 The architecture diagram below illustrates how Adobe Experience Cloud applications and Adobe Experience Platform fit into an enterprise customer experience architecture.
 
 <img src="assets/aec_experience_architecture.svg" alt="Experience Cloud" style="width:95%; border:1px solid #4a4a4a" />
-<br>
-The architecture diagram below illustrates how Adobe Experience Platform connects to and integrates with the Adobe Experience Cloud applications.
-
-<img src="assets/experience_cloud.svg" alt="Experience Cloud" style="width:95%; border:1px solid #4a4a4a" />
