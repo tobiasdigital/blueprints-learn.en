@@ -29,9 +29,13 @@ Example primary use cases included the following.
 | **[Cross Channel Journey Analysis](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html)**  | <ul><li>Have a single consolidated view of customer behavior across various channels by unifying data from various web, mobile, and offline properties.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (optional)</li></ul>| 
 | **[Call Deflection Journey Analysis](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/call-center.html)** | <ul><li>Determine what behaviors are most indicative in resulting in agent assisted calls by bringing Call Center data together with web, mobile, and other interaction data.</li><li>These insights can then be used to optimize the customer experience and reduce the path to agent assisted interactions through optimized self-service content and tooling.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
+## Architecture for Customer Journey Analytics Blueprints
+
+![Architecture diagram](assets/CJA.svg)
+
 ## Guardrail diagram for Customer Journey Analytics Blueprints
 
-![Guardrail diagram](assets/cja_guardrails.png)
+![Guardrail diagram](assets/cja_guardrails.svg)
 
 ## Related Blog Posts
 
