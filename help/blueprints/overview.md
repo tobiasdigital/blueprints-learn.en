@@ -27,7 +27,7 @@ Digital Experience Blueprints are repeatable implementations that let you addres
   </td>
   <td>
     <a href="/help/blueprints/audience-activation/known.md"><img alt="thumbnail image for the Known Customer Activation Blueprint" src="audience-activation/assets/known_activation.svg" /></a>
-    <div><a href="/help/blueprints/audience-activation/known.md"><strong>Online/Offline Audience Activation</strong></a></div>
+    <div><a href="/help/blueprints/audience-activation/known.md"><strong>Known Customer Activation</strong></a></div>
     <p><em>Deliver audience-activated cross-channel advertising.</em></p>
   </td>
   <td>
