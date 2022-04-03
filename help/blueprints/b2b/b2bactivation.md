@@ -25,7 +25,7 @@ Various B2B data souces can be used to map account, lead, opportunity, and peopl
 
 ## Architecture
 
-<img src="assets/b2b-activation.svg" alt="Reference architecture for the B2B Activation Blueprint" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/b2b-activation.svg" alt="Reference architecture for the B2B Activation Blueprint" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
 ## Guardrails
