@@ -2,14 +2,14 @@
 title: Anonymous Audience Activation Blueprint
 description: Learn to target audiences across web and advertising channels based on anonymous and behavioral customer data. This ability enables personalized and consistent real-time customer experiences across devices.
 landing-page-description: Learn to target audiences across web and advertising channels based on anonymous and behavioral customer data.
-solution: Audience Manager, Experience Platform
+solution: Audience Manager
 kt: 7211
 thumbnail:
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 ---
 # Anonymous Audience Activation Blueprint
 
-Anonymou audience activation is the ability to target and personalize to audiences across web, mobile, and advertising channels based on anonymous device and behavioral data. 
+Anonymous audience activation is the ability to target and personalize to audiences across web, mobile, and advertising channels based on anonymous device and behavioral data. 
 
 ## Use Cases
 
