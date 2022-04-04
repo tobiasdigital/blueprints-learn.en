@@ -4,6 +4,7 @@ description: This blueprint shows the architecture and ingestion through the App
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
+exl-id: 05bf0a34-e5c7-498c-8d5d-1d549c00e070
 ---
 # Application Specific SDK Deployment 
 
