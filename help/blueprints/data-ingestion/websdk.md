@@ -10,7 +10,7 @@ exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
 
 The below architecture diagram illustrates the integration paths and data collection utilizing the Experience Platform Web SDK.
 
-<img src="assets/web_sdk_flow.png" alt="Reference architecture for implementation using the Experience Platform Web and Mobile SDK" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_flow.svg" alt="Reference architecture for implementation using the Experience Platform Web and Mobile SDK" style="width:90%; border:1px solid #4a4a4a" />
 
 Sequence Diagram
 
