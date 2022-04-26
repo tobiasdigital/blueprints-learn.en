@@ -42,12 +42,14 @@ role: Architect, Developer, User
   + Journey Optimizer{#journey-optimizer}
     + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)  
     + [Journey Optimizer with Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
-    + [3rd Party Messaging](/help/blueprints/customer-journeys/3rd-party-messaging.md) 
+    + [3rd Party Messaging](/help/blueprints/customer-journeys/3rd-party-messaging.md)
+      + Offer Decisioning{#Offer Decisioning}
+    + [Offer Decisioning on the edge](/help/blueprints/customer-journeys/offer_decisioning/offers_edge.md)
   + Campaign v8{#campaign-v8}
     + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
   + Campaign v7{#campaign-v7}
     + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-    + [Real-Time CDP with Adobe Campaign](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)   
+    + [Real-Time CDP with Adobe Campaign](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
 + Data Collection & Preparation{#data-ingestion}
   + [Overview](/help/blueprints/data-ingestion/overview.md)
   + [Data Preparation & Ingestion](/help/blueprints/data-ingestion/ingestion.md)
