@@ -2,7 +2,6 @@
 title: Offer Decisioning
 description: Deliver personalized offers to consumers across channels including kiosks and agent assisted experiences.
 solution: Experience Platform, Journey Optimizer
-exl-id: 
 ---
 # Journey Optimizer - Offer Decisioning on the edge
 
