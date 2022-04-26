@@ -22,7 +22,7 @@ For details related to migration from application specific SDKs to the Web and M
 * [Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)
 * [Analytics for Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/a4t/overview.html)
 
-# Experience Platform Web/Mobile SDK Deployment
+## Experience Platform Web/Mobile SDK Deployment
 
 The below architecture diagram illustrates the deployment and data collection utilizing the Experience Platform Web SDK.
 
