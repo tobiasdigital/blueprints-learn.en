@@ -65,12 +65,14 @@ Adobe Experience Platform
 ## Implementation Patterns
 
 * Use the Web or Mobile SDK for deployment on websites and mobile applications to implement Offer Decisioning where the SDK deployed.
+  * [Web/Mobile SDK Blueprint](../data-ingestion/websdk.md)
   * [WebSDK](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/web-sdk.html)
   * [MobileSDK](https://aep-sdks.gitbook.io/docs/)
 
 Or
 
-* For an API server to server based implementation use the Edge Network Server API for direct server to server implementation of Offer Decisioning. [Link](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
+* For an API server to server based implementation use the Edge Network Server API for direct server to server implementation of Offer Decisioning. 
+  * [Edge Network Server API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
 
 <br>
 

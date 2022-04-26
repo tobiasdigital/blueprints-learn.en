@@ -30,7 +30,7 @@ The below architecture diagram illustrates the deployment and data collection ut
 
 Sequence Diagram of Experience Edge, Experience Platform Services, and Applications
 
-<img src="assets/web_sdk_sequence.png" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_sequence.svg" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:90%; border:1px solid #4a4a4a" />
 
 ## Reference Documentation
 
