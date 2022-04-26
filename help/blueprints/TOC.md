@@ -64,3 +64,4 @@ role: Architect, Developer, User
   + [Overview](/help/blueprints/web-personalization/overview.md)
   + [Behavioral Personalization](/help/blueprints/web-personalization/behavioral.md)
   + [Known Customer Personalization](/help/blueprints/web-personalization/known-personalization.md)
+  + [Offer Decisioning](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
