@@ -43,7 +43,7 @@ role: Architect, Developer, User
     + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)  
     + [Journey Optimizer with Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
     + [3rd Party Messaging](/help/blueprints/customer-journeys/3rd-party-messaging.md)
-    + Offer Decisioning{#Offer Decisioning}
+    + Offer Decisioning{#offer-decisioning}
     + [Offer Decisioning on the edge](/help/blueprints/customer-journeys/offer_decisioning/offers_edge.md)
   + Campaign v8{#campaign-v8}
     + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
