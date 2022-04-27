@@ -55,8 +55,9 @@ role: Architect, Developer, User
   + [Overview](/help/blueprints/data-ingestion/overview.md)
   + [Data Preparation & Ingestion](/help/blueprints/data-ingestion/ingestion.md)
   + [Server Side Enterprise Data Collection](/help/blueprints/data-ingestion/server-side-collection.md)
-  + [Experience Platform Web SDK & Edge Network](/help/blueprints/data-ingestion/websdk.md)
-  + [Application SDKs](/help/blueprints/data-ingestion/appsdk.md)
+  + Deployment{#deployment}
+    + [Experience Platform Web SDK & Edge Network](/help/blueprints/data-ingestion/websdk.md)
+    + [Application SDKs](/help/blueprints/data-ingestion/appsdk.md)
 + Data Analysis, Intelligence, & AI/ML{#data-exploration}
   + [Overview](/help/blueprints/data-insights/overview.md)
   + [Data Analysis & Intelligence](/help/blueprints/data-insights/analysis.md)
