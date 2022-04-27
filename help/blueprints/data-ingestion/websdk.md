@@ -1,7 +1,7 @@
 ---
-title: Web/Mobile SDK Data Collection Blueprint
-description: This blueprint shows the architecture and ingestion through the Experience Platform Web and Mobile SDK
-solution: Data Collection
+title: Web/Mobile SDK, Edge Network Deployment Blueprint
+description: This blueprint shows the architecture and ingestion through the Experience Platform Web and Mobile SDK and Edge Network
+solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
