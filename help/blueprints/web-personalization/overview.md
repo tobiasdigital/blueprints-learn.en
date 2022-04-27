@@ -1,7 +1,7 @@
 ---
 title: Web & Mobile Personalization
 description: Deliver personalized web and mobile content with [!UICONTROL Real-time Customer Profile].
-solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
+solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 
 thumbnail:
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8

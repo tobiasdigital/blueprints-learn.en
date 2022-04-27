@@ -1,7 +1,7 @@
 ---
 title: Custom Data Science for Profile Enrichment Blueprint
 description: This blueprint shows how Adobe Experience Platform's Data Science Workspace can use data within Experience Platform to train, deploy, and score models to provide machine learning insights from the data.
-solution: Experience Platform,Data Collection
+solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 ---

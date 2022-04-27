@@ -1,7 +1,7 @@
 ---
 title: Audience & Profile Activation
 description: Deliver audience activated and profile centric customer experiences with Real-time Customer Data Platform​.
-solution: Experience Platform, Real-time Customer Data Platform
+solution: Real-time Customer Data Platform
 kt: 
 thumbnail:
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f

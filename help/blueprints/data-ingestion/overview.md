@@ -1,7 +1,7 @@
 ---
 title: Data Collection & Preparation
 description: This blueprint shows all the methods by which data can be ingested and prepared in Adobe Experience Platform.
-solution: Experience Platform, Data Collection
+solution: Data Collection
 kt: 7204
 thumbnail:
 exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68

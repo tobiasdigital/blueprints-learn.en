@@ -1,7 +1,7 @@
 ---
 title: Campaign v7 Blueprint
 description: Adobe Campaign v7 is a campaigning tool built for traditional marketing channels such as email and direct mail. It provides robust ETL and data management capabilities to help craft and curate the perfect campaign. Its orchestration engine provides for rich multi-touch marketing programs with a core focus on batch-based driven journeys.  It also comes paired with a real-time messaging server that enables marketing teams to send pre-defined messages based on a all-inclusive payload from any IT system for things such as password reset, order confirmation, e-receipt's and much more.
-solution: Campaign Classic v7
+solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
 ---
 # Campaign v7 Blueprint

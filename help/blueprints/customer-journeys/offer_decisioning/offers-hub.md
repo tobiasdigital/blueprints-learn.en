@@ -2,6 +2,7 @@
 title: Offer Decisioning on the hub
 description: Deliver personalized offers to consumers across channels including kiosks, agent assisted experiences, and in email and other outbound deliveries.
 solution: Experience Platform, Journey Optimizer
+exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
 ---
 # Journey Optimizer - Offer Decisioning on the hub
 

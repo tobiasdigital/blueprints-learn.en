@@ -1,7 +1,7 @@
 ---
 title: Real-Time CDP with Adobe Campaign Integration Pattern
 description: Showcases how the Adobe Experience Platform and its Real-Time Customer Profile and centralized segmentation tool can be utilized with Adobe Campaign to deliver personalized conversations.
-solution: Experience Platform, Campaign v8, Campaign Classic v7, Campaign Standard
+solution: Real-time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
 ---
 # Real-Time CDP with Adobe Campaign Integration Pattern
