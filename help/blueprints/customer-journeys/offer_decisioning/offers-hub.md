@@ -22,6 +22,7 @@ To learn more about Decision Management refer to the product documentation HERE 
 
 * Personalized offers on kiosks and in store experiences.
 * Personalized offers via agent assisted experience such as to call centers or sales intereactions.
+* Offers included in email, SMS, or other outbound interactions.
 * Cross channel journey execution - offer consistency across web, mobile, email, and other interaction channels through Adobe Journey Optimizer.
 
 <br>
@@ -67,8 +68,9 @@ Adobe Experience Platform
 
 ## Implementation Patterns
 
-* Implemented in email, SMS, and outbound channels via direct integration with Adobe Journey Optimizer.
-* For other channel experiences leverage the [Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html).
+* Implemented in email, SMS, and outbound channels via direct integration with [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/offers-e2e.html).
+* For server API based implementation of Offer Decisioning leverage the [Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html).
+* For implementation of batch based decisioning to deliver offers in bulk to a message delivery application use the [Batch Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/batch-decisioning-api.html).
 * For Edge based real-time experiences use the Web/Mobile SDK or the Edge Decisioning API as outlined in the [Offer Decisioning on the Edge blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html).
 <br>
 
