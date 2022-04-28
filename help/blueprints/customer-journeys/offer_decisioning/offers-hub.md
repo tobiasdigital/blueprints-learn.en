@@ -16,7 +16,7 @@ This blueprint will cover the specifics of Decision Management on the hub.
 
 To learn more about Decision Management on the Edge refer to the [Decision Management on the edge](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html?lang=en) blueprint.
 
-To learn more about Decision Management refer to the product documentation HERE (https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
+To learn more about Decision Management refer to the product documentation [HERE](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
 
 ## Use Cases
 
@@ -51,7 +51,8 @@ Adobe Experience Platform
 
 ## Guardrails
 
-[Journey Optimizer Guardrails Product Link](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
+* For Journey Optimizer guardrauls refer to the following [Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
+* For Offer Decisioning guardrauls refer to the following [Offer Decisioning Product Description](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
 
 
 ### Data Ingestion Guardrails
