@@ -50,8 +50,8 @@ Adobe Experience Platform
 
 ## Guardrails
 
-* For Journey Optimizer guardrauls refer to the following [Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
-* For Offer Decisioning guardrauls refer to the following [Offer Decisioning Product Description](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
+* For Journey Optimizer guardrails refer to the following [Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html).
+* For Offer Decisioning guardrails refer to the following [Offer Decisioning Product Description](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
 
 ### Data Ingestion Guardrails
 
