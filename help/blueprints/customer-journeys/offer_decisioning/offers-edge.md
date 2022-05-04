@@ -76,7 +76,6 @@ Or
 
 * For an API server to server based implementation use the Edge Network Service API for direct server to server implementation of Offer Decisioning.
   * [Edge Network Server API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
-  * [Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html)
 
 <br>
 
