@@ -42,6 +42,7 @@ role: Architect, Developer, User
   + Journey Optimizer{#journey-optimizer}
     + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
     + Offer Decisioning{#offer-decisioning}
+      + [Overview](/help/blueprints/customer-journeys/offer_decisioning/offers-overview.md)
       + [Offer Decisioning on the edge](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
       + [Offer Decisioning on the hub](/help/blueprints/customer-journeys/offer_decisioning/offers-hub.md)  
     + [Journey Optimizer with Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
