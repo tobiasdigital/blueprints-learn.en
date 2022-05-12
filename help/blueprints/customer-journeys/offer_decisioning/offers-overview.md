@@ -2,6 +2,7 @@
 title: Offer Decisioning Overview
 description: Deliver personalized offers across customer journeys.
 solution: Experience Platform, Journey Optimizer
+exl-id: f6271802-faab-4ffc-92d6-4c4d7d423ed4
 ---
 # Journey Optimizer - Offer Decisioning Overview
 
