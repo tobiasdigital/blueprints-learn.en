@@ -24,7 +24,8 @@ To learn more about Decision Management on the Edge refer to the [Decision Manag
 
 * Personalized offers on kiosks and in store experiences.
 * Personalized offers via agent assisted experience such as to call centers or sales intereactions.
-* Offers included in email, SMS, or other outbound interactions.
+* Offers included in email, SMS, mobile push notifications or other outbound interactions.
+* Provide offers to external ESP and messageing systems for delivery.
 * Cross channel journey execution - offer consistency across web, mobile, email, and other interaction channels through Adobe Journey Optimizer.
 
 <br>
@@ -34,12 +35,6 @@ To learn more about Decision Management on the Edge refer to the [Decision Manag
 <img src="../assets/offers_hub.svg" alt="Reference architecture Offer Decisioning on the edge blueprint" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
-
-## Integration Patterns
-
-| Integration | Description |
-| :-- | :--- |
-|[Offer Decisioning with Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/ajo/offer-decision.html)| Offer Decisioning can be integrated with Adobe Target such that offers can be tested and delivered as Target experiences.|
 
 ## Prerequisites
 
