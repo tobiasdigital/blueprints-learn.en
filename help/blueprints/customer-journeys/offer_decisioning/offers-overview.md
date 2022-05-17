@@ -19,7 +19,7 @@ The Decision Management capability consists in two main components:
 
 <img src="../assets/offers_overview.png" alt="Offer Decisioning" style="width:100%; border:1px solid #4a4a4a" />
 
-Decision Management can be deployed in one of two ways.
+Decision Management can be deployed in one of two ways, on the edge or via the hub. Each of these methods has a specific set of interfaces and protocols for operating the service as outlined in the respective blueprints referenced below. Additional details can also be obtained in the Decision Management Documentation [HERE](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery-api/decisioning-vs-edge-apis.html).
 
 ## Decision Management on the hub
 
