@@ -24,12 +24,20 @@ Decision Management can be deployed in one of two ways, on the edge or via the h
 
 The first is via the Adobe Experience Platform hub, which is a central data center architecture. In the "hub" approach offers are executed, personalized, and delivered in >500ms latency. Thus the hub architecture is best suited for customer experiences that do not demand sub-second latency, examples include offer decisions which are provided for kiosks or agent assisted experiences such as in call centers or in person interactions. Offers that are inserted into emails, SMS messages, or push notifications and other outbound campaigns are also powered by the hub approach. To learn more about Decision Management on the hub refer to the [Decision Management on the hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-hub.html?lang=en) blueprint.
 
+* Offer eligibility can operate agains the full real-time customer profile, including all attributes and experience events
+
 ### Use Cases for Decision Management on the hub
 
 * Personalized offers on kiosks and in store experiences.
 * Personalized offers via agent assisted experience such as to call centers or sales intereactions.
 * Offers included in email, SMS, or other outbound interactions.
 * Cross channel journey execution - offer consistency across web, mobile, email, and other interaction channels through Adobe Journey Optimizer.
+
+### Decision Management on the hub technical considerations
+
+* Requests per second = 2000.
+* Latency of response < 500ms.
+* Access to full real-time customer profile including audience memberships, attributes and experience events.
 
 ## Decision Management on the edge
 
@@ -39,6 +47,13 @@ The second approach is via the Experience Edge Network, which is a globally dist
 
 * Online personalization via web or mobile inbound experiences.
 * Cross channel journey execution - offer consistency across web, mobile, email, and other interaction channels through Adobe Journey Optimizer.
+
+### Decision Management on the edge technical considerations
+
+* Requests per second = 5000.
+* Latency of response < 250ms.
+* Access to edge real-time profile. Only edge projected audiences and profile attributes will be available in the profile. 
+* If personalization is required in first time experiences, hub will be ideal as the full profile is available. The edge profile must sync from the hub for the first time edge experience. Hence the very first experience from the edge will not include prior uploaded profile data to the hub.
 
 ## Related Documentation
 
