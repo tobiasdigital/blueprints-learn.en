@@ -51,6 +51,10 @@ Adobe Experience Platform
 
 * For Journey Optimizer guardrails refer to the following [Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html).
 * For Offer Decisioning guardrails refer to the following [Offer Decisioning Product Description](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
+* Requests per second = 5000.
+* Latency of response < 250ms.
+* Access to edge real-time profile. Only edge projected audiences and profile attributes will be available in the profile. 
+* If personalization is required in first time experiences, hub will be ideal as the full profile is available. The edge profile must sync from the hub for the first time edge experience. Hence the very first experience from the edge will not include prior uploaded profile data to the hub.
 
 ### Data Ingestion Guardrails
 

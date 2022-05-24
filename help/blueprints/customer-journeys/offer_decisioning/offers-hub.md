@@ -50,6 +50,9 @@ Adobe Experience Platform
 
 * For Journey Optimizer guardrails refer to the following [Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html).
 * For Offer Decisioning guardrails refer to the following [Offer Decisioning Product Description](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
+* Requests per second = 2000.
+* Latency of response < 500ms.
+* Access to full real-time customer profile including audience memberships, attributes and experience events.
 
 
 ### Data Ingestion Guardrails
