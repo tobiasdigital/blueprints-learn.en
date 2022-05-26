@@ -1,5 +1,5 @@
 ---
-title: Server Side Enterprise Data Collection Blueprint
+title: Event Forwarding Blueprint
 description: Stream collected data by Experience Platform SDKs to destinations
 solution: Data Collection
 kt: 7202
