@@ -5,9 +5,9 @@ solution: Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
 ---
-# Server Side Enterprise Data Collection Blueprint
+# Event Forwarding Blueprint
 
-Server Side Enterprise Data Collection Blueprint shows how data collected with Adobe Experience Platform Web and Mobile SDKs can be forwarded from Experience Platform Edge Network to a desired destination. You can forward all raw data collected from the SDKs or specific data based on events and rules as configured in tag properties (formerly Launch).
+The Event Forwarding Blueprint shows how data collected with Adobe Experience Platform Web and Mobile SDKs can be forwarded from Experience Platform Edge Network to a desired destination. You can forward all raw data collected from the SDKs or specific data based on events and rules as configured in tag properties (formerly Launch).
 
 ## Use Cases
 
@@ -16,7 +16,7 @@ Server Side Enterprise Data Collection Blueprint shows how data collected with A
 
 ## Applications
 
-* Adobe Experience Platform Collection
+* Adobe Experience Platform Data Collection
 
 ## Architecture
 
