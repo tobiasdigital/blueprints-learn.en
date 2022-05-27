@@ -3,6 +3,7 @@ title: Multi Sandbox Event Forwarding Data Collection Blueprint
 description: Stream collected data by Experience Platform SDKs to multiple sandboxes using Event Forwarding
 solution: Data Collection
 kt: 7202
+exl-id: c24a47fe-b3da-4170-9416-74d2b6a18f32
 ---
 # Multi Sandbox Event Forwarding Data Collection Blueprint
 
