@@ -45,7 +45,7 @@ Additional Journey Optimizer Guardrails:
   * Streaming segments (<5mins qualification)
 * Batch segments – need to ensure you understand the daily volume of qualified users and ensure the destination system can handle the burst throughput per journey and across all journeys
 * Streaming segments – need to ensure the initial burst of profile qualifications can be handled along with the daily streaming qualifying volume per journey and across all journeys
-* Offer Decisioning in not supported
+* Decision Management in not supported
 * Outbound integrations to 3rd Party systems
   * No support for a single Static IPs as our infrastructure is multi-tenant (must allow list all datacenter IPs)
   * Only POST and PUT methods are supported for custom actions

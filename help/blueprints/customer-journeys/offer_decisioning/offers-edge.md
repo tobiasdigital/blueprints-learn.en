@@ -1,14 +1,14 @@
 ---
-title: Offer Decisioning on the edge
+title: Decision Management on the edge
 description: Deliver personalized offers to consumers across channels including in real-time web and mobile experiences.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
 ---
-# Journey Optimizer - Offer Decisioning on the edge
+# Journey Optimizer - Decision Management on the edge
 
-To learn more about Decision Management refer to the product documentation [HERE](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) and the Offer Decisioning Overview [HERE](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-overview.html)
+To learn more about Decision Management refer to the product documentation [HERE](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) and the Decision Management Overview [HERE](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-overview.html)
 
-Adobe Decision Management is a service provided as part of Adobe Journey Optimizer. This blueprint outlines the use cases and technical capabilities of the application and provides a deep dive into the various architectural components and considerations that make up Offer Decisioning.
+Adobe Decision Management is a service provided as part of Adobe Journey Optimizer. This blueprint outlines the use cases and technical capabilities of the application and provides a deep dive into the various architectural components and considerations that make up Decision Management.
 
 Decision Management can be deployed in one of two ways. The first is via the Adobe Experience Platform Hub, which is a single data center architecture. In the "hub" approach offers are executed, personalized, and delivered in second latency. Thus the hub architecture is best suited for customer experience that do not demand sub-second latency, examples include offer decisions which are provided for kiosks or agent assisted experiences such as in call centers or in person interactions. 
 
@@ -27,7 +27,7 @@ To learn more about Decision Management on the hub refer to the [Decision Manage
 
 ## Architecture
 
-<img src="../assets/offers_edge.svg" alt="Reference architecture Offer Decisioning on the edge blueprint" style="width:100%; border:1px solid #4a4a4a" />
+<img src="../assets/offers_edge.svg" alt="Reference architecture Decision Management on the edge blueprint" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -35,7 +35,7 @@ To learn more about Decision Management on the hub refer to the [Decision Manage
 
 | Integration | Description |
 | :-- | :--- |
-|[Offer Decisioning with Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/ajo/offer-decision.html)| Offer Decisioning can be integrated with Adobe Target such that offers can be tested and delivered as Target experiences.|
+|[Decision Management with Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/ajo/offer-decision.html)| Decision Management can be integrated with Adobe Target such that offers can be tested and delivered as Target experiences.|
 
 ## Prerequisites
 
@@ -50,7 +50,7 @@ Adobe Experience Platform
 ## Guardrails
 
 * For Journey Optimizer guardrails refer to the following [Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html).
-* For Offer Decisioning guardrails refer to the following [Offer Decisioning Product Description](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
+* For Decision Management guardrails refer to the following [Decision Management Product Description](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
 * Requests per second = 5000.
 * Latency of response < 250ms.
 * Access to edge real-time profile. Only edge projected audiences and profile attributes will be available in the profile. 
@@ -70,14 +70,14 @@ Adobe Experience Platform
 
 ## Implementation Patterns
 
-* Use the Web or Mobile SDK for deployment on websites and mobile applications to implement Offer Decisioning where the SDK deployed.
+* Use the Web or Mobile SDK for deployment on websites and mobile applications to implement Decision Management where the SDK deployed.
   * [Web/Mobile SDK Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html)
   * [WebSDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html)
   * [MobileSDK](https://aep-sdks.gitbook.io/docs/)
 
 Or
 
-* For an API server to server based implementation use the Edge Network Service API for direct server to server implementation of Offer Decisioning.
+* For an API server to server based implementation use the Edge Network Service API for direct server to server implementation of Decision Management.
   * [Edge Network Server API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
 
 <br>
@@ -111,4 +111,4 @@ Or
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * [Adobe Journey Optimizer Decision Management](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) 
 * [Adobe Journey Optimizer Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
-* [Adobe Offer Decisioning Product Description](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
+* [Adobe Decision Management Product Description](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)

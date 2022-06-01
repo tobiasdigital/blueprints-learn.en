@@ -50,7 +50,7 @@ Demonstrates how Adobe Journey Optimizer can be used with Adobe Campaign to nati
   * Streaming segments (<5mins qualification)
 * Batch segments – need to ensure you understand the daily volume of qualified users and ensure the destination system can handle the burst throughput per journey and across all journeys
 * Streaming segments – need to ensure the initial burst of profile qualifications can be handled along with the daily streaming qualifying volume per journey and across all journeys
-* Offer Decisioning in not supported
+* Decision Management in not supported
 * Business events are not supported
 * Outbound integrations to 3rd Party systems
   * No support for a single Static IPs as our infrastructure is multi-tenant (must allow list all datacenter IPs)
@@ -70,7 +70,7 @@ Demonstrates how Adobe Journey Optimizer can be used with Adobe Campaign to nati
 * AC (v7) only supports event initiated journey's
   * No segment or segment membership initiated Journey's
   * Read Audience and Business event based journey's are not supported due to volume it can send to the execution instances
-* Neither AC (v7) or AC (v8) supports Offer Decisioning in messages
+* Neither AC (v7) or AC (v8) supports Decision Management in messages
 * No throttling of outbound API calls made to Campaign
 * Transactional messaging logs are not natively sync’d to AEP. Requires consulting effort. Recommendation to export logs at most every 4hrs
 

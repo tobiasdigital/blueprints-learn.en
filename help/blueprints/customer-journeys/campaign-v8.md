@@ -29,7 +29,7 @@ Adobe Campaign v8 is the next-gen campaigning tool built for traditional marketi
 
 | Scenario | Description | Capabilities |
 | :-- | :--- | :--- |
-| [Journey Optimizer with Adobe Campaign](ajo-and-campaign.md) | Shows how you can use Adobe Journey Optimizer to orchestrate 1:1 experiences utilizing the Real-Time Customer Profile and leverage the native Adobe Campaign transactional messaging system to send the message | Leverage the Real-Time Customer Profile and power of Journey Optimizer to orchestrate in the moment experiences while utilizing the native real-time messaging capabilities of Adobe Campaign to do the last mile communication<br><br>Considerations:<br><ul><li>Can send up to 1M messages per hour via the Real-Time Message server<li>No throttling is performed from Journey Optimizer so ensure technical vetting by a Pre-Sales Enterprise Architect</li><li>Offer Decisioning is not supported in payloads to Campaign v8</li></ul> |
+| [Journey Optimizer with Adobe Campaign](ajo-and-campaign.md) | Shows how you can use Adobe Journey Optimizer to orchestrate 1:1 experiences utilizing the Real-Time Customer Profile and leverage the native Adobe Campaign transactional messaging system to send the message | Leverage the Real-Time Customer Profile and power of Journey Optimizer to orchestrate in the moment experiences while utilizing the native real-time messaging capabilities of Adobe Campaign to do the last mile communication<br><br>Considerations:<br><ul><li>Can send up to 1M messages per hour via the Real-Time Message server<li>No throttling is performed from Journey Optimizer so ensure technical vetting by a Pre-Sales Enterprise Architect</li><li>Decision Management is not supported in payloads to Campaign v8</li></ul> |
 
 <br>
 

@@ -1,22 +1,22 @@
 ---
-title: Offer Decisioning Overview
+title: Decision Management Overview
 description: Deliver personalized offers across customer journeys.
 solution: Experience Platform, Journey Optimizer
 ---
-# Journey Optimizer - Offer Decisioning Overview
+# Journey Optimizer - Decision Management Overview
 
 To learn more about Decision Management refer to the product documentation [HERE](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
 
-Adobe Decision Management is a service provided as part of Adobe Journey Optimizer. This blueprint outlines the use cases and technical capabilities of the application and provides a deep dive into the various architectural components and considerations that make up Offer Decisioning.
+Adobe Decision Management is a service provided as part of Adobe Journey Optimizer. This blueprint outlines the use cases and technical capabilities of the application and provides a deep dive into the various architectural components and considerations that make up Decision Management.
 
-Journey Optimizer is used to deliver the best offer and experience to your customers across all touch points at the right time. Offer Decisioning makes personalization easy with a central library of marketing offers and a decision engine that applies rules and constraints to rich, real-time profiles created by Adobe Experience Platform to help you send your customers the right offer at the right time.
+Journey Optimizer is used to deliver the best offer and experience to your customers across all touch points at the right time. Decision Management makes personalization easy with a central library of marketing offers and a decision engine that applies rules and constraints to rich, real-time profiles created by Adobe Experience Platform to help you send your customers the right offer at the right time.
 
 The Decision Management capability consists in two main components:
 
 * The Centralized Offer Library which is the interface where you create and manage the different elements that compose your offers, and define their rules and constraints.
 * The Offer Decision Engine which leverages Adobe Experience Platform data and Real-time Customer profiles, along with the Offer Library, in order to select the right time, customers and channels to which offers will be delivered.
 
-<img src="../assets/offers_overview.png" alt="Offer Decisioning" style="width:100%; border:1px solid #4a4a4a" />
+<img src="../assets/offers_overview.png" alt="Decision Management" style="width:100%; border:1px solid #4a4a4a" />
 
 Decision Management can be deployed in one of two ways, on the edge or via the hub. Each of these methods has a specific set of interfaces and protocols for operating the service as outlined in the respective blueprints referenced below. Additional details can also be obtained in the Decision Management Documentation [HERE](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery-api/decisioning-vs-edge-apis.html).
 
@@ -61,4 +61,4 @@ The second approach is via the Experience Edge Network, which is a globally dist
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * [Adobe Journey Optimizer Decision Management](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) 
 * [Adobe Journey Optimizer Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
-* [Adobe Offer Decisioning Product Description](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
+* [Adobe Decision Management Product Description](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
