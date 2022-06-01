@@ -20,7 +20,7 @@ Ingest customer data from multiple sources to build a single profile view of the
 
 ## Architecture
 
-<img src="../assets/facebook.png" alt="Reference architecture for Facebook Custom Audience Activation" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../assets/facebook.svg" alt="Reference architecture for Facebook Custom Audience Activation" style="width:90%; border:1px solid #4a4a4a" />
 
 ## Implementation Steps
 
