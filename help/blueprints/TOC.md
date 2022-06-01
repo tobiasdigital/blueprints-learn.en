@@ -41,10 +41,10 @@ role: Architect, Developer, User
   + [Overview](/help/blueprints/customer-journeys/overview.md)
   + Journey Optimizer{#journey-optimizer}
     + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-    + Decision Management{#offer-decisioning}
-      + [Overview](/help/blueprints/customer-journeys/offer_decisioning/offers-overview.md)
-      + [Decision Management on the edge](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
-      + [Decision Management on the hub](/help/blueprints/customer-journeys/offer_decisioning/offers-hub.md)  
+    + Decision Management{#decision-management}
+      + [Overview](/help/blueprints/customer-journeys/decision_management/decision-management-overview.md)
+      + [Decision Management on the edge](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
+      + [Decision Management on the hub](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)  
     + [Journey Optimizer with Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
     + [3rd Party Messaging](/help/blueprints/customer-journeys/3rd-party-messaging.md)
   + Campaign v8{#campaign-v8}
@@ -67,4 +67,4 @@ role: Architect, Developer, User
   + [Overview](/help/blueprints/web-personalization/overview.md)
   + [Behavioral Personalization](/help/blueprints/web-personalization/behavioral.md)
   + [Known Customer Personalization](/help/blueprints/web-personalization/known-personalization.md)
-  + [Decision Management](/help/blueprints/web-personalization/offers-edge.md)
+  + [Decision Management](/help/blueprints/web-personalization/decision-management-edge.md)
