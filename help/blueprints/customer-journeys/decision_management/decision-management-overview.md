@@ -2,6 +2,7 @@
 title: Decision Management Overview
 description: Deliver personalized offers across customer journeys.
 solution: Experience Platform, Journey Optimizer
+exl-id: 1bc9335c-5321-4d0c-939e-4f402e2e8f51
 ---
 # Journey Optimizer - Decision Management Overview
 
