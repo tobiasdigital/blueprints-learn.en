@@ -12,17 +12,17 @@ Learn how customers are architecting great experiences and succeeding with Digit
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en"><img alt="thumbnail image for an Apparel industry using audience activation, customer journey analytics, and customer journeys Blueprints" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/apparel.html"><img alt="thumbnail image for an Apparel industry using audience activation, customer journey analytics, and customer journeys Blueprints" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
     </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><img alt="thumbnail image for a Retail industry using Activation with Online/Offline Data & Journey Optimizer Blueprints" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/retail.html"><img alt="thumbnail image for a Retail industry using Activation with Online/Offline Data & Journey Optimizer Blueprints" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
     
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><img alt="thumbnail image for the Journey Optimizer Blueprint" src="../customer-journeys/assets/ajo-architecture.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/telecommunications.html"><img alt="thumbnail image for the Journey Optimizer Blueprint" src="../customer-journeys/assets/ajo-architecture.svg" /></a>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en"><img alt="thumbnail image for the Activation of Online/Offline Data Blueprint" src="../audience-activation/assets/known_activation.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/travel-hospitality.html"><img alt="thumbnail image for the Activation of Online/Offline Data Blueprint" src="../audience-activation/assets/known_activation.svg" /></a>
   </td>
 </tr>
 <tr>
