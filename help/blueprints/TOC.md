@@ -37,7 +37,7 @@ role: Architect, Developer, User
   + [B2B Activation](/help/blueprints/b2b/b2bactivation.md)
 + Customer Journey Analytics{#customer-journey-analytics}
   + [Overview](/help/blueprints/customer-journey-analytics/overview.md)
-  + [Sharing CJA Audiences to RTCDP](/help/blueprints/customer-journey-analytics/CJA_RTCDP.md)
+  + [Sharing CJA Audiences to RTCDP](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
 + Customer Journeys{#customer-journeys}
   + [Overview](/help/blueprints/customer-journeys/overview.md)
   + Journey Optimizer{#journey-optimizer}
