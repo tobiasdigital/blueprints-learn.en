@@ -38,6 +38,7 @@ role: Architect, Developer, User
 + Customer Journey Analytics{#customer-journey-analytics}
   + [Overview](/help/blueprints/customer-journey-analytics/overview.md)
   + [Sharing CJA Audiences to RTCDP](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
+  + [CJA and Journey Optimizer](/help/blueprints/customer-journey-analytics/cja-ajo.md)
 + Customer Journeys{#customer-journeys}
   + [Overview](/help/blueprints/customer-journeys/overview.md)
   + Journey Optimizer{#journey-optimizer}
