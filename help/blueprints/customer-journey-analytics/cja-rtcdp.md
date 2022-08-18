@@ -2,8 +2,9 @@
 title: Customer Journey Analytics with Real-time Customer Data Platform
 description: Unify and analyze data and customer behaviors from across the customer journey in Customer Journey Analytics, publish audience from CJA to RTCDP
 solution: Customer Journey Analytics
-kt: 
-thumbnail:
+kt: null
+thumbnail: null
+exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
 ---
 # Customer Journey Analytics with Real-time Customer Data Platform
 
