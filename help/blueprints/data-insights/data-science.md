@@ -1,13 +1,13 @@
 ---
 title: Custom Data Science for Profile Enrichment Blueprint
-description: This blueprint shows how Adobe Experience Platform's Data Science Workspace can use data within Experience Platform to train, deploy, and score models to provide machine learning insights from the data.
+description: This blueprint shows how data science based insights can be ingested into Experience Platform to enrich the Real-time Customer Profile.
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 ---
 # Custom Data Science for Profile Enrichment Blueprint
 
-Custom Data Science for Profile Enrichment Blueprint illustrates how data in Adobe Experience Platform can be used to train, deploy, and score models to provide machine learning insights into Experience Platform and the Real-time Customer Data Platform from data science and machine learning tools. Modeled insights can be ingested into Experience Platform to enrich the real-time customer profile. Examples of machine learning insights include lifetime value scoring, product and category affinity, propensity to convert, or propensity to churn. 
+Custom Data Science for Profile Enrichment Blueprint illustrates how data can be used to train, deploy, and score models to provide machine learning insights into Experience Platform and the Real-time Customer Data Platform from data science and machine learning tools. Modeled insights can be ingested into Experience Platform to enrich the real-time customer profile. Examples of machine learning insights include lifetime value scoring, product and category affinity, propensity to convert, or propensity to churn.
 
 ## Use Cases
 
@@ -32,17 +32,14 @@ For model results to be ingested into Real-time Customer Profile be sure to do t
 
 ## Implementation Considerations
 
-* In most cases model result should be ingested as profile attributes and not experience events. The model results can be a simple attribute string. If there are multiple model results that are to be ingested, it is recommended to use an array or map type field.
+* In most cases model result should be ingested as profile attributes and not experience events. The model results can be a simple attribute strings. If there are multiple model results that are to be ingested, it is recommended to use an array or map type field.
 * The daily profile snapshot dataset which is a daily export of the unified profile attribute data can be leveraged to train models on profile attribute data. Profile snapshot dataset documenation can be accessed [here](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html#profile-attribute-datasets).   
 * For extracting data out of Experience Platform the following methods can be used
     * Data Access SDK
         * Data is in raw file form
         * Profile experience event data remains in its un-unified raw state.
     * RTCDP Destinations
-        * Only profile attributes and segment memberships can be egressed.
-    * Query Service
-        * Accessing large amounts of raw data may cause the query to time out at the 10 minute time out. It is recommended to query data incrementally.
-
+        * Profile attributes and segment memberships can be egressed.
 
 ## Related Documentation
 

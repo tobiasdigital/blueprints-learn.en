@@ -15,13 +15,13 @@ Experience Platform's [!UICONTROL Query Service] allows SQL queries to be perfor
 
 Experience Platform allows connections with third-party SQL clients, interfaces, and Business Intelligence (BI) tools to directly connect to, access and query the data within Experience Platform, using the [!DNL PostgreSQL] protocol.
 
-Certain guardrails apply for the query timeout and for the amount of data that is included in the query result, as noted in the guardrails section below.
-
 ## Use Cases
 
 * Interactive query and aggregation of data
 * Row and column access to ingested data for exploration and validation
 * Dashboarding and visualization of data via Business Intelligence tooling
+
+Additional common use cases for the query service are outlined here [Query Service Use Cases](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/abandoned-browse.html)
 
 ## Applications
 
@@ -34,15 +34,15 @@ Certain guardrails apply for the query timeout and for the amount of data that i
 ## Guardrails
 
 Refer to the Query Service Product Documentation for details on best practices and guardrails.
-[Query Service Guidance](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/writing-queries.html?lang=en#best-practices)
+[Query Service Guidance](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html)
 
 ## Implementation Steps
 
 1. [Create schemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) for data to be ingested.
 1. [Create datasets](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) for data to be ingested.
 1. [Ingest data](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) into Experience Platform.
-1.  Confirm that data is available to [[!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=en) and [[!UICONTROL Data Science Workspace]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html?lang=en) for raw access and query.
-1.  [Connect Business Intelligence tools and SQL clients to [!UICONTROL Query Service]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.qsvc.dash) for visualization, data query, and exploration.
+1.  Confirm that data is available to [[!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=en).
+1.  [Connect Business Intelligence tools and SQL clients to [!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html) for visualization, data query, and exploration.
 
 ## Related Documentation
 
