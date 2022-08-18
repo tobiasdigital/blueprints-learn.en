@@ -9,6 +9,10 @@ thumbnail:
 
 Create and publish audiences identified in Customer Journey Analytics (CJA) to Real-time Customer Profile in Adobe Experience Platform for customer targeting and personalization. Ideal for creating audiences using historical data or more refined audiences from granular filtering and computed fields in Customer Journey Analytics.
 
+## Customer Journey Analytics Audience Publishing Guide
+
+See the following documentation for guidance on implementation and configuration on publication of audiences from Customer Journey Analytics to Real-time Customer Data Platform. [Documentation](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html)
+
 ## Architecture for Customer Journey Analytics Blueprints
 
 ![Architecture diagram](assets/CJA_RTCDP.svg)
@@ -16,10 +20,6 @@ Create and publish audiences identified in Customer Journey Analytics (CJA) to R
 ## Guardrail diagram for Customer Journey Analytics Blueprints
 
 ![Guardrail diagram](assets/cja_guardrails.svg)
-
-## Customer Journey Analytics Audience Publishing Guide
-
-See the following documentation for guidance on implementation and configuration on publication of audiences from Customer Journey Analytics to Real-time Customer Data Platform. [Documentation](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html)
 
 ## Related Blog Posts
 
