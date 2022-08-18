@@ -12,8 +12,6 @@ Data Analysis, Intelligence, and AI/ML comprises the ability within Adobe Experi
 
 Experience Platform's [!UICONTROL Query Service] allows SQL queries to be performed on the data. In addition, Experience Platform allows connections with third-party SQL clients, interfaces, and Business Intelligence (BI) tools to directly connect to, access and query the data within Experience Platform, using the [!DNL PostgreSQL] protocol.
 
-[!UICONTROL Data Science Workspace] enables data exploration, data science, and machine learning workloads to be performed on the data. Models can be trained, scored, and operationalized to further enrich customer profiles and surface deeper insights on customer behaviors and experiences.
-
 | Blueprint | Description| Experience Cloud Applications|
 |---|---|---|
 | **[Data Analysis & Intelligence](analysis.md)** | <ul><li>Data Analysis and Intelligence Blueprint encompasses the methods by which data can be queried and analyzed for deeper insight within Adobe Experience Platform</ul></li> | <ul><li> Adobe Experience Platform Intelligence</ul></li>|
