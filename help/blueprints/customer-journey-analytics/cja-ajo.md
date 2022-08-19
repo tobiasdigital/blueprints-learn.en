@@ -2,8 +2,9 @@
 title: Customer Journey Analytics with Journey Optimizer
 description: Unify and analyze data and customer behaviors from across the customer journey in Customer Journey Analytics including delivery and interaction data from Journey Optimizer.
 solution: Customer Journey Analytics
-kt: 
-thumbnail:
+kt: null
+thumbnail: null
+exl-id: 5ae084bf-a98d-418a-8038-e6f849ff7c1d
 ---
 # Customer Journey Analytics with Journey Optimizer
 
