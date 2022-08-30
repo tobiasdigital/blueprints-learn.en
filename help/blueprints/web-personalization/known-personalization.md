@@ -53,6 +53,7 @@ Known Customer Personalization is supported via several implementation approache
 
 * Using the Edge Network with the Web/Mobile SDK. Real-time edge segmentation requires the Web/Mobile SDK or Edge API implementation approach.
 * [Refer to the Experience Platform Web and Mobile SDK Blueprint](../data-ingestion/websdk.md) for the SDK based implementation.
+* For use in the Mobile SDK the [Adobe Journey Optimizer - Decisioning extension](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning) must be installed in the Mobile SDK.
 * [Refer to the Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html) for an API based implementation of Adobe Target with Edge Profile.
 
 ### Implementation Pattern 2 - Application specific SDKs
@@ -65,7 +66,7 @@ Using traditional application-specific SDKs (for example, AT.js and AppMeasureme
 
 1. [Implement Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) for your web or mobile applications
 1. [Implement Experience Platform and [!UICONTROL Real-time Customer Profile]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html) ensure that audiences created are activated to the Edge by configuring the applicable [merge policy](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#create-a-merge-policy) as active on the Edge. 
-1. Implement [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) or the Experience Platform Mobile SDK. Experience Platform Web/Mobile SDK or EDGE API are required for real-time Edge segmentation, but not required for sharing of streaming and batch audiences from Real-time Customer Data Platform to Target.
+1. Implement [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) or the [Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/) with the correct extension (Target or Adobe Journey Optimizer - Decisioning) installed. Experience Platform Web/Mobile SDK or EDGE API are required for real-time Edge segmentation, but not required for sharing of streaming and batch audiences from Real-time Customer Data Platform to Target.
 1. [Configure the Edge Network with a Edge Datastream](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)
 1. [Enable Adobe Target as a destination within Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en)
 1. (Optional) [Implement Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html).
