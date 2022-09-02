@@ -23,8 +23,8 @@ role: Architect, Developer, User
   + [Experience Platform Data Flow](/help/blueprints/experience-platform/platform-data-flow.md)
 + Audience & Profile Activation{#audience-activation}
   + [Overview](/help/blueprints/audience-activation/overview.md)
-  + [Anonymous Audience Activation](/help/blueprints/audience-activation/anonymous.md)
-  + Known Customer Activation{#known-customer-audience-activation}
+  + [Anonymous Audience Activation (AAM)](/help/blueprints/audience-activation/anonymous.md)
+  + Known Customer Activation (RTCDP) {#known-customer-audience-activation}
     + [Overview](/help/blueprints/audience-activation/known.md)
     + Activation to Social & Advertising Channels{#audience-activation}
       + [Activation to Facebook Custom Audiences](/help/blueprints/audience-activation/destinations/facebook.md)
@@ -68,6 +68,6 @@ role: Architect, Developer, User
   + [Custom Data Science for Profile Enrichment](/help/blueprints/data-insights/data-science.md)
 + Web & Mobile Personalization{#web-personalization}
   + [Overview](/help/blueprints/web-personalization/overview.md)
-  + [Behavioral Personalization](/help/blueprints/web-personalization/behavioral.md)
-  + [Known Customer Personalization](/help/blueprints/web-personalization/known-personalization.md)
+  + [Behavioral Personalization - Target](/help/blueprints/web-personalization/behavioral.md)
+  + [Known Customer Personalization - Target & RTCDP](/help/blueprints/web-personalization/known-personalization.md)
   + [Decision Management](/help/blueprints/web-personalization/decision-management-edge.md)
