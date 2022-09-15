@@ -163,7 +163,3 @@ Segment revocation/deletion from the sender is an on-demand process where the li
 * [Permissions](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en)
 * [Trouble shooting](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/troubleshooting.html?lang=en)
 * [XID](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=en)
-
-
-
-
