@@ -72,7 +72,7 @@ Demonstrates how Adobe Journey Optimizer can be used with Adobe Campaign to nati
   * Read Audience and Business event based journey's are not supported due to volume it can send to the execution instances
 * Neither AC (v7) or AC (v8) supports Decision Management in messages
 * No throttling of outbound API calls made to Campaign
-* Transactional messaging logs are not natively sync’d to AEP. Requires consulting effort. Recommendation to export logs at most every 4hrs
+* With Campaign v8.4 it is possible to leverage Adobe Campaign Managed Services Source Connector in Experience Platform to sync delivery and tracking events from Campaign into Experience Platform. Refer to the Source Connector Documentation for additional details. [Link](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
 
 <br>
 
@@ -120,7 +120,8 @@ Demonstrates how Adobe Journey Optimizer can be used with Adobe Campaign to nati
 ### Campaign v7/v8 or Campaign Standard
 
 * Messaging templates need to be configured with appropriate personalization context
-* Export workflows need to configured to export the transactional messaging logs back to the Experience Platform. Recommendation is to run at most every 4hrs
+* For Campaign standard - Export workflows need to configured to export the transactional messaging logs back to the Experience Platform. The recommendation is to run at most every 4hrs.
+* For Campaign v8.4 it is possible to leverage Adobe Campaign Managed Services Source Connector in Experience Platform to sync delivery and tracking events from Campaign into Experience Platform. Refer to the Source Connector Documentation for additional details. [Link](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
 
 ### Mobile Push Configuration (optional)
 
