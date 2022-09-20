@@ -1,4 +1,4 @@
-﻿---
+---
 title: Segment Match
 description: Learn about [!UICONTROL Segment Match] for Adobe Experience Platform (AEP). [!UICONTROL Segment Match] is a data collaboration service that enables you to exchange segment data based on common industry identifiers in a secured, governed, and privacy-friendly manner.
 solution: Experience Platform
