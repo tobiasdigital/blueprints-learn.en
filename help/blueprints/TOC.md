@@ -11,7 +11,7 @@ role: Architect, Developer, User
 
 + [Overview](/help/blueprints/overview.md)
 + [See all use cases](/help/blueprints/use-cases.md)
-+ See all industry success stories{#industry-success-stories}
++ Vertical Industry Blueprints{#vertical-blueprints}
   + [Overview](/help/blueprints/industry-success-stories/overview.md)
   + [Apparel](/help/blueprints/industry-success-stories/apparel.md)
   + [Retail](/help/blueprints/industry-success-stories/retail.md)
