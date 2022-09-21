@@ -21,6 +21,9 @@ role: Architect, Developer, User
   + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
   + [Experience Platform & Applications](/help/blueprints/experience-platform/platform-applications.md)
   + [Experience Platform Data Flow](/help/blueprints/experience-platform/platform-data-flow.md)
+  + Deployment Models{#deployment}
+    + [Experience Platform Web SDK & Edge Network](/help/blueprints/data-ingestion/websdk.md)
+    + [Application SDKs](/help/blueprints/data-ingestion/appsdk.md)
 + Audience & Profile Activation{#audience-activation}
   + [Overview](/help/blueprints/audience-activation/overview.md)
   + [Anonymous Audience Activation (AAM)](/help/blueprints/audience-activation/anonymous.md)
@@ -55,14 +58,11 @@ role: Architect, Developer, User
   + Campaign v7{#campaign-v7}
     + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
     + [Real-Time CDP with Adobe Campaign](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
-+ Data Collection & Preparation{#data-ingestion}
++ Data Ingestion & Data Export{#data-ingestion}
   + [Overview](/help/blueprints/data-ingestion/overview.md)
   + [Data Preparation & Ingestion](/help/blueprints/data-ingestion/ingestion.md)
   + [Event Forwarding](/help/blueprints/data-ingestion/server-side-collection.md)
   + [Multi Sandbox Data Collection](/help/blueprints/data-ingestion/multi-sandbox-data-collection.md)
-  + Deployment{#deployment}
-    + [Experience Platform Web SDK & Edge Network](/help/blueprints/data-ingestion/websdk.md)
-    + [Application SDKs](/help/blueprints/data-ingestion/appsdk.md)
 + Data Analysis, Intelligence, & AI/ML{#data-exploration}
   + [Overview](/help/blueprints/data-insights/overview.md)
   + [Data Analysis & Intelligence](/help/blueprints/data-insights/analysis.md)
