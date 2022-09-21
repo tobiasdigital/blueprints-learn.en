@@ -11,13 +11,14 @@ exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 
 Audience and Profile activation is the key to success in a data-driven marketing world. However, many brands still focus their efforts on channel-first activation, which often delivers inconsistent reach and personalization.
 
-With a channel-first approach, each channel acts as a silo in which personalization efforts target only the customers interacting with the brand on that channel. This approach doesn’t reflect the reality that customers interact with brands across many different touchpoints. Audience and Profile activation allows brands to connect customer interactions across multiple channels, to deliver a centralized profile and audience that can be activated to all channels.
+With a channel-first approach, each channel acts as a silo in which personalization efforts target only the customers interacting with the brand on that channel. This approach doesn't reflect the reality that customers interact with brands across many different touchpoints. Audience and Profile activation allows brands to connect customer interactions across multiple channels, to deliver a centralized profile and audience that can be activated to all channels.
 
 | Blueprint | Description| Experience Cloud Applications|
 |---|---|---|
 | **[Anonymous Audience Activation](anonymous.md)** | <ul><li>Target audiences across web and advertising channels for anonymous and behavioral customer data.</li><li>Integrate with third-party audience data for increased personalization.</li></ul>|<ul><li>Adobe Audience Manager</li></ul>                                               |
 | **[Known Customer Activation](known.md)**        | <ul><li>Activate to known profile-based destinations, such as email providers, social networks, and advertising destinations. </li><li>Use offline attributes and events, such as offline orders, transactions, CRM, or loyalty data along with online behavior for online targeting and personalization.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager (optional)</li></ul> |
 | **[Audience and Profile Activation with Experience Cloud Applications](platform-and-applications.md)**        | <ul><li>Manage profiles and audiences in Experience Platform and share them with Experience Cloud Applications</li><li>Build and share rich customer segments and insights in Experience Platform and share them with Experience Cloud Applications</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud Applications</li></ul> |
+|**[Segment Match](segment-match.md)** |<ul><li>With better governance, permissions, and preference management systems, marketers can further enhance their first-party authenticated audiences with key partners.</li></ul>  |<ul><li>Adobe Experience Platform </li></ul>|
 
 ## Real-time Customer Profile Architecture
 

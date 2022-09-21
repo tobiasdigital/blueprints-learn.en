@@ -35,6 +35,7 @@ role: Architect, Developer, User
     + [Activation to File & Enterprise Streaming Destinations](/help/blueprints/audience-activation/enterprise-destinations.md)
     + [Customer Activity Hub](/help/blueprints/audience-activation/customer-activity.md)
   + [Activation with Experience Cloud Applications](/help/blueprints/audience-activation/platform-and-applications.md)
+  + [Segment Match](/help/blueprints/audience-activation/segment-match.md)
 + B2B Activation & Marketing{#b2b-activation}
   + [Overview](/help/blueprints/b2b/overview.md)
   + [B2B Activation](/help/blueprints/b2b/b2bactivation.md)
@@ -61,6 +62,7 @@ role: Architect, Developer, User
   + [Overview](/help/blueprints/data-ingestion/overview.md)
   + [Data Preparation & Ingestion](/help/blueprints/data-ingestion/ingestion.md)
   + [Event Forwarding](/help/blueprints/data-ingestion/server-side-collection.md)
+  + [Multi Sandbox Data Collection](/help/blueprints/data-ingestion/multi-sandbox-data-collection.md)
 + Data Analysis, Intelligence, & AI/ML{#data-exploration}
   + [Overview](/help/blueprints/data-insights/overview.md)
   + [Data Analysis & Intelligence](/help/blueprints/data-insights/analysis.md)
