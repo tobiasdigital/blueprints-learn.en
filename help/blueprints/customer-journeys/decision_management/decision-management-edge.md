@@ -6,7 +6,7 @@ exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
 ---
 # Journey Optimizer - Decision Management on the edge
 
-To learn more about Decision Management refer to the product documentation [HERE](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) and the Decision Management Overview [HERE](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/decision-management-overview.html)
+To learn more about Decision Management refer to the product documentation [HERE](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) and the Decision Management Overview [HERE](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=en)
 
 Adobe Decision Management is a service provided as part of Adobe Journey Optimizer. This blueprint outlines the use cases and technical capabilities of the application and provides a deep dive into the various architectural components and considerations that make up Decision Management.
 
@@ -16,7 +16,7 @@ The second approach is via the Experience Edge Network, which is a globally dist
 
 This blueprint will cover the specifics of Decision Management on the Edge.
 
-To learn more about Decision Management on the hub refer to the [Decision Management on the hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/decision-management-hub.html) blueprint.
+To learn more about Decision Management on the hub refer to the [Decision Management on the hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-hub.html?lang=en) blueprint.
 
 ## Use Cases for Decision Management on the edge
 
@@ -71,7 +71,7 @@ Adobe Experience Platform
 ## Implementation Patterns
 
 * Use the Web or Mobile SDK for deployment on websites and mobile applications to implement Decision Management where the SDK deployed.
-  * [Web/Mobile SDK Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html)
+  * [Web/Mobile SDK Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/websdk.html?lang=en)
   * [WebSDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html)
   * [MobileSDK](https://aep-sdks.gitbook.io/docs/)
 
