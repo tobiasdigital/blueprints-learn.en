@@ -51,8 +51,8 @@ This architecture diagram shows how Adobe Experience Platform relates to Adobe E
 <td colspan="1">
 <ul>
 <li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=en">Anonymous Audience Activation</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Online/Offline Audience Activation</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Activation with Experience Platform and Applications</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html">Known Customer Activation</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html">Activation with Experience Platform and Applications</a></li>
 </ul>
 </td>
 </tr>
@@ -89,7 +89,7 @@ This architecture diagram shows how Adobe Experience Platform relates to Adobe E
 <td>
 <ul>
 <li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=en">Anonymous Audience Activation</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Online/Offline Audience Activation</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html">Known Customer Activation</a></li>
 <li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Activation with Experience Platform and Applications</a></li>
 </ul>
 </td>
@@ -108,7 +108,7 @@ This architecture diagram shows how Adobe Experience Platform relates to Adobe E
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">Batch Messaging</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/overview.html?lang=en">Customer Journeys</a></li>
 </ul>
 </td>
 </tr>
@@ -126,7 +126,7 @@ This architecture diagram shows how Adobe Experience Platform relates to Adobe E
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">Batch Messaging</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/overview.html">Customer Journeys</a></li>
 </ul>
 </td>
 </tr>
@@ -162,7 +162,7 @@ This architecture diagram shows how Adobe Experience Platform relates to Adobe E
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Online/Offline Audience Activation</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=en">Known Customer Activation</a></li>
 </ul>
 </td>
 </tr>
@@ -231,7 +231,7 @@ This architecture diagram shows how Adobe Experience Platform relates to Adobe E
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Online/Offline Audience Activation</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=en">Known Customer Activation</a></li>
 <li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Activation with Experience Platform and Applications</a></li>
 </ul>
 </td>
@@ -250,7 +250,7 @@ This architecture diagram shows how Adobe Experience Platform relates to Adobe E
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Online/Offline Audience Activation</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=en">Known Customer Activation</a></li>
 <li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Activation with Experience Platform and Applications</a></li>
 </ul>
 </td>
