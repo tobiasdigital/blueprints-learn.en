@@ -10,13 +10,12 @@ role: Architect, Developer, User
 # Digital Experience Blueprints {#architecture}
 
 + [Overview](/help/blueprints/overview.md)
-+ [See all use cases](/help/blueprints/use-cases.md)
 + Vertical Industry Blueprints{#vertical-blueprints}
-  + [Overview](/help/blueprints/industry-success-stories/overview.md)
-  + [Apparel](/help/blueprints/industry-success-stories/apparel.md)
-  + [Retail](/help/blueprints/industry-success-stories/retail.md)
-  + [Telecommunications](/help/blueprints/industry-success-stories/telecommunications.md)
-  + [Travel & Hospitality](/help/blueprints/industry-success-stories/travel-hospitality.md)
+  + [Overview](/help/blueprints/vertical-blueprints/overview.md)
+  + [Apparel](/help/blueprints/vertical-blueprints/apparel.md)
+  + [Retail](/help/blueprints/vertical-blueprints/retail.md)
+  + [Telecommunications](/help/blueprints/vertical-blueprints/telecommunications.md)
+  + [Travel & Hospitality](/help/blueprints/vertical-blueprints/travel-hospitality.md)
 + Architecture Overviews{#architecture-overview}
   + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
   + [Experience Platform & Applications](/help/blueprints/experience-platform/platform-applications.md)
