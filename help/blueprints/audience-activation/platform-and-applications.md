@@ -58,7 +58,7 @@ Refer to the [guardrails on the Audience and Profile Activation Overview page](o
 
 ### Audience sharing from Real-time Customer Data Platform to Target
 
-* See the [Web/Mobile Personalization with online & offline data Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html) for additional details on sharing profiles and audiences from Real-time Customer Data Platform to Target.
+* See the [Known Customer Personalization - Target & RTCDP Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html) for additional details on sharing profiles and audiences from Real-time Customer Data Platform to Target.
 
 ### Audience sharing from Real-time Customer Data Platform to Campaign and Journey Optimizer
 
