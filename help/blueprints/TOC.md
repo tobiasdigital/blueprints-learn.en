@@ -20,7 +20,7 @@ role: Architect, Developer, User
   + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
   + [Experience Platform & Applications](/help/blueprints/experience-platform/platform-applications.md)
   + [Experience Platform Data Flow](/help/blueprints/experience-platform/platform-data-flow.md)
-  + Deployment Models{#deployment}
+  + Deployment Patterns{#deployment}
     + [Experience Platform Web SDK & Edge Network](/help/blueprints/data-ingestion/websdk.md)
     + [Application SDKs](/help/blueprints/data-ingestion/appsdk.md)
 + Audience & Profile Activation{#audience-activation}
