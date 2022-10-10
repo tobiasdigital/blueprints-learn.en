@@ -52,12 +52,17 @@ role: Architect, Developer, User
       + [Decision Management on the hub](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)  
     + [Journey Optimizer with Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
     + [3rd Party Messaging](/help/blueprints/customer-journeys/3rd-party-messaging.md)
+  + Campaign Standard{#campaign-standard}
+    + [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html)
+    + [Real-Time CDP with Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html)
   + Campaign v8{#campaign-v8}
     + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
     + [Real-Time CDP with Adobe Campaign v8](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)
+    + [Journey Optimizer with Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
   + Campaign v7{#campaign-v7}
     + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
     + [Real-Time CDP with Adobe Campaign v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
+    + [Journey Optimizer with Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + Data Ingestion & Data Export{#data-ingestion}
   + [Overview](/help/blueprints/data-ingestion/overview.md)
   + [Data Preparation & Ingestion](/help/blueprints/data-ingestion/ingestion.md)
