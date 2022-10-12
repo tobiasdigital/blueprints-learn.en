@@ -43,7 +43,7 @@ Sequence Detail
 
 Overview Architecture
 
-<img src="assets/personalization_with_apps.png" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:90%; border:1px solid #4a4a4a"/>
+<img src="assets/personalization_with_apps.svg" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:90%; border:1px solid #4a4a4a"/>
 
 ## Implementation Patterns
 
