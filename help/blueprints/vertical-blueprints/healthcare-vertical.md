@@ -1,4 +1,4 @@
-﻿---
+---
 title: Healthcare
 description: Learn about Healthcare Shield, an Adobe Experience Platform add-on to Platform-based applications, such as Real-Time CDP, Customer Journey Analytics, and Adobe Journey Optimizer. The add-on makes these applications qualify for HIPAA and PHI requirements.
 solution: Experience Platform
