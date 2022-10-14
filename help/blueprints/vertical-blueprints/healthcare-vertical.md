@@ -123,8 +123,6 @@ Useful links:
 
 * [Tags Data Encryption](https://experienceleague.adobe.com/docs/experience-platform/tags/api/guides/encrypting-values.html?lang=en)
 
-
-
 **Access controls**
 
 * [Attribute-based access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html)
