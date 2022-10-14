@@ -35,15 +35,15 @@ exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 
 Architecture
 
-<img src="assets/RTCDP+Target.png" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/RTCDP+Target.svg" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:90%; border:1px solid #4a4a4a" />
 
 Sequence Detail
 
-<img src="assets/RTCDP+Target_flow.png" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/RTCDP+Target_flow.svg" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:90%; border:1px solid #4a4a4a" />
 
 Overview Architecture
 
-<img src="assets/personalization_with_apps.png" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:90%; border:1px solid #4a4a4a"/>
+<img src="assets/personalization_with_apps.svg" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:90%; border:1px solid #4a4a4a"/>
 
 ## Implementation Patterns
 
