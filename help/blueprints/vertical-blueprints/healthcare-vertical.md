@@ -144,7 +144,7 @@ Useful links:
 
 * [Adobe Real-Time Customer Data Platform and Healthcare Shield](https://experienceleague.adobe.com/docs/customer-data-management-voices-events/events/governance/healthcare-shield.html?lang=en)
 
- Delivering on the experience promise, with access to less data. In this video, learn more about Adobe Real-Time CDP and Healthcare Shield, an Adobe Experience Platform add-on to Adobe Experience Platform-based applications that is designed to make these applications HIPAA ready and to meet HIPAA requirements around the processing and usage of Protected Health Data (PHI).
+  Delivering on the experience promise, with access to less data. In this video, learn more about Adobe Real-Time CDP and Healthcare Shield, an Adobe Experience Platform add-on to Adobe Experience Platform-based applications that is designed to make these applications HIPAA ready and to meet HIPAA requirements around the processing and usage of Protected Health Data (PHI).
 
 **Experience Platform**
 
