@@ -111,6 +111,20 @@ A customer licensing Healthcare Shield should use good judgement to determine wh
 
 ### Security
 
+**Enhanced Encryption**
+
+Useful links:
+
+* [AEP Security Whitepaper](https://www.adobe.com/content/dam/cc/en/security/pdfs/AEP_SecurityOverview.pdf)
+
+* [Data Encryption in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/encryption.html)
+
+* [Hashing Functions in Data Prep](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html?lang=en#hashing)
+
+* [Tags Data Encryption](https://experienceleague.adobe.com/docs/experience-platform/tags/api/guides/encrypting-values.html?lang=en)
+
+
+
 **Access controls**
 
 * [Attribute-based access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html)
@@ -130,7 +144,7 @@ A customer licensing Healthcare Shield should use good judgement to determine wh
 
 * [Adobe Real-Time Customer Data Platform and Healthcare Shield](https://experienceleague.adobe.com/docs/customer-data-management-voices-events/events/governance/healthcare-shield.html?lang=en)
 
-  Delivering on the experience promise, with access to less data. Whether you're an advertiser, publisher, or agency, this webinar will help unlock the
+ Delivering on the experience promise, with access to less data. In this video, learn more about Adobe Real-Time CDP and Healthcare Shield, an Adobe Experience Platform add-on to Adobe Experience Platform-based applications that is designed to make these applications HIPAA ready and to meet HIPAA requirements around the processing and usage of Protected Health Data (PHI).
 
 **Experience Platform**
 
