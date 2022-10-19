@@ -13,7 +13,7 @@ role: Architect, Developer, User
 + Vertical Industry Blueprints{#vertical-blueprints}
   + [Overview](/help/blueprints/vertical-blueprints/overview.md)
   + [Apparel](/help/blueprints/vertical-blueprints/apparel.md)
-  + [Healthcare Shield](/help/blueprints/vertical-blueprints/healthcare-vertical.md)
+  + [Healthcare](/help/blueprints/vertical-blueprints/healthcare-vertical.md)
   + [Retail](/help/blueprints/vertical-blueprints/retail.md)
   + [Telecommunications](/help/blueprints/vertical-blueprints/telecommunications.md)
   + [Travel & Hospitality](/help/blueprints/vertical-blueprints/travel-hospitality.md)
@@ -21,9 +21,10 @@ role: Architect, Developer, User
   + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
   + [Experience Platform & Applications](/help/blueprints/experience-platform/platform-applications.md)
   + [Experience Platform Data Flow](/help/blueprints/experience-platform/platform-data-flow.md)
-  + Deployment Patterns{#deployment}
+  + Deployment{#deployment}
     + [Experience Platform Web SDK & Edge Network](/help/blueprints/data-ingestion/websdk.md)
     + [Application SDKs](/help/blueprints/data-ingestion/appsdk.md)
+    + [Guardrails](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Audience & Profile Activation{#audience-activation}
   + [Overview](/help/blueprints/audience-activation/overview.md)
   + [Anonymous Audience Activation (AAM)](/help/blueprints/audience-activation/anonymous.md)
