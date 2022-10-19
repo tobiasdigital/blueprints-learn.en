@@ -5,7 +5,7 @@ solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer 
 thumbnail:
 ---
 
-## Guardrails
+# Guardrails
 
 Guardrails are recommended thresholds that provide guidance for data and system usage, optimizing performance, and avoiding errors or unexpected results in Adobe Experience Platform and applications. Guardrails are intended to reflect system constrainst and performance expectations to facilitate customer architecture and use case performance optimization. Guardrails are not intended to be service level agreements, for information on product specific service level agreements please refer to the Product Descriptions documentation linked below.
 
