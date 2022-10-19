@@ -13,6 +13,7 @@ role: Architect, Developer, User
 + Vertical Industry Blueprints{#vertical-blueprints}
   + [Overview](/help/blueprints/vertical-blueprints/overview.md)
   + [Apparel](/help/blueprints/vertical-blueprints/apparel.md)
+  + [Healthcare Shield](/help/blueprints/vertical-blueprints/healthcare-vertical.md)
   + [Retail](/help/blueprints/vertical-blueprints/retail.md)
   + [Telecommunications](/help/blueprints/vertical-blueprints/telecommunications.md)
   + [Travel & Hospitality](/help/blueprints/vertical-blueprints/travel-hospitality.md)
