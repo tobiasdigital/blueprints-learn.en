@@ -57,13 +57,13 @@ Adobe Experience Platform
 
 ### Data Ingestion Guardrails
 
-<img src="../assets/aep-data-ingestion-details-latency.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:80%; border:1px solid #4a4a4a" />
+<img src="../../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Experience Platform Data Flow" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Activation Guardrails
 
-<img src="../assets/ajo-activation-details-latency.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:80%; border:1px solid #4a4a4a" />
+<img src="../../experience-platform/assets/activation-latency.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:85%; border:1px solid #4a4a4a" />
 
 <br>
 
