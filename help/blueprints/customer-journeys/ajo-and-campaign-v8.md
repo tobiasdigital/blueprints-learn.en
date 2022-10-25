@@ -62,14 +62,9 @@ Demonstrates how Adobe Journey Optimizer can be used with Adobe Campaign to nati
 ### Campaign (v8)
 
 * Execution instance of Message Center must be hosted by Adobe Managed Cloud Services
-* Needs to be on either v7 build >21.1 or v8
 * Messaging throughput
-  * AC (v7) 50k per hour
   * AC (v8) up to 1M per hour based on package
-* AC (v7) only supports event initiated journey's
-  * No segment or segment membership initiated Journey's
-  * Read Audience and Business event based journey's are not supported due to volume it can send to the execution instances
-* Neither AC (v7) or AC (v8) supports Decision Management in messages
+* AC (v8) does not support Decision Management in messages
 * No throttling of outbound API calls made to Campaign
 * With Campaign v8.4 it is possible to leverage Adobe Campaign Managed Services Source Connector in Experience Platform to sync delivery and tracking events from Campaign into Experience Platform. Refer to the Source Connector Documentation for additional details. [Link](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
 
@@ -129,11 +124,6 @@ Demonstrates how Adobe Journey Optimizer can be used with Adobe Campaign to nati
 
 ## Related Documentation
 
-* [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
-* [Experience Platform Tags documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
-* [Experience Platform Mobile SDK documentation](https://experienceleague.adobe.com/docs/mobile.html?lang=en)
 * [Journey Optimizer documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=en)
 * [Journey Optimizer Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
 * [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=en)
-* [Campaign v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
-* [Campaign Standard documentation](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=en)
