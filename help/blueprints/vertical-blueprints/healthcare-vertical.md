@@ -174,6 +174,8 @@ Products that are HIPAA ready (and not):
 
 **Marketecture diagram**
 
+* Applications illustrated in grey are not yet HIPAA ready.
+
 ![Hippa Ready](assets/HIPAA-readiness.png)
 
 ## Approach
