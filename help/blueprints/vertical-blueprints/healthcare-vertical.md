@@ -5,7 +5,7 @@ solution: Experience Platform
 ---
 # Healthcare Shield
 
-Healthcare Shield is an Adobe Experience Platform add-on to Adobe Experience Platform-based applications like include Real-Time CDP, Customer Journey Analytics, and Adobe Journey Optimizer. It is designed to make these applications HIPAA-ready and meet the requirements around the processing and usage of Protected Health Information (PHI).
+Healthcare Shield is an Adobe Experience Platform add-on to Adobe Experience Platform-based applications like Real-Time Customer Data Platform, Customer Journey Analytics, and Adobe Journey Optimizer. It is designed to make these applications HIPAA-ready and meet the requirements around the processing and usage of Protected Health Information (PHI).
 
 ## Frequently asked questions about Healthcare Shield
 
@@ -35,7 +35,7 @@ Healthcare Shield for Real-Time CDP is for customers who are a Covered Entity or
 
 ### Why should healthcare prospects of Real-Time CDP purchase Healthcare Shield?
 
-As an add-on to Real-Time CDP, Healthcare Shield upgrades the application to a "HIPAA-ready" status. This means that the application has the safeguards in place to use PHI in accordance with HIPAA requirements. Also, with Healthcare Shield, Adobe is willing and able to authorize the customer to bring in certain types of Permitted Sensitive Personal Data to the HIPAA-ready application. Adobe signs Business Associate Agreements (BAAs) with customers that license Healthcare Shield for a compatible Platform-based application.
+As an add-on to Real-Time CDP, Healthcare Shield upgrades the application to a "HIPAA-ready" status. This means that the application has the safeguards in place to use PHI in accordance with HIPAA requirements. Also, with Healthcare Shield, Adobe is willing and able to authorize the customer to bring in certain types of Permitted Sensitive Personal Data to the HIPAA-ready applications. Adobe signs Business Associate Agreements (BAAs) with customers that license Healthcare Shield for a compatible Platform-based application.
 
 ### What types of data are authorized for Real-Time CDP with Healthcare Shield (and which ones are not)?
 
@@ -67,16 +67,16 @@ A customer licensing Healthcare Shield should use good judgement to determine wh
 
 |RTCDP B2C Edition Standard Use cases|Description|
 |-----|-----|
-|Streaming Data Collection|<ul><li>Normalized, flexible data models usable across Adobe and non-Adobe connections<li>Person and account-based data schemas designed for B2C marketing<li>Tag management and event forwarding collect and distribute event-level data in real time.<li> Optimized profiles that accelerate experience delivery time</li></ul>|
-|Trusted Profile Management|<ul><li>Unified profiles that contain consumer attribute, behavioral, and preference data<li> Data governance framework is flexible, transparent, and applied to unified profiles with policy creation and automatic enforcement to prevent misuse of data. </li></ul>|
-|Real-Time Activation|<ul><li>Drag-and-drop segmentation designed for B2C marketers<li>Person and account-level identity resolution and profile enrichment for cross channel activation<li> Consistent customer experiences through audience orchestration and real-time activation across channels and environments (Adobe & Non-Adobe) </li></ul>|
-|Customer Acquisition|<ul><li>Insights into converting unauthenticated to recognized/Authenticated users<li>Encourage unregistered users to register for membership.<li> Increase and/or win back subscriptions<li> Analyze customer profiles to understand propensity (e.g. . compare high value segments with under-performing segments and optimize for acquisition)</li></ul>|
-|Customer Engagement|<ul><li>Target offers based on consumer behavior recency and frequency action to offers (online and offline)<li>Unify digital properties for a connected experience (e.g. encourage mobile app downloads and use segment activation across channels to connect experiences)</li></ul>|
-|Personalization at Scale|<ul><li> Evaluate segments on the edge for real-time same page and next page personalization<li>Increase engagement by providing unique and targeted experiences to visitors who abandon a session across journeys (e.g. abandon cart, repeat visitors who fail to convert).<li> Unify and connect offline & online behaviors to optimize and engage users</li></ul>|
-|Cross Sell / Upsell|<ul><li>Retain customers while growing and maintain existing relationships with users<li>Drive new revenue streams with cross business unit / brand / offer to customer lifetime value<li>Gain insights into AOV across products and SKUs (e.g. frequent bundles, price sensitivity)</li></ul>|
-|Customer Retention / Loyalty|<ul><li> Reactivate consumers to drive loyalty and avoid customer churn<li>Curate personalized product recommendations for high value customers based on preferences and propensity<li>Create a standard cadence for engagement and special offers for loyal consumers<li> Link online and offline preferences to optimize offers across channels</li></ul>|
-|Data Collaboration|<ul><li> Create handshakes within a UI to build out data collaboration workflows.<li>(Leverage first-party data overlaps across industries to informed strategic business decisions and campaigns.<li>Break down data silos and understand holistic customer journey<li> Honor preferences and consent by use case</li></ul>|
-|Media/Marketing Efficiencies & optimization|<ul><li> Gain organizational efficiencies by centralizing and maintaining customer data and activation channels in one system of record<li>Support suppression campaigns for effective media spend/efficiencies<li> Align with IT policies via governance and policy enforcement<li>Provide access to data as needed, in real-time to support timely campaigns</li></ul>|
+|Streaming Data Collection|<ul><li>Normalized, flexible data models usable across Adobe and non-Adobe connections<li>Person and account-based data schemas designed for B2C marketing.<li>Tag management and event forwarding collect and distribute event-level data in real time.<li> Optimized profiles that accelerate experience delivery.</li></ul>|
+|Trusted Profile Management|<ul><li>Unified profiles that contain consumer attribute, behavioral, and preference data.<li> Data governance framework is flexible, transparent, and applied to unified profiles with policy creation and automatic enforcement to prevent misuse of data. </li></ul>|
+|Real-Time Activation|<ul><li>Drag-and-drop segmentation designed for B2C marketers.<li>Person and account-level identity resolution and profile enrichment for cross channel activation.<li> Consistent customer experiences through audience orchestration and real-time activation across channels and environments (Adobe & Non-Adobe).</li></ul>|
+|Customer Acquisition|<ul><li>Insights into converting unauthenticated to recognized/Authenticated users.<li>Encourage unregistered users to register for membership.<li> Increase and/or win back subscriptions.<li> Analyze customer profiles to understand propensity (e.g. . compare high value segments with under-performing segments and optimize for acquisition).</li></ul>|
+|Customer Engagement|<ul><li>Target offers based on consumer behavior recency and frequency of offers (online and offline).<li>Unify digital properties for a connected experience (e.g. encourage mobile app downloads and use segment activation across channels to connect experiences).</li></ul>|
+|Personalization at Scale|<ul><li> Evaluate segments on the edge for real-time same page and next page personalization.<li>Increase engagement by providing unique and targeted experiences to visitors who abandon a session across journeys (e.g. abandon cart, repeat visitors who fail to convert).<li> Unify and connect offline & online behaviors to optimize and engage users.</li></ul>|
+|Cross Sell / Upsell|<ul><li>Retain customers while growing and maintain existing relationships with users.<li>Drive new revenue streams with cross business unit / brand / offer to increase customer lifetime value.<li>Gain insights into AOV across products and SKUs (e.g. frequent bundles, price sensitivity).</li></ul>|
+|Customer Retention / Loyalty|<ul><li> Reactivate consumers to drive loyalty and avoid customer churn<.li>Curate personalized product recommendations for high value customers based on preferences and propensity.<li>Create a standard cadence for engagement and special offers for loyal consumers.<li> Link online and offline preferences to optimize offers across channels.</li></ul>|
+|Data Collaboration|<ul><li> Create handshakes within a UI to build out data collaboration workflows.<li>(Leverage first-party data overlaps across industries to informe strategic business decisions and campaigns.<li>Break down data silos and understand holistic customer journeys.<li> Honor preferences and consent by use case.</li></ul>|
+|Media/Marketing Efficiencies & optimization|<ul><li> Gain organizational efficiencies by centralizing and maintaining customer data and activation channels in one system of record.<li>Support suppression campaigns for effective media spend/efficiencies.<li> Align with IT policies via governance and policy enforcement.<li>Provide access to data as needed, in real-time to support timely campaigns.</li></ul>|
 
 ## Relevant technical capabilities
 
@@ -172,13 +172,11 @@ See [HIPAA and Adobe Products and Services](https://www.adobe.com/trust/complian
 
 Products that are HIPAA ready (and not):
 
-![Hippa Ready](assets/hippa-ready.png)
-
 **Marketecture diagram**
 
-![Hippa Ready](assets/HIPAA-readiness.png)
+* Applications illustrated in grey are not yet HIPAA ready.
 
-[Lucidchart source](https://lucid.app/lucidchart/8a795213-3bfa-43f3-a542-f0de56123afd/edit?invitationId=inv_d3183739-8c07-4ca2-bfd1-16d819b911a6&page=0_0)
+![Hippa Ready](assets/HIPAA-readiness.png)
 
 ## Approach
 
