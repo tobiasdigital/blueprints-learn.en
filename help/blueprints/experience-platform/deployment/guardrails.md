@@ -44,7 +44,13 @@ Guardrails are recommended thresholds that provide guidance for data and system 
 
 ### Real-time Customer Data Platform & Adobe Target
 
-<img src="../assets/RTCDP_Target_guardrails.svg" alt="RTCDP & Target" style="border:1px solid #4a4a4a" width="85%" />
+<img src="../assets/RTCDP_Target_guardrails.svg" alt="RTCDP & Target Guardrails" style="border:1px solid #4a4a4a" width="85%" />
+
+<br>
+
+### Customer Journey Analytics
+
+<img src="../assets/CJA_guardrails.svg" alt="CJA Guardrails" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 

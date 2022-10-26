@@ -40,8 +40,7 @@ The below illustration outlines the various segmentation methods and the various
 
 ## Guardrails for Audience and Profile Activation Blueprints
 
-* [Profile and Segmentation Guidelines](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
-
+* For detailed guardrails and end to end latencies refer to the [deployment guardrails document](../experience-platform/deployment/guardrails.md) and the [Profile and Segmentation Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 
 ### Activating attributes and identities
 

@@ -38,7 +38,7 @@ Additional detail is provided in the [Audience and Profile Activation with Exper
 
 ## Guardrails
 
-[Refer to the guardrails as outlined on the Audience and Profile Activation Overview page](overview.md).
+[Refer to the guardrails as outlined on the Audience and Profile Activation Overview page](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html?lang=en#guardrails-for-audience-and-profile-activation-blueprints).
 
 ## Implementation Steps for Real-time Customer Data Platform
 
