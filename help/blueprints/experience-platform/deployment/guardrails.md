@@ -32,7 +32,7 @@ Guardrails are recommended thresholds that provide guidance for data and system 
 
 ### Data Ingestion
 
-<img src="../assets/aep_data_flow_guardrails.svg" alt="Experience Platform Data Flow" style="border:1px solid #4a4a4a" width="85%" />
+<img src="../assets/dataflow_guardrails.svg" alt="Experience Platform Data Flow" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
