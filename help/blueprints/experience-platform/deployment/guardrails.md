@@ -28,7 +28,7 @@ Guardrails are recommended thresholds that provide guidance for data and system 
 
 <br>
 
-## End to End Latency
+## End to End Latency Diagrams
 
 ### Data Ingestion
 
@@ -39,6 +39,12 @@ Guardrails are recommended thresholds that provide guidance for data and system 
 ### Segmentation
 
 <img src="../assets/segmentation_guardrails.svg" alt="Experience Platform Segmentation Guardrails" style="border:1px solid #4a4a4a" width="85%" />
+
+<br>
+
+### Real-time Customer Data Platform & Adobe Target
+
+<img src="../assets/RTCDP_Target_guardrails.svg" alt="RTCDP & Target" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
