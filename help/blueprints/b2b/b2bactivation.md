@@ -30,7 +30,10 @@ Various B2B data souces can be used to map account, lead, opportunity, and peopl
 
 ## Guardrails
 
-Note that Marketo Engage related guardrails and implementation steps are only relevant when Marketo Engage is used as a source and/or destination.
+* Note that Marketo Engage related guardrails and implementation steps are only relevant when Marketo Engage is used as a source and/or destination.
+
+* For additional details and guardrails for end to end latencies refer to the [deployment guardrails document](../experience-platform/deployment/guardrails.md)
+
 
 ### Multiple Instance and IMS Org Support:
 
@@ -50,7 +53,7 @@ The following outlines the supported patterns of mapping Experience Platform and
 
 #### Experience Platform Profile and Segmentation Guardrails:
 
-* See the profile and segmentation guardrails for Experience Platform - [Profile and Segmentation Guidelines](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
+* See the profile and segmentation guardrails for Experience Platform - [Profile and Segmentation Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 * B2B segments which include accounts, leads, opportunities uses multi-entity relationships which result in the segment evaluation becoming batch. Streaming segmentation is supported for segments which are limited to people and events.
 
 #### Experience Platform - Marketo Engage Source Connector: 
@@ -69,7 +72,7 @@ The following outlines the supported patterns of mapping Experience Platform and
 
 #### Destination Guardrails
 
-* Please refer to the destination documentation for specific guidance on the destinations. [Destination Guidelines](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=en)
+* Please refer to the destination documentation for specific guidance on the destinations. [Destination Guardrails](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=en)
 
 
 ## Implementation Steps
