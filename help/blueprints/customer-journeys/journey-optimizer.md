@@ -91,7 +91,7 @@ Please be aware of these not listed in the link above:
 
 ### Activation Guardrails
 
-<img src="../experience-platform/assets/activation-latency.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:85%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/AJO_guardrails.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:85%; border:1px solid #4a4a4a" />
 
 <br>
 
