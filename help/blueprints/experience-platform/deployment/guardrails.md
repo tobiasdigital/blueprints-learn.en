@@ -32,15 +32,19 @@ Guardrails are recommended thresholds that provide guidance for data and system 
 
 ### Data Ingestion
 
-The below diagram illustrates the average performance guardrails and latency for data ingestion into Adobe Experience Platform.
-
 <img src="../assets/aep_data_flow_guardrails.svg" alt="Experience Platform Data Flow" style="border:1px solid #4a4a4a" width="85%" />
+
+<br>
+
+### Segmentation
+
+<img src="../assets/segmentation_guardrails.svg" alt="Experience Platform Segmentation Guardrails" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Journey Optimizer
 
-<img src="../assets/activation-latency.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:85%; border:1px solid #4a4a4a" />
+<img src="../assets/AJO_guardrails.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:85%; border:1px solid #4a4a4a" />
 
 <br>
 
