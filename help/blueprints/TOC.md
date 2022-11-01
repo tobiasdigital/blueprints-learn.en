@@ -64,9 +64,10 @@ role: Architect, Developer, User
     + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
     + [Real-Time CDP with Adobe Campaign v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
     + [Journey Optimizer with Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
-+ Data Ingestion & Data Export{#data-ingestion}
++ Data Collection, Ingestion, Access, & Export{#data-ingestion}
   + [Overview](/help/blueprints/data-ingestion/overview.md)
   + [Data Preparation & Ingestion](/help/blueprints/data-ingestion/ingestion.md)
+  + [Data Access & Export](/help/blueprints/data-ingestion/egress.md)
   + [Event Forwarding](/help/blueprints/data-ingestion/server-side-collection.md)
   + [Multi Sandbox Data Collection](/help/blueprints/data-ingestion/multi-sandbox-data-collection.md)
 + Data Analysis, Intelligence, & AI/ML{#data-exploration}
