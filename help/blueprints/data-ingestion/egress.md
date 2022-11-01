@@ -1,8 +1,8 @@
 ---
 title: Data Access and Export Blueprint
 description: This blueprint provides and overview of all the methods by which data can be accessed and exported from Adobe Experience Platform and applications.
-solution: 
-thumbnail: 
+product: adobe experience platform
+solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
 ---
 # Data Access and Export Blueprint
 
