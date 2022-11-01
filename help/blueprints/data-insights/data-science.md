@@ -19,6 +19,10 @@ Custom Data Science for Profile Enrichment Blueprint illustrates how data can be
 
 <img src="assets/data_science.svg" alt="Reference Architecture for the Custom Data Science for Profile Enrichment Blueprint" style="width:90%; border:1px solid #4a4a4a" />
 
+## Guardrails
+
+* For detailed guardrails and end to end latencies on ingesting data science results into Experience Platform and the Real-time Customer Profile refer to the data ingestion guardrails and latency diagram referenced in the [deployment guardrails document](../experience-platform/deployment/guardrails.md).
+
 ## Implementation Steps
 
 1. [Create schemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) for data to be ingested.

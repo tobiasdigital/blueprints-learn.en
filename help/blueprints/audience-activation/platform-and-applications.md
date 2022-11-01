@@ -9,12 +9,13 @@ exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
 
 Manage profiles and audiences in Experience Platform and share them with Experience Cloud Applications. Build and share rich customer segments and insights in Experience Platform and share them with Experience Cloud applications.
 
-Activation with Experience Cloud Applications aligns closely with the [Known Customer Activation Blueprint](known.md).
+Activation with Experience Cloud Applications aligns with the [Known Customer Activation Blueprint](known.md).
 
 ## Use Cases
 
 * Personalize and target across customer interaction channels powered by Experience Cloud.
 * Share audience and profile data between Experience Platform and Experience Cloud applications.
+* Build rich insigths from multi-channel data including online behavioral data and data science models to enrich real-time customer profile in Experience Platform that can then be shared with Experience Cloud applications.
 
 ## Applications
 
@@ -25,7 +26,10 @@ Activation with Experience Cloud Applications aligns closely with the [Known Cus
     * Adobe Audience Manager
     * Adobe Target
     * Adobe Campaign
-    * Journey Optimizer 
+    * Journey Optimizer
+    * Marketo Engage
+    * Adobe Commerce
+    * Customer Journey Analytics 
  
 ## Architecture
 
@@ -38,7 +42,7 @@ See the [Experience Platform and Applications Architecture Section](https://expe
 
 ## Guardrails
 
-Refer to the [guardrails on the Audience and Profile Activation Overview page](overview.md)
+Refer to the [guardrails on the Audience and Profile Activation Overview page](overview.md) and the [deployment guardrails](../experience-platform/deployment/guardrails.md) page. 
 
 ## Implementation Considerations
 
@@ -48,12 +52,11 @@ Refer to the [guardrails on the Audience and Profile Activation Overview page](o
 
 * Refer to the following documentation for futher details. [Experience Platform segment sharing with Audience Manager and other Experience Cloud solutions](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html).
 
-* Audience membership from RT-CDP is shared to Audience Manager in a streaming fashion as soon as segment evaluation is complete and written to the Real-time Customer profile, whether the segment evaluation occurred in batch or streaming. If the qualified profile contains the regional routing information for related profile devices then the audience membership from RTCDP is qualified in streaming fashion on the associated Audience Manager Edge. If the regional routing information was applied to a profile with a timestamp in the past 14 days it will be evaluate on the Audience Manager Edge in streaming. If the profiles from RTCDP do not contain regional routing information or the regional routing information is greater than 14 days old, then the profile memberships are sent to the Audience Manager hub location for batch based evaluation and activation. Profiles that are eligible for Edge activation will activate within minutes of segment qualification from RTCDP, profiles that do not qualify for Edge activation will qualify in the Audience Manager hub and may have a 12-24 hour timeframe for processing. 
-
-* Regional routing information for which Edge the Audience Manager profile is stored on can be collected to Experience Platform from Audience Manager, the Visitor ID Service, Analytics, Launch, or directly from the Web SDK as a separate profile record class dataset using the "data capture region information" XDM field group.
-
+* Audience membership from RT-CDP is shared to Audience Manager in a streaming fashion as soon as segment evaluation is complete and written to the Real-time Customer profile, whether the segment evaluation occurred in batch or streaming. 
+* If the qualified profile contains the regional routing information for related profile devices then the audience membership from RTCDP is qualified in streaming fashion on the associated Audience Manager Edge. If the regional routing information was applied to a profile with a timestamp in the past 14 days it will be evaluated on the Audience Manager Edge in streaming. If the profiles from RTCDP does not contain regional routing information or the regional routing information is greater than 14 days old, then the RTCDP audience memberships are sent to the Audience Manager hub location for batch based evaluation and activation. 
+* With regional routing information these profiles are eligible for Edge activation and will activate within minutes of segment qualification from RTCDP, profiles that do not qualify for Edge activation will qualify in the Audience Manager hub and may have a 12-24 hour timeframe for processing. 
+* Regional routing information for which Edge the Audience Manager profile is stored on can be collected to Experience Platform from Audience Manager, the Visitor ID Service, Analytics, Launch, or directly from the Web SDK as a separate profile record class dataset using the "data capture region information" XDM field group. See the get regional information document for further details [Link](https://experienceleague.adobe.com/docs/id-service/using/reference/regions.html?lang=en).
 * For activation scenarios where audiences are shared from Experience Platform to Audience Manager the following identities are shared automatically: ECID, IDFA, GAID, hashed email addresses (EMAIL_LC_SHA256), AdCloud ID. Currently, custom namespaces are not shared.
-
 * The audiences from Experience Platform can be shared through Audience Manager destinations when the required destination identities are included in the [!UICONTROL Real-time Customer Profile], or where identities in the [!UICONTROL Real-time Customer Profile] can be related to the required destination identities that are linked in Audience Manager.
 
 ### Audience sharing from Real-time Customer Data Platform to Target
@@ -62,7 +65,15 @@ Refer to the [guardrails on the Audience and Profile Activation Overview page](o
 
 ### Audience sharing from Real-time Customer Data Platform to Campaign and Journey Optimizer
 
-* See the [Customer Journeys Blueprints](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/overview.html) for additional details on sharing profiles and audiences from Real-time Customer Data Platform to Campaign and Journey Optimizer.
+* See the [Customer Journeys Blueprints](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=en) for additional details on sharing profiles and audiences from Real-time Customer Data Platform to Campaign and Journey Optimizer.
+
+### Audience sharing from Real-time Customer Data Platform to Marketo Engage
+
+* See the [B2B Activation Blueprints](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=en) for additional details on sharing profiles and audiences from Real-time Customer Data Platform to Marketo Engage.
+
+### Audience sharing from Real-time Customer Data Platform to Customer Journey Analytics
+
+* See the [RTCDP audiences shared with Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=en) for additional details on shareing Real-time Customer Data Platform audiences to Customer Journey Analytics.
 
 ## Related Documentation
 
