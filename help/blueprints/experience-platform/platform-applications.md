@@ -60,7 +60,7 @@ This architecture diagram shows how Adobe Experience Platform relates to Adobe E
 <td>Analytics</td>
 <td>
 <ul>
-<li>No current integration</li>
+<li>Data collected via the Web/Mobile SDK can be forwarded to Adobe Analytics.</li>
 </ul>
 </td>
 <td>
@@ -83,7 +83,7 @@ This architecture diagram shows how Adobe Experience Platform relates to Adobe E
 </td>
 <td>
 <ul>
-<li>Data collected and evaluated audience membership can be shared to Experience Platform data lake and profile store.&nbsp;<a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=en">Audience Manager Source Connector</a></li>
+<li>Data collected and evaluated along with audience membership from Audience Manager can be shared to Experience Platform data lake and profile store.&nbsp;<a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=en">Audience Manager Source Connector</a></li>
 </ul>
 </td>
 <td>
@@ -135,6 +135,9 @@ This architecture diagram shows how Adobe Experience Platform relates to Adobe E
 <td colspan="1">
 <ul>
 <li>Data collected and ingested into Experience Platform data lake is made available for processing into Customer Journey Analytics.&nbsp;</li>
+<li>Profile and audience data from Real-time Customer Data Platform can be ingested into CJA. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=en">RTCDP to CJA integration</a>.
+</li>
+</ul>
 </ul>
 </td>
 <td colspan="1">
@@ -185,15 +188,15 @@ This architecture diagram shows how Adobe Experience Platform relates to Adobe E
 </td>
 </tr>
 <tr>
-<td colspan="1">Magento</td>
+<td colspan="1">Adobe Commerce</td>
 <td colspan="1">
 <ul>
-<li>No current integration</li>
+<li>Profiles and audiences built in Real-time Customer Data Platform can be made available for peersonalization in Adobe Commerce. </li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Data native to Magento can be sent to Experience Platform via a Magento source connector.&nbsp;</li>
+<li>Data native to Adobe Commerce can be sent to Experience Platform via a Adobe Commerce source connector.&nbsp;</li>
 </ul>
 </td>
 <td colspan="1">No current integration</td>
@@ -212,7 +215,7 @@ This architecture diagram shows how Adobe Experience Platform relates to Adobe E
 </td>
 <td colspan="1">
 <ul>
-<li>B2B Activation - in development</li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=en">B2B Activation Blueprint</a></li>
 </ul>
 </td>
 </tr>
