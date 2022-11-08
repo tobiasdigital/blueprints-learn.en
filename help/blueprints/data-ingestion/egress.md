@@ -3,6 +3,7 @@ title: Data Access and Export Blueprint
 description: This blueprint provides and overview of all the methods by which data can be accessed and exported from Adobe Experience Platform and applications.
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
+exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
 ---
 # Data Access and Export Blueprint
 
@@ -147,14 +148,4 @@ Refer to the [Journey Optimizer custom actions](https://experienceleague.adobe.c
 * Guardrails on the throughput supported by [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=en) and enrichments supported by the [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) apply.
 * Custom actions can be performed in a streaming one by one fashion for each event or profile in a journey. Bulk operations or bulk data egress in the form of files or aggregated requests across customer journeys can not be performed. 
 * Streaming access to Real-time Customer Profile attributes and experience events which can be included in the activation payload.
-* Event data can be filtered and simple mapping transformations applied before sending events to external destinations. 
-
-
-
-
-
-
-
-
-
-
+* Event data can be filtered and simple mapping transformations applied before sending events to external destinations.
