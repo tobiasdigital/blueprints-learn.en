@@ -8,7 +8,7 @@ exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
 ---
 # Adobe Experience Cloud architecture diagrams
 
-## Adoeb Experience Cloud Marketecture
+## Adobe Experience Cloud Marketecture
 
 The following diagram illustrates the various components of Adobe Experience Cloud across Data Insights & Audiences, Content & Commerce, Customer Journeys, Marketing Workflow, built and integrated on the foundation of the Adobe Experience Platform.
 
