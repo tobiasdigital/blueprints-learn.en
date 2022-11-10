@@ -69,7 +69,6 @@ role: Architect, Developer, User
   + [Data Preparation & Ingestion](/help/blueprints/data-ingestion/ingestion.md)
   + [Data Access & Export](/help/blueprints/data-ingestion/egress.md)
   + [Event Forwarding](/help/blueprints/data-ingestion/server-side-collection.md)
-  + [Multi Sandbox Data Collection](/help/blueprints/data-ingestion/multi-sandbox-data-collection.md)
 + Data Analysis, Intelligence, & AI/ML{#data-exploration}
   + [Overview](/help/blueprints/data-insights/overview.md)
   + [Data Analysis & Intelligence](/help/blueprints/data-insights/analysis.md)
