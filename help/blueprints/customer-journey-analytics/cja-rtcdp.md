@@ -24,6 +24,18 @@ See the following documentation for guidance on implementation and configuration
 
 ![Guardrail diagram](../experience-platform/assets/CJA_guardrails.svg)
 
+## Frequently asked Questions
+
+* If a corresponding profile does not exist in RTCDP that CJA sent, will a new profile be created, or are audiences only recorded from CJA for profiles that are already present? Yes, a new profile will be created. As a result if your RTCDP implementation is for known customers only, the CJA audience rules should be written to filter for only profiles with known identities. This will ensure that the RTCDP Profile count does not increase from anonymous profiles if not desired.
+
+* Does CJA send the audience data over as pipeline events or a flat file that also goes to data lake as well? CJA audiences are streamed over pipeline to RTCDP Profile Service, however the data is also stored in data lake as a dataset.
+
+* What identities does CJA send over? CJA sends over whichever identities were configured as the "person ID" during CJA configuration.
+
+* What is set as the primary identity? Whatever identity the user selected when they set up CJA as the primary "person" ID.
+
+* Does the identity service process the CJA messages as well? i.e. can CJA add identities to a profile identity graph through audience sharing? No, identity service does not process the CJA messages.
+
 ## Related Blog Posts
 
 * [[!DNL Blueprint for Multi-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)

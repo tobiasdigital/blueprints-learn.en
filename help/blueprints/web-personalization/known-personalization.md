@@ -76,13 +76,17 @@ Using traditional application-specific SDKs (for example, AT.js and AppMeasureme
 
 [Refer to the guardrails on the Web and Mobile Personalization Blueprints Overview page.](overview.md)
 
+* Edge profiles are only created when a user is active on the Edge, meaning their profile has streaming events being submitted to the Edge via the Web/Mobile SDK or the Edge Server API. This generally corresponds to the user being active on a website or mobile app. 
+* Edge profiles have a default time to live of 14 days. If the user has not had active edge events collected, then the profile will expire on the edge after 14 days of inactivity. The profile will remain valid in the hub and be synced with the edge once the user becomes active on the edge again. 
+* When a fresh profile is created on the edge, a sync call is made asynchronously to the hub to fetch any audiences and attributes that are configured for edge projection via a destination. As it is an asynchronous process it can take anywhere from 1 second to several minutes for the hub profile to sync to the edge. As such, fresh profiles can not be guaranteed to have the profile context from the hub for first page experiences. This applies as well for newly collected data to the hub. This data is projected to the edge asynchronously and hence the timing of when the data arrives to the appropriate edge will by separate from the edge activity. Only profiles that are active on the edge will persist attributes and audiences projected from the hub.
+
 ## Implementation Considerations
 
 Identity pre-requisites
 
 * Any primary identity can be leveraged when utilizing implementation pattern 1 outlined above with the Edge network and WebSDK. First login personalization requires the personalization request set primary identity match the primary identity of the profile from Real-time Customer Data Platform. Identity stitching between anonymous devices and known customers is processed on the hub and subsequently projected to the edge.
 * Note that data uploaded to the hub prior to a consumer visiting or logging into a website will not be immediately available for personalization. An active edge profile must first exist for hub data to be synced to. Once created the edge profile will sync with the hub profile asynchronously resulting in next page personalization. 
-* Sharing audiences from Adobe Experience Platform to Adobe Target requires the use of ECID as a identity when using the audience sharing service as outlined in integration patter 2 and 3 above.
+* Sharing audiences from Adobe Experience Platform to Adobe Target requires the use of ECID as a identity when using the audience sharing service as outlined in integration pattern 2 and 3 above.
 * Alternate identities can be used to share Experience Platform audiences to Adobe Target via Audience Manager as well. Experience Platform activates audiences to Audience Manager via the following supported namespaces: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Note that Audience Manager and Target resolve audience memberships via the ECID identity, so ECID is still required to be in the identity graph for the consumer for the final audience sharing to Adobe Target.  
 
 ## Related Documentation
