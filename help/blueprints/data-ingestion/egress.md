@@ -44,7 +44,7 @@ Refer to the [Real-time Customer Profile Access API](https://experienceleague.ad
 
 * Real-time Customer Profile [guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) apply.
 * Designed for single profile lookup at a time. Not used for bulk profile access or download of the entire profile population for the use of analysis or data science. 
-* Profile lookup response time adhears to the profile guardrails. Low latency requirements - for example for same page personalization requirements should utilize the Edge Profile or customer personalization destinations for low latency profile access. [Documnetation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=en).
+* Profile lookup response time adhears to the profile guardrails. Real-time low latency requirements - for example for same page personalization requirements should utilize the Edge Profile from the to [Adobe Target Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en) or the [Custom Personalization Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=en) for real-time profile access for in browser and in app personalization.
 
 ### Data Access API {#data-access-api}
 
@@ -123,7 +123,7 @@ Refer to the [Real-time Customer Data Platform Destinations](https://experiencel
 
 #### Use Cases
 
-* Activate profile attibute information including audience membership to a interl enterprise data store, analytsis tool, email system, or support system.
+* Activate profile attibute information including audience membership to a internal enterprise data stores, analytsis tools, email systems, or support systems.
 * Activate profile audience membership to a external advertising vender to target and personalize content to the profile. 
 
 #### Considerations
