@@ -16,7 +16,7 @@ This architecture diagram shows how Adobe Experience Platform relates to Adobe E
 
 ## Adobe Experience Platform & Applications detailed architecture diagram
 
-<img src="assets/aep+apps_horizontal.svg" alt="Experience Platform & Applications" style="border:1px solid #4a4a4a; width:90%;" />
+<img src="assets/aep-app-architecture.svg" alt="Experience Platform & Applications" style="border:1px solid #4a4a4a; width:90%;" />
 
 >[!VIDEO](https://video.tv.adobe.com/v/32456/?quality=12&learn=on)
 
