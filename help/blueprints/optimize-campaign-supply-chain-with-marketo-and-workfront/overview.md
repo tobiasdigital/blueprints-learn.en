@@ -23,7 +23,7 @@ Campaign operation teams need systems that allow them to efficiently and effecti
 
 By integrating multi-channel marketing activation system (Marketo Engage) with the marketing planning and system of record (Workfront) you can increase campaign velocity and provide better visibility to stakeholders.
 
-With Workfront Fusion, marketing operations teams can largely eliminate manual and error-prone steps involved in translating a marketing brief to a campaign. Workfront Fusion offers an out of the box integration layer between Workfront and Marketo Engage that allows for flexibility and efficiency in developing workflows between systems. You can learn more about how to set up the integration and what actions can be taken to automate workflows [here](/https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html){target="_blank"}.
+With Workfront Fusion, marketing operations teams can largely eliminate manual and error-prone steps involved in translating a marketing brief to a campaign. Workfront Fusion offers an out of the box integration layer between Workfront and Marketo Engage that allows for flexibility and efficiency in developing workflows between systems. You can learn more about how to set up the integration and what actions can be taken to automate workflows [here](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html){target="_blank"}.
 
 ## Campaign Planning to Execution - Automation Use Cases {#campaign-planning-to-execution-automation-use-cases}
 
