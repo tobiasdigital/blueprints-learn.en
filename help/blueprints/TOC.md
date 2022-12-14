@@ -73,6 +73,10 @@ role: Architect, Developer, User
   + [Overview](/help/blueprints/data-insights/overview.md)
   + [Data Analysis & Intelligence](/help/blueprints/data-insights/analysis.md)
   + [Custom Data Science for Profile Enrichment](/help/blueprints/data-insights/data-science.md)
++ Optimize Campaign Supply Chain with Marketo and Workfront{#optimize-campaign-supply-chain-with-marketo-and-workfront}
+  + [Overview](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/overview.md)
+  + [Customer Success Stories](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/customer-success-stories.md)
+  + [Intake and Create](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/intake-and-create.md)
 + Web & Mobile Personalization{#web-personalization}
   + [Overview](/help/blueprints/web-personalization/overview.md)
   + [Behavioral Personalization - Target](/help/blueprints/web-personalization/behavioral.md)
