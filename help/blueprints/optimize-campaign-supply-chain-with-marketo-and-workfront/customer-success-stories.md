@@ -1,6 +1,7 @@
 ---
 description: Customer Success Stories - Optimize Campaign Supply Chain with Marketo and Workfront
 title: Customer Success Stories
+exl-id: fabe67b4-8ad6-49fc-a38f-cd4b5319d09a
 ---
 # Customer Success Stories {#customer-success-stories}
 

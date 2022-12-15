@@ -1,6 +1,7 @@
 ---
 description: Intake and Create - Optimize Campaign Supply Chain with Marketo and Workfront
 title: Intake and Create
+exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
 ---
 # Intake and Create {#intake-and-create}
 
