@@ -41,8 +41,8 @@ role: Architect, Developer, User
   + [B2B Activation](/help/blueprints/b2b/b2bactivation.md)
   + Campaign Supply Chain with Marketo and Workfront{#optimize-campaign-supply-chain-with-marketo-and-workfront}
     + [Overview](/help/blueprints/b2b/campaign-supply-chain/overview.md)
-    + [Customer Success Stories](/help/blueprints/b2b/campaign-supply-chain/customer-success-stories.md)
     + [Intake and Create](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md)
+    + [Customer Success Stories](/help/blueprints/b2b/campaign-supply-chain/customer-success-stories.md)
 + Customer Journey Analytics{#customer-journey-analytics}
   + [Overview](/help/blueprints/customer-journey-analytics/overview.md)
   + [Sharing CJA Audiences to RTCDP](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
