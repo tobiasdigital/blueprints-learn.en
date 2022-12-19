@@ -39,6 +39,10 @@ role: Architect, Developer, User
 + B2B Activation & Marketing{#b2b-activation}
   + [Overview](/help/blueprints/b2b/overview.md)
   + [B2B Activation](/help/blueprints/b2b/b2bactivation.md)
+  + Campaign Supply Chain with Marketo and Workfront{#optimize-campaign-supply-chain-with-marketo-and-workfront}
+    + [Overview](/help/blueprints/b2b/campaign-supply-chain/overview.md)
+    + [Customer Success Stories](/help/blueprints/b2b/campaign-supply-chain/customer-success-stories.md)
+    + [Intake and Create](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md)
 + Customer Journey Analytics{#customer-journey-analytics}
   + [Overview](/help/blueprints/customer-journey-analytics/overview.md)
   + [Sharing CJA Audiences to RTCDP](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
@@ -73,10 +77,6 @@ role: Architect, Developer, User
   + [Overview](/help/blueprints/data-insights/overview.md)
   + [Data Analysis & Intelligence](/help/blueprints/data-insights/analysis.md)
   + [Custom Data Science for Profile Enrichment](/help/blueprints/data-insights/data-science.md)
-+ Optimize Campaign Supply Chain with Marketo and Workfront{#optimize-campaign-supply-chain-with-marketo-and-workfront}
-  + [Overview](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/overview.md)
-  + [Customer Success Stories](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/customer-success-stories.md)
-  + [Intake and Create](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/intake-and-create.md)
 + Web & Mobile Personalization{#web-personalization}
   + [Overview](/help/blueprints/web-personalization/overview.md)
   + [Behavioral Personalization - Target](/help/blueprints/web-personalization/behavioral.md)
