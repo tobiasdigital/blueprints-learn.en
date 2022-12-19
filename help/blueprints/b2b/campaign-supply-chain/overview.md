@@ -141,7 +141,7 @@ Now that you have a foundational understanding of how Workfront and Marketo Enga
 
 ### Getting Started with Workfront Fusion, Workfront and Marketo Engage Integration {#getting-started-with-workfront-fusion}
 
-* [Intake and Create](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/intake-and-create.md){target="_blank"} - Campaign Development Automation with Marketo Engage and Workfront
+* [Intake and Create](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md){target="_blank"} - Campaign Development Automation with Marketo Engage and Workfront
 
 * Proof and Approve (Coming soon)
 

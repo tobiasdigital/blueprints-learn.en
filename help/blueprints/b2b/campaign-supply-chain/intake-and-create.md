@@ -19,7 +19,7 @@ The workflow below shows a request for a webinar being made by a campaign manage
 
 >[!TIP]
 >
->To learn more about the different types of objects in Workfront used for organizing marketing campaign work and how it's mapped to a Marketo Engage program, check out the [Marketo and Workfront Overview](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/overview.md){target="_blank"}.
+>To learn more about the different types of objects in Workfront used for organizing marketing campaign work and how it's mapped to a Marketo Engage program, check out the [Marketo and Workfront Overview](/help/blueprints/b2b/campaign-supply-chain/overview.md){target="_blank"}.
 
 ## Prepare Your Campaign Development Process for Automation {#prepare-your-campaign-development-process-for-automation}
 

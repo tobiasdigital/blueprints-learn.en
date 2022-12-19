@@ -52,7 +52,7 @@ Known Customer Personalization is supported via several implementation approache
 ### Implementation Pattern 1 - Edge Network with Web/Mobile SDK or Edge Network API (Recommended Approach)
 
 * Using the Edge Network with the Web/Mobile SDK. Real-time edge segmentation requires the Web/Mobile SDK or Edge API implementation approach.
-* [Refer to the Experience Platform Web and Mobile SDK Blueprint](../data-ingestion/websdk.md) for the SDK based implementation.
+* [Refer to the Experience Platform Web and Mobile SDK Blueprint](../experience-platform/deployment/websdk.md) for the SDK based implementation.
 * For use in the Mobile SDK the [Adobe Journey Optimizer - Decisioning extension](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning) must be installed in the Mobile SDK.
 * [Refer to the Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html) for an API based implementation of Adobe Target with Edge Profile.
 
@@ -60,7 +60,7 @@ Known Customer Personalization is supported via several implementation approache
 
 Using traditional application-specific SDKs (for example, AT.js and AppMeasurement.js). Real-time Edge segment evaluation is not supported using this implementation approach. However streaming and batch audience sharing from Experience Platform hub are supported using this implemenation approach.
 
-[Refer to the application specific SDK Blueprint](../data-ingestion/appsdk.md) 
+[Refer to the application specific SDK Blueprint](../experience-platform/deployment/appsdk.md) 
 
 ### Implementation Steps
 
