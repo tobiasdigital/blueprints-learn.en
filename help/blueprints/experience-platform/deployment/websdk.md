@@ -11,7 +11,7 @@ exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
 
 For an overview and detail on the Web and Mobile SDK, and the Edge Network Server API see the following.
 * [WebSDK Overview](https://experienceleague.adobe.com/docs/web-sdk.html)
-* [MobileSDK Overview](https://aep-sdks.gitbook.io/docs/)
+* [MobileSDK Overview](https://developer.adobe.com/client-sdks/documentation/)
 * [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html)
 
 For a detailed outline of what application functionality is supported in the WebSDK see the following documentation.
