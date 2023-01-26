@@ -38,7 +38,7 @@ Adobe Campaign v7 is a campaigning tool built for traditional marketing channels
 
 ### Application Server and Real-Time Messaging Server
 
-* The Adobe Campaign Client Console is required to interact and use the Campaign v8 software. It is a windows based client and uses standard internet protocols (SOAP, HTTP, etc.). Ensure you have the necessary permissions enabled in your org to distribute, install and run software
+* The Adobe Campaign Client Console is required to interact and use the Campaign v7 software. It is a windows based client and uses standard internet protocols (SOAP, HTTP, etc.). Ensure you have the necessary permissions enabled in your org to distribute, install and run software
 
 * IP Address Allow Listing
     * Identify the IP ranges that all users will leverage during access to the client console 
